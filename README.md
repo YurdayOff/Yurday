@@ -96,14 +96,45 @@ latine reprennent le slug anglais pour garder des adresses partageables.
   duplicatas du bandeau d'avis masqués aux lecteurs d'écran, contenu affiché même sans
   JavaScript (`<noscript>`).
 
-## Formulaire de contact
+## Formulaire de contact (Netlify Forms)
 
 Le visiteur choisit son canal après avoir rempli le formulaire :
 
 - **WhatsApp** : ouverture de `wa.me` avec un message pré-rempli et traduit ;
-- **Email** : envoi vers `public/__forms.html`, page technique que Netlify Forms détecte
-  à la construction. Pour un autre hébergeur, remplacez `site.form.endpoint`
-  (`src/lib/site.ts`) par votre propre route.
+- **Email** : envoi capté par **Netlify Forms**, sans code serveur.
+
+### Comment c'est branché
+
+| Élément | Rôle |
+| --- | --- |
+| `src/components/home/ContactForm.tsx` | Le formulaire porte `name="contact-yurday"`, `method="POST"`, `data-netlify="true"` et `netlify-honeypot="bot-field"`. |
+| `public/__forms.html` | Copie statique du formulaire, analysée par Netlify au déploiement. Next.js ne dépose pas ses pages sous forme de fichiers `.html` dans le dossier publié : sans ce fichier, Netlify ne détecterait aucun formulaire. C'est la méthode recommandée par Netlify pour les frameworks. |
+| `site.form` (`src/lib/site.ts`) | Nom du formulaire et adresse d'envoi (`/__forms.html`), au même endroit pour les deux fichiers. |
+
+Les noms des champs (`nom`, `telephone`, `email`, `pourQui`, `occasion`, `budget`,
+`message`) doivent rester identiques dans le composant et dans `public/__forms.html` :
+ce sont les colonnes des réponses dans le tableau de bord.
+
+### À faire une fois côté Netlify
+
+1. **Project configuration → Forms → activer la détection des formulaires**, puis
+   redéployer : la détection a lieu pendant la construction, un formulaire ajouté avant
+   l'activation n'est pas enregistré.
+2. **Forms → Notifications** : ajouter une notification par email vers `contact@yurday.fr`
+   pour être prévenu à chaque demande (sinon les réponses n'existent que dans le tableau
+   de bord).
+3. Vérifier la réception avec un envoi de test après le premier déploiement.
+
+Le formulaire fonctionne **sans JavaScript** : l'envoi natif poste vers `/__forms.html`,
+Netlify enregistre la réponse et affiche sa page de confirmation. Avec JavaScript, la
+confirmation s'affiche dans la page, et si l'envoi échoue (formulaire non détecté, réseau
+coupé) le message d'erreur propose l'email direct et laisse le bouton WhatsApp accessible.
+
+En local, l'envoi email renvoie une erreur : Netlify Forms n'existe qu'une fois déployé.
+Pour le tester sur la machine, lancez le site avec `npx netlify dev`, qui émule Forms.
+
+Pour un autre hébergeur, remplacez `site.form.endpoint` par votre propre route et
+supprimez `public/__forms.html`.
 
 ## À finir avant mise en ligne
 
@@ -117,6 +148,21 @@ Le visiteur choisit son canal après avoir rempli le formulaire :
   dans les données structurées.
 - Les textes des pages légales n'existent qu'en français ; le sélecteur de langue y
   renvoie vers l'accueil de la langue choisie.
+
+## Déploiement Netlify
+
+`netlify.toml` fixe la commande de construction, le dossier publié (`.next`), Node 22
+(Next.js 16 exige Node 20.9+) et le runtime Next.js de Netlify.
+
+Deux réglages à faire dans l'interface :
+
+- **Variables d'environnement** : `NEXT_PUBLIC_SITE_URL=https://yurday.fr`
+  (sans elle, canoniques, sitemap et données structurées pointent vers la valeur par défaut).
+- **Forms** : activer la détection des formulaires (voir ci-dessus).
+
+Le site doit être connecté au dépôt Git pour que Netlify exécute la construction. Un
+glisser-déposer de dossier ne fonctionne pas : Next.js a besoin d'une étape de
+construction, contrairement à l'ancien site statique.
 
 ## Assets générés
 

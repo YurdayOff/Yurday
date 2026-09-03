@@ -280,7 +280,8 @@
       "choiceEmail": "📧 通过邮件",
       "choiceError": "请在上方“邮箱”栏中填写有效的邮箱地址。",
       "success": "谢谢！您的邮件请求已成功发送，我们会尽快与您联系。",
-      "successWhatsapp": "谢谢！您的WhatsApp消息已准备好发送。"
+      "successWhatsapp": "谢谢！您的WhatsApp消息已准备好发送。",
+      "sendError": "发送未成功。您可以直接联系我们："
     }
   },
   "footer": {

@@ -280,7 +280,8 @@
       "choiceEmail": "📧 Par email",
       "choiceError": "Merci d'indiquer une adresse email valide dans le champ « Email » ci-dessus.",
       "success": "Merci ! Votre demande par email a bien été envoyée, on revient vers vous très vite.",
-      "successWhatsapp": "Merci ! Votre message WhatsApp est prêt à être envoyé."
+      "successWhatsapp": "Merci ! Votre message WhatsApp est prêt à être envoyé.",
+      "sendError": "L'envoi n'a pas abouti. Vous pouvez nous écrire directement :"
     }
   },
   "footer": {

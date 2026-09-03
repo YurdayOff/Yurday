@@ -280,7 +280,8 @@
       "choiceEmail": "📧 Per E-Mail",
       "choiceError": "Bitte geben Sie oben im Feld „E-Mail\" eine gültige E-Mail-Adresse ein.",
       "success": "Danke! Ihre Anfrage per E-Mail wurde erfolgreich gesendet, wir melden uns sehr bald bei Ihnen.",
-      "successWhatsapp": "Danke! Ihre WhatsApp-Nachricht ist bereit zum Senden."
+      "successWhatsapp": "Danke! Ihre WhatsApp-Nachricht ist bereit zum Senden.",
+      "sendError": "Das Absenden hat nicht funktioniert. Sie können uns direkt erreichen:"
     }
   },
   "footer": {

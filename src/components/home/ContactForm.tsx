@@ -42,8 +42,14 @@ function whatsappMessage(values: Values, labels: ContactFormProps['form']): stri
 }
 
 /**
- * Le visiteur choisit son canal : WhatsApp (message pré-rempli) ou email
- * (envoi du formulaire côté hébergeur). Aucune donnée n'est envoyée avant ce choix.
+ * Le visiteur choisit son canal : WhatsApp (message pré-rempli) ou email.
+ * Aucune donnée n'est envoyée avant ce choix.
+ *
+ * Le canal email passe par Netlify Forms : le formulaire porte les attributs de
+ * détection (`data-netlify`, `netlify-honeypot`) et poste vers `public/__forms.html`,
+ * la copie statique que Netlify analyse au déploiement — le HTML produit par Next
+ * n'étant pas déposé sous forme de fichiers `.html` dans le dossier publié.
+ * Les réponses arrivent dans l'onglet « Forms » du tableau de bord Netlify.
  */
 export function ContactForm({ form }: ContactFormProps) {
   const [step, setStep] = useState<Step>('fields')
@@ -53,6 +59,8 @@ export function ContactForm({ form }: ContactFormProps) {
     budget: form.budgetOptions[0] ?? '',
   })
   const [emailError, setEmailError] = useState(false)
+  const [sendFailed, setSendFailed] = useState(false)
+  const [sending, setSending] = useState(false)
   const [successText, setSuccessText] = useState('')
   const { ref, inView } = useInView<HTMLFormElement>({ threshold: 0.12 })
 
@@ -72,18 +80,28 @@ export function ContactForm({ form }: ContactFormProps) {
       return
     }
     setEmailError(false)
+    setSendFailed(false)
+    setSending(true)
 
+    // Netlify attend les champs du formulaire encodés comme un envoi HTML classique,
+    // accompagnés du nom du formulaire.
     const body = new URLSearchParams({ 'form-name': site.form.name, ...values })
     try {
-      await fetch(site.form.endpoint, {
+      const response = await fetch(site.form.endpoint, {
         method: 'POST',
         headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
         body: body.toString(),
       })
+      if (!response.ok) throw new Error(`Envoi refusé (${response.status})`)
     } catch {
-      // Hors ligne ou hors hébergement : on confirme quand même, la demande
-      // reste visible dans les journaux de l'hébergeur une fois en production.
+      // Échec réseau ou formulaire non détecté : on le dit, et on laisse
+      // WhatsApp et l'email direct à portée de clic.
+      setSendFailed(true)
+      setSending(false)
+      return
     }
+
+    setSending(false)
     setSuccessText(form.success)
     setStep('sent')
   }
@@ -95,6 +113,8 @@ export function ContactForm({ form }: ContactFormProps) {
       name={site.form.name}
       method="POST"
       action={site.form.endpoint}
+      data-netlify="true"
+      netlify-honeypot="bot-field"
       onSubmit={(event) => {
         event.preventDefault()
         if (!event.currentTarget.reportValidity()) return
@@ -102,7 +122,8 @@ export function ContactForm({ form }: ContactFormProps) {
       }}
     >
       <input type="hidden" name="form-name" value={site.form.name} />
-      <p className="visually-hidden">
+      {/* Appât anti-robot : un envoi qui remplit ce champ est écarté par Netlify. */}
+      <p className="visually-hidden" aria-hidden="true">
         <label>
           Ne pas remplir
           <input name="bot-field" tabIndex={-1} autoComplete="off" />
@@ -207,11 +228,22 @@ export function ContactForm({ form }: ContactFormProps) {
             <button type="button" className="btn btn-primary" onClick={sendByWhatsapp}>
               {form.choiceWhatsapp}
             </button>
-            <button type="button" className="btn btn-ghost" onClick={sendByEmail}>
+            <button
+              type="button"
+              className="btn btn-ghost"
+              onClick={sendByEmail}
+              disabled={sending}
+            >
               {form.choiceEmail}
             </button>
           </div>
           {emailError ? <p className="form-choice-error">{form.choiceError}</p> : null}
+          {sendFailed ? (
+            <p className="form-choice-error" role="alert">
+              {form.sendError}{' '}
+              <a href={`mailto:${site.email}`}>{site.email}</a>
+            </p>
+          ) : null}
         </div>
       ) : null}
 

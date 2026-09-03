@@ -3,17 +3,24 @@
 <head>
   <meta charset="utf-8" />
   <title>Définition des formulaires Yurday</title>
-  <meta name="robots" content="noindex" />
+  <meta name="robots" content="noindex, nofollow" />
 </head>
 <body>
   <!--
-    Page technique : elle déclare les champs du formulaire de contact pour que
-    l'hébergeur (Netlify Forms) les détecte à la construction du site. Le
-    formulaire React poste vers cette adresse ; aucun visiteur ne la voit.
+    Page technique, jamais visitée par un humain.
+
+    Netlify analyse les formulaires HTML au moment du déploiement, mais les pages
+    produites par Next.js ne sont pas déposées sous forme de fichiers .html dans le
+    dossier publié : sans cette copie statique, le formulaire ne serait pas détecté.
+    C'est la méthode recommandée par Netlify pour les frameworks.
+
+    Les noms des champs doivent rester identiques à ceux de
+    src/components/home/ContactForm.tsx : ce sont les colonnes des réponses
+    dans l'onglet « Forms » du tableau de bord.
   -->
   <form name="contact-yurday" data-netlify="true" netlify-honeypot="bot-field" hidden>
     <input type="hidden" name="form-name" value="contact-yurday" />
-    <input name="bot-field" />
+    <input type="text" name="bot-field" />
     <input type="text" name="nom" />
     <input type="tel" name="telephone" />
     <input type="email" name="email" />
