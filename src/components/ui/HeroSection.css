@@ -1,0 +1,65 @@
+/* Bandeau d'ouverture, partagé par l'accueil et les pages occasion. */
+.hero {
+  position: relative;
+  padding: 90px 28px 70px;
+  overflow: hidden;
+}
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: -10%;
+  background:
+    radial-gradient(ellipse 700px 420px at 82% -8%, rgba(242,150,107,0.28), transparent 60%),
+    radial-gradient(ellipse 600px 500px at 8% 105%, rgba(217,118,75,0.14), transparent 60%);
+  animation: hero-drift 16s ease-in-out infinite;
+  pointer-events: none;
+}
+@keyframes hero-drift {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  50% { transform: translate(-1.5%, 1.5%) scale(1.04); }
+}
+.hero-inner {
+  max-width: 1120px;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+}
+.hero h1 {
+  font-size: clamp(38px, 6vw, 68px);
+  line-height: 1.08;
+  max-width: 900px;
+  margin: 0 auto 26px;
+}
+.hero h1 em {
+  font-style: italic;
+  color: var(--coral-3);
+}
+.hero p.lede {
+  font-size: 19px;
+  color: var(--ink-soft);
+  max-width: 560px;
+  margin: 0 auto 36px;
+}
+.hero-actions {
+  display: flex;
+  gap: 14px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 54px;
+}
+.hero-actions .btn { padding: 17px 34px; font-size: 16px; }
+
+/* Variante compacte : pages occasion (titre et lede plus courts). */
+.hero--compact { padding: 80px 28px 60px; }
+.hero--compact .hero-inner { max-width: 820px; }
+.hero--compact h1 {
+  font-size: clamp(34px, 5.4vw, 56px);
+  line-height: 1.1;
+  margin: 0 auto 22px;
+}
+.hero--compact p.lede {
+  font-size: 18px;
+  max-width: 540px;
+  margin: 0 auto 32px;
+}
+.hero--compact .hero-actions { margin-bottom: 0; }

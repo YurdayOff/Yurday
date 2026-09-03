@@ -1,0 +1,377 @@
+{
+  "seo": {
+    "home": {
+      "title": "Yurday: maßgeschneiderte Tage für den Menschen, der zählt",
+      "description": "Yurday gestaltet vollständig maßgeschneiderte Tage: Geburtstage, Heiratsanträge, Junggesellenabschiede. Erzählen Sie uns von der Person, um den Rest kümmern wir uns."
+    },
+    "occasions": {
+      "anniversaire": {
+        "title": "Maßgeschneiderter Geburtstag: ein Tag, der wirklich zu ihm oder ihr passt",
+        "description": "Yurday gestaltet vollständig maßgeschneiderte Geburtstage, Aktivität für Aktivität, um den Menschen zu überraschen, der wirklich zählt."
+      },
+      "demande-en-mariage": {
+        "title": "Maßgeschneiderter Heiratsantrag: der perfekte Moment",
+        "description": "Yurday inszeniert unvergessliche Heiratsanträge: Kulisse, Timing, Überraschung und bei Bedarf ein Juwelier."
+      },
+      "fete-des-meres": {
+        "title": "Muttertag nach Maß: ein Dankeschön, das heraussticht",
+        "description": "Zum Muttertag gestaltet Yurday einen ganzen Tag, der ganz auf Ihre Mutter zugeschnitten ist."
+      },
+      "evg-evjf": {
+        "title": "Junggesellenabschied nach Maß: ein Tag, den die ganze Gruppe nie vergisst",
+        "description": "Yurday organisiert maßgeschneiderte Junggesellenabschiede, Logistik inklusive."
+      },
+      "pot-de-depart": {
+        "title": "Abschiedsfeier nach Maß: den Moment festhalten, bevor man sich verabschiedet",
+        "description": "Für einen Abschied, der bleibt, gestaltet Yurday eine maßgeschneiderte Abschiedsfeier."
+      }
+    }
+  },
+  "a11y": {
+    "skipToContent": "Zum Hauptinhalt springen",
+    "languageSwitcher": "Sprache wählen",
+    "mainNav": "Hauptnavigation",
+    "close": "Schließen",
+    "whatsappFloat": "Yurday über WhatsApp kontaktieren"
+  },
+  "nav": {
+    "home": "Startseite",
+    "occasions": "Anlässe",
+    "reviews": "Bewertungen",
+    "process": "So funktioniert's",
+    "story": "Unsere Geschichte",
+    "faq": "FAQ",
+    "cta": "Meinen Tag erstellen"
+  },
+  "promo": {
+    "text": "Sehr begrenzte Plätze in diesem Monat: Schreiben Sie uns jetzt, um Ihren Termin nicht zu verpassen.",
+    "cta": "Auf WhatsApp chatten"
+  },
+  "hero": {
+    "eyebrow": "Die Nummer 1 Agentur für die Erstellung eines maßgeschneiderten Tages",
+    "title": {
+      "lead": "Schenken Sie einen Tag ",
+      "em": "der wirklich passt",
+      "tail": ",",
+      "line2": "keine ",
+      "highlight": "Standardlösung"
+    },
+    "lede": "Erzählen Sie uns von der Person, wir stellen uns ihren perfekten Tag vor, Sie geben jedes Detail frei, und Sie erleben den Moment.",
+    "ctaSecondary": "So funktioniert's ansehen"
+  },
+  "trust": {
+    "starsLabel": "4,8 von 100+ Bewertungen",
+    "daysLabel": "Organisierte Tage",
+    "bespokeLabel": "Maßgeschneidert, nie von der Stange"
+  },
+  "concept": {
+    "lead": "Geburtstag, Hochzeit, Abschiedsfeier, oder einfach so, ohne besonderen Grund: ",
+    "highlight": "der Anlass spielt keine Rolle",
+    "tail": ". Das Konzept bleibt immer dasselbe: ein einziger Tag, von A bis Z durchdacht, mit genau dem, was Sie sich wünschen, und dem Szenario, das Sie sich vorstellen."
+  },
+  "occasions": {
+    "eyebrow": "Für welchen Anlass",
+    "h2": "Ein Tag für jede Geschichte",
+    "lede": "Ein paar Beispiele von unzähligen weiteren.",
+    "moreLabel": "Und für alle anderen Anlässe",
+    "chips": [
+      "Hochzeit",
+      "Hochzeitstag",
+      "Geburt / Babyparty",
+      "Ruhestand",
+      "Abschlussfeier",
+      "Valentinstag",
+      "Vatertag",
+      "Taufe",
+      "Unternehmen",
+      "Wiedersehen mit Freunden",
+      "Glückwünsche",
+      "Dankeschön"
+    ],
+    "cards": {
+      "anniversaire": "Geburtstag",
+      "demande-en-mariage": "Heiratsantrag",
+      "fete-des-meres": "Muttertag",
+      "evg-evjf": "Junggesellenabschied",
+      "pot-de-depart": "Abschiedsfeier"
+    }
+  },
+  "reviews": {
+    "eyebrow": "Was sie sagen",
+    "h2": "100+ Bewertungen, eine einzige Note: 4,8 ★",
+    "lede": "Über 150 organisierte Tage, verifizierte Bewertungen aus mehr als 12 Ländern, ohne Auswahl oder Inszenierung.",
+    "translatedNote": "Übersetzt ins Deutsche",
+    "badge": {
+      "strong": "Verifizierte Bewertungen",
+      "rest": " · 4,8 ★★★★★ · Mit Kunden aus mehr als 12 Ländern"
+    },
+    "items": {
+      "1": "Eine tadellose Organisation, erstklassige Überraschungen, Erinnerungen, die uns immer begleiten werden. Nochmals danke!",
+      "2": "Alles war unglaublich, vielen Dank, dass ihr diesen Tag zu etwas so Besonderem gemacht habt. Wir werden ihn immer in Erinnerung behalten!",
+      "3": "Ich habe dieses Erlebnis für meine Freundin gebucht, sie war zutiefst gerührt! Alles verlief reibungslos, voller Kreativität, perfekte Details, es lohnt sich wirklich!",
+      "4": "Ich dachte, ich würde etwas Zeit sparen. Tatsächlich habe ich enorm viel gespart, meine Freunde haben es geliebt!",
+      "5": "Ein wirklich fantastisches Erlebnis! Vom Morgen bis zum Abend gab es nur Überraschungen, jedes Detail war sorgfältig durchdacht. Ich empfehle es jedem sehr!",
+      "6": "Ich war sprachlos. Alles war so gut durchdacht und auf uns abgestimmt. Was für eine schöne Erfahrung!",
+      "7": "Danke.",
+      "8": "Der beste Tag, den wir seit langem hatten. So viele kleine Details, die ihn besonders gemacht haben. Sehr zu empfehlen!",
+      "9": "Ich habe noch nie einen so schönen Tag erlebt! Das Team war so aufmerksam, jeder Schritt war perfekt, vielen herzlichen Dank!",
+      "10": "Eine Rundum-sorglos-Lösung für den 60. Geburtstag meines Mannes, ohne die Logistik selbst managen zu müssen. Das Ergebnis war elegant, reibungslos und bei unseren Gästen sehr gut angekommen.",
+      "11": "Es war weit mehr, als ich erwartet hatte. Sie haben den perfekten Tag für den Geburtstag meiner Freundin organisiert. Alles war so persönlich und gut organisiert!",
+      "12": "Es war ein wundervoller Tag! Jeder Moment war besonders, mit vielen Überraschungen. Ich würde es jederzeit wieder machen!",
+      "13": "Unglaubliche Erfahrung!!",
+      "14": "Mir hat gefallen, dass alles eine Überraschung war und trotzdem total Sinn ergab. Es war so persönlich und authentisch. Danke Luca und Léo!",
+      "15": "Ein unvergessliches Erlebnis von Anfang bis Ende. Wirklich ein einzigartiger Tag. Vielen Dank!",
+      "16": "Vielen Dank an alle!",
+      "17": "Ich wusste nicht so recht, was mich erwartet, aber es war unglaublich. Jeder Moment war perfekt, die Details, die Überraschungen... Ich würde es sofort wieder tun!",
+      "18": "Ein einfach magisches Erlebnis! Luca und Léo haben an jedes Detail gedacht, wir mussten nur genießen. Danke für diese unvergesslichen Erinnerungen.",
+      "19": "Verifizierte 5-Sterne-Bewertung.",
+      "20": "Ein unvergessliches Erlebnis! Ich habe alles in ihre Hände gelegt und das war die beste Entscheidung. Glückwunsch zur Organisation und Kreativität.",
+      "21": "Ein sehr originelles und anderes Erlebnis. Sie haben uns bei jedem Schritt überrascht, und die Details waren spektakulär. Danke für alles!",
+      "22": "Ich wusste nicht, was ich zu unserem Jahrestag schenken sollte. Die beste Wahl überhaupt. Wir haben einen Tag wie im Film erlebt!",
+      "23": "Ich habe das für meine beste Freundin gebucht und sie war überwältigt. Ein wunderschönes Konzept, so gut umgesetzt.",
+      "24": "Alles war perfekt von Anfang bis Ende. Jeder Ort, jedes Detail, jede Überraschung... Ihr habt Erinnerungen geschaffen, die wir für immer behalten werden!",
+      "25": "Ich habe Yurday über Instagram entdeckt. Ich dachte mir \"na gut, ich frage mal ein Angebot an\". Zwei Tage später war das Projekt schon in Arbeit. Einfach. Schnell. Effizient.",
+      "26": "Sie haben sich um alles gekümmert und uns das Gefühl gegeben, etwas ganz Besonderes zu sein. Vom Essen bis zu den Aktivitäten war alles perfekt organisiert.",
+      "27": "Von der ersten Nachricht bis zum allerletzten Moment war alles perfekt. Eine tolle Idee, hervorragend umgesetzt. Danke euch beiden!",
+      "28": "Nichts zu bemängeln. Empfehlenswert.",
+      "29": "Es war ein einzigartiges Erlebnis, sie haben sich um jedes Detail gekümmert und uns das Gefühl gegeben, sehr besonders zu sein. 100% empfehlenswert.",
+      "30": "Léo hat uns den ganzen Tag diskret begleitet, es war perfekt. Wir fühlten uns frei und sicher. Danke für alles!",
+      "31": "Mission erfüllt. Danke an die Teams.",
+      "32": "Ich war ziemlich anspruchsvoll und dachte, man würde versuchen, mich in ein fertiges Paket zu stecken. Sie haben jedes Detail auf unser Projekt zugeschnitten.",
+      "33": "Danke an das ganze Team ❤️",
+      "34": "Ich dachte, es würde viel mehr kosten. Angesichts all dessen, was dahintersteckt, finde ich das Preis-Leistungs-Verhältnis sehr fair.",
+      "35": "Ich habe ihnen ein Budget und ein paar Infos gegeben, und sie haben einen Traumtag geschaffen. Ein einzigartiges Konzept, wirklich toll umgesetzt.",
+      "36": "Die schönste Erinnerung, die wir unseren Eltern schenken konnten. Danke.",
+      "37": "Am Ende war es wirklich ein Moment, den wir nie vergessen werden, danke.",
+      "38": "Man spürt, dass das Ziel wirklich ist, etwas zu schaffen, das zu uns passt, und Yurday hat das voll und ganz erfüllt.",
+      "39": "Ich hatte Angst, dass die Organisation aus der Ferne kompliziert würde. Wir haben telefoniert, ich habe meine Vorstellungen erklärt, und danach musste ich mich um fast nichts mehr kümmern."
+    }
+  },
+  "process": {
+    "eyebrow": "Der Ablauf",
+    "h2": "So funktioniert's",
+    "lede": "Vier Schritte, von der ersten Nachricht bis zum Tag selbst.",
+    "steps": [
+      {
+        "title": "Erzählen Sie uns von der Person",
+        "body": "Ihre Leidenschaften, was sie nicht mag, prägende Erinnerungen: alles, was uns hilft, einen echten maßgeschneiderten Tag zu gestalten."
+      },
+      {
+        "title": "Wir gestalten den Tag",
+        "body": "Stunde für Stunde bringen wir die passenden Anbieter zusammen, mit klaren Preisoptionen, nie eine Überraschung."
+      },
+      {
+        "title": "Sie bestätigen",
+        "body": "Wir passen live mit Ihnen an, bis es genau richtig ist, nicht mehr und nicht weniger."
+      },
+      {
+        "title": "Wir kümmern uns um alles",
+        "body": "Buchungen, Koordination am großen Tag: Sie müssen nur noch den Moment genießen."
+      }
+    ]
+  },
+  "story": {
+    "eyebrow": "Warum es Yurday gibt",
+    "h2": "Unsere Geschichte",
+    "paragraphs": [
+      [
+        "Alles begann an einem Abend, um 23:47 Uhr.",
+        "Wir saßen unter Freunden an einem Tisch. Wir wussten genau, wen wir verwöhnen wollten, hatten ein Budget, jede Menge Ideen im Kopf… aber keine Ahnung, wie wir das alles in einen echten Tag verwandeln sollten."
+      ],
+      [
+        "Also suchten wir jemanden, der es für uns übernehmen sollte."
+      ],
+      [
+        "Wir kontaktierten Agenturen, schauten uns Geschenkboxen, Aktivitäten, Erlebnisse an… Aber es war immer dasselbe: Man bot uns fertige Pakete an, aus denen man wählen musste."
+      ],
+      [
+        "Wir wollten keine Aktivität auswählen.",
+        "Wir wollten von dieser Person ausgehen und ihren Tag um sie herum aufbauen."
+      ],
+      [
+        "Also organisierten wir am Ende alles selbst. Wir planten die Route, buchten die verschiedenen Orte, bereiteten die Überraschungen vor und banden sogar ihre Liebsten in die Inszenierung ein. Manche mussten mitspielen, im richtigen Moment auftauchen oder eine Rolle übernehmen, ohne dass sie etwas ahnte."
+      ],
+      [
+        "Und am großen Tag erwachte alles zum Leben.",
+        "Wir sahen ihre Überraschung, ihr Lachen, ihre Rührung… und verstanden, dass wir gerade etwas anderes geschaffen hatten."
+      ],
+      [
+        "Nicht nur eine Aktivität. Eine ganze Geschichte zum Erleben."
+      ],
+      [
+        "Da dachten wir uns: Was, wenn wir das für andere machen würden?",
+        "So wurde Yurday geboren."
+      ],
+      [
+        "Heute ist unsere Idee immer noch dieselbe: Sie geben uns die Person, den Anlass und Ihr Budget. Wir denken uns den Rest aus.",
+        "Denn manche Erinnerungen verdienen es, von Grund auf neu geschaffen zu werden."
+      ]
+    ],
+    "transition": "Die zwei Gesichter hinter jedem Tag",
+    "bios": {
+      "leo": "Sorgt dafür, genau zu verstehen, was Sie im Sinn haben, noch bevor über Anbieter gesprochen wird.",
+      "luca": "Gestaltet den Tag und verhandelt jedes Detail, damit alles zusammenpasst, vom Budget bis zum großen Tag."
+    }
+  },
+  "faq": {
+    "eyebrow": "Häufig gestellte Fragen",
+    "h2": "Bevor Sie loslegen",
+    "items": [
+      {
+        "question": "Wie viel kostet es?",
+        "answer": "Jeder Tag ist anders, also auch jedes Budget. Wir gestalten den Tag immer basierend auf dem Startbudget, das Sie uns geben, nie umgekehrt."
+      },
+      {
+        "question": "Wie weit im Voraus sollte ich Sie kontaktieren?",
+        "answer": "So früh wie möglich für maximale Auswahl, aber wir haben auch schon Projekte in wenigen Tagen zusammengestellt. Erzählen Sie uns Ihren Zeitrahmen, wir sagen ehrlich, was möglich ist."
+      },
+      {
+        "question": "Wo sind Sie tätig?",
+        "answer": "Aktuell sind wir in Paris und Umgebung (Île-de-France) tätig. Sagen Sie uns, wo Sie sind, wir bestätigen schnell, ob es möglich ist."
+      },
+      {
+        "question": "Was, wenn wir eine Gruppe sind (Junggesellenabschied)?",
+        "answer": "Kein Problem: Wir unterscheiden immer zwischen der gefeierten Person und der Gruppe, die den Tag erlebt, damit die Logistik (Essen, Transport, Aktivitäten) genau berechnet wird, pro Kopf oder als Pauschale, je nachdem, was sinnvoll ist."
+      },
+      {
+        "question": "Ist es wirklich maßgeschneidert, oder ein verstecktes Paket?",
+        "answer": "Wirklich maßgeschneidert. Wir arbeiten nicht mit festen Paketen: Wenn Sie 8 Aktivitäten am Tag möchten, gestalten wir 8 Aktivitäten."
+      }
+    ],
+    "closing": "Noch Fragen? Am einfachsten erzählen Sie uns von Ihrem Projekt, wir antworten mit wirklich maßgeschneiderten Antworten."
+  },
+  "contact": {
+    "eyebrow": "Letzter Schritt",
+    "h2": "Erzählen Sie uns von Ihrem Projekt",
+    "lede": "Zwei Minuten reichen. Wir melden uns schnell mit ersten Ideen bei Ihnen.",
+    "note": {
+      "before": "💬 Lieber direkt sprechen? Der WhatsApp-Button unten rechts erreicht uns sofort, oder schreiben Sie uns an",
+      "after": "."
+    },
+    "form": {
+      "name": "Ihr Name",
+      "phone": "Telefonnummer",
+      "email": "E-Mail",
+      "forWho": "Für wen ist dieser Tag?",
+      "forWhoPlaceholder": "Z.B. mein Partner, meine Schwester, das ganze Team…",
+      "occasion": "Art des Anlasses",
+      "occasionOptions": [
+        "Geburtstag",
+        "Heiratsantrag",
+        "Junggesellenabschied",
+        "Junggesellinnenabschied",
+        "Unternehmen",
+        "Versöhnung",
+        "Einfach so",
+        "Andere"
+      ],
+      "budget": "Ungefähres Budget",
+      "budgetOptions": [
+        "Unter 1500€",
+        "1500€ – 2500€",
+        "2500€ – 5000€",
+        "Über 5000€",
+        "Noch nicht sicher"
+      ],
+      "message": "Ein paar Worte zu Ihrer Idee (optional)",
+      "submit": "Mein Projekt senden",
+      "choiceQuestion": "Wie möchten Sie es uns lieber schicken?",
+      "choiceWhatsapp": "💬 Per WhatsApp",
+      "choiceEmail": "📧 Per E-Mail",
+      "choiceError": "Bitte geben Sie oben im Feld „E-Mail\" eine gültige E-Mail-Adresse ein.",
+      "success": "Danke! Ihre Anfrage per E-Mail wurde erfolgreich gesendet, wir melden uns sehr bald bei Ihnen.",
+      "successWhatsapp": "Danke! Ihre WhatsApp-Nachricht ist bereit zum Senden."
+    }
+  },
+  "footer": {
+    "tagline": "Der perfekte Tag, gestaltet für die Person, die Sie lieben.",
+    "rights": "Alle Rechte vorbehalten."
+  },
+  "legal": {
+    "mentions": "Impressum",
+    "terms": "AGB",
+    "privacy": "Datenschutz"
+  },
+  "popup": {
+    "eyebrow": "Bereit loszulegen?",
+    "title": "Sollen wir Ihnen einen Platz reservieren?",
+    "body": "Wir begrenzen die Anzahl der monatlich angenommenen Projekte, um zu 100% maßgeschneidert zu bleiben. Erzählen Sie uns jetzt Ihre Idee, wir melden uns schnell.",
+    "dismiss": "Nein danke, ich schaue mich noch um"
+  },
+  "occasionPages": {
+    "anniversaire": {
+      "eyebrow": "MASSGESCHNEIDERTER GEBURTSTAG",
+      "title": {
+        "lead": "Schenken Sie einen Geburtstag,",
+        "em": "der wirklich zu ihm oder ihr passt",
+        "tail": ""
+      },
+      "intro": "Erzählen Sie uns von dem Geburtstag, den Sie für Ihre Liebsten im Kopf haben, wir kümmern uns darum, den perfekten Tag zu gestalten, von der ersten Überraschung bis zum letzten Moment.",
+      "story": "Yurday ist tatsächlich aus einem Geburtstag entstanden: dem Wunsch, für jemanden, den wir lieben, etwas Besonderes zu tun, statt uns mit einem in zehn Sekunden ausgepackten Geschenk zu begnügen. Seitdem wenden wir dieselbe Methode bei jedem Geburtstag an, der uns anvertraut wird: Wir gehen von der Person aus, nie von einem Katalog.",
+      "cta": {
+        "title": "Bereit, seine oder ihre Geschichte zu schreiben?",
+        "text": "Erzählen Sie uns, wen Sie verwöhnen möchten, wir melden uns mit ersten Ideen innerhalb von 48 Stunden."
+      }
+    },
+    "demande-en-mariage": {
+      "eyebrow": "HEIRATSANTRAG",
+      "title": {
+        "lead": "Das perfekte",
+        "em": "Ja",
+        "tail": "beginnt mit einem perfekten Tag"
+      },
+      "intro": "Erzählen Sie uns, wie Sie sich Ihren Heiratsantrag vorstellen, wir kümmern uns um die Kulisse, das Timing und die Überraschung, ohne dass er oder sie etwas ahnt.",
+      "story": "Ein Heiratsantrag findet nur einmal statt. Deshalb nehmen wir uns die Zeit, alles gemeinsam mit Ihnen zu gestalten, von der ersten Nachricht bis zum großen Tag: den Ort, den Zeitpunkt, die Inszenierung und all die kleinen Details, die diesen Moment genau so werden lassen, wie Sie ihn sich vorgestellt haben.",
+      "cta": {
+        "title": "Bereit, diesen Moment zu erschaffen?",
+        "text": "Erzählen Sie uns Ihre Geschichte und wie Sie sie sich vorstellen, wir melden uns mit ersten Ideen innerhalb von 48 Stunden."
+      }
+    },
+    "fete-des-meres": {
+      "eyebrow": "MUTTERTAG",
+      "title": {
+        "lead": "Ein Dankeschön, das sie",
+        "em": "nie vergessen wird",
+        "tail": ""
+      },
+      "intro": "Erzählen Sie uns, was Sie Ihrer Mama zum Muttertag schenken möchten, wir kümmern uns darum, ihren perfekten Tag zu gestalten, mit allem, was sie liebt.",
+      "story": "Wir wissen, wie schwer es sein kann, die richtige Art zu finden, seiner Mama zu danken, jenseits von Blumen, die am Vorabend im Supermarkt gekauft wurden. Erzählen Sie uns, wer sie ist, was sie liebt, und wir gestalten um sie herum einen Tag, der wirklich zu ihr passt.",
+      "cta": {
+        "title": "Bereit, ihr auf andere Weise zu danken?",
+        "text": "Erzählen Sie uns von Ihrer Mama, wir melden uns mit ersten Ideen innerhalb von 48 Stunden."
+      }
+    },
+    "evg-evjf": {
+      "eyebrow": "JUNGGESELLENABSCHIED",
+      "title": {
+        "lead": "Der letzte Wahnsinn",
+        "em": "vor dem großen Tag",
+        "tail": ""
+      },
+      "intro": "Erzählen Sie uns von dem Junggesellenabschied, den Sie im Kopf haben, wir kümmern uns darum, einen unvergesslichen Tag für die ganze Truppe zu organisieren, Logistik inklusive.",
+      "story": "Ein gelungener Junggesellenabschied bedeutet eine Gruppe, die von Anfang bis Ende genießt, ohne dass jemand Buchungen oder Zeitpläne verwalten muss. Wir kümmern uns um die gesamte Koordination mit der Truppe, damit das Einzige, was Sie tun müssen, das Feiern ist.",
+      "cta": {
+        "title": "Bereit, DEN Tag zu organisieren?",
+        "text": "Erzählen Sie uns, wen Sie feiern möchten und mit wem, wir melden uns mit ersten Ideen innerhalb von 48 Stunden."
+      }
+    },
+    "pot-de-depart": {
+      "eyebrow": "ABSCHIEDSFEIER",
+      "title": {
+        "lead": "Ein Abschied, der",
+        "em": "in Erinnerung bleibt",
+        "tail": ""
+      },
+      "intro": "Erzählen Sie uns, wer geht und warum, wir kümmern uns darum, eine Abschiedsfeier zu gestalten, die wirklich zu dieser Person passt, zwischen Emotion und guter Laune.",
+      "story": "Ein Abschied markiert immer ein Stück weit das Ende einer gemeinsamen Geschichte. Wir helfen Teams dabei, diesen Moment in eine echte Erinnerung zu verwandeln, ganz im Sinne der Person, die geht, statt einer klassischen, in letzter Minute organisierten Feier.",
+      "cta": {
+        "title": "Bereit, den Moment zu würdigen?",
+        "text": "Erzählen Sie uns, wer geht und warum, wir melden uns mit ersten Ideen innerhalb von 48 Stunden."
+      }
+    }
+  },
+  "shared": {
+    "ctaWhatsapp": "Auf WhatsApp chatten",
+    "ctaEmail": "Schriftlich erzählen"
+  }
+}

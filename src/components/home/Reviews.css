@@ -1,0 +1,91 @@
+/* ---------- Reviews (défilement continu) ---------- */
+.marquee-outer {
+  overflow: hidden;
+  width: 100%;
+  padding: 12px 0;
+  mask-image: linear-gradient(90deg, transparent, #000 5%, #000 95%, transparent);
+  -webkit-mask-image: linear-gradient(90deg, transparent, #000 5%, #000 95%, transparent);
+}
+.marquee-track {
+  display: flex;
+  gap: 22px;
+  width: max-content;
+  padding: 0 22px;
+  animation: marquee-scroll 90s linear infinite;
+}
+.marquee-track.marquee-reverse {
+  animation-name: marquee-scroll-reverse;
+  animation-duration: 84s;
+}
+.marquee-outer:hover .marquee-track { animation-play-state: paused; }
+@keyframes marquee-scroll {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+@keyframes marquee-scroll-reverse {
+  from { transform: translateX(-50%); }
+  to { transform: translateX(0); }
+}
+.marquee-card { --notch-y: 84px; flex: 0 0 320px; width: 320px; }
+.review-top {
+  padding: 22px 24px 18px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.review-avatar {
+  width: 38px; height: 38px;
+  border-radius: 999px;
+  background: linear-gradient(135deg, var(--coral-1), var(--coral-3));
+  color: #fff;
+  display: flex; align-items: center; justify-content: center;
+  font-family: var(--font-fraunces), Georgia, serif;
+  font-weight: 600;
+  flex-shrink: 0;
+}
+.review-name { font-weight: 600; font-size: 14.5px; }
+.flag {
+  display: inline-block;
+  width: 16px;
+  height: 11px;
+  margin-left: 3px;
+  border-radius: 2px;
+  overflow: hidden;
+  box-shadow: 0 0 0 1px rgba(43,33,25,0.12);
+  vertical-align: middle;
+}
+.flag svg { width: 100%; height: 100%; display: block; }
+.translated-note {
+  display: block;
+  font-size: 10.5px;
+  font-style: italic;
+  color: #A69C8F;
+  margin-top: 8px;
+}
+/* Masquer la mention "Traduit en ..." quand la langue affichée correspond
+   à la langue d'origine réelle de l'avis (pas besoin de préciser qu'on a
+   traduit un avis allemand quand on regarde le site en allemand). */
+html[lang="fr"] .translated-note[data-native="fr"] { display: none; }
+html[lang="en"] .translated-note[data-native="en"] { display: none; }
+html[lang="es"] .translated-note[data-native="es"] { display: none; }
+html[lang="pt"] .translated-note[data-native="pt"] { display: none; }
+html[lang="zh"] .translated-note[data-native="zh"] { display: none; }
+html[lang="de"] .translated-note[data-native="de"] { display: none; }
+html[lang="it"] .translated-note[data-native="it"] { display: none; }
+html[lang="ja"] .translated-note[data-native="ja"] { display: none; }
+.review-stars { color: var(--coral-2); font-size: 12px; letter-spacing: 1px; }
+.review-body { padding: 18px 24px 24px; font-size: 14.5px; color: var(--ink-soft); }
+
+.google-badge {
+  max-width: 480px;
+  margin: 30px auto 0;
+  color: var(--ink-soft);
+  font-size: 14px;
+  line-height: 1.6;
+  text-align: center;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .marquee-outer { overflow-x: auto; }
+  .marquee-track { animation: none !important; }
+}

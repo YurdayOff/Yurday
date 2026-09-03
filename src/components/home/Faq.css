@@ -1,0 +1,49 @@
+/* ---------- Clôture FAQ ---------- */
+.faq-closing {
+  text-align: center;
+  max-width: 520px;
+  margin: 52px auto 0;
+  padding-top: 40px;
+  border-top: 1px solid var(--line);
+}
+.faq-closing p {
+  font-size: 16px;
+  color: var(--ink-soft);
+  margin: 0 0 22px;
+}
+
+/* ---------- FAQ ---------- */
+.faq-list { max-width: 720px; margin: 0 auto; }
+.faq-item {
+  border-bottom: 1px solid var(--line);
+}
+.faq-q {
+  width: 100%;
+  text-align: left;
+  background: none;
+  border: none;
+  padding: 22px 4px;
+  font-family: var(--font-fraunces), Georgia, serif;
+  font-size: 17px;
+  font-weight: 500;
+  color: var(--ink);
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.faq-q .plus {
+  font-size: 22px;
+  color: var(--coral-2);
+  transition: transform 0.25s ease;
+  flex-shrink: 0;
+}
+.faq-item.open .plus { transform: rotate(45deg); }
+.faq-a {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+.faq-item.open .faq-a { max-height: 220px; }
+.faq-a p { padding: 0 4px 22px; color: var(--ink-soft); font-size: 15px; margin: 0; }

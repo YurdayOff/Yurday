@@ -1,0 +1,66 @@
+/* ---------- Categories (cartes photo éditoriales) ---------- */
+.cat-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 26px;
+}
+.cat-card {
+  --notch-y: 220px;
+  padding: 0;
+  flex: 1 1 300px;
+  max-width: 340px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.cat-card:hover { transform: translateY(-6px); box-shadow: 0 24px 48px rgba(43,33,25,0.14); }
+.cat-photo {
+  width: 100%;
+  height: 220px;
+  overflow: hidden;
+}
+.cat-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.5s ease;
+}
+.cat-card:hover .cat-photo img { transform: scale(1.07); }
+.cat-text { padding: 20px 24px; }
+.cat-card h3 { font-size: 18px; font-weight: 600; margin: 0 0 8px; }
+.cat-card .cat-body { color: var(--ink-soft); font-size: 14.5px; margin: 0; }
+@media (max-width: 560px) { .cat-card { flex-basis: 100%; max-width: 420px; } }
+
+/* ---------- Étiquettes d'occasions supplémentaires ---------- */
+.occasion-more { margin-top: 56px; text-align: center; }
+.occasion-more-label {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--ink-soft);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin-bottom: 20px;
+}
+.chip-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+.chip {
+  display: inline-block;
+  padding: 9px 18px;
+  border-radius: 999px;
+  background: var(--white);
+  border: 1.5px solid var(--line);
+  font-size: 13.5px;
+  font-weight: 500;
+  color: var(--ink-soft);
+  transition: border-color 0.2s, color 0.2s, transform 0.2s;
+}
+.chip:hover {
+  border-color: var(--coral-2);
+  color: var(--coral-3);
+  transform: translateY(-2px);
+}

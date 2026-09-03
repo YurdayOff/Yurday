@@ -1,0 +1,377 @@
+{
+  "seo": {
+    "home": {
+      "title": "Yurday: dias sob medida, para a pessoa que importa",
+      "description": "A Yurday cria dias totalmente sob medida: aniversários, pedidos de casamento, despedidas de solteiro e solteira. Conte-nos sobre a pessoa, cuidamos do resto."
+    },
+    "occasions": {
+      "anniversaire": {
+        "title": "Aniversário sob medida: ofereça um dia que combine de verdade com ele(a)",
+        "description": "A Yurday cria aniversários totalmente sob medida, atividade por atividade, para surpreender quem realmente importa."
+      },
+      "demande-en-mariage": {
+        "title": "Pedido de casamento sob medida: crie o momento perfeito",
+        "description": "A Yurday orquestra pedidos de casamento inesquecíveis: cenário, timing, surpresa e joalheiro se necessário."
+      },
+      "fete-des-meres": {
+        "title": "Dia das Mães sob medida: um obrigado fora do comum",
+        "description": "No Dia das Mães, a Yurday imagina um dia inteiro pensado para a sua mãe."
+      },
+      "evg-evjf": {
+        "title": "Despedidas de solteiro e solteira sob medida: um dia inesquecível para o grupo",
+        "description": "A Yurday organiza despedidas de solteiro e solteira sob medida, logística incluída."
+      },
+      "pot-de-depart": {
+        "title": "Festa de despedida sob medida: marcar o momento antes do adeus",
+        "description": "Para uma despedida marcante, a Yurday imagina uma festa de despedida sob medida."
+      }
+    }
+  },
+  "a11y": {
+    "skipToContent": "Ir para o conteúdo principal",
+    "languageSwitcher": "Escolher idioma",
+    "mainNav": "Navegação principal",
+    "close": "Fechar",
+    "whatsappFloat": "Falar com a Yurday no WhatsApp"
+  },
+  "nav": {
+    "home": "Início",
+    "occasions": "Ocasiões",
+    "reviews": "Avaliações",
+    "process": "Como funciona",
+    "story": "Nossa história",
+    "faq": "Perguntas frequentes",
+    "cta": "Criar meu dia"
+  },
+  "promo": {
+    "text": "Vagas muito limitadas este mês: fale conosco agora para não perder sua vez.",
+    "cta": "Conversar no WhatsApp"
+  },
+  "hero": {
+    "eyebrow": "A agência número 1 para a criação de um dia sob medida",
+    "title": {
+      "lead": "Ofereça a ela um dia ",
+      "em": "que combine com ela",
+      "tail": ",",
+      "line2": "não um ",
+      "highlight": "pacote pronto"
+    },
+    "lede": "Conte-nos sobre a pessoa, nós imaginamos o dia ideal dela, você aprova cada detalhe, e vive o momento.",
+    "ctaSecondary": "Ver como funciona"
+  },
+  "trust": {
+    "starsLabel": "4,8 em mais de 100 avaliações",
+    "daysLabel": "Dias organizados",
+    "bespokeLabel": "Sob medida, nunca um pacote"
+  },
+  "concept": {
+    "lead": "Aniversário, casamento, festa de despedida, ou apenas uma vontade sem motivo específico: ",
+    "highlight": "a ocasião não importa",
+    "tail": ". O conceito continua sempre o mesmo: um único dia, pensado do início ao fim, com exatamente o que você quiser dentro, e o cenário que você imaginar."
+  },
+  "occasions": {
+    "eyebrow": "Para qual ocasião",
+    "h2": "Um dia para cada história",
+    "lede": "Alguns exemplos entre infinitos outros.",
+    "moreLabel": "E para todas as outras ocasiões",
+    "chips": [
+      "Casamento",
+      "Aniversário de casamento",
+      "Nascimento / chá de bebê",
+      "Aposentadoria",
+      "Formatura",
+      "Dia dos Namorados",
+      "Dia dos Pais",
+      "Batizado",
+      "Empresa",
+      "Reencontro entre amigos",
+      "Parabéns",
+      "Agradecimento"
+    ],
+    "cards": {
+      "anniversaire": "Aniversário",
+      "demande-en-mariage": "Pedido de casamento",
+      "fete-des-meres": "Dia das Mães",
+      "evg-evjf": "Despedida de solteiro(a)",
+      "pot-de-depart": "Festa de despedida"
+    }
+  },
+  "reviews": {
+    "eyebrow": "O que eles dizem",
+    "h2": "Mais de 100 avaliações, uma única nota: 4,8 ★",
+    "lede": "Mais de 150 dias organizados, avaliações verificadas de mais de 12 países, sem seleção nem encenação.",
+    "translatedNote": "Traduzido para português",
+    "badge": {
+      "strong": "Avaliações verificadas",
+      "rest": " · 4,8 ★★★★★ · Com clientes em mais de 12 países"
+    },
+    "items": {
+      "1": "Uma organização impecável, surpresas de primeira, lembranças que vamos guardar para sempre. Obrigado mais uma vez!",
+      "2": "Tudo foi incrível, muito obrigado por fazer deste dia algo tão especial. Vamos lembrar sempre!",
+      "3": "Reservei essa experiência para minha namorada, ela ficou muito emocionada! Tudo correu sem nenhum problema, cheio de criatividade, detalhes perfeitos, vale muito a pena!",
+      "4": "Eu achava que ia ganhar um pouco de tempo. Na verdade ganhei muitíssimo, a galera adorou!",
+      "5": "Uma experiência realmente incrível! Da manhã até a noite foram só surpresas, cada detalhe foi pensado com cuidado. Recomendo muito a todos!",
+      "6": "Fiquei sem palavras. Tudo foi tão bem pensado e adaptado para nós. Que experiência linda!",
+      "7": "Obrigado.",
+      "8": "O melhor dia que tivemos em muito tempo. Tantos detalhes pequenos que o tornaram especial. Recomendo muito!",
+      "9": "Nunca tinha vivido um dia tão lindo! A equipe foi super atenciosa, cada etapa foi perfeita, muito obrigado!",
+      "10": "Uma solução completa para os 60 anos do meu marido, sem precisar gerenciar a logística. O resultado foi elegante, fluido, e muito apreciado pelos nossos convidados.",
+      "11": "Foi muito além do que eu esperava. Eles organizaram o dia perfeito para o aniversário da minha namorada. Tudo foi tão pessoal e bem organizado!",
+      "12": "Foi um dia magnífico! Cada momento foi especial, com muitas surpresas. Adoraria repetir!",
+      "13": "Experiência incrível!!",
+      "14": "Adorei que tudo fosse surpresa, mas ao mesmo tempo fizesse todo sentido. Foi tão pessoal e autêntico. Obrigado Luca e Léo!",
+      "15": "Uma experiência inesquecível do início ao fim. Realmente um dia único. Muito obrigado!",
+      "16": "Muito obrigado a todos!",
+      "17": "Eu não sabia bem o que esperar, mas foi incrível. Cada momento foi perfeito, os detalhes, as surpresas... Repetiria sem hesitar!",
+      "18": "Uma experiência simplesmente mágica! Luca e Léo pensaram em cada detalhe, só tivemos que aproveitar. Obrigado por essas lembranças inesquecíveis.",
+      "19": "Avaliação de 5 estrelas verificada.",
+      "20": "Uma experiência inesquecível! Deixei tudo nas mãos deles e foi a melhor decisão. Parabéns pela organização e criatividade.",
+      "21": "Uma experiência muito original e diferente. Eles nos surpreenderam a cada momento, e os detalhes foram espetaculares. Obrigado por tudo!",
+      "22": "Eu não sabia o que dar para o nosso aniversário de casal. Melhor escolha possível. Vivemos um dia de filme!",
+      "23": "Reservei isso para minha melhor amiga e ela ficou impressionada. É um conceito lindo, e muito bem executado.",
+      "24": "Tudo foi perfeito do início ao fim. Cada lugar, cada detalhe, cada surpresa... Vocês criaram lembranças que vamos guardar para sempre!",
+      "25": "Descobri a Yurday pelo Instagram. Pensei \"vou pedir um orçamento\". Dois dias depois o projeto já estava em andamento. Simples. Rápido. Eficiente.",
+      "26": "Eles cuidaram de tudo e nos fizeram sentir muito especiais. Da comida às atividades, tudo foi perfeitamente organizado.",
+      "27": "Desde a primeira mensagem até o último momento, tudo foi perfeito. Uma ótima ideia, muito bem executada. Obrigado aos dois!",
+      "28": "Sem nada a reclamar. Recomendo.",
+      "29": "Foi uma experiência única, cuidaram de cada detalhe e nos fizeram sentir muito especiais. 100% recomendado.",
+      "30": "O Léo nos acompanhou discretamente o dia todo, foi perfeito. Nos sentimos livres e confiantes. Obrigado por tudo!",
+      "31": "Missão cumprida. Obrigado às equipes.",
+      "32": "Eu era bem exigente, achava que iam tentar me encaixar num pacote pronto. Eles adaptaram cada detalhe ao nosso projeto.",
+      "33": "Obrigado a toda a equipe ❤️",
+      "34": "Achei que custaria muito mais. Vendo tudo o que tem por trás, acho a relação custo-benefício muito justa.",
+      "35": "Dei a eles um orçamento e algumas informações, e criaram um dia dos sonhos. Um conceito único e muito bem realizado.",
+      "36": "A melhor lembrança que poderíamos dar aos nossos pais. Obrigado.",
+      "37": "No final foi realmente um momento que nunca vamos esquecer, obrigado.",
+      "38": "Dá para sentir que o objetivo é realmente criar algo que se pareça com a gente, e a Yurday cumpriu totalmente.",
+      "39": "Eu tinha medo que fosse complicado organizar à distância. Fizemos uma chamada, expliquei minhas condições, e quase não precisei gerenciar mais nada."
+    }
+  },
+  "process": {
+    "eyebrow": "O processo",
+    "h2": "Como funciona",
+    "lede": "Quatro etapas, da primeira mensagem ao próprio dia.",
+    "steps": [
+      {
+        "title": "Conte-nos sobre a pessoa",
+        "body": "Suas paixões, o que ela não gosta, lembranças marcantes: tudo que nos ajuda a criar um verdadeiro sob medida."
+      },
+      {
+        "title": "Montamos o dia",
+        "body": "Hora a hora, reunimos os fornecedores certos, com opções de preço claras, nunca há surpresas."
+      },
+      {
+        "title": "Você aprova",
+        "body": "Ajustamos em tempo real com você até ficar exatamente assim, nem mais, nem menos."
+      },
+      {
+        "title": "Cuidamos de tudo",
+        "body": "Reservas, coordenação no grande dia: você só precisa aproveitar o momento com essa pessoa."
+      }
+    ]
+  },
+  "story": {
+    "eyebrow": "Por que a Yurday existe",
+    "h2": "Nossa história",
+    "paragraphs": [
+      [
+        "Tudo começou numa noite, às 23h47.",
+        "Estávamos entre amigos ao redor de uma mesa. Sabíamos exatamente a quem queríamos agradar, tínhamos um orçamento, ideias de sobra… mas nenhuma ideia de como transformar tudo isso em um dia de verdade."
+      ],
+      [
+        "Então procuramos alguém para fazer isso por nós."
+      ],
+      [
+        "Contatamos agências, olhamos caixas de presente, atividades, experiências… Mas era sempre a mesma coisa: nos ofereciam pacotes já prontos, dos quais era preciso escolher."
+      ],
+      [
+        "Nós não queríamos escolher uma atividade.",
+        "Queríamos partir dessa pessoa e construir o dia dela em torno dela."
+      ],
+      [
+        "Então acabamos organizando tudo nós mesmos. Planejamos o roteiro, reservamos os diferentes lugares, preparamos as surpresas e até reunimos as pessoas próximas a ele para participarem da encenação. Alguns tiveram que fingir, aparecer na hora certa ou desempenhar um papel sem que ele suspeitasse de nada."
+      ],
+      [
+        "E no grande dia, tudo ganhou vida.",
+        "Vimos a surpresa dele, as risadas, a emoção… e entendemos que tínhamos acabado de criar algo diferente."
+      ],
+      [
+        "Não apenas uma atividade. Uma história inteira para viver."
+      ],
+      [
+        "Foi aí que pensamos: e se fizéssemos isso para outras pessoas?",
+        "Foi assim que a Yurday nasceu."
+      ],
+      [
+        "Hoje, nossa ideia continua a mesma: você nos dá a pessoa, a ocasião e o seu orçamento. Nós imaginamos todo o resto.",
+        "Porque algumas lembranças merecem ser criadas do zero."
+      ]
+    ],
+    "transition": "Os dois rostos por trás de cada dia",
+    "bios": {
+      "leo": "Cuida de entender exatamente o que você tem em mente, antes mesmo de falar de fornecedores.",
+      "luca": "Monta o dia e negocia cada detalhe para que tudo se encaixe, do orçamento ao grande dia."
+    }
+  },
+  "faq": {
+    "eyebrow": "Perguntas frequentes",
+    "h2": "Antes de começar",
+    "items": [
+      {
+        "question": "Quanto custa?",
+        "answer": "Cada dia é diferente, então cada orçamento também é. Sempre montamos o dia com base no orçamento inicial que você nos dá, nunca o contrário."
+      },
+      {
+        "question": "Com quanto tempo de antecedência devo entrar em contato?",
+        "answer": "O quanto antes melhor, para ter o máximo de opções, mas já montamos projetos em poucos dias. Conte-nos seu prazo e diremos honestamente o que é possível."
+      },
+      {
+        "question": "Onde vocês atuam?",
+        "answer": "Atualmente atuamos em Paris e arredores (Ilha de França). Diga-nos onde você está e confirmaremos rapidamente se é possível."
+      },
+      {
+        "question": "E se formos um grupo (despedida de solteiro/a)?",
+        "answer": "Sem problema: sempre separamos a pessoa homenageada do grupo que vive o dia, para que a logística (refeições, transporte, atividades) seja calculada com precisão, por pessoa ou por pacote fechado, conforme fizer mais sentido."
+      },
+      {
+        "question": "É realmente sob medida, ou um pacote disfarçado?",
+        "answer": "Realmente sob medida. Não trabalhamos com pacotes fixos: se você quiser 8 atividades no dia, criamos 8 atividades."
+      }
+    ],
+    "closing": "Tem mais perguntas? O mais simples é nos contar sobre o seu projeto, responderemos com respostas realmente sob medida."
+  },
+  "contact": {
+    "eyebrow": "Última etapa",
+    "h2": "Conte-nos sobre o seu projeto",
+    "lede": "Bastam dois minutos. Retornaremos rapidamente com as primeiras ideias.",
+    "note": {
+      "before": "💬 Prefere falar diretamente? O botão do WhatsApp no canto inferior direito nos contata imediatamente, ou escreva para",
+      "after": "."
+    },
+    "form": {
+      "name": "Seu nome",
+      "phone": "Telefone",
+      "email": "Email",
+      "forWho": "Para quem é esse dia?",
+      "forWhoPlaceholder": "Ex. meu parceiro, minha irmã, toda a equipe…",
+      "occasion": "Tipo de ocasião",
+      "occasionOptions": [
+        "Aniversário",
+        "Pedido de casamento",
+        "Despedida de solteiro",
+        "Despedida de solteira",
+        "Empresa",
+        "Reconciliação",
+        "Só porque sim",
+        "Outro"
+      ],
+      "budget": "Orçamento aproximado",
+      "budgetOptions": [
+        "Menos de 1500 €",
+        "1500 € – 2500 €",
+        "2500 € – 5000 €",
+        "Mais de 5000 €",
+        "Ainda não sei"
+      ],
+      "message": "Uma palavra sobre sua ideia (opcional)",
+      "submit": "Enviar meu projeto",
+      "choiceQuestion": "Como prefere nos enviar?",
+      "choiceWhatsapp": "💬 Pelo WhatsApp",
+      "choiceEmail": "📧 Por email",
+      "choiceError": "Indique um endereço de email válido no campo «Email» acima.",
+      "success": "Obrigado! Seu pedido por email foi enviado com sucesso, retornaremos em breve.",
+      "successWhatsapp": "Obrigado! Sua mensagem do WhatsApp está pronta para ser enviada."
+    }
+  },
+  "footer": {
+    "tagline": "O dia perfeito, pensado para a pessoa que você ama.",
+    "rights": "Todos os direitos reservados."
+  },
+  "legal": {
+    "mentions": "Aviso legal",
+    "terms": "Termos de venda",
+    "privacy": "Política de privacidade"
+  },
+  "popup": {
+    "eyebrow": "Pronto para começar?",
+    "title": "Guardamos um lugar para você?",
+    "body": "Limitamos o número de projetos aceitos a cada mês para continuar 100% sob medida. Conte-nos sua ideia agora, responderemos rapidamente.",
+    "dismiss": "Não, obrigado, vou continuar olhando"
+  },
+  "occasionPages": {
+    "anniversaire": {
+      "eyebrow": "ANIVERSÁRIO SOB MEDIDA",
+      "title": {
+        "lead": "Ofereça um aniversário",
+        "em": "que combine de verdade com ele(a)",
+        "tail": ""
+      },
+      "intro": "Conte-nos o aniversário que você imagina para a pessoa querida, nós cuidamos de criar o dia perfeito, da primeira surpresa até o último momento.",
+      "story": "A Yurday nasceu justamente de um aniversário: a vontade de fazer as coisas direito por alguém que amamos, sem se contentar com um presente aberto em dez segundos. Desde então, aplicamos o mesmo método a cada aniversário que nos é confiado: partimos da pessoa, nunca de um catálogo.",
+      "cta": {
+        "title": "Pronto para escrever a história dele(a)?",
+        "text": "Conte-nos quem você quer mimar, retornaremos com as primeiras ideias em até 48h."
+      }
+    },
+    "demande-en-mariage": {
+      "eyebrow": "PEDIDO DE CASAMENTO",
+      "title": {
+        "lead": "O",
+        "em": "sim perfeito",
+        "tail": "começa com um dia perfeito"
+      },
+      "intro": "Conte-nos como você imagina seu pedido de casamento, nós cuidamos de criar o cenário, o momento certo e a surpresa, sem que ele(a) desconfie de nada.",
+      "story": "Um pedido de casamento não se refaz duas vezes. Por isso dedicamos tempo para construir tudo com você, desde a primeira mensagem até o grande dia: o local, o horário, a encenação, e todos os pequenos detalhes que farão desse momento exatamente o que você imaginou.",
+      "cta": {
+        "title": "Pronto para criar esse momento?",
+        "text": "Conte-nos sua história e como você a imagina, retornaremos com as primeiras ideias em até 48h."
+      }
+    },
+    "fete-des-meres": {
+      "eyebrow": "DIA DAS MÃES",
+      "title": {
+        "lead": "Um obrigado que ela",
+        "em": "nunca vai esquecer",
+        "tail": ""
+      },
+      "intro": "Conte-nos o que você quer oferecer à sua mãe no Dia das Mães, nós cuidamos de imaginar o dia ideal dela, com tudo o que ela ama.",
+      "story": "Sabemos como pode ser difícil encontrar a ideia certa para agradecer à sua mãe, além de flores compradas de véspera no supermercado. Conte-nos quem ela é, o que ela ama, e construiremos ao redor dela um dia que combine de verdade com ela.",
+      "cta": {
+        "title": "Pronto para agradecer de outra forma?",
+        "text": "Conte-nos sobre sua mãe, retornaremos com as primeiras ideias em até 48h."
+      }
+    },
+    "evg-evjf": {
+      "eyebrow": "DESPEDIDA DE SOLTEIRO(A)",
+      "title": {
+        "lead": "A última loucura",
+        "em": "antes do grande dia",
+        "tail": ""
+      },
+      "intro": "Conte-nos a despedida de solteiro(a) que você tem em mente, nós cuidamos de organizar um dia inesquecível para toda a turma, logística incluída.",
+      "story": "Uma despedida de solteiro(a) bem-sucedida é um grupo que aproveita do início ao fim, sem que ninguém precise gerenciar reservas ou horários. Cuidamos de toda a coordenação com a turma, para que a única coisa que você precise fazer seja se divertir.",
+      "cta": {
+        "title": "Pronto para organizar O dia?",
+        "text": "Conte-nos quem você quer celebrar e com quem, retornaremos com as primeiras ideias em até 48h."
+      }
+    },
+    "pot-de-depart": {
+      "eyebrow": "FESTA DE DESPEDIDA",
+      "title": {
+        "lead": "Um adeus que",
+        "em": "ficará na memória",
+        "tail": ""
+      },
+      "intro": "Conte-nos quem está saindo e por quê, nós cuidamos de imaginar uma festa de despedida que combine de verdade com essa pessoa, entre emoção e boa disposição.",
+      "story": "Uma saída sempre marca, de certa forma, o fim de uma história compartilhada. Ajudamos as equipes a transformar esse momento em uma verdadeira lembrança, à imagem da pessoa que está partindo, em vez de uma festa clássica organizada de última hora.",
+      "cta": {
+        "title": "Pronto para marcar a ocasião?",
+        "text": "Conte-nos quem está saindo e por quê, retornaremos com as primeiras ideias em até 48h."
+      }
+    }
+  },
+  "shared": {
+    "ctaWhatsapp": "Conversar no WhatsApp",
+    "ctaEmail": "Contar por escrito"
+  }
+}

@@ -1,0 +1,12 @@
+/* ---------- Déclaration de concept ---------- */
+#concept { padding: 64px 28px; }
+.concept-statement {
+  max-width: 780px;
+  margin: 0 auto;
+  text-align: center;
+  font-family: var(--font-fraunces), Georgia, serif;
+  font-size: clamp(21px, 2.6vw, 29px);
+  line-height: 1.45;
+  color: var(--ink);
+}
+.concept-statement .marker { font-style: italic; color: var(--coral-3); }

@@ -1,0 +1,377 @@
+{
+  "seo": {
+    "home": {
+      "title": "Yurday : des journées sur mesure, pour la personne qui compte",
+      "description": "Yurday conçoit des journées entièrement sur mesure : anniversaires, demandes en mariage, EVG, EVJF. Racontez-nous la personne, on s'occupe du reste."
+    },
+    "occasions": {
+      "anniversaire": {
+        "title": "Anniversaire sur mesure : offrez une journée qui lui ressemble",
+        "description": "Yurday imagine des anniversaires entièrement sur mesure, activité par activité, pour surprendre la personne qui compte vraiment."
+      },
+      "demande-en-mariage": {
+        "title": "Demande en mariage sur mesure : créez le moment parfait",
+        "description": "Yurday orchestre des demandes en mariage inoubliables : décor, timing, surprise, et joaillier si besoin."
+      },
+      "fete-des-meres": {
+        "title": "Fête des mères sur mesure : un merci qui sort de l'ordinaire",
+        "description": "Pour la fête des mères, Yurday imagine une journée entière pensée pour votre maman."
+      },
+      "evg-evjf": {
+        "title": "EVG et EVJF sur mesure : une journée inoubliable pour toute la bande",
+        "description": "Yurday organise des EVG et EVJF sur mesure, logistique comprise."
+      },
+      "pot-de-depart": {
+        "title": "Pot de départ sur mesure : marquer le coup avant de se dire au revoir",
+        "description": "Pour un départ marquant, Yurday imagine un pot de départ sur mesure."
+      }
+    }
+  },
+  "a11y": {
+    "skipToContent": "Aller au contenu principal",
+    "languageSwitcher": "Choisir la langue",
+    "mainNav": "Navigation principale",
+    "close": "Fermer",
+    "whatsappFloat": "Contacter Yurday sur WhatsApp"
+  },
+  "nav": {
+    "home": "Accueil",
+    "occasions": "Occasions",
+    "reviews": "Avis",
+    "process": "Comment ça marche",
+    "story": "Notre histoire",
+    "faq": "FAQ",
+    "cta": "Crée ma journée"
+  },
+  "promo": {
+    "text": "Places très limitées ce mois-ci : écrivez-nous maintenant pour ne pas manquer votre créneau.",
+    "cta": "Discuter sur WhatsApp"
+  },
+  "hero": {
+    "eyebrow": "L'Agence numéro 1 pour la création d'une journée sur mesure",
+    "title": {
+      "lead": "Offrez-lui une journée ",
+      "em": "qui lui ressemble",
+      "tail": ",",
+      "line2": "pas une ",
+      "highlight": "formule toute prête"
+    },
+    "lede": "Parlez-nous de la personne, nous imaginons sa journée idéale, vous validez chaque détail, et vivez le moment.",
+    "ctaSecondary": "Voir comment ça marche"
+  },
+  "trust": {
+    "starsLabel": "4,8 sur 100+ avis",
+    "daysLabel": "Journées organisées",
+    "bespokeLabel": "Sur-mesure, jamais de formule"
+  },
+  "concept": {
+    "lead": "Anniversaire, mariage, départ d'entreprise, ou juste une envie sans raison particulière : ",
+    "highlight": "peu importe l'occasion",
+    "tail": ". Le concept reste toujours le même : une seule journée, pensée de A à Z, avec exactement ce que vous voulez dedans, et le scénario que vous imaginez."
+  },
+  "occasions": {
+    "eyebrow": "Pour quelle occasion",
+    "h2": "Une journée pour chaque histoire",
+    "lede": "Quelques exemples parmi une infinité d'autres.",
+    "moreLabel": "Et pour toutes les autres occasions",
+    "chips": [
+      "Mariage",
+      "Anniversaire de mariage",
+      "Naissance / baby shower",
+      "Départ à la retraite",
+      "Remise de diplôme",
+      "Saint-Valentin",
+      "Fête des pères",
+      "Baptême",
+      "Entreprise",
+      "Retrouvailles entre amis",
+      "Félicitations",
+      "Remerciement"
+    ],
+    "cards": {
+      "anniversaire": "Anniversaire",
+      "demande-en-mariage": "Demande en mariage",
+      "fete-des-meres": "Fête des mères",
+      "evg-evjf": "EVG / EVJF",
+      "pot-de-depart": "Pot de départ"
+    }
+  },
+  "reviews": {
+    "eyebrow": "Ce qu'ils en disent",
+    "h2": "100+ avis, une seule note : 4,8 ★",
+    "lede": "Plus de 150 journées organisées, des avis vérifiés venus de plus de 12 pays, sans tri ni mise en scène.",
+    "translatedNote": "Traduit en français",
+    "badge": {
+      "strong": "Avis vérifiés",
+      "rest": " · 4,8 ★★★★★ · Avec des clients dans plus de 12 pays"
+    },
+    "items": {
+      "1": "Une organisation irréprochable, des surprises au top, des souvenirs plein la tête. Merci encore !",
+      "2": "Tout était incroyable, merci beaucoup d'avoir fait de cette journée quelque chose de si spécial. On s'en souviendra toujours !",
+      "3": "J'ai réservé cette expérience pour ma copine, elle a été très émue ! Tout s'est déroulé sans accroc, plein de créativité, des détails parfaits, ça en vaut vraiment la peine !",
+      "4": "Je pensais gagner un peu de temps. En réalité j'en ai gagné énormément, les copains ont kiffé !",
+      "5": "Une expérience vraiment formidable ! De la matinée jusqu'au soir, ce n'était que surprises, chaque détail était pensé avec soin. Je le recommande vivement à tous !",
+      "6": "J'étais sans voix. Tout était tellement bien pensé et adapté à nous. Quelle belle expérience !",
+      "7": "Merci.",
+      "8": "La meilleure journée que nous ayons vécue depuis longtemps. Tellement de petites attentions qui l'ont rendue spéciale. Je recommande vivement !",
+      "9": "Je n'avais jamais vécu une aussi belle journée ! L'équipe a été tellement attentionnée, chaque étape était parfaite, merci infiniment !",
+      "10": "Une solution clé en main pour les 60 ans de mon mari, sans avoir à gérer la logistique. Le résultat était élégant, fluide, très apprécié de nos invités.",
+      "11": "C'était bien au-delà de ce à quoi je m'attendais. Ils ont organisé la journée parfaite pour l'anniversaire de ma copine. Tout était tellement personnel et bien organisé !",
+      "12": "Ce fut une journée magnifique ! Chaque instant était spécial, avec beaucoup de surprises. J'aimerais y refaire appel !",
+      "13": "Incroyable expérience !!",
+      "14": "J'ai adoré que tout soit une surprise, tout en ayant vraiment du sens. C'était tellement personnel et authentique. Merci Luca et Léo !",
+      "15": "Une expérience inoubliable du début à la fin. Vraiment une journée unique en son genre. Merci beaucoup !",
+      "16": "Merci beaucoup à tous !",
+      "17": "Je ne savais pas trop à quoi m'attendre, mais c'était incroyable. Chaque moment était parfait, les détails, les surprises... Je recommencerais sans hésiter !",
+      "18": "Expérience tout simplement magique ! Luca et Léo ont pensé à chaque détail, on n'a eu qu'à profiter. Merci pour ces souvenirs inoubliables.",
+      "19": "Avis 5 étoiles vérifié.",
+      "20": "Une expérience inoubliable ! J'ai tout laissé entre leurs mains et ça a été la meilleure décision. Félicitations pour l'organisation et la créativité.",
+      "21": "Une expérience très originale et différente. Ils nous ont surpris à chaque instant, et les détails étaient spectaculaires. Merci pour tout !",
+      "22": "Je ne savais pas quoi offrir pour notre anniversaire de couple. Meilleur choix possible. On a vécu une journée de film !",
+      "23": "J'ai réservé ça pour ma meilleure amie et elle a été bluffée. C'est un concept magnifique, et tellement bien exécuté.",
+      "24": "Tout était parfait du début à la fin. Chaque lieu, chaque détail, chaque surprise... Vous avez créé des souvenirs que nous garderons pour toujours !",
+      "25": "J'ai découvert Yurday via Instagram. Je me suis dit \"allez je demande un devis\". Deux jours après le projet était lancé. Simple. Rapide. Efficace.",
+      "26": "Ils se sont occupés de tout et nous ont fait sentir si spéciaux. De la nourriture aux activités, tout était parfaitement organisé.",
+      "27": "Du premier message au tout dernier moment, tout était parfait. Une super idée, très bien réalisée. Merci à vous deux !",
+      "28": "RAS. Je recommande.",
+      "29": "Ce fut une expérience unique, ils ont pris soin de chaque détail et nous ont fait sentir très spéciaux. 100% recommandé.",
+      "30": "Léo nous a accompagnés discrètement toute la journée, c'était parfait. On s'est sentis libres et en confiance. Merci pour tout !",
+      "31": "Mission réussie. Merci aux équipes.",
+      "32": "J'étais assez exigeant, je pensais qu'on allait essayer de me faire rentrer dans une formule déjà prête. Ils ont adapté chaque détail à notre projet.",
+      "33": "Merci à toute l'équipe ❤️",
+      "34": "Je pensais que ça allait coûter beaucoup plus cher. Vu tout ce qu'il y a derrière, je trouve le rapport qualité/prix très honnête.",
+      "35": "J'avais donné un budget et quelques infos, et ils ont créé une journée de rêve. Un concept unique et vraiment bien réalisé.",
+      "36": "Le meilleur souvenir qu'on pouvait offrir à nos parents. Merci.",
+      "37": "Au final c'était carrément un moment qu'on oubliera jamais, merci.",
+      "38": "On sent que le but c'est vraiment de créer quelque chose qui nous ressemble, et Yurday a complètement coché les cases.",
+      "39": "J'avais peur que ce soit compliqué à organiser à distance. On a fait un appel, je leur ai expliqué mes conditions, et j'ai quasiment plus rien eu à gérer."
+    }
+  },
+  "process": {
+    "eyebrow": "Le processus",
+    "h2": "Comment ça marche",
+    "lede": "Quatre étapes, du premier message à la journée elle-même.",
+    "steps": [
+      {
+        "title": "Racontez-nous la personne",
+        "body": "Ses passions, ce qu'elle déteste, des souvenirs marquants : tout ce qui nous aide à construire un vrai sur-mesure."
+      },
+      {
+        "title": "On construit la journée",
+        "body": "Heure par heure, on assemble les bons prestataires, avec des options de prix claires, jamais de surprise."
+      },
+      {
+        "title": "Vous validez",
+        "body": "On ajuste en direct avec vous jusqu'à ce que ce soit exactement ça, ni plus, ni moins."
+      },
+      {
+        "title": "On s'occupe de tout",
+        "body": "Réservations, coordination le jour J : vous n'avez plus qu'à profiter du moment avec elle ou lui."
+      }
+    ]
+  },
+  "story": {
+    "eyebrow": "Pourquoi Yurday existe",
+    "h2": "Notre histoire",
+    "paragraphs": [
+      [
+        "Tout a commencé un soir, à 23h47.",
+        "On était entre amis autour d'une table. On savait exactement à qui on voulait faire plaisir, on avait un budget, des idées plein la tête… mais pas la moindre idée de comment transformer tout ça en une vraie journée."
+      ],
+      [
+        "Alors on a cherché quelqu'un pour le faire à notre place."
+      ],
+      [
+        "On a contacté des agences, regardé des coffrets, des activités, des expériences… Mais à chaque fois, c'était la même chose : on nous proposait des formules déjà pensées, dans lesquelles il fallait choisir."
+      ],
+      [
+        "Nous, on ne voulait pas choisir une activité.",
+        "On voulait partir de cette personne et construire sa journée autour d'elle."
+      ],
+      [
+        "Alors on a fini par tout organiser nous-mêmes. On a imaginé le parcours, réservé les différents lieux, préparé les surprises et même réuni ses proches pour qu'ils participent à la mise en scène. Certains devaient jouer le jeu, apparaître au bon moment ou jouer un rôle sans qu'il ne se doute de rien."
+      ],
+      [
+        "Et le jour J, tout a pris vie.",
+        "On a vu sa surprise, ses rires, son émotion… et on a compris qu'on venait de créer quelque chose de différent."
+      ],
+      [
+        "Pas simplement une activité. Une histoire entière à vivre."
+      ],
+      [
+        "C'est là qu'on s'est dit : et si on faisait ça pour les autres ?",
+        "C'est comme ça qu'est né Yurday."
+      ],
+      [
+        "Aujourd'hui, notre idée reste la même : vous nous donnez la personne, l'occasion et votre budget. Nous imaginons tout le reste.",
+        "Parce que certains souvenirs méritent d'être créés de toutes pièces."
+      ]
+    ],
+    "transition": "Les deux visages derrière chaque journée",
+    "bios": {
+      "leo": "S'occupe de comprendre exactement ce que vous avez en tête, avant même de parler prestataires.",
+      "luca": "Construit la journée et négocie chaque détail pour que tout tienne, du budget au jour J."
+    }
+  },
+  "faq": {
+    "eyebrow": "Questions fréquentes",
+    "h2": "Avant de vous lancer",
+    "items": [
+      {
+        "question": "Combien ça coûte ?",
+        "answer": "Chaque journée est différente, donc chaque budget l'est aussi. On construit toujours la journée en fonction de ce que vous nous donnez comme budget de départ, jamais l'inverse."
+      },
+      {
+        "question": "Combien de temps à l'avance faut-il vous contacter ?",
+        "answer": "Le plus tôt possible pour un maximum d'options, mais on a déjà monté des projets en quelques jours. Racontez-nous votre délai, on vous dira honnêtement ce qui est possible."
+      },
+      {
+        "question": "Vous intervenez où ?",
+        "answer": "Nous intervenons actuellement à Paris et ses alentours (Île-de-France). Dites-nous où vous êtes, on vous confirmera rapidement si c'est possible."
+      },
+      {
+        "question": "Et si on est un groupe (EVG, EVJF) ?",
+        "answer": "Aucun souci : on distingue toujours la personne qu'on célèbre du groupe qui vit la journée, pour que la logistique (repas, transport, activités) soit calculée juste, par tête ou au forfait selon ce qui a du sens."
+      },
+      {
+        "question": "C'est vraiment sur-mesure, ou une formule déguisée ?",
+        "answer": "Vraiment sur-mesure. On ne travaille pas avec des formules figées : si vous voulez 8 activités dans la journée, on construit 8 activités."
+      }
+    ],
+    "closing": "D'autres questions ? Le plus simple, c'est de nous raconter votre projet, on vous répond avec des réponses vraiment sur mesure."
+  },
+  "contact": {
+    "eyebrow": "Dernière étape",
+    "h2": "Racontez-nous votre projet",
+    "lede": "Deux minutes suffisent. On revient vers vous rapidement avec les premières idées.",
+    "note": {
+      "before": "💬 Vous préférez discuter directement ? Le bouton WhatsApp en bas à droite nous contacte immédiatement, ou écrivez-nous à",
+      "after": "."
+    },
+    "form": {
+      "name": "Votre nom",
+      "phone": "Téléphone",
+      "email": "Email",
+      "forWho": "Pour qui est cette journée ?",
+      "forWhoPlaceholder": "Ex. mon compagnon, ma sœur, toute l'équipe…",
+      "occasion": "Type d'occasion",
+      "occasionOptions": [
+        "Anniversaire",
+        "Demande en mariage",
+        "EVG",
+        "EVJF",
+        "Entreprise",
+        "Réconciliation",
+        "Pour le plaisir",
+        "Autre"
+      ],
+      "budget": "Budget approximatif",
+      "budgetOptions": [
+        "Moins de 1500€",
+        "1500€ – 2500€",
+        "2500€ – 5000€",
+        "Plus de 5000€",
+        "Je ne sais pas encore"
+      ],
+      "message": "Un mot sur votre idée (optionnel)",
+      "submit": "Envoyer mon projet",
+      "choiceQuestion": "Comment préférez-vous nous l'envoyer ?",
+      "choiceWhatsapp": "💬 Par WhatsApp",
+      "choiceEmail": "📧 Par email",
+      "choiceError": "Merci d'indiquer une adresse email valide dans le champ « Email » ci-dessus.",
+      "success": "Merci ! Votre demande par email a bien été envoyée, on revient vers vous très vite.",
+      "successWhatsapp": "Merci ! Votre message WhatsApp est prêt à être envoyé."
+    }
+  },
+  "footer": {
+    "tagline": "La journée parfaite, pensée pour la personne que vous aimez.",
+    "rights": "Tous droits réservés."
+  },
+  "legal": {
+    "mentions": "Mentions légales",
+    "terms": "CGV",
+    "privacy": "Politique de confidentialité"
+  },
+  "popup": {
+    "eyebrow": "Envie de vous lancer ?",
+    "title": "On vous garde une place ?",
+    "body": "On limite le nombre de projets acceptés chaque mois pour rester 100% sur-mesure. Racontez-nous votre idée maintenant, on vous répond vite.",
+    "dismiss": "Non merci, je continue de regarder"
+  },
+  "occasionPages": {
+    "anniversaire": {
+      "eyebrow": "ANNIVERSAIRE SUR MESURE",
+      "title": {
+        "lead": "Offrez-lui un anniversaire",
+        "em": "qui lui ressemble",
+        "tail": "vraiment"
+      },
+      "intro": "Racontez-nous le projet d'anniversaire que vous avez en tête pour votre proche, on s'occupe d'imaginer sa journée idéale, de la première surprise jusqu'au dernier moment.",
+      "story": "Yurday est né d'un anniversaire, justement : une envie de faire les choses bien pour quelqu'un qu'on aime, sans se contenter d'un cadeau ouvert en dix secondes. Depuis, on applique la même méthode à chaque anniversaire qu'on nous confie : on part de la personne, jamais d'un catalogue.",
+      "cta": {
+        "title": "Prêt à lui écrire son histoire ?",
+        "text": "Racontez-nous qui vous voulez gâter, on revient vers vous avec les premières idées sous 48h."
+      }
+    },
+    "demande-en-mariage": {
+      "eyebrow": "DEMANDE EN MARIAGE",
+      "title": {
+        "lead": "Le",
+        "em": "oui parfait",
+        "tail": "commence par une journée parfaite"
+      },
+      "intro": "Racontez-nous comment vous imaginez votre demande en mariage, on s'occupe de créer le décor, le timing et la surprise, sans qu'elle ou il ne se doute de rien.",
+      "story": "Une demande en mariage ne se refait pas deux fois. C'est pour ça qu'on prend le temps de tout construire avec vous, du premier message jusqu'au jour J : le lieu, l'horaire, la mise en scène, et tous les petits détails qui feront que ce moment sera exactement celui que vous aviez imaginé.",
+      "cta": {
+        "title": "Prêt à créer ce moment ?",
+        "text": "Racontez-nous votre histoire et comment vous l'imaginez, on revient vers vous avec les premières idées sous 48h."
+      }
+    },
+    "fete-des-meres": {
+      "eyebrow": "FÊTE DES MÈRES",
+      "title": {
+        "lead": "Un merci qu'elle",
+        "em": "n'oubliera jamais",
+        "tail": ""
+      },
+      "intro": "Racontez-nous ce que vous voulez offrir à votre maman pour la fête des mères, on s'occupe d'imaginer sa journée idéale, avec tout ce qu'elle aime.",
+      "story": "On sait à quel point il peut être difficile de trouver l'idée juste pour dire merci à sa maman, autrement qu'avec des fleurs prises la veille au supermarché. Racontez-nous qui elle est, ce qu'elle aime, et on construit autour d'elle une journée qui lui ressemble vraiment.",
+      "cta": {
+        "title": "Prêt à lui dire merci autrement ?",
+        "text": "Racontez-nous qui est votre maman, on revient vers vous avec les premières idées sous 48h."
+      }
+    },
+    "evg-evjf": {
+      "eyebrow": "EVG / EVJF",
+      "title": {
+        "lead": "La dernière folie",
+        "em": "avant le grand jour",
+        "tail": ""
+      },
+      "intro": "Racontez-nous le projet d'EVG ou d'EVJF que vous avez en tête, on s'occupe d'organiser une journée inoubliable pour toute la bande, logistique comprise.",
+      "story": "Un EVG ou un EVJF réussi, c'est un groupe qui profite du début à la fin, sans que personne n'ait à gérer les réservations ou le planning. On s'occupe de toute la coordination avec la bande, pour que la seule chose que vous ayez à faire, ce soit de vous amuser.",
+      "cta": {
+        "title": "Prêt à organiser LA journée ?",
+        "text": "Racontez-nous qui vous voulez célébrer et avec qui, on revient vers vous avec les premières idées sous 48h."
+      }
+    },
+    "pot-de-depart": {
+      "eyebrow": "POT DE DÉPART",
+      "title": {
+        "lead": "Un au revoir qui",
+        "em": "restera dans les mémoires",
+        "tail": ""
+      },
+      "intro": "Racontez-nous qui part et pourquoi, on s'occupe d'imaginer un pot de départ qui lui ressemble, entre émotion et bonne humeur.",
+      "story": "Un départ marque toujours un peu la fin d'une histoire commune. On aide les équipes à transformer ce moment en un vrai souvenir, à l'image de la personne qui s'en va, plutôt qu'en un pot classique organisé à la dernière minute.",
+      "cta": {
+        "title": "Prêt à marquer le coup ?",
+        "text": "Racontez-nous qui part et pourquoi, on revient vers vous avec les premières idées sous 48h."
+      }
+    }
+  },
+  "shared": {
+    "ctaWhatsapp": "Discuter sur WhatsApp",
+    "ctaEmail": "Raconter mon projet par écrit"
+  }
+}

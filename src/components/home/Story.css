@@ -1,0 +1,81 @@
+/* ---------- Founders ---------- */
+.founders-transition {
+  text-align: center;
+  margin: 64px 0 32px;
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--coral-3);
+}
+.founders-wrap {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+.founder {
+  text-align: center;
+  max-width: 260px;
+}
+.founder img {
+  width: 108px; height: 108px;
+  border-radius: 999px;
+  object-fit: cover;
+  margin: 0 auto 18px;
+  border: 3px solid #fff;
+  box-shadow: 0 10px 24px rgba(43,33,25,0.12);
+  animation: founder-float 5s ease-in-out infinite;
+}
+.founder:nth-child(2) img { animation-delay: -2.5s; }
+@keyframes founder-float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-7px); }
+}
+.founder h3 { font-size: 19px; margin-bottom: 6px; }
+.founder p { color: var(--ink-soft); font-size: 14.5px; }
+.contact-note a { color: var(--coral-3); font-weight: 600; text-decoration: underline; }
+.founder-email {
+  display: inline-block;
+  margin-top: 8px;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--coral-3);
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.2s;
+}
+.founder-email:hover { border-color: var(--coral-3); }
+.histoire-wrap {
+  display: grid;
+  grid-template-columns: 340px 1fr;
+  gap: 48px;
+  align-items: start;
+  max-width: 980px;
+  margin: 0 auto;
+}
+.histoire-photo {
+  position: sticky;
+  top: 100px;
+}
+.histoire-photo img {
+  width: 100%;
+  border-radius: 20px;
+  box-shadow: 0 20px 46px rgba(43,33,25,0.16);
+  display: block;
+}
+.founders-story {
+  padding-left: 22px;
+  border-left: 3px solid var(--coral-2);
+  font-family: var(--font-fraunces), Georgia, serif;
+  font-style: italic;
+  font-size: 17.5px;
+  line-height: 1.55;
+  color: var(--ink);
+}
+.founders-story p { margin: 0 0 18px; }
+.founders-story p:last-child { margin-bottom: 0; }
+@media (max-width: 860px) {
+  .histoire-wrap { grid-template-columns: 1fr; gap: 32px; }
+  .histoire-photo { position: static; }
+  .histoire-photo img { max-width: 340px; margin: 0 auto; }
+}

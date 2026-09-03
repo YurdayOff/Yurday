@@ -1,0 +1,83 @@
+/* ---------- Process (mise en page horizontale, vol en vague gauche → droite) ---------- */
+.process-timeline {
+  position: relative;
+  padding-top: 150px;
+}
+.process-flight {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 150px;
+  z-index: 1;
+  pointer-events: none;
+  overflow: visible;
+}
+#flight-plane {
+  filter: drop-shadow(0 3px 6px rgba(194,96,61,0.35));
+  transition: opacity 0.4s ease;
+}
+.process-marker {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 46px;
+  height: 46px;
+  border-radius: 999px;
+  background: linear-gradient(135deg, var(--coral-1), var(--coral-3));
+  color: #fff;
+  font-family: var(--font-fraunces), Georgia, serif;
+  font-size: 17px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 8px 18px rgba(194,96,61,0.3);
+  z-index: 3;
+}
+.process-columns {
+  display: flex;
+  align-items: flex-start;
+  gap: 32px;
+}
+.process-col { flex: 1; min-width: 0; }
+.process-mobile-num { display: none; }
+.process-col h3 { font-size: 18px; margin: 0 0 8px; }
+.process-col p { color: var(--ink-soft); font-size: 14.5px; margin: 0; }
+
+@media (max-width: 860px) {
+  .process-timeline { padding-top: 0; }
+  .process-flight, .process-marker { display: none; }
+  .process-columns { flex-direction: column; gap: 0; max-width: 600px; margin: 0 auto; }
+  .process-col {
+    display: grid;
+    grid-template-columns: 40px 1fr;
+    column-gap: 18px;
+    row-gap: 4px;
+    padding: 26px 0;
+    border-bottom: 1px solid var(--line);
+    text-align: left;
+  }
+  .process-col:first-child { padding-top: 0; }
+  .process-col:last-child { border-bottom: none; }
+  .process-col h3 { grid-column: 2; grid-row: 1; }
+  .process-col p { grid-column: 2; grid-row: 2; }
+  .process-mobile-num {
+    grid-column: 1;
+    grid-row: 1 / 3;
+    align-self: start;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 999px;
+    background: linear-gradient(135deg, var(--coral-1), var(--coral-3));
+    color: #fff;
+    font-family: var(--font-fraunces), Georgia, serif;
+    font-size: 15px;
+    font-weight: 600;
+    flex-shrink: 0;
+  }
+}

@@ -1,0 +1,377 @@
+{
+  "seo": {
+    "home": {
+      "title": "Yurday: bespoke days, made for the person who matters",
+      "description": "Yurday designs fully bespoke days: birthdays, marriage proposals, bachelor and bachelorette parties. Tell us about the person, we take care of the rest."
+    },
+    "occasions": {
+      "anniversaire": {
+        "title": "Bespoke birthday: give them a day that feels like them",
+        "description": "Yurday designs fully bespoke birthdays, activity by activity, to surprise the person who really matters."
+      },
+      "demande-en-mariage": {
+        "title": "Bespoke marriage proposal: create the perfect moment",
+        "description": "Yurday orchestrates unforgettable marriage proposals: setting, timing, surprise, and a jeweller if needed."
+      },
+      "fete-des-meres": {
+        "title": "Bespoke Mother's Day: a thank you out of the ordinary",
+        "description": "For Mother's Day, Yurday designs a whole day built around your mum."
+      },
+      "evg-evjf": {
+        "title": "Bespoke bachelor & bachelorette parties: a day the whole group remembers",
+        "description": "Yurday organises bespoke bachelor and bachelorette parties, logistics included."
+      },
+      "pot-de-depart": {
+        "title": "Bespoke farewell party: mark the moment before goodbye",
+        "description": "For a departure that counts, Yurday designs a bespoke farewell party."
+      }
+    }
+  },
+  "a11y": {
+    "skipToContent": "Skip to main content",
+    "languageSwitcher": "Choose language",
+    "mainNav": "Main navigation",
+    "close": "Close",
+    "whatsappFloat": "Contact Yurday on WhatsApp"
+  },
+  "nav": {
+    "home": "Home",
+    "occasions": "Occasions",
+    "reviews": "Reviews",
+    "process": "How it works",
+    "story": "Our story",
+    "faq": "FAQ",
+    "cta": "Create my day"
+  },
+  "promo": {
+    "text": "Very limited spots this month: message us now so you don't miss your slot.",
+    "cta": "Chat on WhatsApp"
+  },
+  "hero": {
+    "eyebrow": "The number 1 agency for creating a bespoke day",
+    "title": {
+      "lead": "Give them a day ",
+      "em": "that feels like them",
+      "tail": ",",
+      "line2": "not a ",
+      "highlight": "one-size-fits-all package"
+    },
+    "lede": "Tell us about the person, we imagine their perfect day, you approve every detail, and live the moment.",
+    "ctaSecondary": "See how it works"
+  },
+  "trust": {
+    "starsLabel": "4.8 from 100+ reviews",
+    "daysLabel": "Days organized",
+    "bespokeLabel": "Bespoke, never a package"
+  },
+  "concept": {
+    "lead": "Birthday, wedding, farewell party, or just because: ",
+    "highlight": "the occasion doesn't matter",
+    "tail": ". The concept always stays the same: a single day, designed from A to Z, with exactly what you want in it, and the scenario you imagine."
+  },
+  "occasions": {
+    "eyebrow": "For which occasion",
+    "h2": "A day for every story",
+    "lede": "A few examples among countless others.",
+    "moreLabel": "And for every other occasion",
+    "chips": [
+      "Wedding",
+      "Wedding anniversary",
+      "Birth / baby shower",
+      "Retirement",
+      "Graduation",
+      "Valentine's Day",
+      "Father's Day",
+      "Christening",
+      "Company",
+      "Reunion with friends",
+      "Congratulations",
+      "Thank you"
+    ],
+    "cards": {
+      "anniversaire": "Birthday",
+      "demande-en-mariage": "Marriage proposal",
+      "fete-des-meres": "Mother's Day",
+      "evg-evjf": "Bachelor / bachelorette party",
+      "pot-de-depart": "Farewell party"
+    }
+  },
+  "reviews": {
+    "eyebrow": "What they say",
+    "h2": "100+ reviews, one single rating: 4.8 ★",
+    "lede": "Over 150 days organized, verified reviews from more than 12 countries, no cherry-picking, no staging.",
+    "translatedNote": "Translated to English",
+    "badge": {
+      "strong": "Verified reviews",
+      "rest": " · 4.8 ★★★★★ · With clients in over 12 countries"
+    },
+    "items": {
+      "1": "An impeccable organization, amazing surprises, memories that'll stay with us forever. Thanks again!",
+      "2": "Everything was incredible, thank you so much for making this day something so special. We'll always remember it!",
+      "3": "I booked this experience for my girlfriend, she was so moved! Everything went off without a hitch, full of creativity, perfect details, it's truly worth it!",
+      "4": "I thought I'd save a bit of time. In reality I saved a huge amount, my friends loved it!",
+      "5": "A truly wonderful experience! From morning to evening it was nothing but surprises, every detail was carefully thought out. I highly recommend it to everyone!",
+      "6": "I was speechless. Everything was so well thought out and tailored to us. What a beautiful experience!",
+      "7": "Thank you.",
+      "8": "The best day we've had in a long time. So many little touches that made it special. Highly recommend!",
+      "9": "I had never experienced such a beautiful day! The team was so thoughtful, every step was perfect, thank you so much!",
+      "10": "A turnkey solution for my husband's 60th birthday, without having to manage the logistics. The result was elegant, smooth, and very well received by our guests.",
+      "11": "It was well beyond what I expected. They organized the perfect day for my girlfriend's birthday. Everything was so personal and well organized!",
+      "12": "It was a magnificent day! Every moment was special, with lots of surprises. I'd love to do it again!",
+      "13": "Incredible experience!!",
+      "14": "I loved that everything was a surprise, while still making complete sense. It was so personal and authentic. Thank you Luca and Léo!",
+      "15": "An unforgettable experience from start to finish. Truly a one-of-a-kind day. Thank you so much!",
+      "16": "Thank you so much everyone!",
+      "17": "I wasn't quite sure what to expect, but it was incredible. Every moment was perfect, the details, the surprises... I'd do it again without hesitation!",
+      "18": "A simply magical experience! Luca and Léo thought of everything, we just had to enjoy it. Thank you for these unforgettable memories.",
+      "19": "Verified 5-star review.",
+      "20": "An unforgettable experience! I left everything in their hands and it was the best decision. Congratulations on the organization and creativity.",
+      "21": "A very original and different experience. They surprised us at every turn, and the details were spectacular. Thank you for everything!",
+      "22": "I didn't know what to get for our couple's anniversary. Best choice possible. We lived a movie-worthy day!",
+      "23": "I booked this for my best friend and she was blown away. It's a beautiful concept, and so well executed.",
+      "24": "Everything was perfect from start to finish. Every place, every detail, every surprise... You created memories we'll keep forever!",
+      "25": "I found Yurday on Instagram. I thought \"why not ask for a quote\". Two days later the project was underway. Simple. Fast. Efficient.",
+      "26": "They took care of everything and made us feel so special. From the food to the activities, everything was perfectly organized.",
+      "27": "From the very first message to the very last moment, everything was perfect. A great idea, beautifully executed. Thank you both!",
+      "28": "Nothing to complain about. I recommend.",
+      "29": "It was a unique experience, they took care of every detail and made us feel very special. 100% recommended.",
+      "30": "Léo discreetly accompanied us all day, it was perfect. We felt free and confident. Thank you for everything!",
+      "31": "Mission accomplished. Thanks to the teams.",
+      "32": "I was quite demanding, I thought they'd try to fit me into a ready-made package. They tailored every detail to our project.",
+      "33": "Thank you to the whole team ❤️",
+      "34": "I thought it would cost a lot more. Given everything that goes into it, I find the value for money very fair.",
+      "35": "I gave them a budget and a few details, and they created a dream day. A unique concept, really well executed.",
+      "36": "The best memory we could give our parents. Thank you.",
+      "37": "In the end it was truly a moment we'll never forget, thank you.",
+      "38": "You can really feel the goal is to create something that reflects who we are, and Yurday completely delivered.",
+      "39": "I was worried it would be complicated to organize remotely. We had a call, I explained my requirements, and I barely had to manage anything after that."
+    }
+  },
+  "process": {
+    "eyebrow": "The process",
+    "h2": "How it works",
+    "lede": "Four steps, from the first message to the day itself.",
+    "steps": [
+      {
+        "title": "Tell us about the person",
+        "body": "Their passions, what they dislike, meaningful memories: everything that helps us build a truly bespoke day."
+      },
+      {
+        "title": "We build the day",
+        "body": "Hour by hour, we bring together the right providers, with clear price options, never a surprise."
+      },
+      {
+        "title": "You approve",
+        "body": "We adjust live with you until it's exactly right, no more, no less."
+      },
+      {
+        "title": "We take care of everything",
+        "body": "Bookings, coordination on the day: all you have to do is enjoy the moment with them."
+      }
+    ]
+  },
+  "story": {
+    "eyebrow": "Why Yurday exists",
+    "h2": "Our story",
+    "paragraphs": [
+      [
+        "It all started one evening, at 11:47pm.",
+        "We were among friends around a table. We knew exactly who we wanted to treat, we had a budget, ideas galore… but not the faintest idea how to turn all that into an actual day."
+      ],
+      [
+        "So we looked for someone to do it for us."
+      ],
+      [
+        "We contacted agencies, looked at gift boxes, activities, experiences… But every time, it was the same thing: we were offered ready-made packages where you had to pick from a list."
+      ],
+      [
+        "We didn't want to pick an activity.",
+        "We wanted to start from this person and build their day around them."
+      ],
+      [
+        "So we ended up organizing everything ourselves. We designed the whole route, booked the different venues, prepared the surprises, and even brought their loved ones into the plan. Some had to play along, show up at just the right moment, or play a part without them suspecting a thing."
+      ],
+      [
+        "And on the day itself, it all came to life.",
+        "We saw the surprise, the laughter, the emotion… and we realized we'd just created something different."
+      ],
+      [
+        "Not just an activity. An entire story to live through."
+      ],
+      [
+        "That's when we thought: what if we did this for other people too?",
+        "That's how Yurday was born."
+      ],
+      [
+        "Today, our idea stays the same: you give us the person, the occasion, and your budget. We imagine everything else.",
+        "Because some memories deserve to be created entirely from scratch."
+      ]
+    ],
+    "transition": "The two faces behind every day",
+    "bios": {
+      "leo": "Makes sure to understand exactly what you have in mind, before even talking about providers.",
+      "luca": "Builds the day and negotiates every detail so it all comes together, from budget to the big day."
+    }
+  },
+  "faq": {
+    "eyebrow": "Frequently asked questions",
+    "h2": "Before you get started",
+    "items": [
+      {
+        "question": "How much does it cost?",
+        "answer": "Every day is different, so every budget is too. We always build the day around the starting budget you give us, never the other way around."
+      },
+      {
+        "question": "How far in advance should I contact you?",
+        "answer": "As early as possible for maximum options, but we've put together projects in just a few days. Tell us your timeline and we'll tell you honestly what's possible."
+      },
+      {
+        "question": "Where do you operate?",
+        "answer": "We currently operate in Paris and its surrounding area (Île-de-France). Tell us where you are and we'll quickly confirm if it's possible."
+      },
+      {
+        "question": "What if we're a group (bachelor/bachelorette party)?",
+        "answer": "No problem: we always separate the person being celebrated from the group living the day, so the logistics (meals, transport, activities) are costed accurately, either per head or as a flat rate, whichever makes sense."
+      },
+      {
+        "question": "Is it really bespoke, or a disguised package?",
+        "answer": "Truly bespoke. We don't work with fixed packages: if you want 8 activities in the day, we build 8 activities."
+      }
+    ],
+    "closing": "Got more questions? The easiest way is to tell us about your project, we'll answer with a response tailored just for you."
+  },
+  "contact": {
+    "eyebrow": "Last step",
+    "h2": "Tell us about your project",
+    "lede": "Two minutes is all it takes. We'll get back to you quickly with some first ideas.",
+    "note": {
+      "before": "💬 Prefer to talk directly? The WhatsApp button in the bottom right reaches us instantly, or email us at",
+      "after": "."
+    },
+    "form": {
+      "name": "Your name",
+      "phone": "Phone number",
+      "email": "Email",
+      "forWho": "Who is this day for?",
+      "forWhoPlaceholder": "E.g. my partner, my sister, the whole team…",
+      "occasion": "Type of occasion",
+      "occasionOptions": [
+        "Birthday",
+        "Marriage proposal",
+        "Bachelor party",
+        "Bachelorette party",
+        "Company",
+        "Reconciliation",
+        "Just because",
+        "Other"
+      ],
+      "budget": "Approximate budget",
+      "budgetOptions": [
+        "Under €1,500",
+        "€1,500 – €2,500",
+        "€2,500 – €5,000",
+        "Over €5,000",
+        "Not sure yet"
+      ],
+      "message": "A word about your idea (optional)",
+      "submit": "Send my project",
+      "choiceQuestion": "How would you prefer to send it?",
+      "choiceWhatsapp": "💬 On WhatsApp",
+      "choiceEmail": "📧 By email",
+      "choiceError": "Please enter a valid email address in the \"Email\" field above.",
+      "success": "Thank you! Your request has been sent by email, we'll get back to you very soon.",
+      "successWhatsapp": "Thank you! Your WhatsApp message is ready to send."
+    }
+  },
+  "footer": {
+    "tagline": "The perfect day, designed for the person you love.",
+    "rights": "All rights reserved."
+  },
+  "legal": {
+    "mentions": "Legal notice",
+    "terms": "Terms of sale",
+    "privacy": "Privacy policy"
+  },
+  "popup": {
+    "eyebrow": "Ready to get started?",
+    "title": "Should we save you a spot?",
+    "body": "We limit the number of projects we accept each month to stay 100% bespoke. Tell us your idea now and we'll get back to you quickly.",
+    "dismiss": "No thanks, I'll keep browsing"
+  },
+  "occasionPages": {
+    "anniversaire": {
+      "eyebrow": "BESPOKE BIRTHDAY",
+      "title": {
+        "lead": "Give them a birthday",
+        "em": "that truly feels like them",
+        "tail": ""
+      },
+      "intro": "Tell us about the birthday you have in mind for your loved one, and we'll imagine their perfect day, from the first surprise to the very last moment.",
+      "story": "Yurday was actually born from a birthday: a wish to do things properly for someone we love, rather than settling for a gift unwrapped in ten seconds. Since then, we apply the same method to every birthday entrusted to us: we start from the person, never from a catalogue.",
+      "cta": {
+        "title": "Ready to write their story?",
+        "text": "Tell us who you want to spoil, and we'll get back to you with the first ideas within 48 hours."
+      }
+    },
+    "demande-en-mariage": {
+      "eyebrow": "MARRIAGE PROPOSAL",
+      "title": {
+        "lead": "The perfect",
+        "em": "yes",
+        "tail": "starts with a perfect day"
+      },
+      "intro": "Tell us how you picture your marriage proposal, and we'll take care of creating the setting, the timing and the surprise, without them suspecting a thing.",
+      "story": "A marriage proposal only happens once. That's why we take the time to build everything with you, from the first message to the big day: the location, the timing, the staging, and all the little details that will make this moment exactly the one you imagined.",
+      "cta": {
+        "title": "Ready to create this moment?",
+        "text": "Tell us your story and how you picture it, and we'll get back to you with the first ideas within 48 hours."
+      }
+    },
+    "fete-des-meres": {
+      "eyebrow": "MOTHER'S DAY",
+      "title": {
+        "lead": "A thank you she'll",
+        "em": "never forget",
+        "tail": ""
+      },
+      "intro": "Tell us what you'd like to give your mum for Mother's Day, and we'll imagine her perfect day, filled with everything she loves.",
+      "story": "We know how hard it can be to find the right way to thank your mum, beyond flowers grabbed at the supermarket the night before. Tell us who she is and what she loves, and we'll build a day around her that truly feels like her.",
+      "cta": {
+        "title": "Ready to thank her differently?",
+        "text": "Tell us about your mum, and we'll get back to you with the first ideas within 48 hours."
+      }
+    },
+    "evg-evjf": {
+      "eyebrow": "BACHELOR / BACHELORETTE PARTY",
+      "title": {
+        "lead": "One last adventure",
+        "em": "before the big day",
+        "tail": ""
+      },
+      "intro": "Tell us about the bachelor or bachelorette party you have in mind, and we'll take care of organising an unforgettable day for the whole crew, logistics included.",
+      "story": "A great bachelor or bachelorette party means a group that enjoys itself from start to finish, with no one having to manage bookings or scheduling. We take care of all the coordination with the crew, so the only thing you have to do is have fun.",
+      "cta": {
+        "title": "Ready to organise THE day?",
+        "text": "Tell us who you want to celebrate and with whom, and we'll get back to you with the first ideas within 48 hours."
+      }
+    },
+    "pot-de-depart": {
+      "eyebrow": "FAREWELL PARTY",
+      "title": {
+        "lead": "A goodbye that",
+        "em": "will be remembered",
+        "tail": ""
+      },
+      "intro": "Tell us who's leaving and why, and we'll take care of imagining a farewell party that truly feels like them, somewhere between emotion and good spirits.",
+      "story": "A departure always marks, in a way, the end of a shared story. We help teams turn this moment into a real memory, shaped around the person who's leaving, rather than a classic party thrown together at the last minute.",
+      "cta": {
+        "title": "Ready to mark the occasion?",
+        "text": "Tell us who's leaving and why, and we'll get back to you with the first ideas within 48 hours."
+      }
+    }
+  },
+  "shared": {
+    "ctaWhatsapp": "Chat on WhatsApp",
+    "ctaEmail": "Tell us in writing"
+  }
+}

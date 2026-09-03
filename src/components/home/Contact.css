@@ -1,0 +1,87 @@
+/* ---------- Contact ---------- */
+.contact-section {
+  background: var(--paper-deep);
+}
+.contact-wrap {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: start;
+}
+.contact-side h2 { font-size: clamp(28px, 4vw, 38px); margin-bottom: 16px; line-height: 1.15; }
+.contact-side p { color: var(--ink-soft); font-size: 15.5px; margin-bottom: 26px; }
+.contact-note {
+  padding: 16px 18px;
+  background: #fff;
+  border-radius: 14px;
+  border: 1px solid var(--line);
+  font-size: 13.5px;
+  line-height: 1.6;
+  color: var(--ink-soft);
+}
+form.contact-form {
+  background: #fff;
+  border-radius: 20px;
+  padding: 32px;
+  box-shadow: 0 20px 46px rgba(43,33,25,0.08);
+}
+#form-actions .btn, #form-choice .btn { width: 100%; justify-content: center; }
+.form-choice-question {
+  margin: 0 0 14px;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--ink);
+  text-align: center;
+}
+.form-choice-btns {
+  display: flex;
+  gap: 12px;
+}
+.form-choice-btns .btn { flex: 1; }
+.form-choice-error {
+  margin: 14px 0 0;
+  font-size: 13px;
+  color: var(--coral-3);
+  text-align: center;
+}
+.form-success-text {
+  margin: 0;
+  padding: 18px;
+  background: var(--paper-deep);
+  border-radius: 14px;
+  text-align: center;
+  font-size: 14.5px;
+  font-weight: 600;
+  color: var(--sage);
+}
+.form-row { margin-bottom: 18px; }
+.form-row label {
+  display: block;
+  font-size: 12.5px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--ink-soft);
+  margin-bottom: 7px;
+}
+.form-row input, .form-row select, .form-row textarea {
+  width: 100%;
+  padding: 12px 14px;
+  border-radius: 10px;
+  border: 1.5px solid var(--line);
+  background: var(--paper);
+  font-family: var(--font-inter), sans-serif;
+  font-size: 14.5px;
+  color: var(--ink);
+}
+.form-row input:focus, .form-row select:focus, .form-row textarea:focus {
+  outline: none;
+  border-color: var(--coral-2);
+  box-shadow: 0 0 0 3px rgba(217,118,75,0.15);
+}
+.form-row-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+form.contact-form .btn { width: 100%; justify-content: center; padding: 15px; font-size: 15.5px; margin-top: 6px; }
+@media (max-width: 860px) {
+  .contact-wrap { grid-template-columns: 1fr; }
+  .form-row-2 { grid-template-columns: 1fr; }
+}

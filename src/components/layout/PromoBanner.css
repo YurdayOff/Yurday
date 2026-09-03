@@ -1,0 +1,49 @@
+/* ---------- Bandeau WhatsApp ---------- */
+.promo-banner {
+  background: linear-gradient(100deg, var(--coral-1), var(--coral-3));
+}
+.promo-banner-inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 8px 16px;
+  padding: 12px 28px;
+  text-align: center;
+  font-size: 14px;
+}
+.promo-banner-inner > span {
+  font-weight: 700;
+  color: #fff;
+}
+.promo-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: #fff;
+  color: var(--coral-3) !important;
+  font-weight: 700;
+  padding: 7px 16px;
+  border-radius: 999px;
+  text-decoration: none;
+  white-space: nowrap;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.promo-link:hover { color: var(--coral-3); transform: translateY(-1px); box-shadow: 0 6px 16px rgba(0,0,0,0.16); }
+.promo-wa-icon {
+  color: #25D366;
+  flex-shrink: 0;
+  animation: promo-wa-pulse 1.8s ease-in-out infinite;
+}
+@keyframes promo-wa-pulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.15); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .promo-wa-icon { animation: none; }
+}
+@media (max-width: 640px) {
+  .promo-banner-inner { font-size: 12.5px; padding: 10px 18px; gap: 6px 10px; }
+  .promo-link { padding: 6px 13px; font-size: 12.5px; }
+}
