@@ -45,8 +45,6 @@ type PageMetadataInput = {
   pathFor: (locale: Locale) => string
   /** Image de partage (chemin absolu depuis la racine du site). */
   image: string
-  /** Titre complet, sans le suffixe « | Yurday » (page d'accueil). */
-  absoluteTitle?: boolean
 }
 
 /** Métadonnées communes à toutes les pages : canonique, hreflang, Open Graph, Twitter. */
@@ -56,12 +54,12 @@ export function buildPageMetadata({
   description,
   pathFor,
   image,
-  absoluteTitle = false,
 }: PageMetadataInput): Metadata {
   const url = absoluteUrl(pathFor(locale))
 
   return {
-    title: absoluteTitle ? { absolute: title } : title,
+    // Le suffixe « | Yurday » vient du gabarit défini dans le layout.
+    title,
     description,
     alternates: buildAlternates(locale, pathFor),
     openGraph: {

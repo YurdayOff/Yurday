@@ -12,6 +12,7 @@ import { JsonLd } from '@/components/ui/JsonLd'
 import { isLocale, localePath, type Locale } from '@/i18n/config'
 import { getMessages } from '@/i18n/messages'
 import { buildPageMetadata } from '@/lib/seo'
+import { site } from '@/lib/site'
 import {
   faqSchema,
   jsonLdGraph,
@@ -33,11 +34,12 @@ export async function generateMetadata({ params }: HomeProps): Promise<Metadata>
 
   return buildPageMetadata({
     locale,
-    title: messages.seo.home.title,
+    // Le gabarit « %s | Yurday » du layout ne s'applique qu'aux segments enfants :
+    // la page d'accueil compose son titre elle-même.
+    title: `${messages.seo.home.title} | ${site.name}`,
     description: messages.seo.home.description,
     pathFor: (target) => localePath(target),
     image: '/og/accueil.jpg',
-    absoluteTitle: true,
   })
 }
 
