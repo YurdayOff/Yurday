@@ -11,8 +11,8 @@ type Options = {
 
 /**
  * Indique si l'élément référencé est entré dans la fenêtre.
- * Renvoie `true` d'emblée si IntersectionObserver n'est pas disponible,
- * pour ne jamais laisser de contenu invisible.
+ * Sans JavaScript, la feuille de style de secours (cf. layout) affiche
+ * directement le contenu : rien ne reste invisible.
  */
 export function useInView<T extends HTMLElement>({ threshold = 0.12, once = true }: Options = {}) {
   const ref = useRef<T>(null)
@@ -21,10 +21,6 @@ export function useInView<T extends HTMLElement>({ threshold = 0.12, once = true
   useEffect(() => {
     const element = ref.current
     if (!element) return
-    if (typeof IntersectionObserver === 'undefined') {
-      setInView(true)
-      return
-    }
 
     const observer = new IntersectionObserver(
       (entries) => {

@@ -1,8 +1,11 @@
-import { FlatCompat } from '@eslint/eslintrc'
+import coreWebVitals from 'eslint-config-next/core-web-vitals'
+import typescript from 'eslint-config-next/typescript'
 
-const compat = new FlatCompat({ baseDirectory: import.meta.dirname })
-
-export default [
-  { ignores: ['.next/**', 'node_modules/**', 'legacy/**', 'scripts/**'] },
-  ...compat.extends('next/core-web-vitals', 'next/typescript'),
+/** @type {import('eslint').Linter.Config[]} */
+const config = [
+  { ignores: ['.next/**', 'node_modules/**', 'legacy/**', 'public/**'] },
+  ...coreWebVitals,
+  ...typescript,
 ]
+
+export default config

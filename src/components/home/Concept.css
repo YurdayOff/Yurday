@@ -9,4 +9,6 @@
   line-height: 1.45;
   color: var(--ink);
 }
-.concept-statement .marker { font-style: italic; color: var(--coral-3); }
+/* Même remarque que pour le récit des fondateurs : l'italique 500 correspond
+   au rendu d'origine, l'italique 400 est trop fin. */
+.concept-statement .marker { font-style: italic; font-weight: 500; color: var(--coral-3); }

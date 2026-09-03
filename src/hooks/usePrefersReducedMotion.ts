@@ -1,18 +1,20 @@
 'use client'
 
-import { useEffect, useState } from 'react'
+import { useSyncExternalStore } from 'react'
 
-/** Respecte le réglage système « réduire les animations ». */
+const QUERY = '(prefers-reduced-motion: reduce)'
+
+function subscribe(onChange: () => void): () => void {
+  const media = window.matchMedia(QUERY)
+  media.addEventListener('change', onChange)
+  return () => media.removeEventListener('change', onChange)
+}
+
+/** Respecte le réglage système « réduire les animations » (faux côté serveur). */
 export function usePrefersReducedMotion(): boolean {
-  const [prefers, setPrefers] = useState(false)
-
-  useEffect(() => {
-    const query = window.matchMedia('(prefers-reduced-motion: reduce)')
-    setPrefers(query.matches)
-    const onChange = (event: MediaQueryListEvent) => setPrefers(event.matches)
-    query.addEventListener('change', onChange)
-    return () => query.removeEventListener('change', onChange)
-  }, [])
-
-  return prefers
+  return useSyncExternalStore(
+    subscribe,
+    () => window.matchMedia(QUERY).matches,
+    () => false,
+  )
 }

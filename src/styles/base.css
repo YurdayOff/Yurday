@@ -4,7 +4,6 @@
 html[dir="rtl"] body { font-family: var(--font-cairo), var(--font-inter), -apple-system, sans-serif; }
 html[dir="rtl"] h1, html[dir="rtl"] h2, html[dir="rtl"] h3 { font-family: var(--font-cairo), var(--font-fraunces), serif; }
 html[dir="rtl"] .marker svg { left: auto; right: -2%; }
-html[dir="rtl"] .promo-arrow, html[dir="rtl"] .hero-cta-secondary svg { transform: scaleX(-1); }
 html[dir="rtl"] .nav { flex-direction: row-reverse; }
 html[dir="rtl"] .nav-links { flex-direction: row-reverse; }
 html[dir="rtl"] .footer-legal { direction: rtl; }
@@ -90,6 +89,32 @@ h1, h2, h3 {
 }
 @keyframes draw-marker {
   to { stroke-dashoffset: 0; }
+}
+
+/* Alternance des fonds de section. */
+.section-paper-deep { background: var(--paper-deep); }
+
+/* Lien d'évitement : visible seulement au clavier. */
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  z-index: 500;
+  padding: 12px 20px;
+  background: var(--white);
+  border: 1px solid var(--line);
+  border-radius: 0 0 12px 0;
+  font-weight: 600;
+}
+.skip-link:focus { left: 0; }
+
+/* Champ d'appât anti-robot du formulaire de contact. */
+.visually-hidden {
+  position: absolute;
+  left: -9999px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
 }
 
 /* ---------- Sections generic ---------- */

@@ -62,17 +62,6 @@
   color: #A69C8F;
   margin-top: 8px;
 }
-/* Masquer la mention "Traduit en ..." quand la langue affichée correspond
-   à la langue d'origine réelle de l'avis (pas besoin de préciser qu'on a
-   traduit un avis allemand quand on regarde le site en allemand). */
-html[lang="fr"] .translated-note[data-native="fr"] { display: none; }
-html[lang="en"] .translated-note[data-native="en"] { display: none; }
-html[lang="es"] .translated-note[data-native="es"] { display: none; }
-html[lang="pt"] .translated-note[data-native="pt"] { display: none; }
-html[lang="zh"] .translated-note[data-native="zh"] { display: none; }
-html[lang="de"] .translated-note[data-native="de"] { display: none; }
-html[lang="it"] .translated-note[data-native="it"] { display: none; }
-html[lang="ja"] .translated-note[data-native="ja"] { display: none; }
 .review-stars { color: var(--coral-2); font-size: 12px; letter-spacing: 1px; }
 .review-body { padding: 18px 24px 24px; font-size: 14.5px; color: var(--ink-soft); }
 

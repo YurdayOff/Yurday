@@ -25,7 +25,7 @@ form.contact-form {
   padding: 32px;
   box-shadow: 0 20px 46px rgba(43,33,25,0.08);
 }
-#form-actions .btn, #form-choice .btn { width: 100%; justify-content: center; }
+.form-actions .btn, .form-choice .btn { width: 100%; justify-content: center; }
 .form-choice-question {
   margin: 0 0 14px;
   font-size: 14px;
@@ -85,3 +85,4 @@ form.contact-form .btn { width: 100%; justify-content: center; padding: 15px; fo
   .contact-wrap { grid-template-columns: 1fr; }
   .form-row-2 { grid-template-columns: 1fr; }
 }
+.contact-note a { color: var(--coral-3); font-weight: 600; text-decoration: underline; }

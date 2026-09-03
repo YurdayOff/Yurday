@@ -34,7 +34,6 @@
 }
 .founder h3 { font-size: 19px; margin-bottom: 6px; }
 .founder p { color: var(--ink-soft); font-size: 14.5px; }
-.contact-note a { color: var(--coral-3); font-weight: 600; text-decoration: underline; }
 .founder-email {
   display: inline-block;
   margin-top: 8px;
@@ -59,12 +58,16 @@
 }
 .histoire-photo img {
   width: 100%;
+  height: auto;
   border-radius: 20px;
   box-shadow: 0 20px 46px rgba(43,33,25,0.16);
   display: block;
 }
 .founders-story {
   padding-left: 22px;
+  /* Fraunces italique en 500 : l'italique 400 est nettement plus fin et
+     s'écarte du rendu d'origine du site. */
+  font-weight: 500;
   border-left: 3px solid var(--coral-2);
   font-family: var(--font-fraunces), Georgia, serif;
   font-style: italic;

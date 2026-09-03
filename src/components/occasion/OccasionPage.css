@@ -1,4 +1,10 @@
 /* ---------- Pages occasion ---------- */
+.occasion-actions {
+  display: flex;
+  gap: 14px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
 section.occasion-content { padding: 64px 28px; }
 .occasion-story { max-width: 720px; margin: 0 auto; text-align: center; padding: 20px 0 0; }
 .occasion-story p {

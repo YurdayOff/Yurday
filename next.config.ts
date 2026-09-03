@@ -15,6 +15,8 @@ const legacyRedirects = [
 
 const nextConfig: NextConfig = {
   reactStrictMode: true,
+  // Racine explicite : un lock file traîne dans le dossier parent.
+  turbopack: { root: import.meta.dirname },
   poweredByHeader: false,
   images: {
     formats: ['image/webp'],

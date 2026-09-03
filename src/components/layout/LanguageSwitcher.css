@@ -51,8 +51,3 @@
 }
 .lang-option:hover { background: var(--paper-deep); }
 .lang-option.active { background: var(--paper-deep); font-weight: 700; }
-
-.nav-cta .btn { padding: 11px 22px; font-size: 13.5px; }
-@media (max-width: 1180px) {
-  .nav-links { display: none; }
-}

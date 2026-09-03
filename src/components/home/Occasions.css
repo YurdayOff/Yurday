@@ -29,7 +29,6 @@
 .cat-card:hover .cat-photo img { transform: scale(1.07); }
 .cat-text { padding: 20px 24px; }
 .cat-card h3 { font-size: 18px; font-weight: 600; margin: 0 0 8px; }
-.cat-card .cat-body { color: var(--ink-soft); font-size: 14.5px; margin: 0; }
 @media (max-width: 560px) { .cat-card { flex-basis: 100%; max-width: 420px; } }
 
 /* ---------- Étiquettes d'occasions supplémentaires ---------- */
