@@ -103,11 +103,23 @@ const FLAG_SHAPES = {
   SA: (
     <svg viewBox="0 0 3 2" aria-hidden="true" focusable="false">
       <rect width="3" height="2" fill="#006C35"/>
-      <rect x="0.15" y="0.65" width="2.7" height="0.13" fill="#fff" rx="0.02"/>
-      <rect x="0.15" y="0.9" width="2.2" height="0.13" fill="#fff" rx="0.02"/>
-      <g stroke="#fff" strokeWidth="0.09" strokeLinecap="round"><line x1="0.4" y1="1.55" x2="2.1" y2="1.55"/>
-      <line x1="2.0" y1="1.4" x2="2.25" y2="1.55"/>
-      <line x1="2.0" y1="1.7" x2="2.25" y2="1.55"/>
+      {/* Chahada stylisée : la calligraphie thuluth n'est pas reproductible à 20 px,
+          on en garde la densité et le rythme. */}
+      <g fill="none" stroke="#fff" strokeLinecap="round" strokeLinejoin="round">
+        <path d="M2.45,0.86 C2.34,0.70 2.24,0.88 2.13,0.76 C2.02,0.64 1.94,0.88 1.83,0.78 C1.72,0.68 1.63,0.88 1.52,0.78 C1.41,0.68 1.31,0.88 1.19,0.80 C1.07,0.72 0.95,0.88 0.83,0.82 C0.71,0.76 0.62,0.86 0.55,0.84" strokeWidth="0.08"/>
+        <path d="M2.28,0.56 V0.80 M2.02,0.52 V0.78 M1.72,0.56 V0.80 M1.44,0.52 V0.78 M1.10,0.58 V0.80" strokeWidth="0.062"/>
+        <path d="M2.40,0.60 C2.20,0.50 1.90,0.52 1.70,0.58" strokeWidth="0.055"/>
+        <path d="M1.30,0.62 C1.10,0.54 0.90,0.58 0.72,0.64" strokeWidth="0.055"/>
+      </g>
+      <g fill="#fff">
+        <circle cx="1.90" cy="0.44" r="0.04"/>
+        <circle cx="1.56" cy="0.42" r="0.04"/>
+        <circle cx="0.95" cy="0.48" r="0.04"/>
+        {/* Sabre : garde et pommeau à droite, pointe vers la gauche. */}
+        <path d="M2.22,1.44 L0.86,1.44 L0.52,1.485 L0.86,1.53 L2.22,1.53 Z"/>
+        <rect x="2.20" y="1.34" width="0.06" height="0.30" rx="0.025"/>
+        <rect x="2.27" y="1.455" width="0.13" height="0.06" rx="0.02"/>
+        <circle cx="2.44" cy="1.485" r="0.06"/>
       </g>
     </svg>
   ),
