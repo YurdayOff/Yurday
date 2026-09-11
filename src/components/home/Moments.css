@@ -1,41 +1,43 @@
-/* ---------- Galerie de vrais moments ---------- */
-.moment-grid {
+/* ---------- Carrousel de vrais moments ---------- */
+.moment-scroll {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 22px;
-  margin-top: 8px;
+  gap: 18px;
+  overflow-x: auto;
+  scroll-snap-type: x proximity;
+  -webkit-overflow-scrolling: touch;
+  padding: 8px max(28px, calc((100vw - 1120px) / 2 + 28px)) 4px;
+  scrollbar-width: none;
 }
-.moment-card {
-  --notch-y: 260px;
-  padding: 0;
+.moment-scroll::-webkit-scrollbar { display: none; }
+
+.moment-slide {
+  position: relative;
+  flex: 0 0 auto;
+  width: 240px;
+  height: 340px;
+  border-radius: 22px;
+  overflow: hidden;
+  scroll-snap-align: start;
   margin: 0;
-  flex: 1 1 220px;
-  max-width: 260px;
-  overflow: hidden;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 16px 38px rgba(43, 33, 25, 0.12);
 }
-.moment-card .notch { background: var(--paper-deep); }
-.moment-card:hover { transform: translateY(-6px); box-shadow: 0 24px 48px rgba(43,33,25,0.14); }
-.moment-photo {
-  width: 100%;
-  height: 260px;
-  overflow: hidden;
-}
-.moment-photo img {
+.moment-slide img {
+  position: absolute;
+  inset: 0;
   width: 100%;
   height: 100%;
   object-fit: cover;
-  display: block;
-  transition: transform 0.5s ease;
 }
-.moment-card:hover .moment-photo img { transform: scale(1.07); }
-.moment-text {
-  padding: 16px 18px 20px;
+.moment-caption {
+  position: absolute;
+  inset: auto 0 0 0;
+  padding: 40px 18px 16px;
+  background: linear-gradient(to top, rgba(20, 14, 10, 0.78), transparent);
+  color: var(--white);
   font-size: 14px;
-  line-height: 1.45;
-  color: var(--ink-soft);
+  line-height: 1.4;
 }
-@media (max-width: 560px) {
-  .moment-card { flex-basis: 100%; max-width: 380px; }
+
+@media (min-width: 720px) {
+  .moment-slide { width: 300px; height: 420px; }
 }
