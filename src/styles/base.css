@@ -93,6 +93,14 @@ h1, h2, h3 {
 
 /* Alternance des fonds de section. */
 .section-paper-deep { background: var(--paper-deep); }
+.section-paper-rose { background: var(--paper-rose); }
+
+/* Couture en pointillés entre deux sections, écho des tickets perforés. */
+.seam {
+  max-width: 1120px;
+  margin: 0 auto;
+  border-top: 2px dashed var(--line);
+}
 
 /* Lien d'évitement : visible seulement au clavier. */
 .skip-link {

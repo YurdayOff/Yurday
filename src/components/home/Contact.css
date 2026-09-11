@@ -1,6 +1,6 @@
 /* ---------- Contact ---------- */
 .contact-section {
-  background: var(--paper-deep);
+  background: var(--paper-rose);
 }
 .contact-wrap {
   display: grid;

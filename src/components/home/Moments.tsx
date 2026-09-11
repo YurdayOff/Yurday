@@ -12,7 +12,7 @@ export function Moments({ messages }: MomentsProps) {
   const { moments } = messages
 
   return (
-    <section id="moments">
+    <section id="moments" className="section-paper-rose">
       <div className="container">
         <SectionHead eyebrow={moments.eyebrow} title={moments.h2} lede={moments.lede} />
       </div>

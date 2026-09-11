@@ -9,6 +9,7 @@ import { Process } from '@/components/home/Process'
 import { Reviews } from '@/components/home/Reviews'
 import { Story } from '@/components/home/Story'
 import { JsonLd } from '@/components/ui/JsonLd'
+import { Seam } from '@/components/ui/Seam'
 import { isLocale, localePath, type Locale } from '@/i18n/config'
 import { getMessages } from '@/i18n/messages'
 import { buildPageMetadata } from '@/lib/seo'
@@ -59,11 +60,17 @@ export default async function HomePage({ params }: HomeProps) {
       />
       <Hero messages={messages} home={home} />
       <Occasions messages={messages} locale={locale} />
+      <Seam />
       <Moments messages={messages} />
+      <Seam />
       <Reviews messages={messages} locale={locale} />
+      <Seam />
       <Process messages={messages} />
+      <Seam />
       <Story messages={messages} />
+      <Seam />
       <Faq messages={messages} home={home} />
+      <Seam />
       <Contact messages={messages} />
     </>
   )
