@@ -42,6 +42,7 @@ export function Moments({ messages }: MomentsProps) {
                   <Image src={image} alt={item.title} width={640} height={520} sizes="(max-width: 760px) 90vw, 480px" />
                 </div>
                 <div className="moment-text">
+                  <div className="eyebrow moment-kicker">{moments.kicker}</div>
                   <h3>{item.title}</h3>
                   <p>{item.story}</p>
                 </div>

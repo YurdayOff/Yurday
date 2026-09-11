@@ -94,6 +94,7 @@
   "moments": {
     "eyebrow": "Vraies histoires",
     "h2": "Ils nous ont confié leur journée",
+    "kicker": "Un instant de leur journée sur mesure",
     "items": {
       "karting": {
         "title": "La bande à Karim, avant son départ",
@@ -197,35 +198,18 @@
     "paragraphs": [
       [
         "Tout a commencé un soir, à 23h47.",
-        "On était entre amis autour d'une table. On savait exactement à qui on voulait faire plaisir, on avait un budget, des idées plein la tête… mais pas la moindre idée de comment transformer tout ça en une vraie journée."
+        "On savait exactement à qui on voulait faire plaisir, on avait des idées plein la tête… mais aucune idée de comment transformer ça en une vraie journée."
       ],
       [
-        "Alors on a cherché quelqu'un pour le faire à notre place."
+        "On a cherché de l'aide, mais partout on nous proposait des formules toutes faites, dans lesquelles il fallait choisir. Nous, on voulait partir de la personne, pas d'un catalogue."
       ],
       [
-        "On a contacté des agences, regardé des coffrets, des activités, des expériences… Mais à chaque fois, c'était la même chose : on nous proposait des formules déjà pensées, dans lesquelles il fallait choisir."
+        "Alors on a tout organisé nous-mêmes : le parcours, les lieux, les surprises, même ses proches réunis pour jouer le jeu.",
+        "Et le jour J, en voyant sa surprise et son émotion, on a compris qu'on venait de créer bien plus qu'une activité : une histoire entière à vivre."
       ],
       [
-        "Nous, on ne voulait pas choisir une activité.",
-        "On voulait partir de cette personne et construire sa journée autour d'elle."
-      ],
-      [
-        "Alors on a fini par tout organiser nous-mêmes. On a imaginé le parcours, réservé les différents lieux, préparé les surprises et même réuni ses proches pour qu'ils participent à la mise en scène. Certains devaient jouer le jeu, apparaître au bon moment ou jouer un rôle sans qu'il ne se doute de rien."
-      ],
-      [
-        "Et le jour J, tout a pris vie.",
-        "On a vu sa surprise, ses rires, son émotion… et on a compris qu'on venait de créer quelque chose de différent."
-      ],
-      [
-        "Pas simplement une activité. Une histoire entière à vivre."
-      ],
-      [
-        "C'est là qu'on s'est dit : et si on faisait ça pour les autres ?",
-        "C'est comme ça qu'est né Yurday."
-      ],
-      [
-        "Aujourd'hui, notre idée reste la même : vous nous donnez la personne, l'occasion et votre budget. Nous imaginons tout le reste.",
-        "Parce que certains souvenirs méritent d'être créés de toutes pièces."
+        "C'est comme ça qu'est né Yurday.",
+        "Aujourd'hui, l'idée reste la même : vous nous donnez la personne, l'occasion et votre budget. Nous imaginons tout le reste."
       ]
     ],
     "transition": "Les deux visages derrière chaque journée",

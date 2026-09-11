@@ -94,6 +94,7 @@
   "moments": {
     "eyebrow": "Storie vere",
     "h2": "Ci hanno affidato la loro giornata",
+    "kicker": "Un istante della loro giornata su misura",
     "items": {
       "karting": {
         "title": "La squadra di Karim, prima della sua partenza",
@@ -197,35 +198,18 @@
     "paragraphs": [
       [
         "Tutto è iniziato una sera, alle 23:47.",
-        "Eravamo tra amici attorno a un tavolo. Sapevamo esattamente a chi volevamo fare piacere, avevamo un budget, tante idee in testa… ma nemmeno la minima idea di come trasformare tutto ciò in una vera giornata."
+        "Sapevamo esattamente a chi volevamo fare piacere, avevamo la testa piena di idee… ma nessuna idea di come trasformare tutto ciò in una vera giornata."
       ],
       [
-        "Allora abbiamo cercato qualcuno che lo facesse al posto nostro."
+        "Abbiamo cercato aiuto, ma ovunque ci proponevano pacchetti già pronti, tra cui bisognava scegliere. Noi volevamo partire dalla persona, non da un catalogo."
       ],
       [
-        "Abbiamo contattato agenzie, guardato cofanetti regalo, attività, esperienze… Ma ogni volta era la stessa cosa: ci proponevano pacchetti già pensati, tra cui bisognava scegliere."
+        "Così abbiamo organizzato tutto da soli: il percorso, i luoghi, le sorprese, e persino riunito i suoi cari per farli partecipare.",
+        "E il giorno stesso, vedendo la sua sorpresa e la sua emozione, abbiamo capito di aver creato molto più di un'attività: un'intera storia da vivere."
       ],
       [
-        "Noi non volevamo scegliere un'attività.",
-        "Volevamo partire da quella persona e costruire la sua giornata attorno a lei."
-      ],
-      [
-        "Alla fine abbiamo organizzato tutto da soli. Abbiamo immaginato il percorso, prenotato i vari luoghi, preparato le sorprese e persino coinvolto i suoi cari perché partecipassero alla messa in scena. Alcuni dovevano stare al gioco, comparire al momento giusto o interpretare un ruolo senza che lui sospettasse nulla."
-      ],
-      [
-        "E il giorno stesso, tutto ha preso vita.",
-        "Abbiamo visto la sua sorpresa, le sue risate, la sua emozione… e abbiamo capito che avevamo appena creato qualcosa di diverso."
-      ],
-      [
-        "Non semplicemente un'attività. Un'intera storia da vivere."
-      ],
-      [
-        "È lì che ci siamo detti: e se lo facessimo per gli altri?",
-        "È così che è nata Yurday."
-      ],
-      [
-        "Oggi la nostra idea resta la stessa: voi ci date la persona, l'occasione e il vostro budget. Noi immaginiamo tutto il resto.",
-        "Perché alcuni ricordi meritano di essere creati da zero."
+        "È così che è nata Yurday.",
+        "Oggi l'idea resta la stessa: voi ci date la persona, l'occasione e il vostro budget. Noi immaginiamo tutto il resto."
       ]
     ],
     "transition": "I due volti dietro ogni giornata",
