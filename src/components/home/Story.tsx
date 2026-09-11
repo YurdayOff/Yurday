@@ -18,7 +18,7 @@ export function Story({ messages }: { messages: Messages }) {
           <Reveal className="histoire-photo">
             <Image
               src={site.images.founders}
-              alt={`${site.founders.map((founder) => founder.name).join(' & ')} — ${story.transition}`}
+              alt={`${site.founders.map((founder) => founder.name).join(' & ')}, ${story.transition}`}
               width={640}
               height={735}
               sizes="(max-width: 860px) 340px, 340px"
