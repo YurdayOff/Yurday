@@ -1,6 +1,6 @@
 /* ---------- Contact ---------- */
 .contact-section {
-  background: var(--paper-rose);
+  background: var(--coral-3);
 }
 .contact-wrap {
   display: grid;
@@ -8,8 +8,9 @@
   gap: 60px;
   align-items: start;
 }
-.contact-side h2 { font-size: clamp(28px, 4vw, 38px); margin-bottom: 16px; line-height: 1.15; }
-.contact-side p { color: var(--ink-soft); font-size: 15.5px; margin-bottom: 26px; }
+.contact-side .eyebrow { color: var(--white); opacity: 0.9; }
+.contact-side h2 { font-size: clamp(28px, 4vw, 38px); margin-bottom: 16px; line-height: 1.15; color: var(--white); }
+.contact-side p { color: rgba(255, 255, 255, 0.82); font-size: 15.5px; margin-bottom: 26px; }
 .contact-note {
   padding: 16px 18px;
   background: #fff;

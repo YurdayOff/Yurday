@@ -93,14 +93,48 @@
   },
   "moments": {
     "eyebrow": "Storie vere",
-    "h2": "Giornate vissute dai nostri clienti",
-    "lede": "Clienti veri, momenti veri.",
+    "h2": "Ci hanno affidato la loro giornata",
     "items": {
-      "anniversaire": "Un compleanno intorno al fuoco, sotto le stelle del Libano.",
-      "demande-en-mariage": "Una proposta di matrimonio tra i fuochi d'artificio, vicino Parigi.",
-      "saint-valentin": "Un San Valentino sull'acqua, al tramonto.",
-      "evg-evjf": "Un addio al nubilato parigino, in giro per la città in limousine.",
-      "fete-des-meres": "Una festa della mamma vista dal cielo, in mongolfiera."
+      "anniversaire": {
+        "title": "Léa, per i suoi 25 anni",
+        "story": "Voleva un compleanno lontano dalla classica festa a sorpresa. Le abbiamo organizzato una serata intorno al fuoco in Libano, con un chitarrista privato, lanterne, e solo le cinque persone che contano davvero per lei."
+      },
+      "demande-en-mariage": {
+        "title": "Thomas, prima del grande sì",
+        "story": "Voleva un posto con vista sull'acqua e i fuochi d'artificio per il momento della proposta. Abbiamo coordinato i tempi con uno spettacolo pirotecnico locale, così si è inginocchiato esattamente al momento giusto."
+      },
+      "saint-valentin": {
+        "title": "Hugo, per uscire dalla routine",
+        "story": "Dopo due San Valentino al ristorante, voleva cambiare. Gli abbiamo proposto una cena su una barca al tramonto, solo loro due, con l'acqua che rifletteva il cielo arancione."
+      },
+      "evg-evjf": {
+        "title": "Le amiche di Chloé, prima del suo matrimonio",
+        "story": "Le sue amiche volevano festeggiare senza passare tre giorni a organizzare tutto da sole. Abbiamo prenotato una limousine per un giro della città, champagne incluso, con accesso VIP a fine serata."
+      },
+      "fete-des-meres": {
+        "title": "Antoine, per ringraziare in modo diverso",
+        "story": "Non voleva accontentarsi di fiori per sua madre. Le abbiamo proposto un volo in mongolfiera all'alba — un regalo che, a suo dire, lei non ha dimenticato."
+      },
+      "karting": {
+        "title": "La squadra di Karim, prima della sua partenza",
+        "story": "Partiva due mesi dopo e voleva un'ultima serata con gli amici prima di allora. Abbiamo privatizzato una pista di kart notturna, seguita da una cena fino a tarda notte."
+      },
+      "voiture-luxe": {
+        "title": "Il figlio di Marc, appassionato di auto da sempre",
+        "story": "Suo figlio di 8 anni parlava solo di Lamborghini da mesi. Per il suo compleanno, gli abbiamo organizzato una sorpresa con una Huracán parcheggiata davanti a casa, e un giro del quartiere con il padre al volante."
+      },
+      "evjf-boite-nuit": {
+        "title": "Le amiche di Camille, la vigilia del sì",
+        "story": "Volevano una vera serata parigina, non solo drink in un bar. Abbiamo prenotato un tavolo VIP in un locale del centro, con bottiglia e accesso senza fila — la futura sposa non ha pagato nulla quella sera."
+      },
+      "parc-des-princes": {
+        "title": "Nathan, tifoso del PSG da sempre",
+        "story": "Ha sempre sognato di vedere una partita di Champions League al Parco dei Principi con il suo migliore amico, senza mai riuscire a procurarsi i biglietti. Gli abbiamo trovato due posti per una grande serata europea."
+      },
+      "star-dior": {
+        "title": "Inès, per una sera",
+        "story": "Ha sempre voluto sapere cosa si prova a essere seguiti come una celebrità, anche solo una volta. Le abbiamo organizzato una finta uscita per shopping davanti a una boutique parigina, con due guardie del corpo e un cameraman al seguito."
+      }
     }
   },
   "reviews": {

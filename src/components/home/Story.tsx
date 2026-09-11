@@ -10,7 +10,7 @@ export function Story({ messages }: { messages: Messages }) {
   const { story } = messages
 
   return (
-    <section id="notre-histoire" className="section-paper-deep">
+    <section id="notre-histoire">
       <div className="container">
         <SectionHead eyebrow={story.eyebrow} title={story.h2} />
 

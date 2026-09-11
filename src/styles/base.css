@@ -93,7 +93,8 @@ h1, h2, h3 {
 
 /* Alternance des fonds de section. */
 .section-paper-deep { background: var(--paper-deep); }
-.section-paper-rose { background: var(--paper-rose); }
+/* Corail plein : réservé aux deux temps forts (vraies histoires, prise de contact). */
+.section-coral { background: var(--coral-3); }
 
 /* Couture en pointillés entre deux sections, écho des tickets perforés. */
 .seam {

@@ -19,7 +19,7 @@ export function Faq({ messages, home }: FaqProps) {
   const [openIndex, setOpenIndex] = useState<number | null>(null)
 
   return (
-    <section id="faq">
+    <section id="faq" className="section-paper-deep">
       <div className="container">
         <SectionHead eyebrow={faq.eyebrow} title={faq.h2} />
 

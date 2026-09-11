@@ -61,11 +61,11 @@ export default async function HomePage({ params }: HomeProps) {
       <Hero messages={messages} home={home} />
       <Occasions messages={messages} locale={locale} />
       <Seam />
+      <Process messages={messages} />
+      <Seam />
       <Moments messages={messages} />
       <Seam />
       <Reviews messages={messages} locale={locale} />
-      <Seam />
-      <Process messages={messages} />
       <Seam />
       <Story messages={messages} />
       <Seam />

@@ -93,14 +93,48 @@
   },
   "moments": {
     "eyebrow": "Histórias reais",
-    "h2": "Dias vividos pelos nossos clientes",
-    "lede": "Clientes reais, momentos reais.",
+    "h2": "Confiaram-nos o seu dia",
     "items": {
-      "anniversaire": "Um aniversário à beira da fogueira, sob as estrelas do Líbano.",
-      "demande-en-mariage": "Um pedido de casamento sob fogos de artifício, perto de Paris.",
-      "saint-valentin": "Um Dia dos Namorados sobre a água, ao pôr do sol.",
-      "evg-evjf": "Uma despedida de solteira parisiense, em limusine pela cidade.",
-      "fete-des-meres": "Um Dia das Mães visto do céu, em um balão de ar quente."
+      "anniversaire": {
+        "title": "Léa, pelos seus 25 anos",
+        "story": "Ela queria um aniversário longe da clássica festa surpresa. Organizamos uma noite à beira da fogueira no Líbano, com um violonista particular, lanternas, e apenas as cinco pessoas que realmente importam para ela."
+      },
+      "demande-en-mariage": {
+        "title": "Thomas, antes do grande sim",
+        "story": "Ele queria um lugar com vista para a água e fogos de artifício para o momento do pedido. Coordenamos o timing com um espetáculo pirotécnico local, para que ele se ajoelhasse no instante exato."
+      },
+      "saint-valentin": {
+        "title": "Hugo, para fugir da rotina",
+        "story": "Depois de dois Dias dos Namorados em restaurantes, ele queria mudar. Propusemos um jantar num barco ao pôr do sol, só os dois, com a água refletindo o céu laranja."
+      },
+      "evg-evjf": {
+        "title": "As amigas de Chloé, antes do casamento",
+        "story": "As amigas dela queriam marcar a ocasião sem passar três dias organizando tudo sozinhas. Reservamos uma limusine para um passeio pela cidade, com champanhe incluído, e acesso VIP no fim da noite."
+      },
+      "fete-des-meres": {
+        "title": "Antoine, para agradecer de outra forma",
+        "story": "Ele não queria se contentar com flores para a mãe. Propusemos um voo de balão ao nascer do sol — um presente que ela não esqueceu, nas palavras dele."
+      },
+      "karting": {
+        "title": "A turma do Karim, antes da partida",
+        "story": "Ele partia dois meses depois e queria uma última noite com os amigos antes disso. Reservamos uma pista de kart particular à noite, seguida de um jantar até tarde."
+      },
+      "voiture-luxe": {
+        "title": "O filho do Marc, fã de carros desde sempre",
+        "story": "O filho de 8 anos só falava de Lamborghinis havia meses. Para o aniversário dele, organizamos uma surpresa com uma Huracán estacionada na frente de casa, e um passeio pelo bairro com o pai ao volante."
+      },
+      "evjf-boite-nuit": {
+        "title": "As amigas da Camille, na véspera do sim",
+        "story": "Elas queriam uma verdadeira noite parisiense, não apenas drinks num bar. Reservamos uma mesa VIP numa boate no centro, com garrafa e acesso sem fila — a futura noiva não pagou nada naquela noite."
+      },
+      "parc-des-princes": {
+        "title": "Nathan, torcedor do PSG desde sempre",
+        "story": "Ele sempre sonhou em ver um jogo da Liga dos Campeões no Parc des Princes com o melhor amigo, mas nunca conseguia ingressos. Encontramos dois lugares para uma grande noite europeia."
+      },
+      "star-dior": {
+        "title": "Inès, por uma noite",
+        "story": "Ela sempre quis saber como é ser seguida como uma celebridade, nem que fosse uma vez. Organizamos uma falsa saída de compras em frente a uma boutique parisiense, com dois seguranças e um cinegrafista atrás dela."
+      }
     }
   },
   "reviews": {

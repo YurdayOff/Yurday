@@ -93,14 +93,48 @@
   },
   "moments": {
     "eyebrow": "Echte Geschichten",
-    "h2": "Tage, die unsere Kunden wirklich erlebt haben",
-    "lede": "Echte Kunden, echte Momente.",
+    "h2": "Sie haben uns ihren Tag anvertraut",
     "items": {
-      "anniversaire": "Ein Geburtstag am Lagerfeuer, unter dem Sternenhimmel im Libanon.",
-      "demande-en-mariage": "Ein Heiratsantrag im Feuerwerk, nahe Paris.",
-      "saint-valentin": "Ein Valentinstag auf dem Wasser, bei Sonnenuntergang.",
-      "evg-evjf": "Ein Junggesellinnenabschied in Paris, mit einer Limousinen-Tour durch die Stadt.",
-      "fete-des-meres": "Ein Muttertag von oben, in einem Heißluftballon."
+      "anniversaire": {
+        "title": "Léa, zu ihrem 25. Geburtstag",
+        "story": "Sie wollte einen Geburtstag fernab der klassischen Überraschungsparty. Wir haben ihr einen Abend am Lagerfeuer im Libanon organisiert, mit privatem Gitarristen, Laternen und nur den fünf Menschen, die ihr wirklich wichtig sind."
+      },
+      "demande-en-mariage": {
+        "title": "Thomas, vor dem großen Ja",
+        "story": "Er wollte einen Ort mit Wasserblick und Feuerwerk für den Antrag. Wir haben das Timing mit einer lokalen Feuerwerksshow abgestimmt, damit er genau im richtigen Moment niederkniete."
+      },
+      "saint-valentin": {
+        "title": "Hugo, raus aus der Routine",
+        "story": "Nach zwei Valentinstagen im Restaurant wollte er etwas anderes. Wir haben ein Sonnenuntergangs-Dinner auf einem Ruderboot organisiert, nur zu zweit, während sich der orangefarbene Himmel im Wasser spiegelte."
+      },
+      "evg-evjf": {
+        "title": "Chloés Freundinnen, vor ihrer Hochzeit",
+        "story": "Ihre Freundinnen wollten den Anlass feiern, ohne drei Tage mit der Organisation zu verbringen. Wir haben eine Limousine für eine Stadttour gebucht, inklusive Champagner und VIP-Zugang am späten Abend."
+      },
+      "fete-des-meres": {
+        "title": "Antoine, um seiner Mutter anders zu danken",
+        "story": "Er wollte sich nicht mit Blumen für seine Mutter begnügen. Wir haben eine Heißluftballonfahrt bei Sonnenaufgang organisiert — ein Geschenk, das sie seinen Worten nach nie vergessen hat."
+      },
+      "karting": {
+        "title": "Karims Truppe, vor seiner Abreise",
+        "story": "Er reiste zwei Monate später ab und wollte vorher noch einen letzten Abend mit seinen Freunden. Wir haben eine private Kartbahn für eine Nachtsession gebucht, gefolgt von einem Dinner bis spät in die Nacht."
+      },
+      "voiture-luxe": {
+        "title": "Marcs Sohn, seit jeher Autofan",
+        "story": "Sein 8-jähriger Sohn sprach seit Monaten nur noch von Lamborghinis. Zu seinem Geburtstag haben wir eine Überraschung mit einem Huracán vor seinem Haus organisiert, plus eine Runde durchs Viertel mit seinem Vater am Steuer."
+      },
+      "evjf-boite-nuit": {
+        "title": "Camilles Freundinnen, am Abend vor dem Ja",
+        "story": "Sie wollten einen echten Pariser Abend, nicht nur Drinks in einer Bar. Wir haben einen VIP-Tisch in einem Club im Zentrum gebucht, mit Flasche und Einlass ohne Warteschlange — die zukünftige Braut hat an diesem Abend nichts bezahlt."
+      },
+      "parc-des-princes": {
+        "title": "Nathan, seit jeher PSG-Fan",
+        "story": "Er hat immer davon geträumt, mit seinem besten Freund ein Champions-League-Spiel im Parc des Princes zu sehen, aber nie Tickets bekommen. Wir haben zwei Plätze für einen großen europäischen Abend gefunden."
+      },
+      "star-dior": {
+        "title": "Inès, für einen Abend",
+        "story": "Sie wollte schon immer wissen, wie es sich anfühlt, wie ein Star verfolgt zu werden, wenigstens einmal. Wir haben einen inszenierten Einkaufsbummel vor einer Pariser Boutique organisiert, mit zwei Bodyguards und einem Kameramann, der ihr folgte."
+      }
     }
   },
   "reviews": {

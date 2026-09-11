@@ -93,14 +93,48 @@
   },
   "moments": {
     "eyebrow": "Real stories",
-    "h2": "Days our clients really lived",
-    "lede": "Real clients, real moments.",
+    "h2": "They trusted us with their day",
     "items": {
-      "anniversaire": "A birthday by the fire, under the stars in Lebanon.",
-      "demande-en-mariage": "A marriage proposal under fireworks, just outside Paris.",
-      "saint-valentin": "A Valentine's Day on the water, at sunset.",
-      "evg-evjf": "A Parisian bachelorette party, touring the city by limo.",
-      "fete-des-meres": "A Mother's Day seen from the sky, in a hot air balloon."
+      "anniversaire": {
+        "title": "Léa, for her 25th birthday",
+        "story": "She wanted a birthday far from the classic surprise party. We put together an evening by the fire in Lebanon, with a private guitarist, lanterns, and only the five people who really matter to her."
+      },
+      "demande-en-mariage": {
+        "title": "Thomas, before the big yes",
+        "story": "He wanted a spot with a view of the water and fireworks for the proposal. We timed it with a local fireworks show so he'd get down on one knee at exactly the right moment."
+      },
+      "saint-valentin": {
+        "title": "Hugo, breaking the routine",
+        "story": "After two Valentine's Days at restaurants, he wanted something different. We set up a sunset dinner on a rowboat, just the two of them, with the water reflecting the orange sky."
+      },
+      "evg-evjf": {
+        "title": "Chloé's friends, before her wedding",
+        "story": "Her friends wanted to mark the occasion without spending three days organising it themselves. We booked a limousine for a city tour, champagne included, with VIP access later that night."
+      },
+      "fete-des-meres": {
+        "title": "Antoine, thanking his mum differently",
+        "story": "He didn't want to settle for flowers for his mum. We arranged a sunrise hot air balloon ride instead — a gift she still talks about, in his words."
+      },
+      "karting": {
+        "title": "Karim's crew, before he left",
+        "story": "He was leaving in two months and wanted one last night with his friends before that. We booked a private go-kart track for a late-night session, followed by dinner well into the night."
+      },
+      "voiture-luxe": {
+        "title": "Marc's son, a lifelong car fan",
+        "story": "His 8-year-old had talked about nothing but Lamborghinis for months. For his birthday, we arranged a surprise Huracán parked outside his house, plus a drive around the block with his dad behind the wheel."
+      },
+      "evjf-boite-nuit": {
+        "title": "Camille's friends, the night before the wedding",
+        "story": "They wanted a real Parisian night out, not just drinks at a bar. We booked a VIP table at a club in the city centre, bottle service and skip-the-line access included — the bride-to-be didn't pay for a thing that night."
+      },
+      "parc-des-princes": {
+        "title": "Nathan, lifelong PSG supporter",
+        "story": "He'd always dreamed of watching a Champions League match at Parc des Princes with his best friend, but could never get tickets. We found two seats for a big European night."
+      },
+      "star-dior": {
+        "title": "Inès, for one evening",
+        "story": "She'd always wondered what it feels like to be followed around like a celebrity, just once. We staged a fake shopping outing outside a Paris boutique, complete with two bodyguards and a cameraman trailing her."
+      }
     }
   },
   "reviews": {
