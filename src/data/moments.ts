@@ -4,13 +4,13 @@ export type Moment = {
   image: string
 }
 
-/** Vrais moments clients, dans l'ordre d'affichage. Le texte vit dans les fichiers de messages. */
+/**
+ * Vrais moments clients, dans l'ordre d'affichage. Le texte vit dans les fichiers de
+ * messages. Les photos ne sont jamais réutilisées ailleurs sur le site (elles servent
+ * déjà de photo de carte pour les pages occasion) : chaque nouvelle histoire doit
+ * arriver avec sa propre photo inédite.
+ */
 export const moments: Moment[] = [
-  { id: 'anniversaire', image: '/images/occasion-anniversaire.webp' },
-  { id: 'demande-en-mariage', image: '/images/occasion-demande-en-mariage.webp' },
-  { id: 'saint-valentin', image: '/images/occasion-saint-valentin.webp' },
-  { id: 'evg-evjf', image: '/images/occasion-evg-evjf.webp' },
-  { id: 'fete-des-meres', image: '/images/occasion-fete-des-meres.webp' },
   { id: 'karting', image: '/images/moment-karting.webp' },
   { id: 'voiture-luxe', image: '/images/moment-voiture-luxe.webp' },
   { id: 'evjf-boite-nuit', image: '/images/moment-evjf-boite-nuit.webp' },

@@ -158,7 +158,7 @@ export function Process({ messages }: { messages: Messages }) {
   }, [layout, reducedMotion])
 
   return (
-    <section id="comment-ca-marche" className="section-paper-deep">
+    <section id="comment-ca-marche">
       <div className="container">
         <SectionHead eyebrow={process.eyebrow} title={process.h2} lede={process.lede} />
 

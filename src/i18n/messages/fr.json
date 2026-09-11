@@ -95,26 +95,6 @@
     "eyebrow": "Vraies histoires",
     "h2": "Ils nous ont confié leur journée",
     "items": {
-      "anniversaire": {
-        "title": "Léa, pour ses 25 ans",
-        "story": "Elle voulait un anniversaire loin des soirées surprises classiques. On lui a organisé une soirée au coin du feu au Liban, avec un guitariste privé, des lanternes, et seulement les cinq personnes qui comptent vraiment pour elle."
-      },
-      "demande-en-mariage": {
-        "title": "Thomas, avant le grand oui",
-        "story": "Il voulait un endroit avec vue sur l'eau et un feu d'artifice pour le moment de la demande. On a coordonné le timing avec un spectacle pyrotechnique local, pour qu'il tombe à genoux pile au bon instant."
-      },
-      "saint-valentin": {
-        "title": "Hugo, pour sortir de la routine",
-        "story": "Après deux Saint-Valentin au restaurant, il voulait changer. On lui a proposé un dîner sur une barque au coucher du soleil, juste eux deux, avec l'eau qui reflétait le ciel orange."
-      },
-      "evg-evjf": {
-        "title": "La bande à Chloé, avant son mariage",
-        "story": "Ses amies voulaient marquer le coup sans passer trois jours à tout organiser elles-mêmes. On leur a réservé une limousine pour une tournée de la ville, champagne compris, et un accès VIP en fin de soirée."
-      },
-      "fete-des-meres": {
-        "title": "Antoine, pour dire merci autrement",
-        "story": "Il ne voulait pas se contenter de fleurs pour sa mère. On lui a proposé un vol en montgolfière au lever du soleil — un cadeau qu'elle n'a pas oublié, selon ses mots."
-      },
       "karting": {
         "title": "La bande à Karim, avant son départ",
         "story": "Il partait deux mois plus tard et voulait une dernière soirée entre potes avant ça. On a privatisé une piste de karting en nocturne, suivie d'un dîner tard dans la nuit."

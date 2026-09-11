@@ -19,7 +19,7 @@ export function Occasions({ messages, locale }: OccasionsProps) {
   const { occasions } = messages
 
   return (
-    <section id="occasions">
+    <section id="occasions" className="section-paper-deep">
       <div className="container">
         <SectionHead eyebrow={occasions.eyebrow} title={occasions.h2} lede={occasions.lede} />
 

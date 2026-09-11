@@ -95,26 +95,6 @@
     "eyebrow": "Storie vere",
     "h2": "Ci hanno affidato la loro giornata",
     "items": {
-      "anniversaire": {
-        "title": "Léa, per i suoi 25 anni",
-        "story": "Voleva un compleanno lontano dalla classica festa a sorpresa. Le abbiamo organizzato una serata intorno al fuoco in Libano, con un chitarrista privato, lanterne, e solo le cinque persone che contano davvero per lei."
-      },
-      "demande-en-mariage": {
-        "title": "Thomas, prima del grande sì",
-        "story": "Voleva un posto con vista sull'acqua e i fuochi d'artificio per il momento della proposta. Abbiamo coordinato i tempi con uno spettacolo pirotecnico locale, così si è inginocchiato esattamente al momento giusto."
-      },
-      "saint-valentin": {
-        "title": "Hugo, per uscire dalla routine",
-        "story": "Dopo due San Valentino al ristorante, voleva cambiare. Gli abbiamo proposto una cena su una barca al tramonto, solo loro due, con l'acqua che rifletteva il cielo arancione."
-      },
-      "evg-evjf": {
-        "title": "Le amiche di Chloé, prima del suo matrimonio",
-        "story": "Le sue amiche volevano festeggiare senza passare tre giorni a organizzare tutto da sole. Abbiamo prenotato una limousine per un giro della città, champagne incluso, con accesso VIP a fine serata."
-      },
-      "fete-des-meres": {
-        "title": "Antoine, per ringraziare in modo diverso",
-        "story": "Non voleva accontentarsi di fiori per sua madre. Le abbiamo proposto un volo in mongolfiera all'alba — un regalo che, a suo dire, lei non ha dimenticato."
-      },
       "karting": {
         "title": "La squadra di Karim, prima della sua partenza",
         "story": "Partiva due mesi dopo e voleva un'ultima serata con gli amici prima di allora. Abbiamo privatizzato una pista di kart notturna, seguita da una cena fino a tarda notte."
