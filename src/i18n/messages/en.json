@@ -13,17 +13,17 @@
         "title": "Bespoke marriage proposal: create the perfect moment",
         "description": "Yurday orchestrates unforgettable marriage proposals: setting, timing, surprise, and a jeweller if needed."
       },
-      "fete-des-meres": {
-        "title": "Bespoke Mother's Day: a thank you out of the ordinary",
-        "description": "For Mother's Day, Yurday designs a whole day built around your mum."
+      "saint-valentin": {
+        "title": "Bespoke Valentine's Day: a day that's out of the ordinary",
+        "description": "Yurday designs fully bespoke Valentine's Days, far from the classic candlelit dinner, to surprise the person who matters."
       },
       "evg-evjf": {
         "title": "Bespoke bachelor & bachelorette parties: a day the whole group remembers",
         "description": "Yurday organises bespoke bachelor and bachelorette parties, logistics included."
       },
-      "pot-de-depart": {
-        "title": "Bespoke farewell party: mark the moment before goodbye",
-        "description": "For a departure that counts, Yurday designs a bespoke farewell party."
+      "fete-des-meres": {
+        "title": "Bespoke Mother's Day: a thank you out of the ordinary",
+        "description": "For Mother's Day, Yurday designs a whole day built around your mum."
       }
     }
   },
@@ -64,15 +64,10 @@
     "daysLabel": "Days organized",
     "bespokeLabel": "Bespoke, never a package"
   },
-  "concept": {
-    "lead": "Birthday, wedding, farewell party, or just because: ",
-    "highlight": "the occasion doesn't matter",
-    "tail": ". The concept always stays the same: a single day, designed from A to Z, with exactly what you want in it, and the scenario you imagine."
-  },
   "occasions": {
     "eyebrow": "For which occasion",
     "h2": "A day for every story",
-    "lede": "A few examples among countless others.",
+    "lede": "Birthday, wedding, farewell party, or just because: the occasion doesn't matter. Here are a few examples among countless others.",
     "moreLabel": "And for every other occasion",
     "chips": [
       "Wedding",
@@ -80,7 +75,7 @@
       "Birth / baby shower",
       "Retirement",
       "Graduation",
-      "Valentine's Day",
+      "Farewell party",
       "Father's Day",
       "Christening",
       "Company",
@@ -91,9 +86,21 @@
     "cards": {
       "anniversaire": "Birthday",
       "demande-en-mariage": "Marriage proposal",
-      "fete-des-meres": "Mother's Day",
+      "saint-valentin": "Valentine's Day",
       "evg-evjf": "Bachelor / bachelorette party",
-      "pot-de-depart": "Farewell party"
+      "fete-des-meres": "Mother's Day"
+    }
+  },
+  "moments": {
+    "eyebrow": "Real stories",
+    "h2": "Days we've actually organised",
+    "lede": "No staging: real clients, real moments.",
+    "items": {
+      "anniversaire": "A birthday by the fire, under the stars in Lebanon.",
+      "demande-en-mariage": "A marriage proposal under fireworks, just outside Paris.",
+      "saint-valentin": "A Valentine's Day on the water, at sunset.",
+      "evg-evjf": "A Parisian bachelorette party, touring the city by limo.",
+      "fete-des-meres": "A Mother's Day seen from the sky, in a hot air balloon."
     }
   },
   "reviews": {
@@ -328,18 +335,18 @@
         "text": "Tell us your story and how you picture it, and we'll get back to you with the first ideas within 48 hours."
       }
     },
-    "fete-des-meres": {
-      "eyebrow": "MOTHER'S DAY",
+    "saint-valentin": {
+      "eyebrow": "VALENTINE'S DAY",
       "title": {
-        "lead": "A thank you she'll",
-        "em": "never forget",
+        "lead": "A love that",
+        "em": "stands out",
         "tail": ""
       },
-      "intro": "Tell us what you'd like to give your mum for Mother's Day, and we'll imagine her perfect day, filled with everything she loves.",
-      "story": "We know how hard it can be to find the right way to thank your mum, beyond flowers grabbed at the supermarket the night before. Tell us who she is and what she loves, and we'll build a day around her that truly feels like her.",
+      "intro": "Tell us what you'd like to give the person who matters for Valentine's Day, and we'll design a bespoke day, far from the classic candlelit dinner.",
+      "story": "Valentine's Day often falls into the same rituals: a restaurant, flowers, a bit of last-minute rush. We'd rather start from who you love and what truly matters to them, to build a moment that's genuinely out of the ordinary, just for the two of you.",
       "cta": {
-        "title": "Ready to thank her differently?",
-        "text": "Tell us about your mum, and we'll get back to you with the first ideas within 48 hours."
+        "title": "Ready to go off the beaten path?",
+        "text": "Tell us who you'd like to surprise, and we'll get back to you with the first ideas within 48 hours."
       }
     },
     "evg-evjf": {
@@ -356,18 +363,18 @@
         "text": "Tell us who you want to celebrate and with whom, and we'll get back to you with the first ideas within 48 hours."
       }
     },
-    "pot-de-depart": {
-      "eyebrow": "FAREWELL PARTY",
+    "fete-des-meres": {
+      "eyebrow": "MOTHER'S DAY",
       "title": {
-        "lead": "A goodbye that",
-        "em": "will be remembered",
+        "lead": "A thank you she'll",
+        "em": "never forget",
         "tail": ""
       },
-      "intro": "Tell us who's leaving and why, and we'll take care of imagining a farewell party that truly feels like them, somewhere between emotion and good spirits.",
-      "story": "A departure always marks, in a way, the end of a shared story. We help teams turn this moment into a real memory, shaped around the person who's leaving, rather than a classic party thrown together at the last minute.",
+      "intro": "Tell us what you'd like to give your mum for Mother's Day, and we'll imagine her perfect day, filled with everything she loves.",
+      "story": "We know how hard it can be to find the right way to thank your mum, beyond flowers grabbed at the supermarket the night before. Tell us who she is and what she loves, and we'll build a day around her that truly feels like her.",
       "cta": {
-        "title": "Ready to mark the occasion?",
-        "text": "Tell us who's leaving and why, and we'll get back to you with the first ideas within 48 hours."
+        "title": "Ready to thank her differently?",
+        "text": "Tell us about your mum, and we'll get back to you with the first ideas within 48 hours."
       }
     }
   },

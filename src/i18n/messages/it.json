@@ -13,17 +13,17 @@
         "title": "Proposta di matrimonio su misura: create il momento perfetto",
         "description": "Yurday orchestra proposte di matrimonio indimenticabili: scenografia, tempi, sorpresa e gioielliere se serve."
       },
-      "fete-des-meres": {
-        "title": "Festa della mamma su misura: un grazie fuori dall'ordinario",
-        "description": "Per la festa della mamma, Yurday immagina un'intera giornata pensata per lei."
+      "saint-valentin": {
+        "title": "San Valentino su misura: una giornata fuori dall'ordinario",
+        "description": "Yurday immagina un San Valentino interamente su misura, lontano dalla classica cena a lume di candela, per sorprendere la persona che conta."
       },
       "evg-evjf": {
         "title": "Addio al celibato e al nubilato su misura: una giornata indimenticabile per il gruppo",
         "description": "Yurday organizza addii al celibato e al nubilato su misura, logistica inclusa."
       },
-      "pot-de-depart": {
-        "title": "Festa d'addio su misura: celebrare il momento prima dei saluti",
-        "description": "Per un addio che resta, Yurday immagina una festa d'addio su misura."
+      "fete-des-meres": {
+        "title": "Festa della mamma su misura: un grazie fuori dall'ordinario",
+        "description": "Per la festa della mamma, Yurday immagina un'intera giornata pensata per lei."
       }
     }
   },
@@ -64,15 +64,10 @@
     "daysLabel": "Giornate organizzate",
     "bespokeLabel": "Su misura, mai un pacchetto"
   },
-  "concept": {
-    "lead": "Compleanno, matrimonio, festa d'addio, o semplicemente una voglia senza motivo particolare: ",
-    "highlight": "l'occasione non conta",
-    "tail": ". Il concetto resta sempre lo stesso: un'unica giornata, pensata dalla A alla Z, con esattamente ciò che volete dentro, e lo scenario che immaginate."
-  },
   "occasions": {
     "eyebrow": "Per quale occasione",
     "h2": "Una giornata per ogni storia",
-    "lede": "Alcuni esempi tra infiniti altri.",
+    "lede": "Compleanno, matrimonio, festa d'addio, o semplicemente una voglia senza motivo particolare: l'occasione non conta. Ecco alcuni esempi tra infiniti altri.",
     "moreLabel": "E per tutte le altre occasioni",
     "chips": [
       "Matrimonio",
@@ -80,7 +75,7 @@
       "Nascita / baby shower",
       "Pensionamento",
       "Laurea",
-      "San Valentino",
+      "Festa d'addio",
       "Festa del papà",
       "Battesimo",
       "Azienda",
@@ -91,9 +86,21 @@
     "cards": {
       "anniversaire": "Compleanno",
       "demande-en-mariage": "Proposta di matrimonio",
-      "fete-des-meres": "Festa della mamma",
+      "saint-valentin": "San Valentino",
       "evg-evjf": "Addio al celibato/nubilato",
-      "pot-de-depart": "Festa d'addio"
+      "fete-des-meres": "Festa della mamma"
+    }
+  },
+  "moments": {
+    "eyebrow": "Storie vere",
+    "h2": "Giornate che abbiamo davvero organizzato",
+    "lede": "Nessuna messa in scena: clienti veri, momenti veri.",
+    "items": {
+      "anniversaire": "Un compleanno intorno al fuoco, sotto le stelle del Libano.",
+      "demande-en-mariage": "Una proposta di matrimonio tra i fuochi d'artificio, vicino Parigi.",
+      "saint-valentin": "Un San Valentino sull'acqua, al tramonto.",
+      "evg-evjf": "Un addio al nubilato parigino, in giro per la città in limousine.",
+      "fete-des-meres": "Una festa della mamma vista dal cielo, in mongolfiera."
     }
   },
   "reviews": {
@@ -328,18 +335,18 @@
         "text": "Raccontateci la vostra storia e come la immaginate, vi risponderemo con le prime idee entro 48 ore."
       }
     },
-    "fete-des-meres": {
-      "eyebrow": "FESTA DELLA MAMMA",
+    "saint-valentin": {
+      "eyebrow": "SAN VALENTINO",
       "title": {
-        "lead": "Un grazie che",
-        "em": "non dimenticherà mai",
+        "lead": "Un amore che",
+        "em": "esce dall'ordinario",
         "tail": ""
       },
-      "intro": "Raccontateci cosa volete regalare a vostra mamma per la festa della mamma, ci pensiamo noi a immaginare la sua giornata ideale, con tutto ciò che ama.",
-      "story": "Sappiamo quanto possa essere difficile trovare l'idea giusta per ringraziare la propria mamma, al di là di fiori comprati al supermercato la sera prima. Raccontateci chi è, cosa ama, e costruiremo intorno a lei una giornata che le somigli davvero.",
+      "intro": "Raccontateci cosa volete regalare alla persona che conta per San Valentino, ci pensiamo noi a immaginare una giornata su misura, lontano dalla classica cena a lume di candela.",
+      "story": "San Valentino cade spesso negli stessi rituali: un ristorante, dei fiori, un po' di fretta dell'ultimo minuto. Preferiamo partire da chi amate e da ciò che conta davvero per lei o lui, per costruire un momento che esca davvero dall'ordinario, in due.",
       "cta": {
-        "title": "Pronti a ringraziarla in un altro modo?",
-        "text": "Raccontateci di vostra mamma, vi risponderemo con le prime idee entro 48 ore."
+        "title": "Pronti a uscire dai sentieri battuti?",
+        "text": "Raccontateci chi volete sorprendere, vi risponderemo con le prime idee entro 48 ore."
       }
     },
     "evg-evjf": {
@@ -356,18 +363,18 @@
         "text": "Raccontateci chi volete festeggiare e con chi, vi risponderemo con le prime idee entro 48 ore."
       }
     },
-    "pot-de-depart": {
-      "eyebrow": "FESTA D'ADDIO",
+    "fete-des-meres": {
+      "eyebrow": "FESTA DELLA MAMMA",
       "title": {
-        "lead": "Un addio che",
-        "em": "resterà nella memoria",
+        "lead": "Un grazie che",
+        "em": "non dimenticherà mai",
         "tail": ""
       },
-      "intro": "Raccontateci chi parte e perché, ci pensiamo noi a immaginare una festa d'addio che gli somigli davvero, tra emozione e buonumore.",
-      "story": "Una partenza segna sempre, in un certo senso, la fine di una storia condivisa. Aiutiamo i team a trasformare questo momento in un vero ricordo, a immagine della persona che parte, invece di una festa classica organizzata all'ultimo minuto.",
+      "intro": "Raccontateci cosa volete regalare a vostra mamma per la festa della mamma, ci pensiamo noi a immaginare la sua giornata ideale, con tutto ciò che ama.",
+      "story": "Sappiamo quanto possa essere difficile trovare l'idea giusta per ringraziare la propria mamma, al di là di fiori comprati al supermercato la sera prima. Raccontateci chi è, cosa ama, e costruiremo intorno a lei una giornata che le somigli davvero.",
       "cta": {
-        "title": "Pronti a festeggiare l'occasione?",
-        "text": "Raccontateci chi parte e perché, vi risponderemo con le prime idee entro 48 ore."
+        "title": "Pronti a ringraziarla in un altro modo?",
+        "text": "Raccontateci di vostra mamma, vi risponderemo con le prime idee entro 48 ore."
       }
     }
   },

@@ -13,17 +13,17 @@
         "title": "Pedida de mano a medida: crea el momento perfecto",
         "description": "Yurday organiza pedidas de mano inolvidables: escenario, momento, sorpresa y joyero si hace falta."
       },
-      "fete-des-meres": {
-        "title": "Día de la Madre a medida: un gracias fuera de lo común",
-        "description": "Para el Día de la Madre, Yurday imagina un día entero pensado para tu madre."
+      "saint-valentin": {
+        "title": "San Valentín a medida: un día fuera de lo común",
+        "description": "Yurday imagina San Valentín completamente a medida, lejos de la clásica cena con velas, para sorprender a la persona que importa."
       },
       "evg-evjf": {
         "title": "Despedidas de soltero y soltera a medida: un día inolvidable para todo el grupo",
         "description": "Yurday organiza despedidas de soltero y soltera a medida, logística incluida."
       },
-      "pot-de-depart": {
-        "title": "Fiesta de despedida a medida: marcar el momento antes del adiós",
-        "description": "Para una despedida que se recuerde, Yurday imagina una fiesta a medida."
+      "fete-des-meres": {
+        "title": "Día de la Madre a medida: un gracias fuera de lo común",
+        "description": "Para el Día de la Madre, Yurday imagina un día entero pensado para tu madre."
       }
     }
   },
@@ -64,15 +64,10 @@
     "daysLabel": "Días organizados",
     "bespokeLabel": "A medida, nunca un paquete"
   },
-  "concept": {
-    "lead": "Cumpleaños, boda, fiesta de despedida, o simplemente sin motivo particular: ",
-    "highlight": "la ocasión da igual",
-    "tail": ". El concepto sigue siendo siempre el mismo: un solo día, pensado de principio a fin, con exactamente lo que quieras dentro, y el escenario que imagines."
-  },
   "occasions": {
     "eyebrow": "Para qué ocasión",
     "h2": "Un día para cada historia",
-    "lede": "Algunos ejemplos entre infinitos más.",
+    "lede": "Cumpleaños, boda, fiesta de despedida, o simplemente sin motivo particular: la ocasión da igual. Aquí tienes algunos ejemplos entre infinitos más.",
     "moreLabel": "Y para todas las demás ocasiones",
     "chips": [
       "Boda",
@@ -80,7 +75,7 @@
       "Nacimiento / baby shower",
       "Jubilación",
       "Graduación",
-      "San Valentín",
+      "Fiesta de despedida",
       "Día del padre",
       "Bautizo",
       "Empresa",
@@ -91,9 +86,21 @@
     "cards": {
       "anniversaire": "Cumpleaños",
       "demande-en-mariage": "Pedida de mano",
-      "fete-des-meres": "Día de la madre",
+      "saint-valentin": "San Valentín",
       "evg-evjf": "Despedida de soltero/a",
-      "pot-de-depart": "Fiesta de despedida"
+      "fete-des-meres": "Día de la madre"
+    }
+  },
+  "moments": {
+    "eyebrow": "Historias reales",
+    "h2": "Días que realmente hemos organizado",
+    "lede": "Sin montajes: clientes reales, momentos reales.",
+    "items": {
+      "anniversaire": "Un cumpleaños junto al fuego, bajo las estrellas del Líbano.",
+      "demande-en-mariage": "Una pedida de mano entre fuegos artificiales, cerca de París.",
+      "saint-valentin": "Un San Valentín sobre el agua, al atardecer.",
+      "evg-evjf": "Una despedida de soltera parisina, en limusina por la ciudad.",
+      "fete-des-meres": "Un Día de la Madre visto desde el cielo, en globo aerostático."
     }
   },
   "reviews": {
@@ -328,18 +335,18 @@
         "text": "Cuéntanos tu historia y cómo la imaginas, te responderemos con las primeras ideas en menos de 48 horas."
       }
     },
-    "fete-des-meres": {
-      "eyebrow": "DÍA DE LA MADRE",
+    "saint-valentin": {
+      "eyebrow": "SAN VALENTÍN",
       "title": {
-        "lead": "Un gracias que",
-        "em": "nunca olvidará",
+        "lead": "Un amor que",
+        "em": "sale de lo común",
         "tail": ""
       },
-      "intro": "Cuéntanos qué quieres regalarle a tu mamá para el Día de la Madre, nosotros nos encargamos de imaginar su día ideal, con todo lo que le encanta.",
-      "story": "Sabemos lo difícil que puede ser encontrar la idea justa para agradecer a tu mamá, más allá de unas flores compradas la víspera en el supermercado. Cuéntanos quién es, qué le gusta, y construiremos a su alrededor un día que se parezca de verdad a ella.",
+      "intro": "Cuéntanos qué quieres regalarle a la persona que te importa para San Valentín, nosotros nos encargamos de imaginar un día a medida, lejos de la clásica cena con velas.",
+      "story": "San Valentín suele caer en los mismos rituales: un restaurante, flores, un poco de prisa de última hora. Preferimos partir de a quién quieres y de lo que realmente le importa, para construir un momento que salga de verdad de lo común, en pareja.",
       "cta": {
-        "title": "¿Listos para agradecerle de otra manera?",
-        "text": "Cuéntanos cómo es tu mamá, te responderemos con las primeras ideas en menos de 48 horas."
+        "title": "¿Listos para salir de lo convencional?",
+        "text": "Cuéntanos a quién quieres sorprender, te responderemos con las primeras ideas en menos de 48 horas."
       }
     },
     "evg-evjf": {
@@ -356,18 +363,18 @@
         "text": "Cuéntanos a quién quieres celebrar y con quién, te responderemos con las primeras ideas en menos de 48 horas."
       }
     },
-    "pot-de-depart": {
-      "eyebrow": "FIESTA DE DESPEDIDA",
+    "fete-des-meres": {
+      "eyebrow": "DÍA DE LA MADRE",
       "title": {
-        "lead": "Un adiós que",
-        "em": "quedará en la memoria",
+        "lead": "Un gracias que",
+        "em": "nunca olvidará",
         "tail": ""
       },
-      "intro": "Cuéntanos quién se va y por qué, nosotros nos encargamos de imaginar una fiesta de despedida que se parezca de verdad a esa persona, entre la emoción y el buen humor.",
-      "story": "Una despedida siempre marca, de alguna manera, el final de una historia compartida. Ayudamos a los equipos a transformar ese momento en un verdadero recuerdo, a la medida de la persona que se va, en lugar de una fiesta clásica organizada a última hora.",
+      "intro": "Cuéntanos qué quieres regalarle a tu mamá para el Día de la Madre, nosotros nos encargamos de imaginar su día ideal, con todo lo que le encanta.",
+      "story": "Sabemos lo difícil que puede ser encontrar la idea justa para agradecer a tu mamá, más allá de unas flores compradas la víspera en el supermercado. Cuéntanos quién es, qué le gusta, y construiremos a su alrededor un día que se parezca de verdad a ella.",
       "cta": {
-        "title": "¿Listos para marcar el momento?",
-        "text": "Cuéntanos quién se va y por qué, te responderemos con las primeras ideas en menos de 48 horas."
+        "title": "¿Listos para agradecerle de otra manera?",
+        "text": "Cuéntanos cómo es tu mamá, te responderemos con las primeras ideas en menos de 48 horas."
       }
     }
   },

@@ -13,17 +13,17 @@
         "title": "Maßgeschneiderter Heiratsantrag: der perfekte Moment",
         "description": "Yurday inszeniert unvergessliche Heiratsanträge: Kulisse, Timing, Überraschung und bei Bedarf ein Juwelier."
       },
-      "fete-des-meres": {
-        "title": "Muttertag nach Maß: ein Dankeschön, das heraussticht",
-        "description": "Zum Muttertag gestaltet Yurday einen ganzen Tag, der ganz auf Ihre Mutter zugeschnitten ist."
+      "saint-valentin": {
+        "title": "Valentinstag nach Maß: ein Tag, der heraussticht",
+        "description": "Yurday gestaltet einen maßgeschneiderten Valentinstag, weit weg vom klassischen Candle-Light-Dinner, um die Person zu überraschen, die zählt."
       },
       "evg-evjf": {
         "title": "Junggesellenabschied nach Maß: ein Tag, den die ganze Gruppe nie vergisst",
         "description": "Yurday organisiert maßgeschneiderte Junggesellenabschiede, Logistik inklusive."
       },
-      "pot-de-depart": {
-        "title": "Abschiedsfeier nach Maß: den Moment festhalten, bevor man sich verabschiedet",
-        "description": "Für einen Abschied, der bleibt, gestaltet Yurday eine maßgeschneiderte Abschiedsfeier."
+      "fete-des-meres": {
+        "title": "Muttertag nach Maß: ein Dankeschön, das heraussticht",
+        "description": "Zum Muttertag gestaltet Yurday einen ganzen Tag, der ganz auf Ihre Mutter zugeschnitten ist."
       }
     }
   },
@@ -64,15 +64,10 @@
     "daysLabel": "Organisierte Tage",
     "bespokeLabel": "Maßgeschneidert, nie von der Stange"
   },
-  "concept": {
-    "lead": "Geburtstag, Hochzeit, Abschiedsfeier, oder einfach so, ohne besonderen Grund: ",
-    "highlight": "der Anlass spielt keine Rolle",
-    "tail": ". Das Konzept bleibt immer dasselbe: ein einziger Tag, von A bis Z durchdacht, mit genau dem, was Sie sich wünschen, und dem Szenario, das Sie sich vorstellen."
-  },
   "occasions": {
     "eyebrow": "Für welchen Anlass",
     "h2": "Ein Tag für jede Geschichte",
-    "lede": "Ein paar Beispiele von unzähligen weiteren.",
+    "lede": "Geburtstag, Hochzeit, Abschiedsfeier, oder einfach so, ohne besonderen Grund: der Anlass spielt keine Rolle. Hier ein paar Beispiele von unzähligen weiteren.",
     "moreLabel": "Und für alle anderen Anlässe",
     "chips": [
       "Hochzeit",
@@ -80,7 +75,7 @@
       "Geburt / Babyparty",
       "Ruhestand",
       "Abschlussfeier",
-      "Valentinstag",
+      "Abschiedsfeier",
       "Vatertag",
       "Taufe",
       "Unternehmen",
@@ -91,9 +86,21 @@
     "cards": {
       "anniversaire": "Geburtstag",
       "demande-en-mariage": "Heiratsantrag",
-      "fete-des-meres": "Muttertag",
+      "saint-valentin": "Valentinstag",
       "evg-evjf": "Junggesellenabschied",
-      "pot-de-depart": "Abschiedsfeier"
+      "fete-des-meres": "Muttertag"
+    }
+  },
+  "moments": {
+    "eyebrow": "Echte Geschichten",
+    "h2": "Tage, die wir wirklich organisiert haben",
+    "lede": "Keine Inszenierung: echte Kunden, echte Momente.",
+    "items": {
+      "anniversaire": "Ein Geburtstag am Lagerfeuer, unter dem Sternenhimmel im Libanon.",
+      "demande-en-mariage": "Ein Heiratsantrag im Feuerwerk, nahe Paris.",
+      "saint-valentin": "Ein Valentinstag auf dem Wasser, bei Sonnenuntergang.",
+      "evg-evjf": "Ein Junggesellinnenabschied in Paris, mit einer Limousinen-Tour durch die Stadt.",
+      "fete-des-meres": "Ein Muttertag von oben, in einem Heißluftballon."
     }
   },
   "reviews": {
@@ -328,18 +335,18 @@
         "text": "Erzählen Sie uns Ihre Geschichte und wie Sie sie sich vorstellen, wir melden uns mit ersten Ideen innerhalb von 48 Stunden."
       }
     },
-    "fete-des-meres": {
-      "eyebrow": "MUTTERTAG",
+    "saint-valentin": {
+      "eyebrow": "VALENTINSTAG",
       "title": {
-        "lead": "Ein Dankeschön, das sie",
-        "em": "nie vergessen wird",
+        "lead": "Eine Liebe, die",
+        "em": "aus der Reihe tanzt",
         "tail": ""
       },
-      "intro": "Erzählen Sie uns, was Sie Ihrer Mama zum Muttertag schenken möchten, wir kümmern uns darum, ihren perfekten Tag zu gestalten, mit allem, was sie liebt.",
-      "story": "Wir wissen, wie schwer es sein kann, die richtige Art zu finden, seiner Mama zu danken, jenseits von Blumen, die am Vorabend im Supermarkt gekauft wurden. Erzählen Sie uns, wer sie ist, was sie liebt, und wir gestalten um sie herum einen Tag, der wirklich zu ihr passt.",
+      "intro": "Erzählen Sie uns, was Sie der Person schenken möchten, die Ihnen wichtig ist, wir gestalten einen maßgeschneiderten Valentinstag, weit weg vom klassischen Candle-Light-Dinner.",
+      "story": "Der Valentinstag folgt oft denselben Ritualen: ein Restaurant, Blumen, ein wenig Hektik in letzter Minute. Wir gehen lieber von der Person aus, die Sie lieben, und von dem, was ihr wirklich wichtig ist, um einen Moment zu gestalten, der wirklich aus der Reihe tanzt, zu zweit.",
       "cta": {
-        "title": "Bereit, ihr auf andere Weise zu danken?",
-        "text": "Erzählen Sie uns von Ihrer Mama, wir melden uns mit ersten Ideen innerhalb von 48 Stunden."
+        "title": "Bereit, ausgetretene Pfade zu verlassen?",
+        "text": "Erzählen Sie uns, wen Sie überraschen möchten, wir melden uns mit ersten Ideen innerhalb von 48 Stunden."
       }
     },
     "evg-evjf": {
@@ -356,18 +363,18 @@
         "text": "Erzählen Sie uns, wen Sie feiern möchten und mit wem, wir melden uns mit ersten Ideen innerhalb von 48 Stunden."
       }
     },
-    "pot-de-depart": {
-      "eyebrow": "ABSCHIEDSFEIER",
+    "fete-des-meres": {
+      "eyebrow": "MUTTERTAG",
       "title": {
-        "lead": "Ein Abschied, der",
-        "em": "in Erinnerung bleibt",
+        "lead": "Ein Dankeschön, das sie",
+        "em": "nie vergessen wird",
         "tail": ""
       },
-      "intro": "Erzählen Sie uns, wer geht und warum, wir kümmern uns darum, eine Abschiedsfeier zu gestalten, die wirklich zu dieser Person passt, zwischen Emotion und guter Laune.",
-      "story": "Ein Abschied markiert immer ein Stück weit das Ende einer gemeinsamen Geschichte. Wir helfen Teams dabei, diesen Moment in eine echte Erinnerung zu verwandeln, ganz im Sinne der Person, die geht, statt einer klassischen, in letzter Minute organisierten Feier.",
+      "intro": "Erzählen Sie uns, was Sie Ihrer Mama zum Muttertag schenken möchten, wir kümmern uns darum, ihren perfekten Tag zu gestalten, mit allem, was sie liebt.",
+      "story": "Wir wissen, wie schwer es sein kann, die richtige Art zu finden, seiner Mama zu danken, jenseits von Blumen, die am Vorabend im Supermarkt gekauft wurden. Erzählen Sie uns, wer sie ist, was sie liebt, und wir gestalten um sie herum einen Tag, der wirklich zu ihr passt.",
       "cta": {
-        "title": "Bereit, den Moment zu würdigen?",
-        "text": "Erzählen Sie uns, wer geht und warum, wir melden uns mit ersten Ideen innerhalb von 48 Stunden."
+        "title": "Bereit, ihr auf andere Weise zu danken?",
+        "text": "Erzählen Sie uns von Ihrer Mama, wir melden uns mit ersten Ideen innerhalb von 48 Stunden."
       }
     }
   },

@@ -4,9 +4,9 @@ import { defaultLocale, locales, type Locale } from '@/i18n/config'
 export const occasionKeys = [
   'anniversaire',
   'demande-en-mariage',
-  'fete-des-meres',
+  'saint-valentin',
   'evg-evjf',
-  'pot-de-depart',
+  'fete-des-meres',
 ] as const
 
 export type OccasionKey = (typeof occasionKeys)[number]
@@ -39,16 +39,16 @@ const slugs: Record<OccasionKey, Record<Locale, string>> = {
     ja: 'marriage-proposal',
     ar: 'marriage-proposal',
   },
-  'fete-des-meres': {
-    fr: 'fete-des-meres',
-    en: 'mothers-day',
-    es: 'dia-de-la-madre',
-    pt: 'dia-das-maes',
-    de: 'muttertag',
-    it: 'festa-della-mamma',
-    zh: 'mothers-day',
-    ja: 'mothers-day',
-    ar: 'mothers-day',
+  'saint-valentin': {
+    fr: 'saint-valentin',
+    en: 'valentines-day',
+    es: 'san-valentin',
+    pt: 'dia-dos-namorados',
+    de: 'valentinstag',
+    it: 'san-valentino',
+    zh: 'valentines-day',
+    ja: 'valentines-day',
+    ar: 'valentines-day',
   },
   'evg-evjf': {
     fr: 'evg-evjf',
@@ -61,16 +61,16 @@ const slugs: Record<OccasionKey, Record<Locale, string>> = {
     ja: 'bachelor-bachelorette-party',
     ar: 'bachelor-bachelorette-party',
   },
-  'pot-de-depart': {
-    fr: 'pot-de-depart',
-    en: 'farewell-party',
-    es: 'fiesta-de-despedida',
-    pt: 'festa-de-despedida',
-    de: 'abschiedsfeier',
-    it: 'festa-d-addio',
-    zh: 'farewell-party',
-    ja: 'farewell-party',
-    ar: 'farewell-party',
+  'fete-des-meres': {
+    fr: 'fete-des-meres',
+    en: 'mothers-day',
+    es: 'dia-de-la-madre',
+    pt: 'dia-das-maes',
+    de: 'muttertag',
+    it: 'festa-della-mamma',
+    zh: 'mothers-day',
+    ja: 'mothers-day',
+    ar: 'mothers-day',
   },
 }
 
@@ -78,9 +78,9 @@ const slugs: Record<OccasionKey, Record<Locale, string>> = {
 const images: Record<OccasionKey, string> = {
   anniversaire: '/images/occasion-anniversaire.webp',
   'demande-en-mariage': '/images/occasion-demande-en-mariage.webp',
-  'fete-des-meres': '/images/occasion-fete-des-meres.webp',
+  'saint-valentin': '/images/occasion-saint-valentin.webp',
   'evg-evjf': '/images/occasion-evg-evjf.webp',
-  'pot-de-depart': '/images/occasion-pot-de-depart.webp',
+  'fete-des-meres': '/images/occasion-fete-des-meres.webp',
 }
 
 export function occasionSlug(key: OccasionKey, locale: Locale): string {

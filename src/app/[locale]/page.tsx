@@ -1,9 +1,9 @@
 import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
-import { Concept } from '@/components/home/Concept'
 import { Contact } from '@/components/home/Contact'
 import { Faq } from '@/components/home/Faq'
 import { Hero } from '@/components/home/Hero'
+import { Moments } from '@/components/home/Moments'
 import { Occasions } from '@/components/home/Occasions'
 import { Process } from '@/components/home/Process'
 import { Reviews } from '@/components/home/Reviews'
@@ -58,8 +58,8 @@ export default async function HomePage({ params }: HomeProps) {
         ])}
       />
       <Hero messages={messages} home={home} />
-      <Concept messages={messages} />
       <Occasions messages={messages} locale={locale} />
+      <Moments messages={messages} />
       <Reviews messages={messages} locale={locale} />
       <Process messages={messages} />
       <Story messages={messages} />

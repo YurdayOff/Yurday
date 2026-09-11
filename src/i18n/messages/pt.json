@@ -13,17 +13,17 @@
         "title": "Pedido de casamento sob medida: crie o momento perfeito",
         "description": "A Yurday orquestra pedidos de casamento inesquecíveis: cenário, timing, surpresa e joalheiro se necessário."
       },
-      "fete-des-meres": {
-        "title": "Dia das Mães sob medida: um obrigado fora do comum",
-        "description": "No Dia das Mães, a Yurday imagina um dia inteiro pensado para a sua mãe."
+      "saint-valentin": {
+        "title": "Dia dos Namorados sob medida: um dia fora do comum",
+        "description": "A Yurday imagina o Dia dos Namorados totalmente sob medida, longe do clássico jantar à luz de velas, para surpreender quem importa."
       },
       "evg-evjf": {
         "title": "Despedidas de solteiro e solteira sob medida: um dia inesquecível para o grupo",
         "description": "A Yurday organiza despedidas de solteiro e solteira sob medida, logística incluída."
       },
-      "pot-de-depart": {
-        "title": "Festa de despedida sob medida: marcar o momento antes do adeus",
-        "description": "Para uma despedida marcante, a Yurday imagina uma festa de despedida sob medida."
+      "fete-des-meres": {
+        "title": "Dia das Mães sob medida: um obrigado fora do comum",
+        "description": "No Dia das Mães, a Yurday imagina um dia inteiro pensado para a sua mãe."
       }
     }
   },
@@ -64,15 +64,10 @@
     "daysLabel": "Dias organizados",
     "bespokeLabel": "Sob medida, nunca um pacote"
   },
-  "concept": {
-    "lead": "Aniversário, casamento, festa de despedida, ou apenas uma vontade sem motivo específico: ",
-    "highlight": "a ocasião não importa",
-    "tail": ". O conceito continua sempre o mesmo: um único dia, pensado do início ao fim, com exatamente o que você quiser dentro, e o cenário que você imaginar."
-  },
   "occasions": {
     "eyebrow": "Para qual ocasião",
     "h2": "Um dia para cada história",
-    "lede": "Alguns exemplos entre infinitos outros.",
+    "lede": "Aniversário, casamento, festa de despedida, ou apenas uma vontade sem motivo específico: a ocasião não importa. Aqui estão alguns exemplos entre infinitos outros.",
     "moreLabel": "E para todas as outras ocasiões",
     "chips": [
       "Casamento",
@@ -80,7 +75,7 @@
       "Nascimento / chá de bebê",
       "Aposentadoria",
       "Formatura",
-      "Dia dos Namorados",
+      "Festa de despedida",
       "Dia dos Pais",
       "Batizado",
       "Empresa",
@@ -91,9 +86,21 @@
     "cards": {
       "anniversaire": "Aniversário",
       "demande-en-mariage": "Pedido de casamento",
-      "fete-des-meres": "Dia das Mães",
+      "saint-valentin": "Dia dos Namorados",
       "evg-evjf": "Despedida de solteiro(a)",
-      "pot-de-depart": "Festa de despedida"
+      "fete-des-meres": "Dia das Mães"
+    }
+  },
+  "moments": {
+    "eyebrow": "Histórias reais",
+    "h2": "Dias que realmente organizamos",
+    "lede": "Sem encenação: clientes reais, momentos reais.",
+    "items": {
+      "anniversaire": "Um aniversário à beira da fogueira, sob as estrelas do Líbano.",
+      "demande-en-mariage": "Um pedido de casamento sob fogos de artifício, perto de Paris.",
+      "saint-valentin": "Um Dia dos Namorados sobre a água, ao pôr do sol.",
+      "evg-evjf": "Uma despedida de solteira parisiense, em limusine pela cidade.",
+      "fete-des-meres": "Um Dia das Mães visto do céu, em um balão de ar quente."
     }
   },
   "reviews": {
@@ -328,18 +335,18 @@
         "text": "Conte-nos sua história e como você a imagina, retornaremos com as primeiras ideias em até 48h."
       }
     },
-    "fete-des-meres": {
-      "eyebrow": "DIA DAS MÃES",
+    "saint-valentin": {
+      "eyebrow": "DIA DOS NAMORADOS",
       "title": {
-        "lead": "Um obrigado que ela",
-        "em": "nunca vai esquecer",
+        "lead": "Um amor que",
+        "em": "foge do comum",
         "tail": ""
       },
-      "intro": "Conte-nos o que você quer oferecer à sua mãe no Dia das Mães, nós cuidamos de imaginar o dia ideal dela, com tudo o que ela ama.",
-      "story": "Sabemos como pode ser difícil encontrar a ideia certa para agradecer à sua mãe, além de flores compradas de véspera no supermercado. Conte-nos quem ela é, o que ela ama, e construiremos ao redor dela um dia que combine de verdade com ela.",
+      "intro": "Conte-nos o que você quer oferecer para quem importa no Dia dos Namorados, nós cuidamos de imaginar um dia sob medida, longe do clássico jantar à luz de velas.",
+      "story": "O Dia dos Namorados costuma cair nos mesmos rituais: um restaurante, flores, um pouco de pressa de última hora. Preferimos partir de quem você ama e do que realmente importa para essa pessoa, para construir um momento que realmente fuja do comum, a dois.",
       "cta": {
-        "title": "Pronto para agradecer de outra forma?",
-        "text": "Conte-nos sobre sua mãe, retornaremos com as primeiras ideias em até 48h."
+        "title": "Prontos para fugir do óbvio?",
+        "text": "Conte-nos quem você quer surpreender, retornaremos com as primeiras ideias em até 48h."
       }
     },
     "evg-evjf": {
@@ -356,18 +363,18 @@
         "text": "Conte-nos quem você quer celebrar e com quem, retornaremos com as primeiras ideias em até 48h."
       }
     },
-    "pot-de-depart": {
-      "eyebrow": "FESTA DE DESPEDIDA",
+    "fete-des-meres": {
+      "eyebrow": "DIA DAS MÃES",
       "title": {
-        "lead": "Um adeus que",
-        "em": "ficará na memória",
+        "lead": "Um obrigado que ela",
+        "em": "nunca vai esquecer",
         "tail": ""
       },
-      "intro": "Conte-nos quem está saindo e por quê, nós cuidamos de imaginar uma festa de despedida que combine de verdade com essa pessoa, entre emoção e boa disposição.",
-      "story": "Uma saída sempre marca, de certa forma, o fim de uma história compartilhada. Ajudamos as equipes a transformar esse momento em uma verdadeira lembrança, à imagem da pessoa que está partindo, em vez de uma festa clássica organizada de última hora.",
+      "intro": "Conte-nos o que você quer oferecer à sua mãe no Dia das Mães, nós cuidamos de imaginar o dia ideal dela, com tudo o que ela ama.",
+      "story": "Sabemos como pode ser difícil encontrar a ideia certa para agradecer à sua mãe, além de flores compradas de véspera no supermercado. Conte-nos quem ela é, o que ela ama, e construiremos ao redor dela um dia que combine de verdade com ela.",
       "cta": {
-        "title": "Pronto para marcar a ocasião?",
-        "text": "Conte-nos quem está saindo e por quê, retornaremos com as primeiras ideias em até 48h."
+        "title": "Pronto para agradecer de outra forma?",
+        "text": "Conte-nos sobre sua mãe, retornaremos com as primeiras ideias em até 48h."
       }
     }
   },

@@ -56,7 +56,7 @@ export function ContactForm({ form }: ContactFormProps) {
   const [values, setValues] = useState<Values>({
     ...emptyValues,
     occasion: form.occasionOptions[0] ?? '',
-    budget: form.budgetOptions[0] ?? '',
+    budget: form.budgetOptions[form.budgetOptions.length - 1] ?? '',
   })
   const [emailError, setEmailError] = useState(false)
   const [sendFailed, setSendFailed] = useState(false)

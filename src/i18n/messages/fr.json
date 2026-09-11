@@ -13,17 +13,17 @@
         "title": "Demande en mariage sur mesure : créez le moment parfait",
         "description": "Yurday orchestre des demandes en mariage inoubliables : décor, timing, surprise, et joaillier si besoin."
       },
-      "fete-des-meres": {
-        "title": "Fête des mères sur mesure : un merci qui sort de l'ordinaire",
-        "description": "Pour la fête des mères, Yurday imagine une journée entière pensée pour votre maman."
+      "saint-valentin": {
+        "title": "Saint-Valentin sur mesure : une journée qui sort de l'ordinaire",
+        "description": "Yurday imagine des Saint-Valentin entièrement sur mesure, loin du dîner aux chandelles classique, pour surprendre la personne qui compte."
       },
       "evg-evjf": {
         "title": "EVG et EVJF sur mesure : une journée inoubliable pour toute la bande",
         "description": "Yurday organise des EVG et EVJF sur mesure, logistique comprise."
       },
-      "pot-de-depart": {
-        "title": "Pot de départ sur mesure : marquer le coup avant de se dire au revoir",
-        "description": "Pour un départ marquant, Yurday imagine un pot de départ sur mesure."
+      "fete-des-meres": {
+        "title": "Fête des mères sur mesure : un merci qui sort de l'ordinaire",
+        "description": "Pour la fête des mères, Yurday imagine une journée entière pensée pour votre maman."
       }
     }
   },
@@ -64,15 +64,10 @@
     "daysLabel": "Journées organisées",
     "bespokeLabel": "Sur-mesure, jamais de formule"
   },
-  "concept": {
-    "lead": "Anniversaire, mariage, départ d'entreprise, ou juste une envie sans raison particulière : ",
-    "highlight": "peu importe l'occasion",
-    "tail": ". Le concept reste toujours le même : une seule journée, pensée de A à Z, avec exactement ce que vous voulez dedans, et le scénario que vous imaginez."
-  },
   "occasions": {
     "eyebrow": "Pour quelle occasion",
     "h2": "Une journée pour chaque histoire",
-    "lede": "Quelques exemples parmi une infinité d'autres.",
+    "lede": "Anniversaire, mariage, départ d'entreprise, ou juste une envie sans raison particulière : peu importe l'occasion. Voici quelques exemples parmi une infinité d'autres.",
     "moreLabel": "Et pour toutes les autres occasions",
     "chips": [
       "Mariage",
@@ -80,7 +75,7 @@
       "Naissance / baby shower",
       "Départ à la retraite",
       "Remise de diplôme",
-      "Saint-Valentin",
+      "Pot de départ",
       "Fête des pères",
       "Baptême",
       "Entreprise",
@@ -91,9 +86,21 @@
     "cards": {
       "anniversaire": "Anniversaire",
       "demande-en-mariage": "Demande en mariage",
-      "fete-des-meres": "Fête des mères",
+      "saint-valentin": "Saint-Valentin",
       "evg-evjf": "EVG / EVJF",
-      "pot-de-depart": "Pot de départ"
+      "fete-des-meres": "Fête des mères"
+    }
+  },
+  "moments": {
+    "eyebrow": "Vraies histoires",
+    "h2": "Des journées qu'on a vraiment organisées",
+    "lede": "Pas de mise en scène : de vrais clients, de vrais moments.",
+    "items": {
+      "anniversaire": "Un anniversaire au coin du feu, sous les étoiles du Liban.",
+      "demande-en-mariage": "Une demande en mariage sous les feux d'artifice, dans le 95.",
+      "saint-valentin": "Une Saint-Valentin sur l'eau, au coucher du soleil.",
+      "evg-evjf": "Un EVJF parisien, en pleine tournée en limousine.",
+      "fete-des-meres": "Une fête des mères vue du ciel, en montgolfière."
     }
   },
   "reviews": {
@@ -328,18 +335,18 @@
         "text": "Racontez-nous votre histoire et comment vous l'imaginez, on revient vers vous avec les premières idées sous 48h."
       }
     },
-    "fete-des-meres": {
-      "eyebrow": "FÊTE DES MÈRES",
+    "saint-valentin": {
+      "eyebrow": "SAINT-VALENTIN",
       "title": {
-        "lead": "Un merci qu'elle",
-        "em": "n'oubliera jamais",
+        "lead": "Un amour qui",
+        "em": "sort de l'ordinaire",
         "tail": ""
       },
-      "intro": "Racontez-nous ce que vous voulez offrir à votre maman pour la fête des mères, on s'occupe d'imaginer sa journée idéale, avec tout ce qu'elle aime.",
-      "story": "On sait à quel point il peut être difficile de trouver l'idée juste pour dire merci à sa maman, autrement qu'avec des fleurs prises la veille au supermarché. Racontez-nous qui elle est, ce qu'elle aime, et on construit autour d'elle une journée qui lui ressemble vraiment.",
+      "intro": "Racontez-nous ce que vous voulez offrir à la personne qui compte pour la Saint-Valentin, on s'occupe d'imaginer une journée sur mesure, loin du dîner aux chandelles trop classique.",
+      "story": "La Saint-Valentin tombe souvent dans les mêmes rituels : un restaurant, des fleurs, un peu de précipitation. On préfère partir de qui vous aimez et de ce qui compte vraiment pour elle ou lui, pour construire un moment qui sort vraiment de l'ordinaire, à deux.",
       "cta": {
-        "title": "Prêt à lui dire merci autrement ?",
-        "text": "Racontez-nous qui est votre maman, on revient vers vous avec les premières idées sous 48h."
+        "title": "Prêt à sortir des sentiers battus ?",
+        "text": "Racontez-nous qui vous voulez surprendre, on revient vers vous avec les premières idées sous 48h."
       }
     },
     "evg-evjf": {
@@ -356,18 +363,18 @@
         "text": "Racontez-nous qui vous voulez célébrer et avec qui, on revient vers vous avec les premières idées sous 48h."
       }
     },
-    "pot-de-depart": {
-      "eyebrow": "POT DE DÉPART",
+    "fete-des-meres": {
+      "eyebrow": "FÊTE DES MÈRES",
       "title": {
-        "lead": "Un au revoir qui",
-        "em": "restera dans les mémoires",
+        "lead": "Un merci qu'elle",
+        "em": "n'oubliera jamais",
         "tail": ""
       },
-      "intro": "Racontez-nous qui part et pourquoi, on s'occupe d'imaginer un pot de départ qui lui ressemble, entre émotion et bonne humeur.",
-      "story": "Un départ marque toujours un peu la fin d'une histoire commune. On aide les équipes à transformer ce moment en un vrai souvenir, à l'image de la personne qui s'en va, plutôt qu'en un pot classique organisé à la dernière minute.",
+      "intro": "Racontez-nous ce que vous voulez offrir à votre maman pour la fête des mères, on s'occupe d'imaginer sa journée idéale, avec tout ce qu'elle aime.",
+      "story": "On sait à quel point il peut être difficile de trouver l'idée juste pour dire merci à sa maman, autrement qu'avec des fleurs prises la veille au supermarché. Racontez-nous qui elle est, ce qu'elle aime, et on construit autour d'elle une journée qui lui ressemble vraiment.",
       "cta": {
-        "title": "Prêt à marquer le coup ?",
-        "text": "Racontez-nous qui part et pourquoi, on revient vers vous avec les premières idées sous 48h."
+        "title": "Prêt à lui dire merci autrement ?",
+        "text": "Racontez-nous qui est votre maman, on revient vers vous avec les premières idées sous 48h."
       }
     }
   },
