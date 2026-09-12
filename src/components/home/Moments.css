@@ -2,11 +2,12 @@
 .section-coral .eyebrow { color: var(--white); opacity: 0.9; }
 .section-coral .section-head h2 { color: var(--white); }
 
-/* ---------- Une histoire à la fois, en fondu ---------- */
+/* ---------- Une pile de photos qu'on feuillette, jamais deux au même endroit ---------- */
 .moment-stage {
   display: grid;
   max-width: 880px;
   margin: 0 auto;
+  padding: 0 46px 46px 0;
 }
 .moment-slide {
   grid-area: 1 / 1;
@@ -16,17 +17,10 @@
   border-radius: 24px;
   overflow: hidden;
   box-shadow: 0 24px 56px rgba(43, 33, 25, 0.22);
-  opacity: 0;
-  transform: scale(0.98);
-  transition: opacity 0.7s ease, transform 0.7s ease;
+  transition: transform 0.7s cubic-bezier(0.22, 1, 0.36, 1), opacity 0.7s ease;
   pointer-events: none;
 }
-.moment-slide.is-active {
-  opacity: 1;
-  transform: scale(1);
-  pointer-events: auto;
-  position: relative;
-}
+.moment-slide.is-active { pointer-events: auto; }
 .moment-photo { width: 100%; height: 240px; overflow: hidden; }
 .moment-photo img { width: 100%; height: 100%; object-fit: cover; display: block; }
 .moment-text { padding: 26px 28px 30px; }
