@@ -21,7 +21,8 @@
   pointer-events: none;
 }
 .moment-slide.is-active { pointer-events: auto; }
-.moment-photo { width: 100%; height: 240px; overflow: hidden; }
+/* Même ratio que les photos sources (1448x1086) : cover ne recadre donc plus rien. */
+.moment-photo { width: 100%; aspect-ratio: 1448 / 1086; overflow: hidden; }
 .moment-photo img { width: 100%; height: 100%; object-fit: cover; display: block; }
 .moment-text { padding: 26px 28px 30px; }
 .moment-kicker { margin-bottom: 10px; }
@@ -59,8 +60,8 @@
 .moment-dot.is-active { background: var(--white); transform: scale(1.25); }
 
 @media (min-width: 640px) {
-  .moment-slide { grid-template-columns: 1fr 1fr; }
-  .moment-photo { height: 100%; min-height: 340px; }
+  .moment-slide { grid-template-columns: 1fr 1fr; align-items: center; }
+  .moment-photo { align-self: center; }
   .moment-text { padding: 40px 44px; align-self: center; }
   .moment-text h3 { font-size: 24px; }
   .moment-text p { font-size: 15.5px; }
