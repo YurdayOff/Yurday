@@ -97,39 +97,39 @@
     "kicker": "Un instante de su día a medida",
     "items": {
       "karting": {
-        "title": "La pandilla de Karim, antes de irse",
+        "title": "La pandilla de Yanis, antes de irse",
         "story": "Se iba dos meses después y quería una última noche con sus amigos. Privatizamos una pista de karting nocturna, seguida de una cena hasta bien entrada la noche."
       },
       "voiture-luxe": {
-        "title": "El hijo de Marc, fan de los coches de toda la vida",
+        "title": "El hijo de Aymeric, fan de los coches de toda la vida",
         "story": "Su hijo de 8 años no hablaba de otra cosa que de Lamborghinis desde hacía meses. Para su cumpleaños, le organizamos una sorpresa con una Huracán aparcada frente a su casa, y una vuelta por el barrio con su padre al volante."
       },
       "evjf-boite-nuit": {
-        "title": "Las amigas de Camille, la víspera del sí",
+        "title": "Las amigas de Apolline, la víspera del sí",
         "story": "Querían una auténtica noche parisina, no solo unas copas en un bar. Les reservamos una mesa VIP en una discoteca del centro, con botella y acceso sin colas. La futura novia no pagó nada esa noche."
       },
       "parc-des-princes": {
-        "title": "Nathan, del PSG de toda la vida",
+        "title": "Enzo, del PSG de toda la vida",
         "story": "Siempre había soñado con ver un partido de Champions League en el Parque de los Príncipes con su mejor amigo, sin conseguirlo nunca. Le encontramos dos entradas para una gran noche europea."
       },
       "star-dior": {
-        "title": "Inès, por una noche",
+        "title": "Capucine, por una noche",
         "story": "Siempre se había preguntado qué se siente al ser perseguida como una celebridad, aunque fuera una vez. Le organizamos una falsa salida de compras frente a una boutique parisina, con dos guardaespaldas y un cámara siguiéndola."
       },
       "degustation-vin": {
-        "title": "Julien, por el día de su padre",
+        "title": "Baptiste, por el día de su padre",
         "story": "Quería agradecer a su padre con algo más que una corbata. Le organizamos una cata privada en una bodega parisina, solo ellos dos con un sumiller, y una tabla de quesos hasta la última botella."
       },
       "chef-prive": {
-        "title": "Victor, por una cena sin salir de casa",
+        "title": "Balthazar, por una cena sin salir de casa",
         "story": "Quería una cena gastronómica sin reservar restaurante. Le enviamos un chef privado para toda la noche, con un menú a medida y los tejados de París como únicos vecinos."
       },
       "evg-boite-nuit": {
-        "title": "La pandilla de Maxime, antes de la boda",
+        "title": "La pandilla de Anatole, antes de la boda",
         "story": "Sus amigos querían una última salida memorable antes de la boda. Les reservamos un reservado VIP en un club de París, con botellas y vistas a la pista hasta el amanecer."
       },
       "saut-parachute": {
-        "title": "Los amigos de Lucas, por sus 30",
+        "title": "Los amigos de Gaspard, por sus 30",
         "story": "Sus amigos querían celebrar la fecha con algo más que un restaurante. Organizamos un salto en paracaídas en grupo al atardecer, seguido de una cena para revivirlo todo en caliente."
       }
     }

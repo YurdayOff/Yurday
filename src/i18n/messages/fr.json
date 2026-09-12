@@ -97,39 +97,39 @@
     "kicker": "Un instant de leur journée sur mesure",
     "items": {
       "karting": {
-        "title": "La bande à Karim, avant son départ",
+        "title": "La bande à Yanis, avant son départ",
         "story": "Il partait deux mois plus tard et voulait une dernière soirée entre potes avant ça. On a privatisé une piste de karting en nocturne, suivie d'un dîner tard dans la nuit."
       },
       "voiture-luxe": {
-        "title": "Le fils de Marc, fan de voitures depuis toujours",
+        "title": "Le fils d'Aymeric, fan de voitures depuis toujours",
         "story": "Son fils de 8 ans ne parlait que de Lamborghini depuis des mois. Pour son anniversaire, on lui a organisé une surprise avec une Huracán garée devant chez lui, et un tour du quartier avec son père au volant."
       },
       "evjf-boite-nuit": {
-        "title": "Les copines de Camille, la veille du oui",
+        "title": "Les copines d'Apolline, la veille du oui",
         "story": "Elles voulaient une vraie soirée parisienne, pas un simple bar entre filles. On leur a réservé une table VIP dans une boîte de nuit du centre, avec bouteille et accès coupe-file. La future mariée n'a rien payé de la soirée."
       },
       "parc-des-princes": {
-        "title": "Nathan, supporter du PSG depuis toujours",
+        "title": "Enzo, supporter du PSG depuis toujours",
         "story": "Il rêvait de voir un match de Ligue des Champions au Parc des Princes avec son meilleur ami, sans jamais avoir réussi à avoir de billets. On leur a trouvé deux places pour un soir de gala européen."
       },
       "star-dior": {
-        "title": "Inès, le temps d'une soirée",
+        "title": "Capucine, le temps d'une soirée",
         "story": "Elle rêvait de savoir ce que ça fait d'être suivie comme une célébrité, ne serait-ce qu'une fois. On lui a organisé une fausse sortie shopping devant une boutique parisienne, avec deux agents de sécurité et un cameraman à ses trousses."
       },
       "degustation-vin": {
-        "title": "Julien, pour la fête de son père",
+        "title": "Baptiste, pour la fête de son père",
         "story": "Il voulait remercier son père autrement qu'avec une cravate. On leur a organisé une dégustation privée dans une cave parisienne, avec un sommelier rien que pour eux deux et une planche à grignoter jusqu'à la dernière bouteille."
       },
       "chef-prive": {
-        "title": "Victor, pour un dîner sans sortir de chez eux",
+        "title": "Balthazar, pour un dîner sans sortir de chez eux",
         "story": "Il voulait un dîner gastronomique sans réserver de restaurant. On leur a envoyé un chef privé pour toute la soirée, avec un menu sur mesure et les toits de Paris pour seuls voisins."
       },
       "evg-boite-nuit": {
-        "title": "La bande à Maxime, avant son mariage",
+        "title": "La bande à Anatole, avant son mariage",
         "story": "Ses amis voulaient une dernière sortie mémorable avant le mariage. On leur a réservé un carré VIP dans un club parisien, bouteilles et vue sur le dancefloor jusqu'au bout de la nuit."
       },
       "saut-parachute": {
-        "title": "Les amis de Lucas, pour ses 30 ans",
+        "title": "Les amis de Gaspard, pour ses 30 ans",
         "story": "Ses amis voulaient marquer la dizaine autrement qu'avec un restaurant. On leur a organisé un saut en parachute en groupe au coucher du soleil, suivi d'un dîner pour raconter les sensations encore à chaud."
       }
     }
