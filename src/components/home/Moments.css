@@ -2,74 +2,54 @@
 .section-coral .eyebrow { color: var(--white); opacity: 0.9; }
 .section-coral .section-head h2 { color: var(--white); }
 
-/* ---------- Une histoire à la fois, en fondu sobre ---------- */
-.moment-stage {
-  display: grid;
-  max-width: 880px;
-  margin: 0 auto;
+/* ---------- Bandeau qu'on fait glisser soi-même, aucune animation automatique ---------- */
+.moment-scroll {
+  display: flex;
+  gap: 16px;
+  overflow-x: auto;
+  scroll-snap-type: x proximity;
+  -webkit-overflow-scrolling: touch;
+  padding: 8px max(28px, calc((100vw - 1120px) / 2 + 28px)) 12px;
 }
-.moment-slide {
-  grid-area: 1 / 1;
-  display: grid;
-  grid-template-columns: 1fr;
+
+.moment-card {
+  flex: 0 0 220px;
+  scroll-snap-align: start;
   background: var(--white);
-  border-radius: 24px;
+  border-radius: 16px;
   overflow: hidden;
-  box-shadow: 0 24px 56px rgba(43, 33, 25, 0.22);
-  opacity: 0;
-  transition: opacity 0.7s ease;
-  pointer-events: none;
+  box-shadow: 0 8px 20px rgba(43, 33, 25, 0.14);
 }
-.moment-slide.is-active {
-  opacity: 1;
-  pointer-events: auto;
-}
-/* Même ratio que les photos sources (1448x1086) : cover ne recadre donc plus rien. */
 .moment-photo { width: 100%; aspect-ratio: 1448 / 1086; overflow: hidden; }
 .moment-photo img { width: 100%; height: 100%; object-fit: cover; display: block; }
-.moment-text { padding: 26px 28px 30px; }
-.moment-kicker { margin-bottom: 10px; }
+.moment-text { padding: 12px 14px 16px; }
 .moment-text h3 {
   font-family: var(--font-fraunces), Georgia, serif;
-  font-size: 21px;
+  font-size: 13.5px;
   font-weight: 600;
-  margin: 0 0 10px;
+  margin: 0 0 5px;
   color: var(--ink);
 }
 .moment-text p {
-  font-size: 15px;
-  line-height: 1.6;
+  font-size: 11.5px;
+  line-height: 1.4;
   color: var(--ink-soft);
   margin: 0;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
-.moment-dots {
-  display: flex;
-  justify-content: center;
-  gap: 10px;
-  margin-top: 26px;
-}
-.moment-dot {
-  width: 9px;
-  height: 9px;
-  border-radius: 999px;
-  border: none;
-  padding: 0;
-  background: rgba(255, 255, 255, 0.4);
-  cursor: pointer;
-  transition: background 0.2s, transform 0.2s;
-}
-.moment-dot:hover { background: rgba(255, 255, 255, 0.7); }
-.moment-dot.is-active { background: var(--white); transform: scale(1.25); }
-
-@media (min-width: 640px) {
-  .moment-slide { grid-template-columns: 1fr 1fr; align-items: center; }
-  .moment-photo { align-self: center; }
-  .moment-text { padding: 40px 44px; align-self: center; }
-  .moment-text h3 { font-size: 24px; }
-  .moment-text p { font-size: 15.5px; }
+.moment-hint {
+  text-align: center;
+  font-size: 12.5px;
+  color: rgba(255, 255, 255, 0.72);
+  margin: 4px 0 0;
 }
 
-@media (prefers-reduced-motion: reduce) {
-  .moment-slide { transition: none; }
+@media (min-width: 720px) {
+  .moment-card { flex-basis: 260px; }
+  .moment-text h3 { font-size: 15px; }
+  .moment-text p { font-size: 12.5px; -webkit-line-clamp: 4; }
 }
