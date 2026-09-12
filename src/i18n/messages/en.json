@@ -115,6 +115,22 @@
       "star-dior": {
         "title": "Inès, for one evening",
         "story": "She'd always wondered what it feels like to be followed around like a celebrity, just once. We staged a fake shopping outing outside a Paris boutique, complete with two bodyguards and a cameraman trailing her."
+      },
+      "degustation-vin": {
+        "title": "Julien, for his father's day",
+        "story": "He wanted to thank his dad with something other than a tie. We arranged a private tasting in a Paris wine cellar, just the two of them with a sommelier, and a cheese board that lasted until the last bottle."
+      },
+      "chef-prive": {
+        "title": "Victor, for a dinner without leaving home",
+        "story": "He wanted a gourmet dinner without booking a restaurant. We sent a private chef for the whole evening, with a bespoke menu and the Paris rooftops as their only neighbours."
+      },
+      "evg-boite-nuit": {
+        "title": "Maxime's crew, before the wedding",
+        "story": "His friends wanted one last memorable night out before the wedding. We booked a VIP booth at a Paris club, bottles included, with a view over the dancefloor until the early hours."
+      },
+      "saut-parachute": {
+        "title": "Lucas's friends, for his 30th",
+        "story": "His friends wanted to mark the milestone with something other than a restaurant. We organised a group skydive at sunset, followed by dinner to relive it all while it was still fresh."
       }
     }
   },

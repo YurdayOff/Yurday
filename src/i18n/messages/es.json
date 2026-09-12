@@ -115,6 +115,22 @@
       "star-dior": {
         "title": "Inès, por una noche",
         "story": "Siempre se había preguntado qué se siente al ser perseguida como una celebridad, aunque fuera una vez. Le organizamos una falsa salida de compras frente a una boutique parisina, con dos guardaespaldas y un cámara siguiéndola."
+      },
+      "degustation-vin": {
+        "title": "Julien, por el día de su padre",
+        "story": "Quería agradecer a su padre con algo más que una corbata. Le organizamos una cata privada en una bodega parisina, solo ellos dos con un sumiller, y una tabla de quesos hasta la última botella."
+      },
+      "chef-prive": {
+        "title": "Victor, por una cena sin salir de casa",
+        "story": "Quería una cena gastronómica sin reservar restaurante. Le enviamos un chef privado para toda la noche, con un menú a medida y los tejados de París como únicos vecinos."
+      },
+      "evg-boite-nuit": {
+        "title": "La pandilla de Maxime, antes de la boda",
+        "story": "Sus amigos querían una última salida memorable antes de la boda. Les reservamos un reservado VIP en un club de París, con botellas y vistas a la pista hasta el amanecer."
+      },
+      "saut-parachute": {
+        "title": "Los amigos de Lucas, por sus 30",
+        "story": "Sus amigos querían celebrar la fecha con algo más que un restaurante. Organizamos un salto en paracaídas en grupo al atardecer, seguido de una cena para revivirlo todo en caliente."
       }
     }
   },

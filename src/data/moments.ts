@@ -16,4 +16,8 @@ export const moments: Moment[] = [
   { id: 'evjf-boite-nuit', image: '/images/moment-evjf-boite-nuit.webp' },
   { id: 'parc-des-princes', image: '/images/moment-parc-des-princes.webp' },
   { id: 'star-dior', image: '/images/moment-star-dior.webp' },
+  { id: 'degustation-vin', image: '/images/moment-degustation-vin.webp' },
+  { id: 'chef-prive', image: '/images/moment-chef-prive.webp' },
+  { id: 'evg-boite-nuit', image: '/images/moment-evg-boite-nuit.webp' },
+  { id: 'saut-parachute', image: '/images/moment-saut-parachute.webp' },
 ]

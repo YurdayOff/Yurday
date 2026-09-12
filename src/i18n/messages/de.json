@@ -115,6 +115,22 @@
       "star-dior": {
         "title": "Inès, für einen Abend",
         "story": "Sie wollte schon immer wissen, wie es sich anfühlt, wie ein Star verfolgt zu werden, wenigstens einmal. Wir haben einen inszenierten Einkaufsbummel vor einer Pariser Boutique organisiert, mit zwei Bodyguards und einem Kameramann, der ihr folgte."
+      },
+      "degustation-vin": {
+        "title": "Julien, zum Vatertag",
+        "story": "Er wollte seinem Vater mit etwas anderem als einer Krawatte danken. Wir haben eine private Weinprobe in einem Pariser Weinkeller organisiert, nur die beiden mit einem Sommelier, und eine Käseplatte bis zur letzten Flasche."
+      },
+      "chef-prive": {
+        "title": "Victor, für ein Dinner ohne das Haus zu verlassen",
+        "story": "Er wollte ein Gourmet-Dinner, ohne ein Restaurant zu buchen. Wir haben einen privaten Koch für den ganzen Abend geschickt, mit maßgeschneidertem Menü und den Pariser Dächern als einzigen Nachbarn."
+      },
+      "evg-boite-nuit": {
+        "title": "Maximes Truppe, vor der Hochzeit",
+        "story": "Seine Freunde wollten vor der Hochzeit noch einen letzten unvergesslichen Abend. Wir haben eine VIP-Lounge in einem Pariser Club gebucht, inklusive Flaschen und Blick auf die Tanzfläche bis in die frühen Morgenstunden."
+      },
+      "saut-parachute": {
+        "title": "Lucas' Freunde, zu seinem 30. Geburtstag",
+        "story": "Seine Freunde wollten den runden Geburtstag mit mehr als nur einem Restaurantbesuch feiern. Wir haben einen Gruppen-Fallschirmsprung bei Sonnenuntergang organisiert, gefolgt von einem Dinner, um alles noch einmal frisch zu erzählen."
       }
     }
   },
