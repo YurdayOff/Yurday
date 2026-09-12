@@ -1,7 +1,6 @@
 'use client'
 
 import Image from 'next/image'
-import type { CSSProperties } from 'react'
 import { useEffect, useState } from 'react'
 import { moments as momentList } from '@/data/moments'
 import type { Messages } from '@/i18n/messages'
@@ -11,25 +10,8 @@ import './Moments.css'
 type MomentsProps = { messages: Messages }
 
 const AUTO_ADVANCE_MS = 6000
-const STACK_DEPTH = 3
 
-/** Position de chaque carte dans la pile, relative à la carte active. */
-function stackStyle(offset: number): CSSProperties {
-  if (offset === 0) {
-    return { transform: 'translate(0, 0) rotate(0deg) scale(1)', opacity: 1, zIndex: STACK_DEPTH + 1 }
-  }
-  if (offset > STACK_DEPTH) {
-    return { transform: `translate(46px, 46px) rotate(9deg) scale(0.88)`, opacity: 0, zIndex: 0 }
-  }
-  const step = offset * 14
-  return {
-    transform: `translate(${step}px, ${step}px) rotate(${offset * 3}deg) scale(${1 - offset * 0.035})`,
-    opacity: 1 - offset * 0.16,
-    zIndex: STACK_DEPTH + 1 - offset,
-  }
-}
-
-/** Les histoires se feuillettent comme une pile de photos ; jamais deux au même endroit. */
+/** Une histoire mise en avant à la fois, qui change en fondu ; jamais deux au même endroit. */
 export function Moments({ messages }: MomentsProps) {
   const { moments } = messages
   const [index, setIndex] = useState(0)
@@ -50,13 +32,11 @@ export function Moments({ messages }: MomentsProps) {
         <div className="moment-stage">
           {momentList.map(({ id, image }, i) => {
             const item = moments.items[id as keyof typeof moments.items]
-            const offset = (i - index + momentList.length) % momentList.length
             return (
               <article
-                className={`moment-slide${offset === 0 ? ' is-active' : ''}`}
+                className={`moment-slide${i === index ? ' is-active' : ''}`}
                 key={id}
-                style={stackStyle(offset)}
-                aria-hidden={offset !== 0}
+                aria-hidden={i !== index}
               >
                 <div className="moment-photo">
                   <Image src={image} alt={item.title} width={640} height={520} sizes="(max-width: 760px) 90vw, 480px" />
