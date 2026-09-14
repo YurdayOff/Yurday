@@ -127,6 +127,22 @@
       "saut-parachute": {
         "title": "Os amigos do Gaspard, pelos seus 30 anos",
         "story": "Os amigos dele queriam marcar a data com algo além de um restaurante. Organizamos um salto de paraquedas em grupo ao pôr do sol, seguido de um jantar para reviver tudo ainda quente."
+      },
+      "pique-nique": {
+        "title": "Léna, um piquenique improvisado",
+        "story": "Ele queria algo simples mas memorável para o aniversário de namoro deles. Preparamos um piquenique aos pés da Torre Eiffel ao pôr do sol, com champanhe e petiscos até anoitecer."
+      },
+      "gt3rs-circuit": {
+        "title": "Roman, apaixonado por emoções fortes",
+        "story": "Ele sonhava em pegar no volante de uma GT3RS em pista, guiado por um piloto profissional. Organizamos um dia inteiro no circuito, capacete com a marca Yurday incluído, para viver isso como um piloto de verdade."
+      },
+      "roses-cartier": {
+        "title": "Margaux, cem rosas sem motivo específico",
+        "story": "Ele queria surpreendê-la sem esperar uma ocasião específica. Mandamos entregar cem rosas vermelhas com uma caixa da Cartier e um bilhete dentro, tudo organizado em poucos dias."
+      },
+      "coaching-boxe": {
+        "title": "Sacha, uma hora com um treinador só para ela",
+        "story": "Ela queria sair da rotina de treino habitual. Reservamos uma sessão particular de boxe com um treinador, numa sala só para eles, longe das aulas coletivas lotadas."
       }
     }
   },

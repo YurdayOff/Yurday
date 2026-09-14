@@ -127,6 +127,22 @@
       "saut-parachute": {
         "title": "Les amis de Gaspard, pour ses 30 ans",
         "story": "Ses amis voulaient marquer la dizaine autrement qu'avec un restaurant. On leur a organisé un saut en parachute en groupe au coucher du soleil, suivi d'un dîner pour raconter les sensations encore à chaud."
+      },
+      "pique-nique": {
+        "title": "Léna, un pique-nique improvisé",
+        "story": "Il voulait quelque chose de simple mais mémorable pour leur anniversaire de couple. On leur a préparé un pique-nique au pied de la tour Eiffel au coucher du soleil, avec champagne et de quoi grignoter jusqu'à la nuit tombée."
+      },
+      "gt3rs-circuit": {
+        "title": "Roman, fan de sensations fortes",
+        "story": "Il rêvait de prendre le volant d'une GT3RS sur circuit, encadré par un pilote pro. On lui a organisé une journée complète sur piste, casque siglé Yurday compris, pour vivre ça comme un vrai pilote."
+      },
+      "roses-cartier": {
+        "title": "Margaux, cent roses sans raison particulière",
+        "story": "Il voulait lui faire une surprise sans attendre une occasion précise. On lui a fait livrer cent roses rouges et un écrin Cartier avec un mot glissé dedans, organisé en quelques jours à peine."
+      },
+      "coaching-boxe": {
+        "title": "Sacha, une heure avec un coach rien que pour elle",
+        "story": "Elle voulait sortir de sa routine sport habituelle. On lui a réservé une séance privée de boxe avec un coach, dans une salle rien que pour eux, loin des cours collectifs bondés."
       }
     }
   },
