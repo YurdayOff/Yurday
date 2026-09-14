@@ -31,6 +31,7 @@
     "skipToContent": "跳转到主要内容",
     "languageSwitcher": "选择语言",
     "mainNav": "主导航",
+    "openMenu": "打开菜单",
     "close": "关闭",
     "whatsappFloat": "通过 WhatsApp 联系 Yurday"
   },
@@ -60,7 +61,7 @@
     "ctaSecondary": "查看运作方式"
   },
   "trust": {
-    "starsLabel": "4.8 分，100+ 条评价",
+    "starsLabel": "4.9 分，100+ 条评价",
     "daysLabel": "已策划的日子",
     "bespokeLabel": "100% 定制，从不使用套餐"
   },
@@ -148,12 +149,12 @@
   },
   "reviews": {
     "eyebrow": "他们怎么说",
-    "h2": "100+ 条评价，只有一个评分：4.8 ★",
+    "h2": "100+ 条评价，只有一个评分：4.9 ★",
     "lede": "已策划超过150天的体验，来自12多个国家的真实认证评价，未经筛选，未经摆拍。",
     "translatedNote": "已翻译成中文",
     "badge": {
       "strong": "已验证评价",
-      "rest": " · 4.8 ★★★★★ · 拥有遍布12多个国家的客户"
+      "rest": " · 4.9 ★★★★★ · 拥有遍布12多个国家的客户"
     },
     "items": {
       "1": "组织安排无可挑剔，惊喜连连，满满都是难忘的回忆。再次感谢！",

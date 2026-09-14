@@ -25,6 +25,7 @@ const sections = [
 
 export function Header({ locale, messages }: HeaderProps) {
   const [scrolled, setScrolled] = useState(false)
+  const [menuOpen, setMenuOpen] = useState(false)
   const home = localePath(locale)
 
   useEffect(() => {
@@ -33,6 +34,15 @@ export function Header({ locale, messages }: HeaderProps) {
     window.addEventListener('scroll', onScroll, { passive: true })
     return () => window.removeEventListener('scroll', onScroll)
   }, [])
+
+  useEffect(() => {
+    if (!menuOpen) return
+    const onKeyDown = (event: KeyboardEvent) => {
+      if (event.key === 'Escape') setMenuOpen(false)
+    }
+    document.addEventListener('keydown', onKeyDown)
+    return () => document.removeEventListener('keydown', onKeyDown)
+  }, [menuOpen])
 
   return (
     <header className={scrolled ? 'is-scrolled' : undefined}>
@@ -61,8 +71,32 @@ export function Header({ locale, messages }: HeaderProps) {
           <Link href={`${home}#contact`} className="btn btn-primary">
             {messages.nav.cta}
           </Link>
+          <button
+            type="button"
+            className={menuOpen ? 'nav-burger is-open' : 'nav-burger'}
+            aria-expanded={menuOpen}
+            aria-label={menuOpen ? messages.a11y.close : messages.a11y.openMenu}
+            onClick={() => setMenuOpen((open) => !open)}
+          >
+            <span />
+            <span />
+            <span />
+          </button>
         </div>
       </div>
+      {menuOpen ? (
+        <nav className="nav-mobile" aria-label={messages.a11y.mainNav}>
+          {sections.map((section) => (
+            <Link
+              key={section.hash}
+              href={`${home}${section.hash}`}
+              onClick={() => setMenuOpen(false)}
+            >
+              {messages.nav[section.key]}
+            </Link>
+          ))}
+        </nav>
+      ) : null}
     </header>
   )
 }

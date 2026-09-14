@@ -31,6 +31,7 @@
     "skipToContent": "Zum Hauptinhalt springen",
     "languageSwitcher": "Sprache wählen",
     "mainNav": "Hauptnavigation",
+    "openMenu": "Menü öffnen",
     "close": "Schließen",
     "whatsappFloat": "Yurday über WhatsApp kontaktieren"
   },
@@ -60,7 +61,7 @@
     "ctaSecondary": "So funktioniert's ansehen"
   },
   "trust": {
-    "starsLabel": "4,8 von 100+ Bewertungen",
+    "starsLabel": "4,9 von 100+ Bewertungen",
     "daysLabel": "Organisierte Tage",
     "bespokeLabel": "Maßgeschneidert, nie von der Stange"
   },
@@ -148,12 +149,12 @@
   },
   "reviews": {
     "eyebrow": "Was sie sagen",
-    "h2": "100+ Bewertungen, eine einzige Note: 4,8 ★",
+    "h2": "100+ Bewertungen, eine einzige Note: 4,9 ★",
     "lede": "Über 150 organisierte Tage, verifizierte Bewertungen aus mehr als 12 Ländern, ohne Auswahl oder Inszenierung.",
     "translatedNote": "Übersetzt ins Deutsche",
     "badge": {
       "strong": "Verifizierte Bewertungen",
-      "rest": " · 4,8 ★★★★★ · Mit Kunden aus mehr als 12 Ländern"
+      "rest": " · 4,9 ★★★★★ · Mit Kunden aus mehr als 12 Ländern"
     },
     "items": {
       "1": "Eine tadellose Organisation, erstklassige Überraschungen, Erinnerungen, die uns immer begleiten werden. Nochmals danke!",

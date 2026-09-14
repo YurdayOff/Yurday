@@ -31,6 +31,7 @@
     "skipToContent": "Vai al contenuto principale",
     "languageSwitcher": "Scegli la lingua",
     "mainNav": "Navigazione principale",
+    "openMenu": "Apri il menu",
     "close": "Chiudi",
     "whatsappFloat": "Contatta Yurday su WhatsApp"
   },
@@ -60,7 +61,7 @@
     "ctaSecondary": "Guarda come funziona"
   },
   "trust": {
-    "starsLabel": "4,8 su 100+ recensioni",
+    "starsLabel": "4,9 su 100+ recensioni",
     "daysLabel": "Giornate organizzate",
     "bespokeLabel": "Su misura, mai un pacchetto"
   },
@@ -148,12 +149,12 @@
   },
   "reviews": {
     "eyebrow": "Cosa dicono",
-    "h2": "100+ recensioni, un solo voto: 4,8 ★",
+    "h2": "100+ recensioni, un solo voto: 4,9 ★",
     "lede": "Oltre 150 giornate organizzate, recensioni verificate da più di 12 paesi, senza selezione né messa in scena.",
     "translatedNote": "Tradotto in italiano",
     "badge": {
       "strong": "Recensioni verificate",
-      "rest": " · 4,8 ★★★★★ · Con clienti in più di 12 paesi"
+      "rest": " · 4,9 ★★★★★ · Con clienti in più di 12 paesi"
     },
     "items": {
       "1": "Un'organizzazione impeccabile, sorprese fantastiche, ricordi che porteremo sempre con noi. Grazie ancora!",

@@ -31,6 +31,7 @@
     "skipToContent": "Skip to main content",
     "languageSwitcher": "Choose language",
     "mainNav": "Main navigation",
+    "openMenu": "Open menu",
     "close": "Close",
     "whatsappFloat": "Contact Yurday on WhatsApp"
   },
@@ -60,7 +61,7 @@
     "ctaSecondary": "See how it works"
   },
   "trust": {
-    "starsLabel": "4.8 from 100+ reviews",
+    "starsLabel": "4.9 from 100+ reviews",
     "daysLabel": "Days organized",
     "bespokeLabel": "Bespoke, never a package"
   },
@@ -148,12 +149,12 @@
   },
   "reviews": {
     "eyebrow": "What they say",
-    "h2": "100+ reviews, one single rating: 4.8 ★",
+    "h2": "100+ reviews, one single rating: 4.9 ★",
     "lede": "Over 150 days organized, verified reviews from more than 12 countries, no cherry-picking, no staging.",
     "translatedNote": "Translated to English",
     "badge": {
       "strong": "Verified reviews",
-      "rest": " · 4.8 ★★★★★ · With clients in over 12 countries"
+      "rest": " · 4.9 ★★★★★ · With clients in over 12 countries"
     },
     "items": {
       "1": "An impeccable organization, amazing surprises, memories that'll stay with us forever. Thanks again!",
