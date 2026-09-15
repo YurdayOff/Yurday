@@ -305,6 +305,8 @@
       "email": "Email",
       "forWho": "Per chi è questa giornata?",
       "forWhoPlaceholder": "Es. il mio compagno, mia sorella, tutto il team…",
+      "date": "Data prevista",
+      "dateUnknown": "Non ancora sicuro",
       "occasion": "Tipo di occasione",
       "occasionOptions": [
         "Compleanno",

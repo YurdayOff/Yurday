@@ -75,6 +75,24 @@ form.contact-form {
   font-size: 14.5px;
   color: var(--ink);
 }
+.form-row input[disabled] { opacity: 0.5; cursor: not-allowed; }
+.form-row .form-checkbox {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 9px;
+  font-size: 13px;
+  font-weight: 500;
+  text-transform: none;
+  letter-spacing: normal;
+  color: var(--ink-soft);
+  cursor: pointer;
+}
+.form-row .form-checkbox input {
+  width: auto;
+  padding: 0;
+  accent-color: var(--coral-2);
+}
 .form-row input:focus, .form-row select:focus, .form-row textarea:focus {
   outline: none;
   border-color: var(--coral-2);

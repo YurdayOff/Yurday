@@ -305,6 +305,8 @@
       "email": "邮箱",
       "forWho": "这一天是为谁准备的？",
       "forWhoPlaceholder": "例如：我的伴侣、我的姐妹、整个团队……",
+      "date": "预计日期",
+      "dateUnknown": "还不确定",
       "occasion": "场合类型",
       "occasionOptions": [
         "生日",

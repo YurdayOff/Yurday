@@ -19,6 +19,7 @@ const emptyValues = {
   telephone: '',
   email: '',
   pourQui: '',
+  date: '',
   occasion: '',
   budget: '',
   message: '',
@@ -33,6 +34,7 @@ function whatsappMessage(values: Values, labels: ContactFormProps['form']): stri
     `${labels.name} : ${values.nom}`,
     `${labels.occasion} : ${values.occasion}`,
     `${labels.forWho} : ${values.pourQui}`,
+    `${labels.date} : ${values.date}`,
     `${labels.budget} : ${values.budget}`,
     `${labels.phone} : ${values.telephone}`,
     `${labels.email} : ${values.email}`,
@@ -58,6 +60,7 @@ export function ContactForm({ form }: ContactFormProps) {
     occasion: form.occasionOptions[0] ?? '',
     budget: form.budgetOptions[form.budgetOptions.length - 1] ?? '',
   })
+  const [dateUnknown, setDateUnknown] = useState(false)
   const [emailError, setEmailError] = useState(false)
   const [sendFailed, setSendFailed] = useState(false)
   const [sending, setSending] = useState(false)
@@ -181,6 +184,31 @@ export function ContactForm({ form }: ContactFormProps) {
           value={values.pourQui}
           onChange={update('pourQui')}
         />
+      </div>
+
+      <div className="form-row">
+        <label htmlFor="f-date">{form.date}</label>
+        <input
+          type="date"
+          id="f-date"
+          name="date"
+          required={!dateUnknown}
+          disabled={dateUnknown}
+          value={dateUnknown ? '' : values.date}
+          onChange={update('date')}
+        />
+        <label className="form-checkbox">
+          <input
+            type="checkbox"
+            checked={dateUnknown}
+            onChange={(event) => {
+              const checked = event.target.checked
+              setDateUnknown(checked)
+              setValues((current) => ({ ...current, date: checked ? form.dateUnknown : '' }))
+            }}
+          />
+          {form.dateUnknown}
+        </label>
       </div>
 
       <div className="form-row-2">

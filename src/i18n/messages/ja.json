@@ -305,6 +305,8 @@
       "email": "メールアドレス",
       "forWho": "この一日は誰のためですか？",
       "forWhoPlaceholder": "例：パートナー、姉妹、チーム全員…",
+      "date": "予定日",
+      "dateUnknown": "まだ決まっていません",
       "occasion": "シーンの種類",
       "occasionOptions": [
         "誕生日",
