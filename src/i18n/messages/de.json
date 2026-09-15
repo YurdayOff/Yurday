@@ -228,7 +228,8 @@
         "title": "Wir kümmern uns um alles",
         "body": "Es ist der große Tag: wir kümmern uns um alles, Sie müssen nur noch den Moment genießen."
       }
-    ]
+    ],
+    "priceNote": "Unsere Tage beginnen in der Regel bei rund 1500€."
   },
   "story": {
     "eyebrow": "Warum es Yurday gibt",
@@ -328,6 +329,7 @@
       ],
       "message": "Ein paar Worte zu Ihrer Idee (optional)",
       "submit": "Mein Projekt senden",
+      "reassurance": "Antwort innerhalb von 24 Stunden, unverbindlich.",
       "choiceQuestion": "Wie möchten Sie es uns lieber schicken?",
       "choiceWhatsapp": "💬 Per WhatsApp",
       "choiceEmail": "📧 Per E-Mail",

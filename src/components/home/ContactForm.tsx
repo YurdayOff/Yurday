@@ -246,6 +246,7 @@ export function ContactForm({ form }: ContactFormProps) {
           <button type="submit" className="btn btn-primary">
             {form.submit}
           </button>
+          <p className="form-reassurance">{form.reassurance}</p>
         </div>
       ) : null}
 

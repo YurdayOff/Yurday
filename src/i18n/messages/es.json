@@ -228,7 +228,8 @@
         "title": "Nos encargamos de todo",
         "body": "Llega el gran día: nos encargamos de toda la organización, tú solo tienes que disfrutar del momento."
       }
-    ]
+    ],
+    "priceNote": "Nuestros días suelen empezar alrededor de 1500 €."
   },
   "story": {
     "eyebrow": "Por qué existe Yurday",
@@ -328,6 +329,7 @@
       ],
       "message": "Unas palabras sobre tu idea (opcional)",
       "submit": "Enviar mi proyecto",
+      "reassurance": "Respuesta en 24h, sin compromiso.",
       "choiceQuestion": "¿Cómo prefieres enviárnoslo?",
       "choiceWhatsapp": "💬 Por WhatsApp",
       "choiceEmail": "📧 Por email",

@@ -228,7 +228,8 @@
         "title": "我们负责一切",
         "body": "到了正式那天：我们负责一切安排，您只需尽情享受这个时刻。"
       }
-    ]
+    ],
+    "priceNote": "我们的定制日通常从1500欧元起。"
   },
   "story": {
     "eyebrow": "Yurday 为何存在",
@@ -328,6 +329,7 @@
       ],
       "message": "关于您的想法说几句（可选）",
       "submit": "发送我的项目",
+      "reassurance": "24小时内回复，无需承诺。",
       "choiceQuestion": "您希望通过哪种方式联系我们？",
       "choiceWhatsapp": "💬 通过WhatsApp",
       "choiceEmail": "📧 通过邮件",

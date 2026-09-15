@@ -242,6 +242,8 @@ export function Process({ messages }: { messages: Messages }) {
             ))}
           </div>
         </div>
+
+        <p className="process-price-note">{process.priceNote}</p>
       </div>
     </section>
   )

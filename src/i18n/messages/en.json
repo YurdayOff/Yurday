@@ -228,7 +228,8 @@
         "title": "We take care of everything",
         "body": "It's the big day: we handle the whole thing, all you have to do is enjoy the moment."
       }
-    ]
+    ],
+    "priceNote": "Our days typically start around €1,500."
   },
   "story": {
     "eyebrow": "Why Yurday exists",
@@ -328,6 +329,7 @@
       ],
       "message": "A word about your idea (optional)",
       "submit": "Send my project",
+      "reassurance": "Reply within 24h, no commitment.",
       "choiceQuestion": "How would you prefer to send it?",
       "choiceWhatsapp": "💬 On WhatsApp",
       "choiceEmail": "📧 By email",

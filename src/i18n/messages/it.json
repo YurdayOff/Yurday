@@ -228,7 +228,8 @@
         "title": "Ci occupiamo di tutto",
         "body": "È il grande giorno: ci occupiamo di tutto, a voi non resta che godervi il momento."
       }
-    ]
+    ],
+    "priceNote": "Le nostre giornate partono generalmente da circa 1500€."
   },
   "story": {
     "eyebrow": "Perché esiste Yurday",
@@ -328,6 +329,7 @@
       ],
       "message": "Qualche parola sulla tua idea (opzionale)",
       "submit": "Invia il mio progetto",
+      "reassurance": "Risposta entro 24h, nessun impegno.",
       "choiceQuestion": "Come preferite inviarcelo?",
       "choiceWhatsapp": "💬 Su WhatsApp",
       "choiceEmail": "📧 Via email",
