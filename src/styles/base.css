@@ -142,6 +142,10 @@ section { padding: 100px 0; }
   font-size: 16.5px;
   margin-top: 14px;
 }
+@media (max-width: 640px) {
+  section { padding: 64px 0; }
+  .section-head { margin-bottom: 36px; }
+}
 
 /* ---------- Cascade (apparition une à une) ---------- */
 .stagger-item {

@@ -62,3 +62,11 @@
   max-width: 540px;
   margin: 0 auto 32px;
 }
+
+@media (max-width: 640px) {
+  .hero { padding: 56px 20px 44px; }
+  .hero--compact { padding: 52px 20px 40px; }
+  .hero h1 { margin-bottom: 18px; }
+  .hero p.lede { margin-bottom: 24px; }
+  .hero-actions { margin-bottom: 32px; }
+}
