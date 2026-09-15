@@ -11,6 +11,10 @@
   color: var(--ink-soft);
   margin: 0 0 22px;
 }
+/* Le texte centré peut s'étendre jusque sous le bouton WhatsApp flottant : on le resserre. */
+@media (max-width: 480px) {
+  .faq-closing { max-width: 260px; }
+}
 
 /* ---------- FAQ ---------- */
 .faq-list { max-width: 720px; margin: 0 auto; }
