@@ -33,7 +33,7 @@ footer img { height: 24px; width: auto; margin: 0 auto 10px; opacity: 0.85; }
   color: var(--coral-3);
   font-weight: 600;
 }
-.footer-social { margin-top: 14px; display: flex; justify-content: center; }
+.footer-social { margin-top: 14px; display: flex; justify-content: center; gap: 10px; }
 .footer-social-link {
   display: inline-flex;
   align-items: center;

@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
+import { FacebookIcon } from '@/components/ui/FacebookIcon'
 import { InstagramIcon } from '@/components/ui/InstagramIcon'
 import type { Messages } from '@/i18n/messages'
 import { legalPaths } from '@/lib/routes'
@@ -30,17 +31,30 @@ export function Footer({ messages }: { messages: Messages }) {
           {site.email}
         </a>
       </div>
-      {site.social.instagram ? (
+      {site.social.instagram || site.social.facebook ? (
         <div className="footer-social">
-          <a
-            href={site.social.instagram}
-            target="_blank"
-            rel="noopener"
-            aria-label="Instagram"
-            className="footer-social-link"
-          >
-            <InstagramIcon size={20} />
-          </a>
+          {site.social.instagram ? (
+            <a
+              href={site.social.instagram}
+              target="_blank"
+              rel="noopener"
+              aria-label="Instagram"
+              className="footer-social-link"
+            >
+              <InstagramIcon size={20} />
+            </a>
+          ) : null}
+          {site.social.facebook ? (
+            <a
+              href={site.social.facebook}
+              target="_blank"
+              rel="noopener"
+              aria-label="Facebook"
+              className="footer-social-link"
+            >
+              <FacebookIcon size={20} />
+            </a>
+          ) : null}
         </div>
       ) : null}
       <div className="footer-legal">
