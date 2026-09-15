@@ -293,8 +293,16 @@
         "answer": "Aucun souci : on distingue toujours la personne qu'on célèbre du groupe qui vit la journée, pour que la logistique (repas, transport, activités) soit calculée juste, par tête ou au forfait selon ce qui a du sens."
       },
       {
-        "question": "C'est vraiment sur-mesure, ou une formule déguisée ?",
-        "answer": "Vraiment sur-mesure. On ne travaille pas avec des formules figées : si vous voulez 8 activités dans la journée, on construit 8 activités."
+        "question": "Comment se passe le paiement ?",
+        "answer": "Vous ne payez rien tant que le programme et le prix ne sont pas validés par vous. On passe au règlement seulement une fois que tout vous convient."
+      },
+      {
+        "question": "Comment gardez-vous la surprise pour la personne concernée ?",
+        "answer": "On construit toute la logistique pour qu'elle ne se doute de rien : rendez-vous présentés autrement, proches briefés, timing millimétré. Vous nous dites ce qu'elle sait déjà, on s'occupe du reste."
+      },
+      {
+        "question": "Et s'il y a un imprévu le jour J ?",
+        "answer": "On prévoit toujours une solution de repli pour les activités sensibles à la météo, et on reste joignables toute la journée pour ajuster en direct si besoin. Vous n'avez rien à gérer."
       }
     ],
     "closing": "D'autres questions ? Le plus simple, c'est de nous raconter votre projet, on vous répond avec des réponses vraiment sur mesure."

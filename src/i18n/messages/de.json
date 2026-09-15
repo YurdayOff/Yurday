@@ -293,8 +293,16 @@
         "answer": "Kein Problem: Wir unterscheiden immer zwischen der gefeierten Person und der Gruppe, die den Tag erlebt, damit die Logistik (Essen, Transport, Aktivitäten) genau berechnet wird, pro Kopf oder als Pauschale, je nachdem, was sinnvoll ist."
       },
       {
-        "question": "Ist es wirklich maßgeschneidert, oder ein verstecktes Paket?",
-        "answer": "Wirklich maßgeschneidert. Wir arbeiten nicht mit festen Paketen: Wenn Sie 8 Aktivitäten am Tag möchten, gestalten wir 8 Aktivitäten."
+        "question": "Wie funktioniert die Zahlung?",
+        "answer": "Sie zahlen nichts, bevor Sie das Programm und den Preis bestätigt haben. Die Zahlung erfolgt erst, wenn alles für Sie passt."
+      },
+      {
+        "question": "Wie bewahren Sie die Überraschung für die Person?",
+        "answer": "Wir organisieren die gesamte Logistik so, dass sie nichts ahnt: Termine werden anders angekündigt, nahestehende Personen eingeweiht, der Zeitplan auf die Minute abgestimmt. Sie sagen uns, was sie bereits weiß, wir kümmern uns um den Rest."
+      },
+      {
+        "question": "Und wenn am Tag selbst etwas Unvorhergesehenes passiert?",
+        "answer": "Für wetterabhängige Aktivitäten haben wir immer einen Ausweichplan, und wir sind den ganzen Tag erreichbar, um bei Bedarf direkt anzupassen. Sie müssen sich um nichts kümmern."
       }
     ],
     "closing": "Noch Fragen? Am einfachsten erzählen Sie uns von Ihrem Projekt, wir antworten mit wirklich maßgeschneiderten Antworten."

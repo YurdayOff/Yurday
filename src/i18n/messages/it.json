@@ -293,8 +293,16 @@
         "answer": "Nessun problema: distinguiamo sempre la persona festeggiata dal gruppo che vive la giornata, così la logistica (pasti, trasporti, attività) viene calcolata correttamente, a testa o a forfait, secondo ciò che ha più senso."
       },
       {
-        "question": "È davvero su misura, o un pacchetto travestito?",
-        "answer": "Veramente su misura. Non lavoriamo con pacchetti fissi: se vuoi 8 attività nella giornata, creiamo 8 attività."
+        "question": "Come funziona il pagamento?",
+        "answer": "Non paghi nulla finché non hai convalidato il programma e il prezzo. Si passa al pagamento solo quando tutto ti soddisfa."
+      },
+      {
+        "question": "Come mantenete la sorpresa per la persona interessata?",
+        "answer": "Organizziamo tutta la logistica in modo che non sospetti nulla: appuntamenti presentati diversamente, persone care informate, tempi calcolati al minuto. Ci dici cosa già sa, al resto pensiamo noi."
+      },
+      {
+        "question": "E se succede un imprevisto il giorno stesso?",
+        "answer": "Abbiamo sempre un piano alternativo per le attività sensibili al meteo, e restiamo reperibili tutto il giorno per adattarci in diretta se serve. Non devi gestire nulla."
       }
     ],
     "closing": "Hai altre domande? Il modo più semplice è raccontarci il tuo progetto, ti risponderemo con risposte davvero su misura."

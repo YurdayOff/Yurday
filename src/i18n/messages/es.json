@@ -293,8 +293,16 @@
         "answer": "Sin problema: siempre distinguimos a la persona que se celebra del grupo que vive el día, para que la logística (comidas, transporte, actividades) se calcule con precisión, por persona o a tanto alzado, según lo que tenga sentido."
       },
       {
-        "question": "¿Es realmente a medida, o un paquete disfrazado?",
-        "answer": "Realmente a medida. No trabajamos con paquetes fijos: si quieres 8 actividades en el día, creamos 8 actividades."
+        "question": "¿Cómo funciona el pago?",
+        "answer": "No pagas nada hasta que hayas validado el programa y el precio. El pago solo se realiza una vez que todo te convenga."
+      },
+      {
+        "question": "¿Cómo mantenéis la sorpresa para la persona?",
+        "answer": "Organizamos toda la logística para que no sospeche nada: citas presentadas de otra forma, allegados informados, tiempos calculados al minuto. Nos dices lo que ya sabe, nosotros nos ocupamos del resto."
+      },
+      {
+        "question": "¿Y si surge un imprevisto el día D?",
+        "answer": "Siempre tenemos un plan alternativo para las actividades sensibles al clima, y estamos disponibles todo el día para ajustar en directo si hace falta. Tú no tienes que gestionar nada."
       }
     ],
     "closing": "¿Tienes más preguntas? Lo más sencillo es contarnos tu proyecto, te responderemos con respuestas realmente a medida."
