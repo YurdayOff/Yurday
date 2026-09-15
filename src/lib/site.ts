@@ -28,7 +28,8 @@ export const site = {
    * l'hébergement change.
    */
   form: { endpoint: '/__forms.html', name: 'contact-yurday' },
-  social: [] as string[],
+  /** Facebook volontairement absent tant qu'il n'y a pas de lien réel à afficher. */
+  social: { instagram: 'https://www.instagram.com/yurday.fr/' },
 } as const
 
 export const foundersById = Object.fromEntries(

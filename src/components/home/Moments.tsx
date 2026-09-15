@@ -1,13 +1,18 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import { moments as momentList } from '@/data/moments'
 import type { Messages } from '@/i18n/messages'
 import { SectionHead } from './SectionHead'
 import './Moments.css'
 
-type MomentsProps = { messages: Messages }
+type MomentsProps = {
+  messages: Messages
+  /** Chemin de la page courante, pour l'ancre vers le formulaire. */
+  home: string
+}
 
 /** Bandeau de vraies histoires clients, que le visiteur fait défiler lui-même. */
-export function Moments({ messages }: MomentsProps) {
+export function Moments({ messages, home }: MomentsProps) {
   const { moments } = messages
 
   return (
@@ -34,6 +39,12 @@ export function Moments({ messages }: MomentsProps) {
       </div>
 
       <p className="moment-hint">{moments.hint}</p>
+
+      <div className="moment-cta-wrap">
+        <Link href={`${home}#contact`} className="btn btn-white">
+          {moments.cta}
+        </Link>
+      </div>
     </section>
   )
 }

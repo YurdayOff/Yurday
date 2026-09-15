@@ -33,3 +33,16 @@ footer img { height: 24px; width: auto; margin: 0 auto 10px; opacity: 0.85; }
   color: var(--coral-3);
   font-weight: 600;
 }
+.footer-social { margin-top: 14px; display: flex; justify-content: center; }
+.footer-social-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 999px;
+  border: 1.5px solid var(--line);
+  color: var(--ink-soft);
+  transition: color 0.2s, border-color 0.2s;
+}
+.footer-social-link:hover { color: var(--coral-3); border-color: var(--coral-2); }

@@ -48,6 +48,19 @@
   margin: 4px 0 0;
 }
 
+.moment-cta-wrap {
+  display: flex;
+  justify-content: center;
+  margin-top: 28px;
+  padding: 0 28px;
+}
+.btn-white {
+  background: var(--white);
+  color: var(--coral-3);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12);
+}
+.btn-white:hover { transform: translateY(-2px); box-shadow: 0 14px 28px rgba(0, 0, 0, 0.16); }
+
 @media (min-width: 720px) {
   .moment-card { flex-basis: 260px; }
   .moment-text h3 { font-size: 15px; }

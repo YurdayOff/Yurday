@@ -47,7 +47,7 @@ export function organizationSchema(messages: Messages, locale: Locale): JsonLdOb
       email: founder.email,
     })),
     knowsLanguage: Object.values(localeInfo).map((info) => info.htmlLang),
-    ...(site.social.length > 0 ? { sameAs: site.social } : {}),
+    ...(Object.values(site.social).length > 0 ? { sameAs: Object.values(site.social) } : {}),
   }
 }
 

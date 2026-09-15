@@ -63,7 +63,7 @@ export default async function HomePage({ params }: HomeProps) {
       <Seam />
       <Process messages={messages} />
       <Seam />
-      <Moments messages={messages} />
+      <Moments messages={messages} home={home} />
       <Seam />
       <Reviews messages={messages} locale={locale} />
       <Seam />
