@@ -282,7 +282,7 @@
       },
       {
         "question": "¿Con cuánta antelación debo contactaros?",
-        "answer": "Cuanto antes mejor, para tener el máximo de opciones, pero ya hemos organizado proyectos en pocos días. Cuéntanos tu plazo y te diremos honestamente qué es posible."
+        "answer": "Una vez en contacto, cuenta con unas 2 semanas desde el envío de nuestro cuestionario para que el día esté listo. Podemos ir más rápido para proyectos urgentes, cuéntanos tu plazo y te diremos honestamente qué es posible."
       },
       {
         "question": "¿Dónde operáis?",
@@ -299,10 +299,6 @@
       {
         "question": "¿Cómo mantenéis la sorpresa para la persona?",
         "answer": "Organizamos toda la logística para que no sospeche nada: citas presentadas de otra forma, allegados informados, tiempos calculados al minuto. Nos dices lo que ya sabe, nosotros nos ocupamos del resto."
-      },
-      {
-        "question": "¿Y si surge un imprevisto el día D?",
-        "answer": "Siempre tenemos un plan alternativo para las actividades sensibles al clima, y estamos disponibles todo el día para ajustar en directo si hace falta. Tú no tienes que gestionar nada."
       }
     ],
     "closing": "¿Tienes más preguntas? Lo más sencillo es contarnos tu proyecto, te responderemos con respuestas realmente a medida."

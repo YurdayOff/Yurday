@@ -282,7 +282,7 @@
       },
       {
         "question": "How far in advance should I contact you?",
-        "answer": "As early as possible for maximum options, but we've put together projects in just a few days. Tell us your timeline and we'll tell you honestly what's possible."
+        "answer": "Once we're in touch, allow about 2 weeks from when we send our questionnaire for the day to be ready. We can move faster for urgent projects, tell us your timeline and we'll tell you honestly what's possible."
       },
       {
         "question": "Where do you operate?",
@@ -299,10 +299,6 @@
       {
         "question": "How do you keep it a surprise for the person?",
         "answer": "We build the whole logistics so they never suspect a thing: appointments presented as something else, loved ones briefed, timing worked out to the minute. You tell us what they already know, we handle the rest."
-      },
-      {
-        "question": "What if something unexpected happens on the day?",
-        "answer": "We always have a backup plan for weather-sensitive activities, and we stay reachable all day to adjust on the spot if needed. You don't have to manage anything."
       }
     ],
     "closing": "Got more questions? The easiest way is to tell us about your project, we'll answer with a response tailored just for you."

@@ -282,7 +282,7 @@
       },
       {
         "question": "Combien de temps à l'avance faut-il vous contacter ?",
-        "answer": "Le plus tôt possible pour un maximum d'options, mais on a déjà monté des projets en quelques jours. Racontez-nous votre délai, on vous dira honnêtement ce qui est possible."
+        "answer": "Comptez généralement 2 semaines à partir de l'envoi de notre questionnaire pour que votre journée soit prête. On peut faire plus rapide pour les projets urgents, racontez-nous votre délai, on vous dira honnêtement ce qui est possible."
       },
       {
         "question": "Vous intervenez où ?",
@@ -299,10 +299,6 @@
       {
         "question": "Comment gardez-vous la surprise pour la personne concernée ?",
         "answer": "On construit toute la logistique pour qu'elle ne se doute de rien : rendez-vous présentés autrement, proches briefés, timing millimétré. Vous nous dites ce qu'elle sait déjà, on s'occupe du reste."
-      },
-      {
-        "question": "Et s'il y a un imprévu le jour J ?",
-        "answer": "On prévoit toujours une solution de repli pour les activités sensibles à la météo, et on reste joignables toute la journée pour ajuster en direct si besoin. Vous n'avez rien à gérer."
       }
     ],
     "closing": "D'autres questions ? Le plus simple, c'est de nous raconter votre projet, on vous répond avec des réponses vraiment sur mesure."
