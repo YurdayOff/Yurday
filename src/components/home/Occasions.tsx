@@ -57,6 +57,7 @@ export function Occasions({ messages, locale }: OccasionsProps) {
               </span>
             ))}
           </Stagger>
+          <p className="occasion-tagline">{occasions.tagline}</p>
         </Reveal>
       </div>
     </section>
