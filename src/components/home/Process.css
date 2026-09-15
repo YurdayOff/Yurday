@@ -83,9 +83,14 @@
 }
 
 .process-price-note {
-  margin: 44px auto 0;
-  max-width: 480px;
-  text-align: center;
-  font-size: 13.5px;
+  display: table;
+  margin: 4px auto 48px;
+  padding: 10px 20px;
+  border-radius: 999px;
+  background: var(--white);
+  border: 1.5px solid var(--line);
+  box-shadow: 0 6px 16px rgba(43, 33, 25, 0.06);
+  font-size: 14px;
   color: var(--ink-soft);
 }
+.process-price-note strong { color: var(--coral-3); font-weight: 700; }

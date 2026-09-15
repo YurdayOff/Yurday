@@ -229,7 +229,11 @@
         "body": "It's the big day: we handle the whole thing, all you have to do is enjoy the moment."
       }
     ],
-    "priceNote": "Our days typically start around €1,500."
+    "priceNote": {
+      "lead": "Our days typically start around ",
+      "amount": "€1,500",
+      "tail": "."
+    }
   },
   "story": {
     "eyebrow": "Why Yurday exists",

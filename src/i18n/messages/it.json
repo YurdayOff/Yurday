@@ -229,7 +229,11 @@
         "body": "È il grande giorno: ci occupiamo di tutto, a voi non resta che godervi il momento."
       }
     ],
-    "priceNote": "Le nostre giornate partono generalmente da circa 1500€."
+    "priceNote": {
+      "lead": "Le nostre giornate partono generalmente da circa ",
+      "amount": "1500€",
+      "tail": "."
+    }
   },
   "story": {
     "eyebrow": "Perché esiste Yurday",

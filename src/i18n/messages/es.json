@@ -229,7 +229,11 @@
         "body": "Llega el gran día: nos encargamos de toda la organización, tú solo tienes que disfrutar del momento."
       }
     ],
-    "priceNote": "Nuestros días suelen empezar alrededor de 1500 €."
+    "priceNote": {
+      "lead": "Nuestros días suelen empezar alrededor de ",
+      "amount": "1500 €",
+      "tail": "."
+    }
   },
   "story": {
     "eyebrow": "Por qué existe Yurday",

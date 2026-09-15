@@ -229,7 +229,11 @@
         "body": "Chegou o grande dia: cuidamos de tudo, você só precisa aproveitar o momento."
       }
     ],
-    "priceNote": "Os nossos dias geralmente começam por volta de 1500 €."
+    "priceNote": {
+      "lead": "Os nossos dias geralmente começam por volta de ",
+      "amount": "1500 €",
+      "tail": "."
+    }
   },
   "story": {
     "eyebrow": "Por que a Yurday existe",

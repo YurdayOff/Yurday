@@ -229,7 +229,11 @@
         "body": "C'est le jour J : on assure toute la prestation, vous n'avez plus qu'à profiter du moment."
       }
     ],
-    "priceNote": "Nos journées commencent généralement autour de 1500€."
+    "priceNote": {
+      "lead": "Nos journées commencent généralement autour de ",
+      "amount": "1500€",
+      "tail": "."
+    }
   },
   "story": {
     "eyebrow": "Pourquoi Yurday existe",
