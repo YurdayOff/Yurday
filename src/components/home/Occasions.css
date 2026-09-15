@@ -30,7 +30,13 @@
 .cat-card:hover .cat-photo img { transform: scale(1.07); }
 .cat-text { padding: 20px 24px; }
 .cat-card h3 { font-size: 18px; font-weight: 600; margin: 0 0 8px; }
-@media (max-width: 560px) { .cat-card { flex-basis: 100%; max-width: 420px; } }
+@media (max-width: 560px) {
+  .cat-grid { gap: 14px; }
+  .cat-card { --notch-y: 160px; flex-basis: calc(50% - 7px); max-width: none; }
+  .cat-photo { height: auto; aspect-ratio: 1 / 1; }
+  .cat-text { padding: 12px 14px 16px; }
+  .cat-card h3 { font-size: 14px; }
+}
 
 /* ---------- Étiquettes d'occasions supplémentaires ---------- */
 .occasion-more { margin-top: 56px; text-align: center; }

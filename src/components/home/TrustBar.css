@@ -28,3 +28,10 @@
   font-size: 44px;
   line-height: 1;
 }
+
+@media (max-width: 640px) {
+  .trustbar { gap: 22px; padding-top: 28px; }
+  .trust-num, .stars { font-size: 26px; }
+  .stars { letter-spacing: 2px; }
+  .trust-label { font-size: 10.5px; margin-top: 4px; }
+}

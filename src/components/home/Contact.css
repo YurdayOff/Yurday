@@ -108,6 +108,9 @@ form.contact-form {
 form.contact-form .btn { width: 100%; justify-content: center; padding: 15px; font-size: 15.5px; margin-top: 6px; }
 @media (max-width: 860px) {
   .contact-wrap { grid-template-columns: 1fr; }
+}
+@media (max-width: 480px) {
+  form.contact-form { padding: 24px 20px; }
   .form-row-2 { grid-template-columns: 1fr; }
 }
 .contact-note a { color: var(--coral-3); font-weight: 600; text-decoration: underline; }

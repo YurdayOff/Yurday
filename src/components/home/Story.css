@@ -82,3 +82,11 @@
   .histoire-photo { position: static; }
   .histoire-photo img { max-width: 340px; margin: 0 auto; }
 }
+@media (max-width: 480px) {
+  .founders-wrap { gap: 18px; }
+  .founder { max-width: 140px; }
+  .founder img { width: 72px; height: 72px; }
+  .founder h3 { font-size: 16px; }
+  .founder p { font-size: 12.5px; }
+  .founder-email { font-size: 11.5px; }
+}
