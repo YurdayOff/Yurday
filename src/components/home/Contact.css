@@ -108,6 +108,8 @@ form.contact-form {
 form.contact-form .btn { width: 100%; justify-content: center; padding: 15px; font-size: 15.5px; margin-top: 6px; }
 @media (max-width: 860px) {
   .contact-wrap { grid-template-columns: 1fr; }
+  .contact-side { text-align: center; }
+  .contact-note { text-align: left; }
 }
 @media (max-width: 480px) {
   form.contact-form { padding: 24px 20px; }

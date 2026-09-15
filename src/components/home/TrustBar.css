@@ -32,7 +32,7 @@
 @media (max-width: 640px) {
   .trustbar { gap: 16px; padding-top: 28px; flex-wrap: nowrap; }
   .trust-item { max-width: 96px; }
-  .trust-num, .stars { font-size: 24px; }
-  .stars { letter-spacing: 2px; }
+  .trust-num { font-size: 24px; }
+  .stars { font-size: 15px; letter-spacing: 1px; white-space: nowrap; }
   .trust-label { font-size: 9.5px; margin-top: 4px; line-height: 1.3; }
 }
