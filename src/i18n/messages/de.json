@@ -361,6 +361,12 @@
     "body": "Wir begrenzen die Anzahl der monatlich angenommenen Projekte, um zu 100% maßgeschneidert zu bleiben. Erzählen Sie uns jetzt Ihre Idee, wir melden uns schnell.",
     "dismiss": "Nein danke, ich schaue mich noch um"
   },
+  "cookies": {
+    "message": "Wir verwenden nur für den Betrieb der Website notwendige Cookies, keine Werbe- oder Tracking-Cookies.",
+    "accept": "Akzeptieren",
+    "decline": "Ablehnen",
+    "policyLink": "Mehr erfahren"
+  },
   "occasionPages": {
     "anniversaire": {
       "eyebrow": "MASSGESCHNEIDERTER GEBURTSTAG",

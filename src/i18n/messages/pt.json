@@ -361,6 +361,12 @@
     "body": "Limitamos o número de projetos aceitos a cada mês para continuar 100% sob medida. Conte-nos sua ideia agora, responderemos rapidamente.",
     "dismiss": "Não, obrigado, vou continuar olhando"
   },
+  "cookies": {
+    "message": "Utilizamos apenas cookies necessários ao funcionamento do site, sem cookies publicitários ou de rastreamento.",
+    "accept": "Aceitar",
+    "decline": "Recusar",
+    "policyLink": "Saber mais"
+  },
   "occasionPages": {
     "anniversaire": {
       "eyebrow": "ANIVERSÁRIO SOB MEDIDA",

@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from 'next'
 import type { ReactNode } from 'react'
 import { Cairo, Fraunces, Inter } from 'next/font/google'
 import { notFound } from 'next/navigation'
+import { CookieConsent } from '@/components/layout/CookieConsent'
 import { EngagementPopup } from '@/components/layout/EngagementPopup'
 import { Footer } from '@/components/layout/Footer'
 import { Header } from '@/components/layout/Header'
@@ -88,6 +89,7 @@ export default async function LocaleLayout({ children, params }: LocaleLayoutPro
         <Footer messages={messages} />
         <WhatsAppFloat label={messages.a11y.whatsappFloat} />
         <EngagementPopup messages={messages} contactHref={`${home}#contact`} />
+        <CookieConsent messages={messages} />
       </body>
     </html>
   )

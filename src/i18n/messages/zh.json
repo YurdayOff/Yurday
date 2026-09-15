@@ -361,6 +361,12 @@
     "body": "为了保持100%量身定制，我们每月限制接受的项目数量。现在就告诉我们您的想法，我们会尽快回复您。",
     "dismiss": "不用了，谢谢，我再看看"
   },
+  "cookies": {
+    "message": "我们仅使用网站运行所需的必要 Cookie，不使用广告或跟踪类 Cookie。",
+    "accept": "接受",
+    "decline": "拒绝",
+    "policyLink": "了解更多"
+  },
   "occasionPages": {
     "anniversaire": {
       "eyebrow": "专属定制生日",

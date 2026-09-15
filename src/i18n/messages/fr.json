@@ -361,6 +361,12 @@
     "body": "On limite le nombre de projets acceptés chaque mois pour rester 100% sur-mesure. Racontez-nous votre idée maintenant, on vous répond vite.",
     "dismiss": "Non merci, je continue de regarder"
   },
+  "cookies": {
+    "message": "Nous utilisons uniquement des cookies nécessaires au fonctionnement du site, aucun cookie publicitaire ni de suivi.",
+    "accept": "Accepter",
+    "decline": "Refuser",
+    "policyLink": "En savoir plus"
+  },
   "occasionPages": {
     "anniversaire": {
       "eyebrow": "ANNIVERSAIRE SUR MESURE",

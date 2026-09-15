@@ -361,6 +361,12 @@
     "body": "We limit the number of projects we accept each month to stay 100% bespoke. Tell us your idea now and we'll get back to you quickly.",
     "dismiss": "No thanks, I'll keep browsing"
   },
+  "cookies": {
+    "message": "We only use cookies that are necessary for the site to work, no advertising or tracking cookies.",
+    "accept": "Accept",
+    "decline": "Decline",
+    "policyLink": "Learn more"
+  },
   "occasionPages": {
     "anniversaire": {
       "eyebrow": "BESPOKE BIRTHDAY",
