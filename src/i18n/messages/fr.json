@@ -144,6 +144,14 @@
       "coaching-boxe": {
         "title": "Sacha, une heure avec un coach rien que pour elle",
         "story": "Elle voulait sortir de sa routine sport habituelle. On lui a réservé une séance privée de boxe avec un coach, dans une salle rien que pour eux, loin des cours collectifs bondés."
+      },
+      "appel-mbappe": {
+        "title": "Le fils de Grégoire, fan inconditionnel des Bleus",
+        "story": "Son fils de 10 ans ne jurait que par l'équipe de France et son idole. Pour son anniversaire, on lui a organisé un appel vidéo surprise avec Kylian Mbappé, filmé sans qu'il se doute de rien."
+      },
+      "croisiere-seine": {
+        "title": "Bernard, pour leurs 30 ans de mariage",
+        "story": "Il voulait marquer leurs trente années ensemble sans un dîner classique de plus. On leur a réservé une croisière dînatoire privée sur la Seine, table dressée face à la tour Eiffel illuminée."
       }
     }
   },

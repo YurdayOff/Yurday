@@ -144,6 +144,14 @@
       "coaching-boxe": {
         "title": "Sacha, uma hora com um treinador só para ela",
         "story": "Ela queria sair da rotina de treino habitual. Reservamos uma sessão particular de boxe com um treinador, numa sala só para eles, longe das aulas coletivas lotadas."
+      },
+      "appel-mbappe": {
+        "title": "O filho do Grégoire, fã incondicional da seleção francesa",
+        "story": "O filho de 10 anos só falava da seleção francesa e do seu ídolo. Para o aniversário dele, organizamos uma videochamada surpresa com Kylian Mbappé, filmada sem que ele suspeitasse de nada."
+      },
+      "croisiere-seine": {
+        "title": "Bernard, pelos seus 30 anos de casamento",
+        "story": "Ele queria marcar trinta anos juntos sem mais um jantar clássico. Reservamos um cruzeiro-jantar privado no Sena, mesa posta de frente para a Torre Eiffel iluminada."
       }
     }
   },
