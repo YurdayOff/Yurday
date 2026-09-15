@@ -4,6 +4,7 @@ import { Perforation, TicketNotches } from '@/components/ui/Ticket'
 import { localeInfo, type Locale } from '@/i18n/config'
 import type { Messages } from '@/i18n/messages'
 import { reviewRows, type Review } from '@/data/reviews'
+import { site } from '@/lib/site'
 import { SectionHead } from './SectionHead'
 import './Reviews.css'
 
@@ -96,6 +97,16 @@ export function Reviews({ messages, locale }: ReviewsProps) {
         <div className="google-badge">
           <strong>{reviews.badge.strong}</strong>
           {reviews.badge.rest}
+        </div>
+        <div className="google-review-btn-wrap">
+          <a
+            href={site.reviews.googleUrl}
+            target="_blank"
+            rel="noopener"
+            className="btn btn-ghost"
+          >
+            {reviews.leaveReview}
+          </a>
         </div>
       </div>
     </section>

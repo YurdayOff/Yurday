@@ -12,7 +12,7 @@ export const site = {
   },
   /** Zone d'intervention actuelle (cf. FAQ). */
   areaServed: { city: 'Paris', region: 'Île-de-France', country: 'FR' },
-  reviews: { average: 4.9, count: 100 },
+  reviews: { average: 4.9, count: 100, googleUrl: 'https://g.page/r/CYU7fw3MGPI5EBM/review' },
   daysOrganised: 150,
   founders: [
     { id: 'leo', name: 'Léo', email: 'leo@yurday.fr', photo: '/images/fondateur-leo.webp' },

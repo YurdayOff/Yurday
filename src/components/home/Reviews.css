@@ -73,6 +73,11 @@
   line-height: 1.6;
   text-align: center;
 }
+.google-review-btn-wrap {
+  display: flex;
+  justify-content: center;
+  margin-top: 18px;
+}
 
 @media (prefers-reduced-motion: reduce) {
   .marquee-outer { overflow-x: auto; }
