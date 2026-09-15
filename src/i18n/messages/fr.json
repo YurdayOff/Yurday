@@ -95,63 +95,64 @@
   "moments": {
     "eyebrow": "Vraies histoires",
     "h2": "Quelques instants, parmi tant d'histoires",
+    "lede": "Des anecdotes tirées de journées qu'on a vraiment organisées.",
     "hint": "Fais glisser pour voir les autres",
     "cta": "Envie d'une journée comme celle-ci ? Racontez-nous la vôtre.",
     "items": {
       "karting": {
-        "title": "La bande à Yanis, avant son départ",
-        "story": "Il partait deux mois plus tard et voulait une dernière soirée entre potes avant ça. On a privatisé une piste de karting en nocturne, suivie d'un dîner tard dans la nuit."
+        "title": "Matis, une soirée karting pour son anniversaire",
+        "story": "Ses amis voulaient marquer le coup pour ses 25 ans, autrement qu'avec un restaurant. On a privatisé une piste de karting en nocturne, suivie d'un dîner tard dans la nuit."
       },
       "voiture-luxe": {
-        "title": "Le fils d'Aymeric, fan de voitures depuis toujours",
+        "title": "Le fils d'Aymeric, une Lamborghini pour ses 8 ans",
         "story": "Son fils de 8 ans ne parlait que de Lamborghini depuis des mois. Pour son anniversaire, on lui a organisé une surprise avec une Huracán garée devant chez lui, et un tour du quartier avec son père au volant."
       },
       "evjf-boite-nuit": {
-        "title": "Les copines d'Apolline, la veille du oui",
+        "title": "Les copines d'Apolline, une soirée VIP avant son mariage",
         "story": "Elles voulaient une vraie soirée parisienne, pas un simple bar entre filles. On leur a réservé une table VIP dans une boîte de nuit du centre, avec bouteille et accès coupe-file. La future mariée n'a rien payé de la soirée."
       },
       "parc-des-princes": {
-        "title": "Enzo, supporter du PSG depuis toujours",
+        "title": "Kylian, un match de Ligue des Champions au Parc des Princes",
         "story": "Il rêvait de voir un match de Ligue des Champions au Parc des Princes avec son meilleur ami, sans jamais avoir réussi à avoir de billets. On leur a trouvé deux places pour un soir de gala européen."
       },
       "star-dior": {
-        "title": "Capucine, le temps d'une soirée",
+        "title": "Jeanelle, une journée dans la peau d'une célébrité",
         "story": "Elle rêvait de savoir ce que ça fait d'être suivie comme une célébrité, ne serait-ce qu'une fois. On lui a organisé une fausse sortie shopping devant une boutique parisienne, avec deux agents de sécurité et un cameraman à ses trousses."
       },
       "degustation-vin": {
-        "title": "Baptiste, pour la fête de son père",
+        "title": "Baptiste, une dégustation de vin pour la fête de son père",
         "story": "Il voulait remercier son père autrement qu'avec une cravate. On leur a organisé une dégustation privée dans une cave parisienne, avec un sommelier rien que pour eux deux et une planche à grignoter jusqu'à la dernière bouteille."
       },
       "evg-boite-nuit": {
-        "title": "La bande à Anatole, avant son mariage",
+        "title": "La bande à Anatole, un carré VIP avant son mariage",
         "story": "Ses amis voulaient une dernière sortie mémorable avant le mariage. On leur a réservé un carré VIP dans un club parisien, bouteilles et vue sur le dancefloor jusqu'au bout de la nuit."
       },
       "saut-parachute": {
-        "title": "Les amis de Gaspard, pour ses 30 ans",
+        "title": "Les amis de Gaspard, un saut en parachute pour ses 30 ans",
         "story": "Ses amis voulaient marquer la dizaine autrement qu'avec un restaurant. On leur a organisé un saut en parachute en groupe au coucher du soleil, suivi d'un dîner pour raconter les sensations encore à chaud."
       },
       "pique-nique": {
-        "title": "Léna, un pique-nique improvisé",
+        "title": "Léna, un pique-nique au pied de la tour Eiffel",
         "story": "Il voulait quelque chose de simple mais mémorable pour leur anniversaire de couple. On leur a préparé un pique-nique au pied de la tour Eiffel au coucher du soleil, avec champagne et de quoi grignoter jusqu'à la nuit tombée."
       },
       "gt3rs-circuit": {
-        "title": "Roman, fan de sensations fortes",
+        "title": "Roman, une journée sur circuit au volant d'une GT3RS",
         "story": "Il rêvait de prendre le volant d'une GT3RS sur circuit, encadré par un pilote pro. On lui a organisé une journée complète sur piste, casque siglé Yurday compris, pour vivre ça comme un vrai pilote."
       },
       "roses-cartier": {
-        "title": "Margaux, cent roses sans raison particulière",
+        "title": "Margaux, cent roses et un écrin Cartier livrés par surprise",
         "story": "Il voulait lui faire une surprise sans attendre une occasion précise. On lui a fait livrer cent roses rouges et un écrin Cartier avec un mot glissé dedans, organisé en quelques jours à peine."
       },
       "coaching-boxe": {
-        "title": "Sacha, une heure avec un coach rien que pour elle",
+        "title": "Sacha, une séance de boxe privée avec un coach",
         "story": "Elle voulait sortir de sa routine sport habituelle. On lui a réservé une séance privée de boxe avec un coach, dans une salle rien que pour eux, loin des cours collectifs bondés."
       },
       "appel-mbappe": {
-        "title": "Le fils de Grégoire, fan inconditionnel des Bleus",
-        "story": "Son fils de 10 ans ne jurait que par l'équipe de France et son idole. Pour son anniversaire, on lui a organisé un appel vidéo surprise avec Kylian Mbappé, filmé sans qu'il se doute de rien."
+        "title": "Timéo, un appel FaceTime surprise avec Kylian Mbappé",
+        "story": "Timéo, 10 ans, ne jurait que par l'équipe de France et son idole. Pour son anniversaire, ses parents lui ont offert un appel vidéo surprise avec Kylian Mbappé, filmé sans qu'il se doute de rien."
       },
       "croisiere-seine": {
-        "title": "Bernard, pour leurs 30 ans de mariage",
+        "title": "Jean-Luc, une croisière dînatoire sur la Seine pour ses 30 ans de mariage",
         "story": "Il voulait marquer leurs trente années ensemble sans un dîner classique de plus. On leur a réservé une croisière dînatoire privée sur la Seine, table dressée face à la tour Eiffel illuminée."
       }
     }

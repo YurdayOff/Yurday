@@ -18,7 +18,7 @@ export function Moments({ messages, home }: MomentsProps) {
   return (
     <section id="moments" className="section-coral">
       <div className="container">
-        <SectionHead eyebrow={moments.eyebrow} title={moments.h2} />
+        <SectionHead eyebrow={moments.eyebrow} title={moments.h2} lede={moments.lede} />
       </div>
 
       <div className="moment-scroll">

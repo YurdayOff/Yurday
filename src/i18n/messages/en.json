@@ -95,63 +95,64 @@
   "moments": {
     "eyebrow": "Real stories",
     "h2": "A few moments, among so many stories",
+    "lede": "Real anecdotes from days we've actually organised.",
     "hint": "Drag to see more",
     "cta": "Want a day like this one? Tell us about yours.",
     "items": {
       "karting": {
-        "title": "Yanis's crew, before he left",
-        "story": "He was leaving in two months and wanted one last night with his friends before that. We booked a private go-kart track for a late-night session, followed by dinner well into the night."
+        "title": "Matis, a karting night for his birthday",
+        "story": "His friends wanted to celebrate his 25th with something other than a restaurant. We booked a private go-kart track for a night session, followed by dinner late into the night."
       },
       "voiture-luxe": {
-        "title": "Aymeric's son, a lifelong car fan",
+        "title": "Aymeric's son, a Lamborghini for his 8th birthday",
         "story": "His 8-year-old had talked about nothing but Lamborghinis for months. For his birthday, we arranged a surprise Huracán parked outside his house, plus a drive around the block with his dad behind the wheel."
       },
       "evjf-boite-nuit": {
-        "title": "Apolline's friends, the night before the wedding",
+        "title": "Apolline's friends, a VIP night out before her wedding",
         "story": "They wanted a real Parisian night out, not just drinks at a bar. We booked a VIP table at a club in the city centre, bottle service and skip-the-line access included. The bride-to-be didn't pay for a thing that night."
       },
       "parc-des-princes": {
-        "title": "Enzo, lifelong PSG supporter",
+        "title": "Kylian, a Champions League match at Parc des Princes",
         "story": "He'd always dreamed of watching a Champions League match at Parc des Princes with his best friend, but could never get tickets. We found two seats for a big European night."
       },
       "star-dior": {
-        "title": "Capucine, for one evening",
+        "title": "Jeanelle, a day in the life of a celebrity",
         "story": "She'd always wondered what it feels like to be followed around like a celebrity, just once. We staged a fake shopping outing outside a Paris boutique, complete with two bodyguards and a cameraman trailing her."
       },
       "degustation-vin": {
-        "title": "Baptiste, for his father's day",
+        "title": "Baptiste, a wine tasting for his father's day",
         "story": "He wanted to thank his dad with something other than a tie. We arranged a private tasting in a Paris wine cellar, just the two of them with a sommelier, and a cheese board that lasted until the last bottle."
       },
       "evg-boite-nuit": {
-        "title": "Anatole's crew, before the wedding",
+        "title": "Anatole's crew, a VIP booth before his wedding",
         "story": "His friends wanted one last memorable night out before the wedding. We booked a VIP booth at a Paris club, bottles included, with a view over the dancefloor until the early hours."
       },
       "saut-parachute": {
-        "title": "Gaspard's friends, for his 30th",
+        "title": "Gaspard's friends, a skydive for his 30th",
         "story": "His friends wanted to mark the milestone with something other than a restaurant. We organised a group skydive at sunset, followed by dinner to relive it all while it was still fresh."
       },
       "pique-nique": {
-        "title": "Léna, a spur-of-the-moment picnic",
+        "title": "Léna, a picnic at the foot of the Eiffel Tower",
         "story": "He wanted something simple but memorable for their couple's anniversary. We set up a picnic at the foot of the Eiffel Tower at sunset, champagne included, with snacks until nightfall."
       },
       "gt3rs-circuit": {
-        "title": "Roman, thrill-seeker",
+        "title": "Roman, a track day behind the wheel of a GT3RS",
         "story": "He dreamed of taking the wheel of a GT3RS on track, coached by a pro driver. We arranged a full day on the circuit, Yurday-branded helmet included, to live it like a real driver."
       },
       "roses-cartier": {
-        "title": "Margaux, a hundred roses for no particular reason",
+        "title": "Margaux, a hundred roses and a Cartier box delivered out of the blue",
         "story": "He wanted to surprise her without waiting for a specific occasion. We had a hundred red roses delivered along with a Cartier box and a note tucked inside, all arranged in just a few days."
       },
       "coaching-boxe": {
-        "title": "Sacha, an hour with a coach all to herself",
+        "title": "Sacha, a private boxing session with a coach",
         "story": "She wanted a break from her usual workout routine. We booked a private boxing session with a coach, in a studio just for them, away from crowded group classes."
       },
       "appel-mbappe": {
-        "title": "Grégoire's son, die-hard Les Bleus fan",
-        "story": "His 10-year-old only ever talked about the French national team and his idol. For his birthday, we arranged a surprise video call with Kylian Mbappé, filmed without him suspecting a thing."
+        "title": "Timéo, a surprise FaceTime call with Kylian Mbappé",
+        "story": "Timéo, 10, only ever talked about the French national team and his idol. For his birthday, his parents arranged a surprise video call with Kylian Mbappé, filmed without him suspecting a thing."
       },
       "croisiere-seine": {
-        "title": "Bernard, for their 30th wedding anniversary",
+        "title": "Jean-Luc, a dinner cruise on the Seine for his 30th wedding anniversary",
         "story": "He wanted to mark thirty years together with something more than another classic dinner. We booked a private dinner cruise on the Seine, table set facing the illuminated Eiffel Tower."
       }
     }
