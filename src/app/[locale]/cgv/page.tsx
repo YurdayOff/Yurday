@@ -17,7 +17,7 @@ export default async function CgvPage() {
   const messages = await getMessages(defaultLocale)
 
   return (
-    <LegalPage title={TITLE} updated="à définir" current="terms" messages={messages}>
+    <LegalPage title={TITLE} updated="18 septembre 2026" current="terms" messages={messages}>
       <h2>Objet</h2>
       <p>
         Les présentes conditions régissent la vente de prestations de création et
@@ -29,13 +29,14 @@ export default async function CgvPage() {
       <p>
         Toute prestation fait l&rsquo;objet d&rsquo;un devis personnalisé, gratuit et sans
         engagement. La commande est réputée ferme et définitive à réception de l&rsquo;acceptation
-        écrite du devis par le client et, le cas échéant, du versement de l&rsquo;acompte prévu.
+        écrite du devis par le client.
       </p>
 
       <h2>Prix et modalités de paiement</h2>
       <p>
-        Les prix sont indiqués en euros. Modalités précises (acompte, solde, moyens de paiement
-        acceptés) : <FillIn />.
+        Les prix sont indiqués en euros. Aucun paiement n&rsquo;est demandé au client avant qu&rsquo;il
+        n&rsquo;ait validé le devis et le prix proposés : le règlement n&rsquo;intervient qu&rsquo;une
+        fois cette validation obtenue.
       </p>
 
       <h2>Annulation et rétractation</h2>

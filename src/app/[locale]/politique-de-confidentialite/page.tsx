@@ -17,11 +17,12 @@ export default async function ConfidentialitePage() {
   const messages = await getMessages(defaultLocale)
 
   return (
-    <LegalPage title={TITLE} updated="à définir" current="privacy" messages={messages}>
+    <LegalPage title={TITLE} updated="18 septembre 2026" current="privacy" messages={messages}>
       <h2>Responsable du traitement</h2>
       <p>
-        {site.name}, <FillIn /> (adresse), est responsable du traitement des données personnelles
-        collectées sur ce site. Contact : <a href={`mailto:${site.email}`}>{site.email}</a>
+        {site.name}, 25 Rue de Ponthieu, 75008 Paris, est responsable du traitement des données
+        personnelles collectées sur ce site. Contact :{' '}
+        <a href={`mailto:${site.email}`}>{site.email}</a>
       </p>
 
       <h2>Données collectées</h2>
