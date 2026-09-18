@@ -68,10 +68,17 @@ export default async function CgvPage() {
       <h2>Report de la date</h2>
       <p>
         Le client peut demander le report de la date de sa journée, sous réserve de la disponibilité
-        des prestataires concernés à la nouvelle date souhaitée. Les frais déjà engagés par{' '}
-        {site.name} auprès de prestataires tiers pour la date initiale, lorsqu&rsquo;ils ne peuvent
-        être ni annulés ni reportés par ces prestataires, restent à la charge du client et lui sont
-        facturés séparément, même en cas de report accepté.
+        des prestataires concernés à la nouvelle date souhaitée. Passé un délai de 15 jours avant la
+        date prévue, le report n&rsquo;est plus possible, sauf circonstance exceptionnelle
+        (conditions météorologiques extrêmes, décès, ou autre cas de force majeure caractérisé),
+        étudiée au cas par cas par {site.name}. À défaut de circonstance exceptionnelle reconnue, la
+        demande est traitée comme une annulation et les conditions de l&rsquo;article «&nbsp;Annulation&nbsp;»
+        s&rsquo;appliquent.
+      </p>
+      <p>
+        Les frais déjà engagés par {site.name} auprès de prestataires tiers pour la date initiale,
+        lorsqu&rsquo;ils ne peuvent être ni annulés ni reportés par ces prestataires, restent à la
+        charge du client et lui sont facturés séparément, même en cas de report accepté.
       </p>
 
       <h2>Responsabilité</h2>
