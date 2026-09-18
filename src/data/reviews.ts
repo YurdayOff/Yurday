@@ -55,5 +55,5 @@ export const reviews: Review[] = [
   { id: 39, name: "Emma C.", avatar: "E", country: 'FR', nativeLocale: 'fr' },
 ]
 
-/** Deux bandeaux défilants : le premier vers la gauche, le second vers la droite. */
-export const reviewRows: Review[][] = [reviews.slice(0, 19), reviews.slice(19)]
+/** Un seul bandeau défilant, avec tous les avis. */
+export const reviewRows: Review[][] = [reviews]
