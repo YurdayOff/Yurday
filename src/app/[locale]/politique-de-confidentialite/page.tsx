@@ -1,5 +1,5 @@
 import type { Metadata } from 'next'
-import { FillIn, LegalPage } from '@/components/legal/LegalPage'
+import { LegalPage } from '@/components/legal/LegalPage'
 import { defaultLocale } from '@/i18n/config'
 import { getMessages } from '@/i18n/messages'
 import { legalMetadata, legalStaticParams } from '@/lib/legal-metadata'
@@ -40,8 +40,8 @@ export default async function ConfidentialitePage() {
 
       <h2>Durée de conservation</h2>
       <p>
-        Les données sont conservées <FillIn /> (ex. 3 ans à compter du dernier contact), sauf
-        obligation légale contraire.
+        Les données sont conservées 3 ans à compter du dernier contact, sauf obligation légale
+        contraire.
       </p>
 
       <h2>Destinataires</h2>
