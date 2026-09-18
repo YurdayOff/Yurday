@@ -75,7 +75,7 @@
   white-space: nowrap;
 }
 @media (max-width: 640px) {
-  .google-badge { font-size: 11px; }
+  .google-badge { font-size: 12.5px; }
 }
 .google-review-btn-wrap {
   display: flex;
