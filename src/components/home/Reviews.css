@@ -1,4 +1,10 @@
 /* ---------- Reviews (défilement continu) ---------- */
+#avis .section-head p {
+  white-space: nowrap;
+}
+@media (max-width: 640px) {
+  #avis .section-head p { font-size: 12.5px; }
+}
 .marquee-outer {
   overflow: hidden;
   width: 100%;
