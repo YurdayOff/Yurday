@@ -81,11 +81,38 @@ export default async function CgvPage() {
         charge du client et lui sont facturés séparément, même en cas de report accepté.
       </p>
 
-      <h2>Responsabilité</h2>
+      <h2>Rôle et responsabilité</h2>
+      <p>
+        {site.name} intervient en tant qu&rsquo;organisateur et coordinateur de la journée : elle
+        sélectionne, réserve et coordonne les prestataires tiers (restauration, activités, transport,
+        et toute autre prestation incluse dans le programme) nécessaires à la réalisation du
+        programme validé avec le client. Chaque prestataire tiers reste seul responsable de la bonne
+        exécution de sa propre prestation. {site.name} s&rsquo;engage à sélectionner des prestataires
+        sérieux et à assurer la coordination générale de la journée, mais ne saurait être tenue
+        responsable d&rsquo;un manquement imputable exclusivement à un prestataire tiers, sous réserve
+        des dispositions légales d&rsquo;ordre public applicables.
+      </p>
+      <p>
+        Le contrat est conclu avec la personne ayant validé le devis et procédé au paiement (le «&nbsp;client&nbsp;»).
+        Lorsque la journée est offerte à un tiers, ce bénéficiaire n&rsquo;est pas partie au contrat et
+        ne dispose d&rsquo;aucun droit ni recours direct à l&rsquo;égard de {site.name}.
+      </p>
+      <p>
+        En cas d&rsquo;indisponibilité imprévue d&rsquo;un prestataire initialement prévu,{' '}
+        {site.name} se réserve le droit de le remplacer par un prestataire ou une activité de nature
+        et de valeur équivalentes, sans que cela ne constitue un manquement à ses obligations.
+      </p>
+      <p>
+        {site.name} ne saurait être tenue responsable des conséquences d&rsquo;informations inexactes,
+        incomplètes ou tardives communiquées par le client (sur le bénéficiaire, ses disponibilités,
+        ses préférences, ou toute autre information nécessaire à la construction du programme).
+      </p>
       <p>
         {site.name} s&rsquo;engage à mettre en œuvre tous les moyens nécessaires à la bonne exécution
-        de la prestation. La responsabilité de {site.name} ne saurait être engagée en cas de force
-        majeure ou de fait imprévisible d&rsquo;un prestataire tiers.
+        de la prestation. Sa responsabilité ne saurait être engagée en cas de force majeure ou de fait
+        imprévisible d&rsquo;un prestataire tiers. En tout état de cause, si la responsabilité de{' '}
+        {site.name} venait à être retenue, elle est limitée au montant total effectivement versé par
+        le client pour la prestation concernée.
       </p>
 
       <h2>Litiges et médiation</h2>
