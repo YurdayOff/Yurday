@@ -39,14 +39,39 @@ export default async function CgvPage() {
         fois cette validation obtenue.
       </p>
 
-      <h2>Annulation et rétractation</h2>
+      <h2>Droit de rétractation</h2>
       <p>
-        Conditions d&rsquo;annulation par le client (délais, pénalités éventuelles) : <FillIn />.
-        <br />
         Conformément à l&rsquo;article L221-28 du Code de la consommation, le droit de rétractation
-        ne s&rsquo;applique pas aux prestations pleinement exécutées avant la fin du délai de
-        rétractation avec l&rsquo;accord du client, ni aux prestations dont la date d&rsquo;exécution
-        est fixée avec précision.
+        ne s&rsquo;applique pas aux prestations dont la date d&rsquo;exécution est fixée avec
+        précision, ce qui est le cas de l&rsquo;ensemble des journées organisées par {site.name}.
+      </p>
+
+      <h2>Annulation</h2>
+      <p>
+        En cas d&rsquo;annulation du projet par le client après validation du devis et paiement,{' '}
+        {site.name} retient les sommes suivantes, à titre de compensation des frais déjà engagés
+        (acomptes et réservations auprès des prestataires, temps de conception de la journée) :
+      </p>
+      <ul>
+        <li>annulation à plus de 30 jours de la date prévue : 30% du montant total du devis ;</li>
+        <li>annulation entre 15 et 30 jours de la date prévue : 60% du montant total du devis ;</li>
+        <li>
+          annulation à moins de 15 jours de la date prévue : 100% du montant total du devis, sans
+          remboursement.
+        </li>
+      </ul>
+      <p>
+        Le solde éventuel est reversé au client dans un délai de 14 jours suivant la demande
+        d&rsquo;annulation.
+      </p>
+
+      <h2>Report de la date</h2>
+      <p>
+        Le client peut demander le report de la date de sa journée, sous réserve de la disponibilité
+        des prestataires concernés à la nouvelle date souhaitée. Les frais déjà engagés par{' '}
+        {site.name} auprès de prestataires tiers pour la date initiale, lorsqu&rsquo;ils ne peuvent
+        être ni annulés ni reportés par ces prestataires, restent à la charge du client et lui sont
+        facturés séparément, même en cas de report accepté.
       </p>
 
       <h2>Responsabilité</h2>
