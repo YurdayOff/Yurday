@@ -60,25 +60,9 @@
     "bespokeLabel": "Bespoke, never a package"
   },
   "occasions": {
-    "eyebrow": "For which occasion",
     "h2": "A day for every story",
     "lede": "Whether it's a big occasion or simply the wish to make someone happy, every moment deserves to be lived differently. At Yurday, no occasion is needed to imagine an entirely bespoke day, designed in the image of the person you wish to give it to. Because everyone deserves an experience that feels like them.",
     "moreLabel": "And so many other moments to celebrate",
-    "chips": [
-      "Wedding",
-      "Wedding anniversary",
-      "Birth / baby shower",
-      "Retirement",
-      "Graduation",
-      "Farewell party",
-      "Father's Day",
-      "Christening",
-      "Company",
-      "Reunion with friends",
-      "Congratulations",
-      "Thank you"
-    ],
-    "tagline": "There is no wrong occasion to give a day to someone you love.",
     "cards": {
       "anniversaire": "Birthday",
       "demande-en-mariage": "Marriage proposal",

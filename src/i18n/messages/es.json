@@ -60,25 +60,9 @@
     "bespokeLabel": "A medida, nunca un paquete"
   },
   "occasions": {
-    "eyebrow": "Para qué ocasión",
     "h2": "Un día para cada historia",
     "lede": "Ya se trate de una gran ocasión o de un simple deseo de dar una alegría, cada momento merece vivirse de otra manera. En Yurday, no hace falta ninguna ocasión para imaginar un día completamente a medida, pensado a la imagen de la persona a quien deseas ofrecérselo. Porque cada persona merece una experiencia que se le parezca.",
     "moreLabel": "Y tantos otros momentos que celebrar",
-    "chips": [
-      "Boda",
-      "Aniversario de boda",
-      "Nacimiento / baby shower",
-      "Jubilación",
-      "Graduación",
-      "Fiesta de despedida",
-      "Día del padre",
-      "Bautizo",
-      "Empresa",
-      "Reencuentro entre amigos",
-      "Felicitaciones",
-      "Agradecimiento"
-    ],
-    "tagline": "No existe una mala ocasión para regalar un día a la persona que quieres.",
     "cards": {
       "anniversaire": "Cumpleaños",
       "demande-en-mariage": "Pedida de mano",

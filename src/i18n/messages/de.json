@@ -60,25 +60,9 @@
     "bespokeLabel": "Maßgeschneidert, nie von der Stange"
   },
   "occasions": {
-    "eyebrow": "Für welchen Anlass",
     "h2": "Ein Tag für jede Geschichte",
     "lede": "Ob großer Anlass oder einfach der Wunsch, jemandem eine Freude zu machen: Jeder Moment verdient es, anders erlebt zu werden. Bei Yurday braucht es keinen Anlass, um sich einen vollkommen maßgeschneiderten Tag vorzustellen, gestaltet ganz nach dem Bild der Person, der Sie ihn schenken möchten. Denn jeder Mensch verdient ein Erlebnis, das wirklich zu ihm passt.",
     "moreLabel": "Und so viele weitere Momente zum Feiern",
-    "chips": [
-      "Hochzeit",
-      "Hochzeitstag",
-      "Geburt / Babyparty",
-      "Ruhestand",
-      "Abschlussfeier",
-      "Abschiedsfeier",
-      "Vatertag",
-      "Taufe",
-      "Unternehmen",
-      "Wiedersehen mit Freunden",
-      "Glückwünsche",
-      "Dankeschön"
-    ],
-    "tagline": "Es gibt keinen falschen Anlass, um der Person, die Sie lieben, einen Tag zu schenken.",
     "cards": {
       "anniversaire": "Geburtstag",
       "demande-en-mariage": "Heiratsantrag",

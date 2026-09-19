@@ -61,7 +61,7 @@ export default async function HomePage({ params }: HomeProps) {
       />
       <Hero messages={messages} home={home} />
       <TrustPillars messages={messages} />
-      <Occasions messages={messages} locale={locale} />
+      <Occasions messages={messages} />
       <Seam />
       <Process messages={messages} />
       <Seam />
