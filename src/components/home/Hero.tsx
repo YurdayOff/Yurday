@@ -14,7 +14,7 @@ export function Hero({ messages, home }: HeroProps) {
   const { hero } = messages
 
   return (
-    <HeroSection>
+    <HeroSection image={{ src: '/images/hero-surprise.webp', alt: hero.photoAlt }}>
       <div className="eyebrow">{hero.eyebrow}</div>
       <h1>
         {hero.title.lead}

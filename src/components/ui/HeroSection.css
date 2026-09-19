@@ -24,6 +24,35 @@
   text-align: center;
   position: relative;
 }
+
+/* Variante avec photo : texte à gauche, image à droite. */
+.hero--with-photo .hero-inner {
+  display: grid;
+  grid-template-columns: 1.05fr 0.95fr;
+  align-items: center;
+  gap: 48px;
+  text-align: left;
+}
+.hero--with-photo .hero-content { text-align: left; }
+.hero--with-photo .hero h1 { margin: 0 0 26px; }
+.hero--with-photo .hero p.lede { margin: 0 0 36px; }
+.hero--with-photo .hero-actions { justify-content: flex-start; margin-bottom: 40px; }
+.hero-photo {
+  border-radius: 8px;
+  overflow: hidden;
+  aspect-ratio: 900 / 506;
+  box-shadow: 0 30px 70px rgba(11, 33, 73, 0.22);
+}
+.hero-photo img { width: 100%; height: 100%; object-fit: cover; display: block; }
+
+@media (max-width: 900px) {
+  .hero--with-photo .hero-inner { grid-template-columns: 1fr; gap: 32px; text-align: center; }
+  .hero--with-photo .hero-content { text-align: center; }
+  .hero--with-photo .hero h1 { margin: 0 auto 22px; }
+  .hero--with-photo .hero p.lede { margin: 0 auto 28px; }
+  .hero--with-photo .hero-actions { justify-content: center; }
+  .hero--with-photo .hero-photo { order: -1; max-width: 480px; margin: 0 auto; }
+}
 .hero h1 {
   font-size: clamp(38px, 6vw, 68px);
   line-height: 1.08;
