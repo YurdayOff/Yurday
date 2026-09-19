@@ -22,7 +22,7 @@ export function Footer({ messages }: { messages: Messages }) {
         src={site.images.logo}
         alt={site.name}
         width={500}
-        height={213}
+        height={91}
         sizes="60px"
       />
       <div>{messages.footer.tagline}</div>

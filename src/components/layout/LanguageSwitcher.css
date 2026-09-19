@@ -14,7 +14,7 @@
   color: var(--ink);
   cursor: pointer;
 }
-.lang-current:hover { border-color: var(--gold-2); }
+.lang-current:hover { border-color: var(--blue-2); }
 .lang-chevron { width: 9px; height: 9px; flex-shrink: 0; opacity: 0.6; transition: transform 0.2s; }
 .lang-switcher-wrap.open .lang-chevron { transform: rotate(180deg); }
 .flag-icon { width: 20px; height: 14px; flex-shrink: 0; border-radius: 3px; overflow: hidden; box-shadow: 0 0 0 1px rgba(30, 26, 22,0.12); display: block; }

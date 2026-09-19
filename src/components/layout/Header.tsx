@@ -50,10 +50,10 @@ export function Header({ locale, messages }: HeaderProps) {
         <div className="nav-brand">
           <Link href={home} className="nav-logo" aria-label={site.name}>
             <Image
-              src={site.images.logo}
+              src={site.images.logoLight}
               alt={site.name}
               width={500}
-              height={209}
+              height={91}
               priority
               sizes="120px"
             />

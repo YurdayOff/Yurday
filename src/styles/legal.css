@@ -22,7 +22,7 @@
   font-family: var(--font-inter), sans-serif;
   font-size: 15.5px;
   margin: 26px 0 8px;
-  color: var(--gold-3);
+  color: var(--blue-3);
 }
 .legal-card p,
 .legal-card li {
@@ -31,13 +31,13 @@
   color: var(--ink-soft);
 }
 .legal-card ul { margin: 6px 0; padding-left: 20px; }
-.legal-card a { color: var(--gold-3); text-decoration: underline; }
+.legal-card a { color: var(--blue-3); text-decoration: underline; }
 /* Champs restant à compléter par Yurday avant mise en ligne. */
 .legal-fill-in {
   background: #FBE3D3;
   padding: 1px 6px;
   border-radius: 4px;
-  color: var(--gold-3);
+  color: var(--blue-3);
   font-weight: 600;
   font-style: normal;
 }
@@ -56,10 +56,10 @@
   font-weight: 600;
   background: var(--white);
 }
-.legal-nav a:hover { border-color: var(--gold-2); color: var(--gold-3); }
+.legal-nav a:hover { border-color: var(--blue-2); color: var(--blue-3); }
 .legal-nav a[aria-current='page'] {
-  border-color: var(--gold-2);
-  color: var(--gold-3);
+  border-color: var(--blue-2);
+  color: var(--blue-3);
   background: var(--paper-deep);
 }
 @media (max-width: 640px) {

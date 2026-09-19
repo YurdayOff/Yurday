@@ -13,7 +13,7 @@ export function Marker({ children }: { children: ReactNode }) {
       <svg viewBox="0 0 300 12" preserveAspectRatio="none" aria-hidden="true">
         <path
           d="M2,9 C60,2 240,2 298,9"
-          stroke="var(--gold-2)"
+          stroke="var(--blue-2)"
           strokeWidth="5"
           fill="none"
           strokeLinecap="round"

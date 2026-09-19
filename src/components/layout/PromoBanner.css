@@ -1,6 +1,6 @@
 /* ---------- Bandeau WhatsApp ---------- */
 .promo-banner {
-  background: var(--gold-2);
+  background: var(--blue-2);
 }
 .promo-banner .promo-banner-inner {
   display: flex;

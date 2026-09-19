@@ -6,7 +6,7 @@
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.08em;
-  color: var(--gold-3);
+  color: var(--blue-3);
 }
 .founders-wrap {
   display: flex;
@@ -39,11 +39,11 @@
   margin-top: 8px;
   font-size: 13px;
   font-weight: 600;
-  color: var(--gold-3);
+  color: var(--blue-3);
   border-bottom: 1px solid transparent;
   transition: border-color 0.2s;
 }
-.founder-email:hover { border-color: var(--gold-3); }
+.founder-email:hover { border-color: var(--blue-3); }
 .histoire-wrap {
   display: grid;
   grid-template-columns: 340px 1fr;
@@ -68,7 +68,7 @@
   /* Fraunces italique en 500 : l'italique 400 est nettement plus fin et
      s'écarte du rendu d'origine du site. */
   font-weight: 500;
-  border-left: 3px solid var(--gold-2);
+  border-left: 3px solid var(--blue-2);
   font-family: var(--font-display), Georgia, serif;
   font-style: italic;
   font-size: 17.5px;

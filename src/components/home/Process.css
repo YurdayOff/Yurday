@@ -14,7 +14,7 @@
   overflow: visible;
 }
 .flight-plane {
-  filter: drop-shadow(0 3px 6px rgba(115, 76, 35,0.35));
+  filter: drop-shadow(0 3px 6px rgba(6, 31, 116,0.35));
   transition: opacity 0.4s ease;
 }
 .process-marker {
@@ -24,7 +24,7 @@
   width: 46px;
   height: 46px;
   border-radius: 999px;
-  background: var(--ink);
+  background: var(--blue-2);
   color: #fff;
   font-family: var(--font-display), Georgia, serif;
   font-size: 17px;
@@ -33,7 +33,7 @@
   align-items: center;
   justify-content: center;
   transform: translate(-50%, -50%);
-  box-shadow: 0 8px 18px rgba(115, 76, 35,0.3);
+  box-shadow: 0 8px 18px rgba(6, 31, 116,0.3);
   z-index: 3;
 }
 .process-columns {
@@ -73,7 +73,7 @@
     width: 40px;
     height: 40px;
     border-radius: 999px;
-    background: var(--ink);
+    background: var(--blue-2);
     color: #fff;
     font-family: var(--font-display), Georgia, serif;
     font-size: 15px;
@@ -93,4 +93,4 @@
   font-size: 14px;
   color: var(--ink-soft);
 }
-.process-price-note strong { color: var(--gold-3); font-weight: 700; }
+.process-price-note strong { color: var(--blue-3); font-weight: 700; }

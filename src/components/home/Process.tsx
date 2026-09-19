@@ -178,7 +178,7 @@ export function Process({ messages }: { messages: Messages }) {
             <path
               d={layout?.path}
               fill="none"
-              stroke="var(--gold-2)"
+              stroke="var(--blue-2)"
               strokeWidth="2"
               strokeDasharray="1 8"
               strokeLinecap="round"
@@ -188,7 +188,7 @@ export function Process({ messages }: { messages: Messages }) {
               ref={routeRef}
               d={layout?.path}
               fill="none"
-              stroke="var(--gold-2)"
+              stroke="var(--blue-2)"
               strokeWidth="2"
               strokeLinecap="round"
             />
@@ -197,7 +197,7 @@ export function Process({ messages }: { messages: Messages }) {
                 <path
                   d="M23,12 L2,3.5 L9.5,12 L2,20.5 Z"
                   fill="white"
-                  stroke="var(--gold-3)"
+                  stroke="var(--blue-3)"
                   strokeWidth="1.4"
                   strokeLinejoin="round"
                   strokeLinecap="round"
@@ -205,14 +205,14 @@ export function Process({ messages }: { messages: Messages }) {
                 <path
                   d="M23,12 L9.5,12"
                   fill="none"
-                  stroke="var(--gold-3)"
+                  stroke="var(--blue-3)"
                   strokeWidth="1.1"
                   strokeLinecap="round"
                 />
                 <path
                   d="M9.5,12 L6,17.5"
                   fill="none"
-                  stroke="var(--gold-3)"
+                  stroke="var(--blue-3)"
                   strokeWidth="0.9"
                   strokeLinecap="round"
                   opacity="0.6"

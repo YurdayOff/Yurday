@@ -13,7 +13,7 @@ section.occasion-content { padding: 64px 28px; }
   line-height: 1.7;
 }
 .occasion-cta {
-  background: var(--ink);
+  background: var(--blue-2);
   border-radius: 28px;
   padding: 56px 40px;
   text-align: center;
@@ -26,7 +26,7 @@ section.occasion-content { padding: 64px 28px; }
 .occasion-cta .btn-primary {
   background-image: none;
   background: #fff;
-  color: var(--gold-3);
+  color: var(--blue-3);
   box-shadow: 0 10px 26px rgba(0,0,0,0.15);
 }
 .occasion-cta .btn-ghost { border-color: rgba(255,255,255,0.5); color: #fff; }
@@ -52,4 +52,4 @@ section.occasion-content { padding: 64px 28px; }
   color: var(--ink);
   background: #fff;
 }
-.other-occasions a:hover { border-color: var(--gold-2); color: var(--gold-3); }
+.other-occasions a:hover { border-color: var(--blue-2); color: var(--blue-3); }

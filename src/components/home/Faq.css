@@ -39,7 +39,7 @@
 }
 .faq-q .plus {
   font-size: 22px;
-  color: var(--gold-2);
+  color: var(--blue-2);
   transition: transform 0.25s ease;
   flex-shrink: 0;
 }
