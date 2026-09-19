@@ -37,9 +37,6 @@ function ReviewCard({
     <article className="ticket marquee-card" aria-hidden={duplicate}>
       <TicketNotches />
       <div className="review-top">
-        <div className="review-avatar" aria-hidden="true">
-          {review.avatar}
-        </div>
         <div>
           <div className="review-name">
             {review.name} <Flag country={review.country} title={countryName(review.country, locale)} />
