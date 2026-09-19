@@ -99,7 +99,7 @@ h1, h2, h3 {
 /* Alternance des fonds de section. */
 .section-paper-deep { background: var(--paper-deep); }
 /* Noir plein : réservé aux deux temps forts (vraies histoires, prise de contact). */
-.section-coral { background: var(--blue-3); }
+.section-coral { background: var(--blue-2); }
 
 /* Ligne fine entre deux sections. */
 .seam {

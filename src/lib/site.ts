@@ -20,8 +20,6 @@ export const site = {
   ],
   images: {
     logo: '/images/yurday-logo.webp',
-    /** Variante blanche, pour l'afficher sur le fond bleu du header. */
-    logoLight: '/images/yurday-logo-white.webp',
     founders: '/images/fondateurs-leo-luca.webp',
   },
   /**
