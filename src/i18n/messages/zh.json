@@ -33,7 +33,9 @@
     "mainNav": "主导航",
     "openMenu": "打开菜单",
     "close": "关闭",
-    "whatsappFloat": "通过 WhatsApp 联系 Yurday"
+    "whatsappFloat": "通过 WhatsApp 联系 Yurday",
+    "previousStory": "上一个故事",
+    "nextStory": "下一个故事"
   },
   "nav": {
     "home": "首页",
@@ -97,7 +99,6 @@
     "eyebrow": "真实故事",
     "h2": "无数故事中的几个瞬间",
     "lede": "取自我们真实策划过的日子里的真实片段。",
-    "hint": "滑动查看更多",
     "cta": "也想要这样的一天？告诉我们您的故事。",
     "items": {
       "parc-des-princes": {

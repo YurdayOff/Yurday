@@ -33,7 +33,9 @@
     "mainNav": "Navigation principale",
     "openMenu": "Ouvrir le menu",
     "close": "Fermer",
-    "whatsappFloat": "Contacter Yurday sur WhatsApp"
+    "whatsappFloat": "Contacter Yurday sur WhatsApp",
+    "previousStory": "Histoire précédente",
+    "nextStory": "Histoire suivante"
   },
   "nav": {
     "home": "Accueil",
@@ -97,7 +99,6 @@
     "eyebrow": "Vraies histoires",
     "h2": "Quelques instants, parmi tant d'histoires",
     "lede": "Des anecdotes tirées de journées qu'on a vraiment organisées.",
-    "hint": "Fais glisser pour voir les autres",
     "cta": "Envie d'une journée comme celle-ci ? Racontez-nous la vôtre.",
     "items": {
       "parc-des-princes": {

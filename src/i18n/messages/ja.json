@@ -33,7 +33,9 @@
     "mainNav": "メインナビゲーション",
     "openMenu": "メニューを開く",
     "close": "閉じる",
-    "whatsappFloat": "WhatsAppでYurdayに連絡する"
+    "whatsappFloat": "WhatsAppでYurdayに連絡する",
+    "previousStory": "前のストーリー",
+    "nextStory": "次のストーリー"
   },
   "nav": {
     "home": "ホーム",
@@ -97,7 +99,6 @@
     "eyebrow": "本物のストーリー",
     "h2": "数え切れないほどの物語の中の、いくつかの瞬間",
     "lede": "私たちが実際に企画した一日から生まれた、本物のエピソードです。",
-    "hint": "スライドしてもっと見る",
     "cta": "こんな一日を過ごしてみませんか？あなたの物語を聞かせてください。",
     "items": {
       "parc-des-princes": {

@@ -33,7 +33,9 @@
     "mainNav": "Hauptnavigation",
     "openMenu": "Menü öffnen",
     "close": "Schließen",
-    "whatsappFloat": "Yurday über WhatsApp kontaktieren"
+    "whatsappFloat": "Yurday über WhatsApp kontaktieren",
+    "previousStory": "Vorherige Geschichte",
+    "nextStory": "Nächste Geschichte"
   },
   "nav": {
     "home": "Startseite",
@@ -97,7 +99,6 @@
     "eyebrow": "Echte Geschichten",
     "h2": "Ein paar Momente, unter so vielen Geschichten",
     "lede": "Echte Anekdoten aus Tagen, die wir wirklich organisiert haben.",
-    "hint": "Wischen, um mehr zu sehen",
     "cta": "Lust auf so einen Tag? Erzählen Sie uns von Ihrem.",
     "items": {
       "parc-des-princes": {

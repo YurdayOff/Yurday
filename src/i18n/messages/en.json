@@ -33,7 +33,9 @@
     "mainNav": "Main navigation",
     "openMenu": "Open menu",
     "close": "Close",
-    "whatsappFloat": "Contact Yurday on WhatsApp"
+    "whatsappFloat": "Contact Yurday on WhatsApp",
+    "previousStory": "Previous story",
+    "nextStory": "Next story"
   },
   "nav": {
     "home": "Home",
@@ -97,7 +99,6 @@
     "eyebrow": "Real stories",
     "h2": "A few moments, among so many stories",
     "lede": "Real anecdotes from days we've actually organised.",
-    "hint": "Drag to see more",
     "cta": "Want a day like this one? Tell us about yours.",
     "items": {
       "parc-des-princes": {
