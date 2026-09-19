@@ -74,21 +74,8 @@ const slugs: Record<OccasionKey, Record<Locale, string>> = {
   },
 }
 
-/** Photo d'illustration de la carte « occasions » et de l'image de partage. */
-const images: Record<OccasionKey, string> = {
-  anniversaire: '/images/occasion-anniversaire.webp',
-  'demande-en-mariage': '/images/occasion-demande-en-mariage.webp',
-  'saint-valentin': '/images/occasion-saint-valentin.webp',
-  'evg-evjf': '/images/occasion-evg-evjf.webp',
-  'fete-des-meres': '/images/occasion-fete-des-meres.webp',
-}
-
 export function occasionSlug(key: OccasionKey, locale: Locale): string {
   return slugs[key][locale]
-}
-
-export function occasionImage(key: OccasionKey): string {
-  return images[key]
 }
 
 /** Chemin public de la page occasion, préfixe de langue compris. */

@@ -1,59 +1,38 @@
-/* ---------- Categories (cartes photo éditoriales) ---------- */
+/* ---------- Categories (cartes iconographiques) ---------- */
 .cat-grid {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 26px;
+  gap: 20px;
 }
 .cat-card {
-  --notch-y: 220px;
   padding: 0;
-  flex: 1 1 300px;
-  max-width: 340px;
-  overflow: hidden;
+  flex: 1 1 200px;
+  max-width: 220px;
+  text-align: center;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 .cat-card:hover { transform: translateY(-6px); box-shadow: 0 24px 48px rgba(30, 26, 22,0.14); }
-.cat-card .notch { background: var(--paper-deep); }
-.cat-photo {
-  width: 100%;
-  height: 220px;
-  overflow: hidden;
+.cat-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
+  margin: 30px auto 20px;
+  border-radius: 999px;
+  background: var(--paper-deep);
+  color: var(--blue-2);
 }
-.cat-photo img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
-  transition: transform 0.5s ease;
-}
-.cat-card:hover .cat-photo img { transform: scale(1.07); }
-.cat-text { padding: 20px 24px; }
-.cat-card h3 { font-size: 18px; font-weight: 600; margin: 0 0 8px; }
+.cat-text { padding: 18px 18px 24px; }
+.cat-card h3 { font-size: 15px; font-weight: 600; margin: 0; }
 @media (max-width: 560px) {
-  /* Sur mobile, on laisse tomber le look ticket (encoches, pointillés,
-     carte rectangulaire) pour une pastille ronde + libellé, plus lisible
-     en petit format. */
-  .cat-grid { gap: 20px 14px; }
-  .cat-card.ticket {
-    flex: 0 0 calc(50% - 7px);
-    max-width: none;
-    background: none;
-    border-radius: 0;
-    box-shadow: none;
-  }
-  .cat-card .notch, .cat-card .perforation { display: none; }
-  .cat-photo {
-    height: auto;
-    aspect-ratio: 1 / 1;
-    max-width: 148px;
-    margin: 0 auto;
-    border-radius: 50%;
-    border: 3px solid var(--white);
-    box-shadow: 0 10px 24px rgba(30, 26, 22, 0.14);
-  }
-  .cat-text { padding: 10px 6px 0; text-align: center; }
-  .cat-card h3 { font-size: 14px; }
+  .cat-grid { gap: 14px; }
+  .cat-card { flex: 0 0 calc(50% - 7px); max-width: none; }
+  .cat-icon { width: 48px; height: 48px; margin: 22px auto 14px; }
+  .cat-icon svg { width: 24px; height: 24px; }
+  .cat-text { padding: 0 10px 18px; }
+  .cat-card h3 { font-size: 13.5px; }
 }
 
 /* ---------- Étiquettes d'occasions supplémentaires ---------- */
