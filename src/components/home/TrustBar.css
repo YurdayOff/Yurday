@@ -1,9 +1,9 @@
 /* ---------- Barre de confiance (note, compteurs) ---------- */
 .trustbar {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 180px));
   justify-content: center;
-  gap: 64px;
-  flex-wrap: wrap;
+  gap: 0 48px;
   padding-top: 40px;
   border-top: 1px solid var(--line);
 }
@@ -36,8 +36,7 @@
 }
 
 @media (max-width: 640px) {
-  .trustbar { gap: 16px; padding-top: 28px; flex-wrap: nowrap; }
-  .trust-item { max-width: 96px; }
+  .trustbar { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0 12px; padding-top: 28px; }
   .trust-top { height: 24px; }
   .trust-num { font-size: 24px; }
   .stars { font-size: 13px; letter-spacing: 1px; white-space: nowrap; }
