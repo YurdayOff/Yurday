@@ -33,9 +33,7 @@
     "mainNav": "Navigation principale",
     "openMenu": "Ouvrir le menu",
     "close": "Fermer",
-    "whatsappFloat": "Contacter Yurday sur WhatsApp",
-    "previousStory": "Histoire précédente",
-    "nextStory": "Histoire suivante"
+    "whatsappFloat": "Contacter Yurday sur WhatsApp"
   },
   "nav": {
     "home": "Accueil",

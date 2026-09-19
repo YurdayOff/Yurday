@@ -1,7 +1,8 @@
+import Image from 'next/image'
 import Link from 'next/link'
 import { moments as momentList } from '@/data/moments'
+import { Reveal } from '@/components/ui/Reveal'
 import type { Messages } from '@/i18n/messages'
-import { MomentSpotlight } from './MomentSpotlight'
 import { SectionHead } from './SectionHead'
 import './Moments.css'
 
@@ -11,28 +12,40 @@ type MomentsProps = {
   home: string
 }
 
-/** Vraies histoires clients, présentées une à une en grand format. */
+/** Vraies histoires clients, chacune en grand chapitre plein cadre. */
 export function Moments({ messages, home }: MomentsProps) {
   const { moments } = messages
 
-  const items = momentList.map(({ id, image }) => {
-    const item = moments.items[id as keyof typeof moments.items]
-    return { id, image, title: item.title, story: item.story }
-  })
-
   return (
-    <section id="moments" className="section-coral">
+    <section id="moments">
       <div className="container">
         <SectionHead eyebrow={moments.eyebrow} title={moments.h2} lede={moments.lede} />
+      </div>
 
-        <MomentSpotlight
-          items={items}
-          previousLabel={messages.a11y.previousStory}
-          nextLabel={messages.a11y.nextStory}
-        />
+      <div className="moment-chapters">
+        {momentList.map(({ id, image }) => {
+          const item = moments.items[id as keyof typeof moments.items]
+          return (
+            <Reveal className="moment-chapter" key={id}>
+              <Image
+                src={image}
+                alt={item.title}
+                width={1120}
+                height={630}
+                sizes="(max-width: 900px) 100vw, 1120px"
+              />
+              <div className="moment-chapter-text">
+                <h3>{item.title}</h3>
+                <p>{item.story}</p>
+              </div>
+            </Reveal>
+          )
+        })}
+      </div>
 
+      <div className="container">
         <div className="moment-cta-wrap">
-          <Link href={`${home}#contact`} className="btn btn-white">
+          <Link href={`${home}#contact`} className="btn btn-primary">
             {moments.cta}
           </Link>
         </div>
