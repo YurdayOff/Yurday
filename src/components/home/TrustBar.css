@@ -24,8 +24,8 @@
 }
 .stars {
   color: var(--blue-2);
-  letter-spacing: 4px;
-  font-size: 44px;
+  letter-spacing: 3px;
+  font-size: 24px;
   line-height: 1;
 }
 
@@ -33,6 +33,6 @@
   .trustbar { gap: 16px; padding-top: 28px; flex-wrap: nowrap; }
   .trust-item { max-width: 96px; }
   .trust-num { font-size: 24px; }
-  .stars { font-size: 15px; letter-spacing: 1px; white-space: nowrap; }
+  .stars { font-size: 13px; letter-spacing: 1px; white-space: nowrap; }
   .trust-label { font-size: 9.5px; margin-top: 4px; line-height: 1.3; }
 }

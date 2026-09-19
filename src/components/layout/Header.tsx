@@ -95,6 +95,13 @@ export function Header({ locale, messages }: HeaderProps) {
               {messages.nav[section.key]}
             </Link>
           ))}
+          <Link
+            href={`${home}#contact`}
+            className="btn btn-primary nav-mobile-cta"
+            onClick={() => setMenuOpen(false)}
+          >
+            {messages.nav.cta}
+          </Link>
         </nav>
       ) : null}
     </header>
