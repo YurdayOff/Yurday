@@ -70,8 +70,8 @@
   "occasions": {
     "eyebrow": "Für welchen Anlass",
     "h2": "Ein Tag für jede Geschichte",
-    "lede": "Geburtstag, Hochzeit, Abschiedsfeier, oder einfach so, ohne besonderen Grund: der Anlass spielt keine Rolle. Schenken Sie einen Tag, der weltweit einzigartig ist, den niemand sonst je genau so erlebt haben wird. Hier ein paar Beispiele von unzähligen weiteren.",
-    "moreLabel": "Und für alle anderen Anlässe",
+    "lede": "Geburtstag, Heiratsantrag, Ruhestand, oder einfach der Wunsch, einen Moment zu markieren: Jeder Anlass verdient einen Tag, der ganz ihm gehört. Ein paar Beispiele unter unzähligen Möglichkeiten.",
+    "moreLabel": "Und so viele weitere Momente zum Feiern",
     "chips": [
       "Hochzeit",
       "Hochzeitstag",
@@ -86,7 +86,7 @@
       "Glückwünsche",
       "Dankeschön"
     ],
-    "tagline": "Jeder Anlass ist ein guter Anlass, um der Person, die Sie lieben, einen Tag zu schenken.",
+    "tagline": "Es gibt keinen falschen Anlass, um der Person, die Sie lieben, einen Tag zu schenken.",
     "cards": {
       "anniversaire": "Geburtstag",
       "demande-en-mariage": "Heiratsantrag",

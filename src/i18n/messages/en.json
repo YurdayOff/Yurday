@@ -70,8 +70,8 @@
   "occasions": {
     "eyebrow": "For which occasion",
     "h2": "A day for every story",
-    "lede": "Birthday, wedding, farewell party, or just because: the occasion doesn't matter. Give a day that's unique in the world, one no one else will ever have lived quite like that. Here are a few examples among countless others.",
-    "moreLabel": "And for every other occasion",
+    "lede": "Birthday, wedding proposal, retirement, or simply the wish to mark a moment: every occasion deserves a day that belongs to it alone. A few examples, among countless possibilities.",
+    "moreLabel": "And so many other moments to celebrate",
     "chips": [
       "Wedding",
       "Wedding anniversary",
@@ -86,7 +86,7 @@
       "Congratulations",
       "Thank you"
     ],
-    "tagline": "Any occasion is a good occasion to give a day to someone you love.",
+    "tagline": "There is no wrong occasion to give a day to someone you love.",
     "cards": {
       "anniversaire": "Birthday",
       "demande-en-mariage": "Marriage proposal",

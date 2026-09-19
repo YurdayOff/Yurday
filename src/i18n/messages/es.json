@@ -70,8 +70,8 @@
   "occasions": {
     "eyebrow": "Para qué ocasión",
     "h2": "Un día para cada historia",
-    "lede": "Cumpleaños, boda, fiesta de despedida, o simplemente sin motivo particular: la ocasión da igual. Regala un día único en el mundo, que nadie más habrá vivido exactamente así. Aquí tienes algunos ejemplos entre infinitos más.",
-    "moreLabel": "Y para todas las demás ocasiones",
+    "lede": "Cumpleaños, pedida de mano, jubilación, o simplemente el deseo de marcar un instante: cada ocasión merece un día que le pertenezca por completo. Algunos ejemplos, entre infinitas posibilidades.",
+    "moreLabel": "Y tantos otros momentos que celebrar",
     "chips": [
       "Boda",
       "Aniversario de boda",
@@ -86,7 +86,7 @@
       "Felicitaciones",
       "Agradecimiento"
     ],
-    "tagline": "Cualquier ocasión es buena para regalar un día a la persona que quieres.",
+    "tagline": "No existe una mala ocasión para regalar un día a la persona que quieres.",
     "cards": {
       "anniversaire": "Cumpleaños",
       "demande-en-mariage": "Pedida de mano",

@@ -70,8 +70,8 @@
   "occasions": {
     "eyebrow": "Pour quelle occasion",
     "h2": "Une journée pour chaque histoire",
-    "lede": "Anniversaire, mariage, départ d'entreprise, ou juste une envie sans raison particulière : peu importe l'occasion. Offrez une journée unique au monde, que personne d'autre n'aura jamais vécue de cette façon. Voici quelques exemples parmi une infinité d'autres.",
-    "moreLabel": "Et pour toutes les autres occasions",
+    "lede": "Anniversaire, demande en mariage, retraite, ou simplement l'envie de marquer un instant : chaque occasion mérite une journée qui n'appartient qu'à elle. Quelques exemples, parmi une infinité de possibles.",
+    "moreLabel": "Et tant d'autres moments à célébrer",
     "chips": [
       "Mariage",
       "Anniversaire de mariage",
@@ -86,7 +86,7 @@
       "Félicitations",
       "Remerciement"
     ],
-    "tagline": "Toute occasion est une bonne occasion pour offrir une journée à la personne que vous aimez.",
+    "tagline": "Il n'existe pas de mauvaise occasion pour offrir une journée à la personne que vous aimez.",
     "cards": {
       "anniversaire": "Anniversaire",
       "demande-en-mariage": "Demande en mariage",
@@ -212,22 +212,22 @@
     "paragraphs": [
       [
         "Tout a commencé un soir.",
-        "On savait exactement à qui on voulait faire plaisir, des idées plein la tête… mais aucune idée de comment en faire une vraie journée."
+        "Nous savions exactement à qui nous voulions faire plaisir, la tête pleine d'idées, mais sans savoir comment en faire une véritable journée."
       ],
       [
-        "On a cherché de l'aide.",
-        "Mais partout, on nous proposait des formules toutes faites, des cases à cocher."
+        "Nous avons cherché de l'aide.",
+        "Partout, on nous proposait des formules figées, des cases à cocher."
       ],
       [
-        "Alors on a tout imaginé nous-mêmes : le parcours, les lieux, les surprises, jusqu'à réunir ses proches pour qu'ils jouent, eux aussi, leur rôle dans cette journée."
+        "Alors nous avons tout imaginé nous-mêmes : le parcours, les lieux, les surprises, jusqu'à réunir ses proches pour qu'ils tiennent, eux aussi, un rôle dans cette journée."
       ],
       [
-        "Et le jour J est arrivé.",
-        "En voyant sa surprise et son émotion, on a compris : on venait de créer bien plus qu'une activité, une histoire entière à vivre."
+        "Puis le jour est arrivé.",
+        "En voyant sa surprise, son émotion, nous avons compris : nous venions de créer bien plus qu'une activité, une histoire entière à vivre."
       ],
       [
-        "C'est comme ça qu'est né Yurday.",
-        "Aujourd'hui, l'idée n'a pas changé."
+        "C'est ainsi qu'est né Yurday.",
+        "Aujourd'hui, l'idée reste la même."
       ],
       [
         "Vous nous donnez la personne, l'occasion et votre budget.",

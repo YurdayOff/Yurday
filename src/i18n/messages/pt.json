@@ -70,8 +70,8 @@
   "occasions": {
     "eyebrow": "Para qual ocasião",
     "h2": "Um dia para cada história",
-    "lede": "Aniversário, casamento, festa de despedida, ou apenas uma vontade sem motivo específico: a ocasião não importa. Ofereça um dia único no mundo, que mais ninguém terá vivido exatamente assim. Aqui estão alguns exemplos entre infinitos outros.",
-    "moreLabel": "E para todas as outras ocasiões",
+    "lede": "Aniversário, pedido de casamento, aposentadoria, ou simplesmente a vontade de marcar um instante: cada ocasião merece um dia só seu. Alguns exemplos, entre infinitas possibilidades.",
+    "moreLabel": "E tantos outros momentos para celebrar",
     "chips": [
       "Casamento",
       "Aniversário de casamento",
@@ -86,7 +86,7 @@
       "Parabéns",
       "Agradecimento"
     ],
-    "tagline": "Qualquer ocasião é uma boa ocasião para oferecer um dia à pessoa que você ama.",
+    "tagline": "Não existe ocasião errada para oferecer um dia à pessoa que você ama.",
     "cards": {
       "anniversaire": "Aniversário",
       "demande-en-mariage": "Pedido de casamento",
