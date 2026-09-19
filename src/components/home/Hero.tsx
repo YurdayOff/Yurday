@@ -24,13 +24,9 @@ export function Hero({ messages, home }: HeroProps) {
         {hero.title.line2}
         <Marker>{hero.title.highlight}</Marker>
       </h1>
-      <p className="lede">{hero.lede}</p>
       <div className="hero-actions">
         <Link href={`${home}#contact`} className="btn btn-primary">
           {messages.nav.cta}
-        </Link>
-        <Link href={`${home}#comment-ca-marche`} className="btn btn-ghost">
-          {hero.ctaSecondary}
         </Link>
       </div>
       <TrustBar messages={messages} />

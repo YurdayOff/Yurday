@@ -51,16 +51,14 @@
     "cta": "Discuter sur WhatsApp"
   },
   "hero": {
-    "eyebrow": "L'agence n°1 du sur-mesure",
+    "eyebrow": "L'exigence du sur-mesure",
     "title": {
       "lead": "Offrez-lui une journée ",
       "em": "qui lui ressemble",
       "tail": ",",
       "line2": "pas une ",
       "highlight": "formule toute prête"
-    },
-    "lede": "Parlez-nous de la personne, nous imaginons sa journée idéale, vous validez chaque détail, et vivez le moment.",
-    "ctaSecondary": "Voir comment ça marche"
+    }
   },
   "trust": {
     "starsLabel": "4,9 sur 100+ avis",

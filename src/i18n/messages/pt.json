@@ -51,16 +51,14 @@
     "cta": "Conversar no WhatsApp"
   },
   "hero": {
-    "eyebrow": "A agência n.º 1 sob medida",
+    "eyebrow": "A exigência do sob medida",
     "title": {
       "lead": "Ofereça a ela um dia ",
       "em": "que combine com ela",
       "tail": ",",
       "line2": "não um ",
       "highlight": "pacote pronto"
-    },
-    "lede": "Conte-nos sobre a pessoa, nós imaginamos o dia ideal dela, você aprova cada detalhe, e vive o momento.",
-    "ctaSecondary": "Ver como funciona"
+    }
   },
   "trust": {
     "starsLabel": "4,9 em mais de 100 avaliações",

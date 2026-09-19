@@ -51,16 +51,14 @@
     "cta": "Chat on WhatsApp"
   },
   "hero": {
-    "eyebrow": "The #1 bespoke-day agency",
+    "eyebrow": "The standard of bespoke",
     "title": {
       "lead": "Give them a day ",
       "em": "that feels like them",
       "tail": ",",
       "line2": "not a ",
       "highlight": "one-size-fits-all package"
-    },
-    "lede": "Tell us about the person, we imagine their perfect day, you approve every detail, and live the moment.",
-    "ctaSecondary": "See how it works"
+    }
   },
   "trust": {
     "starsLabel": "4.9 from 100+ reviews",

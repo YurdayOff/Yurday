@@ -51,16 +51,14 @@
     "cta": "Auf WhatsApp chatten"
   },
   "hero": {
-    "eyebrow": "Die Nr. 1 für Maßgeschneidertes",
+    "eyebrow": "Der Anspruch des Maßgeschneiderten",
     "title": {
       "lead": "Schenken Sie einen Tag ",
       "em": "der wirklich passt",
       "tail": ",",
       "line2": "keine ",
       "highlight": "Standardlösung"
-    },
-    "lede": "Erzählen Sie uns von der Person, wir stellen uns ihren perfekten Tag vor, Sie geben jedes Detail frei, und Sie erleben den Moment.",
-    "ctaSecondary": "So funktioniert's ansehen"
+    }
   },
   "trust": {
     "starsLabel": "4,9 von 100+ Bewertungen",

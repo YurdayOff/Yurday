@@ -51,16 +51,14 @@
     "cta": "通过WhatsApp联系"
   },
   "hero": {
-    "eyebrow": "定制一日体验的第一品牌",
+    "eyebrow": "定制的至高标准",
     "title": {
       "lead": "为TA打造",
       "em": "专属于TA的",
       "tail": "一天，",
       "line2": "而不是",
       "highlight": "千篇一律的套餐"
-    },
-    "lede": "告诉我们这个人是谁，我们为TA构思理想的一天，您确认每一个细节，然后尽情享受这一刻。",
-    "ctaSecondary": "查看运作方式"
+    }
   },
   "trust": {
     "starsLabel": "4.9 分，100+ 条评价",

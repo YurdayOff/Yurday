@@ -51,16 +51,14 @@
     "cta": "Hablar por WhatsApp"
   },
   "hero": {
-    "eyebrow": "La agencia n.º 1 a medida",
+    "eyebrow": "La exigencia de lo hecho a medida",
     "title": {
       "lead": "Regálale un día ",
       "em": "que se le parezca",
       "tail": ",",
       "line2": "no un ",
       "highlight": "paquete estándar"
-    },
-    "lede": "Cuéntanos sobre la persona, imaginamos su día ideal, tú apruebas cada detalle, y vives el momento.",
-    "ctaSecondary": "Ver cómo funciona"
+    }
   },
   "trust": {
     "starsLabel": "4,9 sobre 100+ reseñas",

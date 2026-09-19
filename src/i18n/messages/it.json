@@ -51,16 +51,14 @@
     "cta": "Scrivici su WhatsApp"
   },
   "hero": {
-    "eyebrow": "L'agenzia n. 1 su misura",
+    "eyebrow": "L'esigenza del su misura",
     "title": {
       "lead": "Regalale una giornata ",
       "em": "che le somigli",
       "tail": ",",
       "line2": "non un ",
       "highlight": "pacchetto standard"
-    },
-    "lede": "Raccontaci della persona, immaginiamo la sua giornata ideale, tu approvi ogni dettaglio, e vivi il momento.",
-    "ctaSecondary": "Guarda come funziona"
+    }
   },
   "trust": {
     "starsLabel": "4,9 su 100+ recensioni",
