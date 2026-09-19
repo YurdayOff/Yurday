@@ -231,12 +231,7 @@
         "Vous nous confiez la personne, l'occasion, votre budget.",
         "Nous imaginons tout le reste."
       ]
-    ],
-    "transition": "Les deux visages derrière chaque journée",
-    "bios": {
-      "leo": "S'occupe de comprendre exactement ce que vous avez en tête, avant même de parler prestataires.",
-      "luca": "Construit la journée et négocie chaque détail pour que tout tienne, du budget au jour J."
-    }
+    ]
   },
   "faq": {
     "eyebrow": "Questions fréquentes",

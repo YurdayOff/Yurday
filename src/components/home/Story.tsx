@@ -18,7 +18,7 @@ export function Story({ messages }: { messages: Messages }) {
           <Reveal className="histoire-photo">
             <Image
               src={site.images.founders}
-              alt={`${site.founders.map((founder) => founder.name).join(' & ')}, ${story.transition}`}
+              alt={site.founders.map((founder) => founder.name).join(' & ')}
               width={640}
               height={735}
               sizes="(max-width: 860px) 340px, 340px"
@@ -36,23 +36,6 @@ export function Story({ messages }: { messages: Messages }) {
               </p>
             ))}
           </Reveal>
-        </div>
-
-        <Reveal as="p" className="founders-transition">
-          {story.transition}
-        </Reveal>
-
-        <div className="founders-wrap">
-          {site.founders.map((founder) => (
-            <Reveal key={founder.id} className="founder">
-              <Image src={founder.photo} alt={founder.name} width={420} height={420} sizes="108px" />
-              <h3>{founder.name}</h3>
-              <p>{story.bios[founder.id]}</p>
-              <a href={`mailto:${founder.email}`} className="founder-email">
-                {founder.email}
-              </a>
-            </Reveal>
-          ))}
         </div>
       </div>
     </section>
