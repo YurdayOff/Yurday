@@ -93,29 +93,29 @@
   },
   "moments": {
     "eyebrow": "Storie vere",
-    "h2": "Alcuni istanti, tra tante storie",
-    "lede": "Aneddoti reali tratti da giornate che abbiamo davvero organizzato.",
+    "h2": "Un istante, tra tutte le tappe della loro giornata",
+    "lede": "Ogni storia è solo un istante di una giornata intera, pensata dal mattino alla sera.",
     "cta": "Vi va una giornata così? Raccontateci la vostra.",
     "items": {
       "montgolfiere-demande": {
         "title": "Grégoire, una proposta di matrimonio in mongolfiera al tramonto",
-        "story": "Voleva uno scenario che lei non avrebbe mai dimenticato per farle la domanda. Abbiamo noleggiato una mongolfiera solo per loro, sopra la campagna dorata, con l'anello custodito in tasca fino al momento perfetto."
+        "story": "Voleva uno scenario che lei non avrebbe mai dimenticato per farle la domanda. Tra tutte le tappe che abbiamo immaginato per la sua giornata, questo momento ne era il culmine: una mongolfiera noleggiata solo per loro, sopra la campagna dorata, con l'anello custodito in tasca fino al momento perfetto."
       },
       "degustation-vin": {
         "title": "Aymeric, una degustazione di vini in una cantina segreta per i 75 anni di suo padre",
-        "story": "Voleva regalare a suo padre un momento tutto per loro, lontano dalle solite cene di famiglia. Abbiamo aperto loro le porte di una cantina secolare nel cuore di Parigi, un sommelier a loro disposizione e le annate più pregiate da scoprire insieme."
+        "story": "Voleva regalare a suo padre un momento tutto per loro, lontano dalle solite cene di famiglia. Abbiamo costruito un'intera giornata attorno a questa idea, e al suo centro, una cantina secolare a Parigi, un sommelier a loro disposizione e le annate più pregiate da scoprire insieme."
       },
       "croisiere-seine": {
         "title": "Thibault, una crociera con cena sulla Senna per i loro dieci anni insieme",
-        "story": "Voleva celebrare dieci anni insieme con una serata che gli somigliasse davvero. Abbiamo prenotato una crociera privata sulla Senna, rose e champagne in tavola, la Torre Eiffel illuminata come unico testimone."
+        "story": "Voleva celebrare dieci anni insieme con una giornata intera che gli somigliasse davvero. Tra le tappe che abbiamo concatenato per loro, questa è rimasta la più memorabile: una crociera privata sulla Senna, rose e champagne in tavola, la Torre Eiffel illuminata come unico testimone."
       },
       "opera-chauffeur": {
         "title": "Victoire, una serata all'Opéra con autista privato per sorprendere suo marito",
-        "story": "Voleva regalargli una serata in cui dovesse solo lasciarsi guidare. Abbiamo organizzato una cena seguita da una serata all'Opéra Garnier, auto e autista privati dalla partenza al ritorno."
+        "story": "Voleva regalargli una giornata in cui dovesse solo lasciarsi accompagnare da un momento all'altro. Gliel'abbiamo costruita passo dopo passo, fino a questo culmine: una cena seguita da una serata all'Opéra Garnier, auto e autista privati dalla partenza al ritorno."
       },
       "caleche-anniversaire": {
         "title": "Amaury, un giro in calesse per Parigi per i loro quarant'anni di matrimonio",
-        "story": "Voleva regalare loro una domenica sospesa nel tempo, lontano dal traffico e dai telefoni. Abbiamo noleggiato un calesse d'epoca, cocchiere con cilindro, per un giro di Parigi al passo dei cavalli fino ai piedi della Torre Eiffel."
+        "story": "Voleva regalare loro una giornata sospesa nel tempo, lontano dal traffico e dai telefoni. L'abbiamo pensata tappa dopo tappa, e lungo il percorso, un calesse d'epoca, cocchiere con cilindro, per un giro di Parigi al passo dei cavalli fino ai piedi della Torre Eiffel."
       }
     }
   },

@@ -93,29 +93,29 @@
   },
   "moments": {
     "eyebrow": "Echte Geschichten",
-    "h2": "Ein paar Momente, unter so vielen Geschichten",
-    "lede": "Echte Anekdoten aus Tagen, die wir wirklich organisiert haben.",
+    "h2": "Ein Moment, unter allen Etappen ihres Tages",
+    "lede": "Jede Geschichte ist nur ein Moment aus einem ganzen Tag, geplant von morgens bis abends.",
     "cta": "Lust auf so einen Tag? Erzählen Sie uns von Ihrem.",
     "items": {
       "montgolfiere-demande": {
         "title": "Grégoire, ein Heiratsantrag im Heißluftballon bei Sonnenuntergang",
-        "story": "Er wollte für seinen Antrag eine Kulisse, die sie nie vergessen würde. Wir charterten einen Heißluftballon nur für die beiden, über goldene Landschaften hinweg, den Ring bis zum perfekten Moment in seiner Tasche."
+        "story": "Er wollte für seinen Antrag eine Kulisse, die sie nie vergessen würde. Unter allen Etappen, die wir für seinen Tag entworfen hatten, war dieser Moment der Höhepunkt: ein Heißluftballon, nur für die beiden gechartert, über goldene Landschaften hinweg, den Ring bis zum perfekten Moment in seiner Tasche."
       },
       "degustation-vin": {
         "title": "Aymeric, eine Weinverkostung in einem geheimen Keller zum 75. Geburtstag seines Vaters",
-        "story": "Er wollte seinem Vater einen Moment schenken, der nur ihnen beiden gehörte, fernab der gewohnten Familienessen. Wir öffneten ihnen die Türen eines jahrhundertealten Kellers im Herzen von Paris, mit einem Sommelier an ihrer Seite und den schönsten Jahrgängen zum gemeinsamen Entdecken."
+        "story": "Er wollte seinem Vater einen Moment schenken, der nur ihnen beiden gehörte, fernab der gewohnten Familienessen. Wir haben einen ganzen Tag um diese Idee herum gestaltet, und in seinem Herzstück ein jahrhundertealter Keller in Paris, mit einem Sommelier an ihrer Seite und den schönsten Jahrgängen zum gemeinsamen Entdecken."
       },
       "croisiere-seine": {
         "title": "Thibault, eine Dinner-Kreuzfahrt auf der Seine zu ihrem zehnten Jahrestag",
-        "story": "Er wollte zehn gemeinsame Jahre mit einem Abend feiern, der ganz zu ihnen passte. Wir buchten eine private Kreuzfahrt auf der Seine, Rosen und Champagner auf dem Tisch, der beleuchtete Eiffelturm als einziger Zeuge."
+        "story": "Er wollte zehn gemeinsame Jahre mit einem ganzen Tag feiern, der ganz zu ihnen passte. Unter den Etappen, die wir für sie aneinanderreihten, blieb diese die einprägsamste: eine private Kreuzfahrt auf der Seine, Rosen und Champagner auf dem Tisch, der beleuchtete Eiffelturm als einziger Zeuge."
       },
       "opera-chauffeur": {
         "title": "Victoire, ein Abend in der Oper mit Privatchauffeur, um ihren Mann zu überraschen",
-        "story": "Sie wollte ihm einen Abend schenken, an dem er sich einfach nur fahren lassen musste. Wir organisierten ein Dinner mit anschließendem Abend in der Opéra Garnier, mit Privatwagen und Chauffeur von der Abfahrt bis zur Rückkehr."
+        "story": "Sie wollte ihm einen Tag schenken, an dem er sich nur von einem Moment zum nächsten tragen lassen musste. Wir haben ihn Schritt für Schritt für ihn gestaltet, bis zu diesem Höhepunkt: ein Dinner mit anschließendem Abend in der Opéra Garnier, mit Privatwagen und Chauffeur von der Abfahrt bis zur Rückkehr."
       },
       "caleche-anniversaire": {
         "title": "Amaury, eine Kutschfahrt durch Paris zum vierzigsten Hochzeitstag",
-        "story": "Er wollte ihnen einen Sonntag schenken, der wie außerhalb der Zeit wirkte, fernab von Verkehr und Telefonen. Wir charterten eine historische Kutsche mit Kutscher im Zylinder für eine Fahrt durch Paris im Schritttempo bis zum Fuß des Eiffelturms."
+        "story": "Er wollte ihnen einen Tag schenken, der wie außerhalb der Zeit wirkte, fernab von Verkehr und Telefonen. Wir haben ihn Etappe für Etappe geplant, und mittendrin eine historische Kutsche mit Kutscher im Zylinder für eine Fahrt durch Paris im Schritttempo bis zum Fuß des Eiffelturms."
       }
     }
   },

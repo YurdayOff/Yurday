@@ -93,29 +93,29 @@
   },
   "moments": {
     "eyebrow": "Vraies histoires",
-    "h2": "Quelques instants, parmi tant d'histoires",
-    "lede": "Des anecdotes tirées de journées qu'on a vraiment organisées.",
+    "h2": "Un instant, parmi toutes les étapes de leur journée",
+    "lede": "Chaque histoire n'est qu'un instant d'une journée entière, pensée du matin jusqu'au soir.",
     "cta": "Envie d'une journée comme celle-ci ? Racontez-nous la vôtre.",
     "items": {
       "montgolfiere-demande": {
         "title": "Grégoire, une demande en mariage en montgolfière au coucher du soleil",
-        "story": "Il voulait un décor qu'elle n'oublierait jamais pour lui poser la question. Nous avons affrété une montgolfière rien que pour eux, au-dessus de la campagne dorée, la bague glissée dans sa poche jusqu'au moment parfait."
+        "story": "Il voulait un décor qu'elle n'oublierait jamais pour lui poser la question. Parmi toutes les étapes que nous avons imaginées pour sa journée, ce moment en était le point d'orgue : une montgolfière affrétée rien que pour eux, au-dessus de la campagne dorée, la bague glissée dans sa poche jusqu'au moment parfait."
       },
       "degustation-vin": {
         "title": "Aymeric, une dégustation de vin dans une cave secrète pour les 75 ans de son père",
-        "story": "Il voulait offrir à son père un moment rien qu'à eux, loin des dîners de famille habituels. Nous leur avons ouvert les portes d'une cave centenaire au cœur de Paris, un sommelier à leur écoute et les plus beaux millésimes à découvrir ensemble."
+        "story": "Il voulait offrir à son père un moment rien qu'à eux, loin des dîners de famille habituels. Nous avons construit toute une journée autour de cette idée, et en son cœur, une cave centenaire à Paris, un sommelier à leur écoute et les plus beaux millésimes à découvrir ensemble."
       },
       "croisiere-seine": {
         "title": "Thibault, une croisière dînatoire sur la Seine pour leurs dix ans de couple",
-        "story": "Il voulait marquer leurs dix années ensemble par une soirée qui leur ressemble. Nous leur avons réservé une croisière privée sur la Seine, roses et champagne sur la table, la tour Eiffel illuminée pour seul témoin."
+        "story": "Il voulait marquer leurs dix années ensemble par une journée entière qui leur ressemble. Parmi les étapes que nous avons enchaînées pour eux, celle-ci restera la plus marquante : une croisière privée sur la Seine, roses et champagne sur la table, la tour Eiffel illuminée pour seul témoin."
       },
       "opera-chauffeur": {
         "title": "Victoire, une soirée à l'Opéra avec chauffeur privé pour surprendre son mari",
-        "story": "Elle voulait lui offrir une soirée où il n'aurait rien à penser, juste à se laisser conduire. Nous avons orchestré un dîner suivi d'une soirée à l'Opéra Garnier, voiture et chauffeur privés du départ jusqu'au retour."
+        "story": "Elle voulait lui offrir une journée où il n'aurait rien à penser, juste à se laisser porter d'un moment à l'autre. Nous la lui avons construite pas à pas, jusqu'à ce point d'orgue : un dîner suivi d'une soirée à l'Opéra Garnier, voiture et chauffeur privés du départ jusqu'au retour."
       },
       "caleche-anniversaire": {
         "title": "Amaury, une balade en calèche dans Paris pour leurs quarante ans de mariage",
-        "story": "Il voulait leur offrir un dimanche suspendu dans le temps, loin des embouteillages et des téléphones. Nous avons affrété une calèche d'époque, cocher en haut-de-forme, pour un tour de Paris au pas des chevaux jusqu'au pied de la tour Eiffel."
+        "story": "Il voulait leur offrir une journée suspendue dans le temps, loin des embouteillages et des téléphones. Nous l'avons pensée étape après étape, et au fil de celle-ci, une calèche d'époque, cocher en haut-de-forme, pour un tour de Paris au pas des chevaux jusqu'au pied de la tour Eiffel."
       }
     }
   },
