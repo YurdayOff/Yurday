@@ -1,6 +1,6 @@
 import type { Metadata, Viewport } from 'next'
 import type { ReactNode } from 'react'
-import { Cairo, Fraunces, Inter } from 'next/font/google'
+import { Cairo, Inter, Playfair_Display } from 'next/font/google'
 import { notFound } from 'next/navigation'
 import { CookieConsent } from '@/components/layout/CookieConsent'
 import { EngagementPopup } from '@/components/layout/EngagementPopup'
@@ -20,17 +20,14 @@ const inter = Inter({
   display: 'swap',
 })
 
-const fraunces = Fraunces({
+const displaySerif = Playfair_Display({
   subsets: ['latin'],
   style: ['normal', 'italic'],
-  // `opsz` : sans cet axe, la police est figée à sa taille optique par défaut (14)
-  // et les grands titres paraissent trop épais.
-  axes: ['opsz'],
-  variable: '--font-fraunces',
+  variable: '--font-display',
   display: 'swap',
 })
 
-/** Chargée pour l'arabe uniquement : Fraunces et Inter n'ont pas ce jeu de caractères. */
+/** Chargée pour l'arabe uniquement : Playfair Display et Inter n'ont pas ce jeu de caractères. */
 const cairo = Cairo({
   subsets: ['arabic', 'latin'],
   variable: '--font-cairo',
@@ -38,7 +35,7 @@ const cairo = Cairo({
 })
 
 export const viewport: Viewport = {
-  themeColor: '#FBF8F3',
+  themeColor: '#FDFCFA',
   colorScheme: 'light',
 }
 
@@ -72,7 +69,7 @@ export default async function LocaleLayout({ children, params }: LocaleLayoutPro
     <html
       lang={info.htmlLang}
       dir={info.dir}
-      className={`${inter.variable} ${fraunces.variable} ${cairo.variable}`}
+      className={`${inter.variable} ${displaySerif.variable} ${cairo.variable}`}
     >
       <body>
         {/* Sans JavaScript, les animations d'apparition ne se déclenchent pas :

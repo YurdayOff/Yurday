@@ -1,6 +1,6 @@
 /* ---------- Contact ---------- */
 .contact-section {
-  background: var(--coral-3);
+  background: var(--gold-3);
 }
 .contact-wrap {
   display: grid;
@@ -24,7 +24,7 @@ form.contact-form {
   background: #fff;
   border-radius: 20px;
   padding: 32px;
-  box-shadow: 0 20px 46px rgba(43,33,25,0.08);
+  box-shadow: 0 20px 46px rgba(30, 26, 22,0.08);
 }
 .form-actions .btn, .form-choice .btn { width: 100%; justify-content: center; }
 .form-reassurance {
@@ -48,7 +48,7 @@ form.contact-form {
 .form-choice-error {
   margin: 14px 0 0;
   font-size: 13px;
-  color: var(--coral-3);
+  color: var(--gold-3);
   text-align: center;
 }
 .form-success-text {
@@ -97,12 +97,12 @@ form.contact-form {
 .form-row .form-checkbox input {
   width: auto;
   padding: 0;
-  accent-color: var(--coral-2);
+  accent-color: var(--gold-2);
 }
 .form-row input:focus, .form-row select:focus, .form-row textarea:focus {
   outline: none;
-  border-color: var(--coral-2);
-  box-shadow: 0 0 0 3px rgba(217,118,75,0.15);
+  border-color: var(--gold-2);
+  box-shadow: 0 0 0 3px rgba(198, 161, 112,0.15);
 }
 .form-row-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
 form.contact-form .btn { width: 100%; justify-content: center; padding: 15px; font-size: 15.5px; margin-top: 6px; }
@@ -115,4 +115,4 @@ form.contact-form .btn { width: 100%; justify-content: center; padding: 15px; fo
   form.contact-form { padding: 24px 20px; }
   .form-row-2 { grid-template-columns: 1fr; }
 }
-.contact-note a { color: var(--coral-3); font-weight: 600; text-decoration: underline; }
+.contact-note a { color: var(--gold-3); font-weight: 600; text-decoration: underline; }

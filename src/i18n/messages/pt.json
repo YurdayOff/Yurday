@@ -100,18 +100,6 @@
     "hint": "Arraste para ver mais",
     "cta": "Quer um dia assim? Conte-nos o seu.",
     "items": {
-      "karting": {
-        "title": "Matis, uma noite de kart pelo seu aniversário",
-        "story": "Os amigos dele queriam comemorar seus 25 anos com algo além de um restaurante. Reservamos uma pista de kart particular à noite, seguida de um jantar até tarde."
-      },
-      "voiture-luxe": {
-        "title": "O filho do Aymeric, uma Lamborghini pelos seus 8 anos",
-        "story": "O filho de 8 anos só falava de Lamborghinis havia meses. Para o aniversário dele, organizamos uma surpresa com uma Huracán estacionada na frente de casa, e um passeio pelo bairro com o pai ao volante."
-      },
-      "evjf-boite-nuit": {
-        "title": "As amigas de Apolline, uma noite VIP antes do casamento",
-        "story": "Elas queriam uma verdadeira noite parisiense, não apenas drinks num bar. Reservamos uma mesa VIP numa boate no centro, com garrafa e acesso sem fila. A futura noiva não pagou nada naquela noite."
-      },
       "parc-des-princes": {
         "title": "Kylian, um jogo da Liga dos Campeões no Parc des Princes",
         "story": "Ele sempre sonhou em ver um jogo da Liga dos Campeões no Parc des Princes com o melhor amigo, mas nunca conseguia ingressos. Encontramos dois lugares para uma grande noite europeia."
@@ -123,14 +111,6 @@
       "degustation-vin": {
         "title": "Baptiste, uma degustação de vinho pelo Dia dos Pais",
         "story": "Ele queria agradecer ao pai com algo além de uma gravata. Organizamos uma degustação privada numa cave parisiense, só os dois com um sommelier, e uma tábua de queijos até a última garrafa."
-      },
-      "evg-boite-nuit": {
-        "title": "A turma do Anatole, um espaço VIP antes do casamento",
-        "story": "Os amigos dele queriam uma última saída memorável antes do casamento. Reservamos um espaço VIP numa boate parisiense, com garrafas e vista para a pista até o fim da noite."
-      },
-      "saut-parachute": {
-        "title": "Os amigos do Gaspard, um salto de paraquedas pelos seus 30 anos",
-        "story": "Os amigos dele queriam marcar a data com algo além de um restaurante. Organizamos um salto de paraquedas em grupo ao pôr do sol, seguido de um jantar para reviver tudo ainda quente."
       },
       "pique-nique": {
         "title": "Léna, um piquenique aos pés da Torre Eiffel",
@@ -147,10 +127,6 @@
       "coaching-boxe": {
         "title": "Sacha, uma sessão particular de boxe com um treinador",
         "story": "Ela queria sair da rotina de treino habitual. Reservamos uma sessão particular de boxe com um treinador, numa sala só para eles, longe das aulas coletivas lotadas."
-      },
-      "appel-mbappe": {
-        "title": "Timéo, uma videochamada surpresa com Kylian Mbappé",
-        "story": "Timéo, de 10 anos, só falava da seleção francesa e do seu ídolo. Para o aniversário dele, os pais organizaram uma videochamada surpresa com Kylian Mbappé, filmada sem que ele suspeitasse de nada."
       },
       "croisiere-seine": {
         "title": "Jean-Luc, um cruzeiro-jantar no Sena pelos seus 30 anos de casamento",

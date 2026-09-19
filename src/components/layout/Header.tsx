@@ -53,7 +53,7 @@ export function Header({ locale, messages }: HeaderProps) {
               src={site.images.logo}
               alt={site.name}
               width={500}
-              height={213}
+              height={189}
               priority
               sizes="120px"
             />

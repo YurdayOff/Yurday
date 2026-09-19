@@ -9,8 +9,8 @@
   position: absolute;
   inset: -10%;
   background:
-    radial-gradient(ellipse 700px 420px at 82% -8%, rgba(242,150,107,0.28), transparent 60%),
-    radial-gradient(ellipse 600px 500px at 8% 105%, rgba(217,118,75,0.14), transparent 60%);
+    radial-gradient(ellipse 700px 420px at 82% -8%, rgba(226, 198, 142,0.28), transparent 60%),
+    radial-gradient(ellipse 600px 500px at 8% 105%, rgba(198, 161, 112,0.14), transparent 60%);
   animation: hero-drift 16s ease-in-out infinite;
   pointer-events: none;
 }
@@ -32,7 +32,7 @@
 }
 .hero h1 em {
   font-style: italic;
-  color: var(--coral-3);
+  color: var(--gold-3);
 }
 .hero p.lede {
   font-size: 19px;

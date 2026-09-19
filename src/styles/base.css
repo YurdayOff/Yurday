@@ -2,7 +2,7 @@
 
 /* ---------- Support arabe (RTL) ---------- */
 html[dir="rtl"] body { font-family: var(--font-cairo), var(--font-inter), -apple-system, sans-serif; }
-html[dir="rtl"] h1, html[dir="rtl"] h2, html[dir="rtl"] h3 { font-family: var(--font-cairo), var(--font-fraunces), serif; }
+html[dir="rtl"] h1, html[dir="rtl"] h2, html[dir="rtl"] h3 { font-family: var(--font-cairo), var(--font-display), serif; }
 html[dir="rtl"] .marker svg { left: auto; right: -2%; }
 html[dir="rtl"] .nav { flex-direction: row-reverse; }
 html[dir="rtl"] .nav-links { flex-direction: row-reverse; }
@@ -24,8 +24,8 @@ body {
 img { max-width: 100%; display: block; }
 a { color: inherit; text-decoration: none; }
 h1, h2, h3 {
-  font-family: var(--font-fraunces), Georgia, serif;
-  font-weight: 600;
+  font-family: var(--font-display), Georgia, serif;
+  font-weight: 500;
   margin: 0;
   color: var(--ink);
   letter-spacing: -0.01em;
@@ -37,7 +37,7 @@ h1, h2, h3 {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.14em;
-  color: var(--coral-3);
+  color: var(--gold-3);
   margin-bottom: 14px;
 }
 .btn {
@@ -54,18 +54,18 @@ h1, h2, h3 {
   transition: transform 0.2s ease, box-shadow 0.2s ease, background-position 0.4s ease;
 }
 .btn-primary {
-  background-image: linear-gradient(100deg, var(--coral-1), var(--coral-3));
+  background-image: linear-gradient(100deg, var(--gold-3), #6E4E28);
   background-size: 160% auto;
   color: #fff;
-  box-shadow: 0 10px 26px rgba(194, 96, 61, 0.32);
+  box-shadow: 0 6px 18px rgba(30, 26, 22, 0.2);
 }
-.btn-primary:hover { background-position: 100% 0; transform: translateY(-2px); box-shadow: 0 14px 30px rgba(194, 96, 61, 0.4); }
+.btn-primary:hover { background-position: 100% 0; transform: translateY(-1px); box-shadow: 0 8px 22px rgba(30, 26, 22, 0.26); }
 .btn-ghost {
   background: transparent;
   border: 1.5px solid var(--line);
   color: var(--ink);
 }
-.btn-ghost:hover { border-color: var(--coral-2); color: var(--coral-3); transform: translateY(-2px); }
+.btn-ghost:hover { border-color: var(--gold-2); color: var(--gold-3); transform: translateY(-1px); }
 
 /* Marker underline signature */
 .marker {
@@ -94,13 +94,13 @@ h1, h2, h3 {
 /* Alternance des fonds de section. */
 .section-paper-deep { background: var(--paper-deep); }
 /* Corail plein : réservé aux deux temps forts (vraies histoires, prise de contact). */
-.section-coral { background: var(--coral-3); }
+.section-coral { background: var(--gold-3); }
 
-/* Couture en pointillés entre deux sections, écho des tickets perforés. */
+/* Ligne fine entre deux sections. */
 .seam {
   max-width: 1120px;
   margin: 0 auto;
-  border-top: 2px dashed var(--line);
+  border-top: 1px solid var(--line);
 }
 
 /* Lien d'évitement : visible seulement au clavier. */
@@ -184,4 +184,4 @@ section { padding: 100px 0; }
   html { scroll-behavior: auto; }
 }
 
-:focus-visible { outline: 2.5px solid var(--coral-2); outline-offset: 2px; }
+:focus-visible { outline: 2.5px solid var(--gold-2); outline-offset: 2px; }

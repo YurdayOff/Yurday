@@ -100,18 +100,6 @@
     "hint": "Fais glisser pour voir les autres",
     "cta": "Envie d'une journée comme celle-ci ? Racontez-nous la vôtre.",
     "items": {
-      "karting": {
-        "title": "Matis, une soirée karting pour son anniversaire",
-        "story": "Ses amis voulaient marquer le coup pour ses 25 ans, autrement qu'avec un restaurant. On a privatisé une piste de karting en nocturne, suivie d'un dîner tard dans la nuit."
-      },
-      "voiture-luxe": {
-        "title": "Le fils d'Aymeric, une Lamborghini pour ses 8 ans",
-        "story": "Son fils de 8 ans ne parlait que de Lamborghini depuis des mois. Pour son anniversaire, on lui a organisé une surprise avec une Huracán garée devant chez lui, et un tour du quartier avec son père au volant."
-      },
-      "evjf-boite-nuit": {
-        "title": "Les copines d'Apolline, une soirée VIP avant son mariage",
-        "story": "Elles voulaient une vraie soirée parisienne, pas un simple bar entre filles. On leur a réservé une table VIP dans une boîte de nuit du centre, avec bouteille et accès coupe-file. La future mariée n'a rien payé de la soirée."
-      },
       "parc-des-princes": {
         "title": "Kylian, un match de Ligue des Champions au Parc des Princes",
         "story": "Il rêvait de voir un match de Ligue des Champions au Parc des Princes avec son meilleur ami, sans jamais avoir réussi à avoir de billets. On leur a trouvé deux places pour un soir de gala européen."
@@ -123,14 +111,6 @@
       "degustation-vin": {
         "title": "Baptiste, une dégustation de vin pour la fête de son père",
         "story": "Il voulait remercier son père autrement qu'avec une cravate. On leur a organisé une dégustation privée dans une cave parisienne, avec un sommelier rien que pour eux deux et une planche à grignoter jusqu'à la dernière bouteille."
-      },
-      "evg-boite-nuit": {
-        "title": "La bande à Anatole, un carré VIP avant son mariage",
-        "story": "Ses amis voulaient une dernière sortie mémorable avant le mariage. On leur a réservé un carré VIP dans un club parisien, bouteilles et vue sur le dancefloor jusqu'au bout de la nuit."
-      },
-      "saut-parachute": {
-        "title": "Les amis de Gaspard, un saut en parachute pour ses 30 ans",
-        "story": "Ses amis voulaient marquer la dizaine autrement qu'avec un restaurant. On leur a organisé un saut en parachute en groupe au coucher du soleil, suivi d'un dîner pour raconter les sensations encore à chaud."
       },
       "pique-nique": {
         "title": "Léna, un pique-nique au pied de la tour Eiffel",
@@ -147,10 +127,6 @@
       "coaching-boxe": {
         "title": "Sacha, une séance de boxe privée avec un coach",
         "story": "Elle voulait sortir de sa routine sport habituelle. On lui a réservé une séance privée de boxe avec un coach, dans une salle rien que pour eux, loin des cours collectifs bondés."
-      },
-      "appel-mbappe": {
-        "title": "Timéo, un appel FaceTime surprise avec Kylian Mbappé",
-        "story": "Timéo, 10 ans, ne jurait que par l'équipe de France et son idole. Pour son anniversaire, ses parents lui ont offert un appel vidéo surprise avec Kylian Mbappé, filmé sans qu'il se doute de rien."
       },
       "croisiere-seine": {
         "title": "Jean-Luc, une croisière dînatoire sur la Seine pour ses 30 ans de mariage",

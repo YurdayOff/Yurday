@@ -9,7 +9,7 @@
 }
 .trust-item { text-align: center; }
 .trust-num {
-  font-family: var(--font-fraunces), Georgia, serif;
+  font-family: var(--font-display), Georgia, serif;
   font-size: 44px;
   font-weight: 600;
   color: var(--ink);
@@ -23,7 +23,7 @@
   margin-top: 6px;
 }
 .stars {
-  color: var(--coral-2);
+  color: var(--gold-2);
   letter-spacing: 4px;
   font-size: 44px;
   line-height: 1;

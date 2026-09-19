@@ -27,7 +27,7 @@
   background: none;
   border: none;
   padding: 22px 4px;
-  font-family: var(--font-fraunces), Georgia, serif;
+  font-family: var(--font-display), Georgia, serif;
   font-size: 17px;
   font-weight: 500;
   color: var(--ink);
@@ -39,7 +39,7 @@
 }
 .faq-q .plus {
   font-size: 22px;
-  color: var(--coral-2);
+  color: var(--gold-2);
   transition: transform 0.25s ease;
   flex-shrink: 0;
 }

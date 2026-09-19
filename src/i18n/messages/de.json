@@ -100,18 +100,6 @@
     "hint": "Wischen, um mehr zu sehen",
     "cta": "Lust auf so einen Tag? Erzählen Sie uns von Ihrem.",
     "items": {
-      "karting": {
-        "title": "Matis, ein Kart-Abend zu seinem Geburtstag",
-        "story": "Seine Freunde wollten seinen 25. Geburtstag mit mehr als nur einem Restaurantbesuch feiern. Wir haben eine private Kartbahn für eine Nachtsession gebucht, gefolgt von einem Dinner bis spät in die Nacht."
-      },
-      "voiture-luxe": {
-        "title": "Aymerics Sohn, ein Lamborghini zu seinem 8. Geburtstag",
-        "story": "Sein 8-jähriger Sohn sprach seit Monaten nur noch von Lamborghinis. Zu seinem Geburtstag haben wir eine Überraschung mit einem Huracán vor seinem Haus organisiert, plus eine Runde durchs Viertel mit seinem Vater am Steuer."
-      },
-      "evjf-boite-nuit": {
-        "title": "Apollines Freundinnen, ein VIP-Abend vor ihrer Hochzeit",
-        "story": "Sie wollten einen echten Pariser Abend, nicht nur Drinks in einer Bar. Wir haben einen VIP-Tisch in einem Club im Zentrum gebucht, mit Flasche und Einlass ohne Warteschlange. Die zukünftige Braut hat an diesem Abend nichts bezahlt."
-      },
       "parc-des-princes": {
         "title": "Kylian, ein Champions-League-Spiel im Parc des Princes",
         "story": "Er hat immer davon geträumt, mit seinem besten Freund ein Champions-League-Spiel im Parc des Princes zu sehen, aber nie Tickets bekommen. Wir haben zwei Plätze für einen großen europäischen Abend gefunden."
@@ -123,14 +111,6 @@
       "degustation-vin": {
         "title": "Baptiste, eine Weinprobe zum Vatertag",
         "story": "Er wollte seinem Vater mit etwas anderem als einer Krawatte danken. Wir haben eine private Weinprobe in einem Pariser Weinkeller organisiert, nur die beiden mit einem Sommelier, und eine Käseplatte bis zur letzten Flasche."
-      },
-      "evg-boite-nuit": {
-        "title": "Anatoles Truppe, eine VIP-Lounge vor seiner Hochzeit",
-        "story": "Seine Freunde wollten vor der Hochzeit noch einen letzten unvergesslichen Abend. Wir haben eine VIP-Lounge in einem Pariser Club gebucht, inklusive Flaschen und Blick auf die Tanzfläche bis in die frühen Morgenstunden."
-      },
-      "saut-parachute": {
-        "title": "Gaspards Freunde, ein Fallschirmsprung zu seinem 30. Geburtstag",
-        "story": "Seine Freunde wollten den runden Geburtstag mit mehr als nur einem Restaurantbesuch feiern. Wir haben einen Gruppen-Fallschirmsprung bei Sonnenuntergang organisiert, gefolgt von einem Dinner, um alles noch einmal frisch zu erzählen."
       },
       "pique-nique": {
         "title": "Léna, ein Picknick am Fuß des Eiffelturms",
@@ -147,10 +127,6 @@
       "coaching-boxe": {
         "title": "Sacha, eine private Boxstunde mit einem Coach",
         "story": "Sie wollte aus ihrer gewohnten Sportroutine ausbrechen. Wir haben eine private Boxstunde mit einem Coach gebucht, in einem Studio nur für sie beide, fernab überfüllter Gruppenkurse."
-      },
-      "appel-mbappe": {
-        "title": "Timéo, ein Überraschungs-Videoanruf mit Kylian Mbappé",
-        "story": "Der 10-jährige Timéo sprach nur noch von der französischen Nationalmannschaft und seinem Idol. Zu seinem Geburtstag haben ihm seine Eltern einen Überraschungs-Videoanruf mit Kylian Mbappé organisiert, gefilmt, ohne dass er etwas ahnte."
       },
       "croisiere-seine": {
         "title": "Jean-Luc, eine Dinner-Kreuzfahrt auf der Seine zum 30. Hochzeitstag",

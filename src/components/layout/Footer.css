@@ -15,7 +15,7 @@
   color: var(--ink-soft);
   text-decoration: underline;
 }
-.footer-legal-link:hover { color: var(--coral-3); }
+.footer-legal-link:hover { color: var(--gold-3); }
 
 /* ---------- Footer ---------- */
 footer {
@@ -30,7 +30,7 @@ footer img { height: 24px; width: auto; margin: 0 auto 10px; opacity: 0.85; }
   footer { padding-bottom: 100px; }
 }
 .footer-email {
-  color: var(--coral-3);
+  color: var(--gold-3);
   font-weight: 600;
 }
 .footer-social { margin-top: 14px; display: flex; justify-content: center; gap: 10px; }
@@ -45,4 +45,4 @@ footer img { height: 24px; width: auto; margin: 0 auto 10px; opacity: 0.85; }
   color: var(--ink-soft);
   transition: color 0.2s, border-color 0.2s;
 }
-.footer-social-link:hover { color: var(--coral-3); border-color: var(--coral-2); }
+.footer-social-link:hover { color: var(--gold-3); border-color: var(--gold-2); }
