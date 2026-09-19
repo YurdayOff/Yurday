@@ -299,14 +299,6 @@
         "Só porque sim",
         "Outro"
       ],
-      "budget": "Orçamento aproximado",
-      "budgetOptions": [
-        "Moderado",
-        "Confortável",
-        "Generoso",
-        "Sem limite",
-        "Ainda não sei"
-      ],
       "message": "Uma palavra sobre sua ideia (opcional)",
       "submit": "Enviar meu projeto",
       "reassurance": "Resposta em até 24h, sem compromisso.",

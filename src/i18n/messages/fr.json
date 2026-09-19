@@ -299,14 +299,6 @@
         "Pour le plaisir",
         "Autre"
       ],
-      "budget": "Budget approximatif",
-      "budgetOptions": [
-        "Modéré",
-        "Confortable",
-        "Généreux",
-        "Sans limite",
-        "Je ne sais pas encore"
-      ],
       "message": "Un mot sur votre idée (optionnel)",
       "submit": "Envoyer mon projet",
       "reassurance": "Réponse sous 24h, aucun engagement.",

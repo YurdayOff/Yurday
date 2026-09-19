@@ -299,14 +299,6 @@
         "Einfach so",
         "Andere"
       ],
-      "budget": "Ungefähres Budget",
-      "budgetOptions": [
-        "Maßvoll",
-        "Komfortabel",
-        "Großzügig",
-        "Ohne Limit",
-        "Noch nicht sicher"
-      ],
       "message": "Ein paar Worte zu Ihrer Idee (optional)",
       "submit": "Mein Projekt senden",
       "reassurance": "Antwort innerhalb von 24 Stunden, unverbindlich.",

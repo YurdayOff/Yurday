@@ -299,14 +299,6 @@
         "Just because",
         "Other"
       ],
-      "budget": "Approximate budget",
-      "budgetOptions": [
-        "Modest",
-        "Comfortable",
-        "Generous",
-        "No limit",
-        "Not sure yet"
-      ],
       "message": "A word about your idea (optional)",
       "submit": "Send my project",
       "reassurance": "Reply within 24h, no commitment.",

@@ -21,7 +21,6 @@ const emptyValues = {
   pourQui: '',
   date: '',
   occasion: '',
-  budget: '',
   message: '',
 }
 
@@ -35,7 +34,6 @@ function whatsappMessage(values: Values, labels: ContactFormProps['form']): stri
     `${labels.occasion} : ${values.occasion}`,
     `${labels.forWho} : ${values.pourQui}`,
     `${labels.date} : ${values.date}`,
-    `${labels.budget} : ${values.budget}`,
     `${labels.phone} : ${values.telephone}`,
     `${labels.email} : ${values.email}`,
   ]
@@ -58,7 +56,6 @@ export function ContactForm({ form }: ContactFormProps) {
   const [values, setValues] = useState<Values>({
     ...emptyValues,
     occasion: form.occasionOptions[0] ?? '',
-    budget: form.budgetOptions[form.budgetOptions.length - 1] ?? '',
   })
   const [dateUnknown, setDateUnknown] = useState(false)
   const [emailError, setEmailError] = useState(false)
@@ -211,23 +208,13 @@ export function ContactForm({ form }: ContactFormProps) {
         </label>
       </div>
 
-      <div className="form-row-2">
-        <div className="form-row">
-          <label htmlFor="f-occasion">{form.occasion}</label>
-          <select id="f-occasion" name="occasion" value={values.occasion} onChange={update('occasion')}>
-            {form.occasionOptions.map((option) => (
-              <option key={option}>{option}</option>
-            ))}
-          </select>
-        </div>
-        <div className="form-row">
-          <label htmlFor="f-budget">{form.budget}</label>
-          <select id="f-budget" name="budget" value={values.budget} onChange={update('budget')}>
-            {form.budgetOptions.map((option) => (
-              <option key={option}>{option}</option>
-            ))}
-          </select>
-        </div>
+      <div className="form-row">
+        <label htmlFor="f-occasion">{form.occasion}</label>
+        <select id="f-occasion" name="occasion" value={values.occasion} onChange={update('occasion')}>
+          {form.occasionOptions.map((option) => (
+            <option key={option}>{option}</option>
+          ))}
+        </select>
       </div>
 
       <div className="form-row">

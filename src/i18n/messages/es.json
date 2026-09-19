@@ -299,14 +299,6 @@
         "Solo por gusto",
         "Otro"
       ],
-      "budget": "Presupuesto aproximado",
-      "budgetOptions": [
-        "Moderado",
-        "Confortable",
-        "Generoso",
-        "Sin límite",
-        "Aún no lo sé"
-      ],
       "message": "Unas palabras sobre tu idea (opcional)",
       "submit": "Enviar mi proyecto",
       "reassurance": "Respuesta en 24h, sin compromiso.",
