@@ -34,9 +34,11 @@ header.is-scrolled .nav { padding: 10px 28px; }
 }
 .nav-links {
   display: flex;
-  gap: 22px;
-  font-size: 14px;
+  gap: 26px;
+  font-family: var(--font-display), Georgia, serif;
+  font-size: 15px;
   font-weight: 500;
+  letter-spacing: 0.01em;
   color: var(--ink-soft);
 }
 .nav-links a {
@@ -81,7 +83,8 @@ header.is-scrolled .nav { padding: 10px 28px; }
   flex-direction: column;
   padding: 6px 28px 18px;
   border-top: 1px solid var(--line);
-  font-size: 15px;
+  font-family: var(--font-display), Georgia, serif;
+  font-size: 16px;
   font-weight: 500;
 }
 .nav-mobile a {
