@@ -1,4 +1,3 @@
-import Link from 'next/link'
 import { HeroSection } from '@/components/ui/HeroSection'
 import type { Messages } from '@/i18n/messages'
 import { TrustBar } from './TrustBar'
@@ -9,7 +8,7 @@ type HeroProps = {
   home: string
 }
 
-export function Hero({ messages, home }: HeroProps) {
+export function Hero({ messages }: HeroProps) {
   const { hero } = messages
 
   return (
@@ -23,11 +22,6 @@ export function Hero({ messages, home }: HeroProps) {
         {hero.title.line2}
         {hero.title.highlight}
       </h1>
-      <div className="hero-actions">
-        <Link href={`${home}#contact`} className="btn btn-primary">
-          {messages.nav.cta}
-        </Link>
-      </div>
       <TrustBar messages={messages} />
     </HeroSection>
   )
