@@ -1,6 +1,5 @@
 import Link from 'next/link'
 import { HeroSection } from '@/components/ui/HeroSection'
-import { Marker } from '@/components/ui/Marker'
 import type { Messages } from '@/i18n/messages'
 import { TrustBar } from './TrustBar'
 
@@ -22,7 +21,7 @@ export function Hero({ messages, home }: HeroProps) {
         {hero.title.tail}
         <br />
         {hero.title.line2}
-        <Marker>{hero.title.highlight}</Marker>
+        {hero.title.highlight}
       </h1>
       <div className="hero-actions">
         <Link href={`${home}#contact`} className="btn btn-primary">

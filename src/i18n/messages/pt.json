@@ -97,25 +97,25 @@
     "lede": "Anedotas reais de dias que realmente organizamos.",
     "cta": "Quer um dia assim? Conte-nos o seu.",
     "items": {
-      "star-dior": {
-        "title": "Jeanelle, um dia na pele de uma celebridade",
-        "story": "Sempre quis saber, nem que fosse uma vez, como é ser seguida como uma celebridade. Encenamos uma saída de compras em frente a uma boutique parisiense, escoltada por dois seguranças e um cinegrafista em seus passos."
+      "montgolfiere-demande": {
+        "title": "Grégoire, um pedido de casamento em balão de ar quente ao pôr do sol",
+        "story": "Ele queria um cenário que ela jamais esqueceria para fazer o pedido. Fretamos um balão de ar quente só para os dois, sobrevoando o campo dourado, com o anel guardado no bolso até o momento perfeito."
       },
       "degustation-vin": {
-        "title": "Baptiste, uma degustação de vinho pelo Dia dos Pais",
-        "story": "Queria agradecer ao pai com algo além de uma gravata. Oferecemos uma degustação privada numa cave parisiense, só os dois com um sommelier, saboreando cada garrafa até a última."
-      },
-      "gt3rs-circuit": {
-        "title": "Roman, um dia de pista ao volante de uma GT3RS",
-        "story": "Sonhava em pegar no volante de uma GT3RS em pista, guiado por um piloto profissional. Oferecemos um dia inteiro no circuito, capacete com a marca Yurday incluído, para viver isso como um verdadeiro piloto."
-      },
-      "roses-cartier": {
-        "title": "Margaux, cem rosas e uma caixa da Cartier entregues de surpresa",
-        "story": "Queria surpreendê-la sem esperar uma ocasião específica. Mandamos entregar cem rosas vermelhas com um estojo da Cartier e um bilhete escondido dentro, tudo organizado em poucos dias."
+        "title": "Aymeric, uma degustação de vinhos numa cave secreta pelos 75 anos do pai",
+        "story": "Ele queria oferecer ao pai um momento só deles, longe dos jantares de família habituais. Abrimos as portas de uma cave centenária no coração de Paris, um sommelier à disposição deles e os melhores rótulos para descobrir juntos."
       },
       "croisiere-seine": {
-        "title": "Jean-Luc, um cruzeiro-jantar no Sena pelos seus 30 anos de casamento",
-        "story": "Para os seus trinta anos de casamento, queria marcar o momento além de mais um jantar clássico. Reservamos um cruzeiro-jantar privado no Sena, mesa de frente para a Torre Eiffel iluminada."
+        "title": "Thibault, um cruzeiro com jantar no Sena pelos dez anos de relação",
+        "story": "Ele queria celebrar dez anos juntos com uma noite que fosse a cara deles. Reservamos um cruzeiro privado no Sena, rosas e champanhe na mesa, a torre Eiffel iluminada como única testemunha."
+      },
+      "opera-chauffeur": {
+        "title": "Victoire, uma noite na Ópera com motorista particular para surpreender o marido",
+        "story": "Ela queria oferecer a ele uma noite em que só precisasse se deixar levar. Organizamos um jantar seguido de uma noite na Ópera Garnier, carro e motorista particulares do início ao fim."
+      },
+      "caleche-anniversaire": {
+        "title": "Amaury, um passeio de charrete por Paris pelos quarenta anos de casamento",
+        "story": "Ele queria oferecer a eles um domingo suspenso no tempo, longe do trânsito e dos telefones. Fretamos uma charrete de época, cocheiro de cartola, para um passeio por Paris ao passo dos cavalos até o pé da torre Eiffel."
       }
     }
   },

@@ -97,25 +97,25 @@
     "lede": "Echte Anekdoten aus Tagen, die wir wirklich organisiert haben.",
     "cta": "Lust auf so einen Tag? Erzählen Sie uns von Ihrem.",
     "items": {
-      "star-dior": {
-        "title": "Jeanelle, ein Tag im Leben eines Stars",
-        "story": "Sie wollte schon immer wissen, wie es sich anfühlt, wenigstens einmal wie ein Star verfolgt zu werden. Wir inszenierten einen Einkaufsbummel vor einer Pariser Boutique, begleitet von zwei Bodyguards und einem Kameramann auf Schritt und Tritt."
+      "montgolfiere-demande": {
+        "title": "Grégoire, ein Heiratsantrag im Heißluftballon bei Sonnenuntergang",
+        "story": "Er wollte für seinen Antrag eine Kulisse, die sie nie vergessen würde. Wir charterten einen Heißluftballon nur für die beiden, über goldene Landschaften hinweg, den Ring bis zum perfekten Moment in seiner Tasche."
       },
       "degustation-vin": {
-        "title": "Baptiste, eine Weinprobe zum Vatertag",
-        "story": "Er wollte seinem Vater mit mehr als nur einer Krawatte danken. Wir schenkten ihnen eine private Weinprobe in einem Pariser Weinkeller, nur die beiden mit einem Sommelier, bis zur letzten Flasche."
-      },
-      "gt3rs-circuit": {
-        "title": "Roman, ein Tag auf der Rennstrecke im GT3RS",
-        "story": "Er träumte davon, mit einem GT3RS auf der Rennstrecke zu fahren, begleitet von einem Profi-Fahrer. Wir schenkten ihm einen ganzen Tag auf der Strecke, inklusive Helm mit Yurday-Logo, um es wie ein echter Fahrer zu erleben."
-      },
-      "roses-cartier": {
-        "title": "Margaux, hundert Rosen und eine Cartier-Box, überraschend geliefert",
-        "story": "Er wollte sie überraschen, ohne auf einen bestimmten Anlass zu warten. Wir ließen hundert rote Rosen mit einer Cartier-Schachtel und einer versteckten Notiz liefern, alles binnen weniger Tage organisiert."
+        "title": "Aymeric, eine Weinverkostung in einem geheimen Keller zum 75. Geburtstag seines Vaters",
+        "story": "Er wollte seinem Vater einen Moment schenken, der nur ihnen beiden gehörte, fernab der gewohnten Familienessen. Wir öffneten ihnen die Türen eines jahrhundertealten Kellers im Herzen von Paris, mit einem Sommelier an ihrer Seite und den schönsten Jahrgängen zum gemeinsamen Entdecken."
       },
       "croisiere-seine": {
-        "title": "Jean-Luc, eine Dinner-Kreuzfahrt auf der Seine zum 30. Hochzeitstag",
-        "story": "Für ihren dreißigsten Hochzeitstag wollte er den Moment mit mehr als nur einem weiteren klassischen Dinner feiern. Wir buchten eine private Dinner-Kreuzfahrt auf der Seine, mit Tisch gegenüber dem beleuchteten Eiffelturm."
+        "title": "Thibault, eine Dinner-Kreuzfahrt auf der Seine zu ihrem zehnten Jahrestag",
+        "story": "Er wollte zehn gemeinsame Jahre mit einem Abend feiern, der ganz zu ihnen passte. Wir buchten eine private Kreuzfahrt auf der Seine, Rosen und Champagner auf dem Tisch, der beleuchtete Eiffelturm als einziger Zeuge."
+      },
+      "opera-chauffeur": {
+        "title": "Victoire, ein Abend in der Oper mit Privatchauffeur, um ihren Mann zu überraschen",
+        "story": "Sie wollte ihm einen Abend schenken, an dem er sich einfach nur fahren lassen musste. Wir organisierten ein Dinner mit anschließendem Abend in der Opéra Garnier, mit Privatwagen und Chauffeur von der Abfahrt bis zur Rückkehr."
+      },
+      "caleche-anniversaire": {
+        "title": "Amaury, eine Kutschfahrt durch Paris zum vierzigsten Hochzeitstag",
+        "story": "Er wollte ihnen einen Sonntag schenken, der wie außerhalb der Zeit wirkte, fernab von Verkehr und Telefonen. Wir charterten eine historische Kutsche mit Kutscher im Zylinder für eine Fahrt durch Paris im Schritttempo bis zum Fuß des Eiffelturms."
       }
     }
   },

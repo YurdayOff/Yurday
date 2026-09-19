@@ -97,25 +97,25 @@
     "lede": "Real anecdotes from days we've actually organised.",
     "cta": "Want a day like this one? Tell us about yours.",
     "items": {
-      "star-dior": {
-        "title": "Jeanelle, a day in the life of a celebrity",
-        "story": "She had always wondered, if only once, what it feels like to be followed like a celebrity. We staged a shopping outing outside a Paris boutique, escorted by two bodyguards and a cameraman trailing her every step."
+      "montgolfiere-demande": {
+        "title": "Grégoire, a marriage proposal by hot air balloon at sunset",
+        "story": "He wanted a setting she would never forget for the question he was about to ask. We chartered a hot air balloon just for them, drifting above the golden countryside, the ring tucked in his pocket until the perfect moment."
       },
       "degustation-vin": {
-        "title": "Baptiste, a wine tasting for his father's day",
-        "story": "He wanted to thank his father with something more than another tie. We arranged a private tasting in a Paris wine cellar, just the two of them with a sommelier, savouring every bottle down to the last."
-      },
-      "gt3rs-circuit": {
-        "title": "Roman, a track day behind the wheel of a GT3RS",
-        "story": "He dreamed of taking the wheel of a GT3RS on track, guided by a professional driver. We arranged a full day on the circuit, Yurday-branded helmet included, to live it like a true driver."
-      },
-      "roses-cartier": {
-        "title": "Margaux, a hundred roses and a Cartier box delivered out of the blue",
-        "story": "He wanted to surprise her without waiting for a particular occasion. We had a hundred red roses delivered alongside a Cartier box with a note tucked inside, all arranged within days."
+        "title": "Aymeric, a wine tasting in a secret cellar for his father's 75th birthday",
+        "story": "He wanted to give his father a moment that belonged to just the two of them, away from the usual family dinners. We opened the doors of a century-old cellar in the heart of Paris, a sommelier at their side and the finest vintages to discover together."
       },
       "croisiere-seine": {
-        "title": "Jean-Luc, a dinner cruise on the Seine for his 30th wedding anniversary",
-        "story": "For their thirtieth wedding anniversary, he wanted to mark the occasion beyond another classic dinner. We booked a private dinner cruise on the Seine, table set facing the illuminated Eiffel Tower."
+        "title": "Thibault, a dinner cruise on the Seine for their tenth year together",
+        "story": "He wanted to mark ten years together with an evening that felt like them. We booked a private cruise on the Seine, roses and champagne on the table, the illuminated Eiffel Tower as their only witness."
+      },
+      "opera-chauffeur": {
+        "title": "Victoire, an evening at the Opéra with a private driver to surprise her husband",
+        "story": "She wanted to give him an evening where all he had to do was let himself be driven. We arranged a dinner followed by an evening at the Opéra Garnier, private car and driver from departure to return."
+      },
+      "caleche-anniversaire": {
+        "title": "Amaury, a horse-drawn carriage ride through Paris for their fortieth wedding anniversary",
+        "story": "He wanted to give them a Sunday suspended in time, far from traffic and phones. We chartered a vintage carriage, coachman in a top hat, for a tour of Paris at a horse's pace all the way to the foot of the Eiffel Tower."
       }
     }
   },

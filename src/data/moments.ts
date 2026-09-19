@@ -11,9 +11,9 @@ export type Moment = {
  * arriver avec sa propre photo inédite.
  */
 export const moments: Moment[] = [
-  { id: 'star-dior', image: '/images/moment-star-dior.webp' },
-  { id: 'croisiere-seine', image: '/images/moment-croisiere-seine.webp' },
-  { id: 'gt3rs-circuit', image: '/images/moment-gt3rs-circuit.webp' },
+  { id: 'montgolfiere-demande', image: '/images/moment-montgolfiere-demande.webp' },
   { id: 'degustation-vin', image: '/images/moment-degustation-vin.webp' },
-  { id: 'roses-cartier', image: '/images/moment-roses-cartier.webp' },
+  { id: 'croisiere-seine', image: '/images/moment-croisiere-seine.webp' },
+  { id: 'opera-chauffeur', image: '/images/moment-opera-chauffeur.webp' },
+  { id: 'caleche-anniversaire', image: '/images/moment-caleche-anniversaire.webp' },
 ]

@@ -97,25 +97,25 @@
     "lede": "Des anecdotes tirées de journées qu'on a vraiment organisées.",
     "cta": "Envie d'une journée comme celle-ci ? Racontez-nous la vôtre.",
     "items": {
-      "star-dior": {
-        "title": "Jeanelle, une journée dans la peau d'une célébrité",
-        "story": "Elle voulait savoir, ne serait-ce qu'une fois, ce que l'on ressent à être suivie comme une célébrité. Nous avons mis en scène une sortie shopping devant une boutique parisienne, escortée de deux agents de sécurité et d'un cameraman à ses pas."
+      "montgolfiere-demande": {
+        "title": "Grégoire, une demande en mariage en montgolfière au coucher du soleil",
+        "story": "Il voulait un décor qu'elle n'oublierait jamais pour lui poser la question. Nous avons affrété une montgolfière rien que pour eux, au-dessus de la campagne dorée, la bague glissée dans sa poche jusqu'au moment parfait."
       },
       "degustation-vin": {
-        "title": "Baptiste, une dégustation de vin pour la fête de son père",
-        "story": "Il voulait remercier son père autrement qu'avec une cravate de plus. Nous leur avons offert une dégustation privée dans une cave parisienne, un sommelier rien que pour eux deux, et le temps de savourer chaque bouteille jusqu'à la dernière."
-      },
-      "gt3rs-circuit": {
-        "title": "Roman, une journée sur circuit au volant d'une GT3RS",
-        "story": "Il rêvait de prendre le volant d'une GT3RS sur circuit, encadré par un pilote professionnel. Nous lui avons offert une journée complète sur piste, casque siglé Yurday compris, pour vivre l'expérience comme un véritable pilote."
-      },
-      "roses-cartier": {
-        "title": "Margaux, cent roses et un écrin Cartier livrés par surprise",
-        "story": "Il voulait la surprendre sans attendre d'occasion particulière. Nous avons fait livrer cent roses rouges accompagnées d'un écrin Cartier et d'un mot glissé à l'intérieur, le tout orchestré en quelques jours à peine."
+        "title": "Aymeric, une dégustation de vin dans une cave secrète pour les 75 ans de son père",
+        "story": "Il voulait offrir à son père un moment rien qu'à eux, loin des dîners de famille habituels. Nous leur avons ouvert les portes d'une cave centenaire au cœur de Paris, un sommelier à leur écoute et les plus beaux millésimes à découvrir ensemble."
       },
       "croisiere-seine": {
-        "title": "Jean-Luc, une croisière dînatoire sur la Seine pour ses 30 ans de mariage",
-        "story": "Pour leurs trente années de mariage, il voulait marquer l'instant sans un dîner classique de plus. Nous leur avons réservé une croisière dînatoire privée sur la Seine, table dressée face à la tour Eiffel illuminée."
+        "title": "Thibault, une croisière dînatoire sur la Seine pour leurs dix ans de couple",
+        "story": "Il voulait marquer leurs dix années ensemble par une soirée qui leur ressemble. Nous leur avons réservé une croisière privée sur la Seine, roses et champagne sur la table, la tour Eiffel illuminée pour seul témoin."
+      },
+      "opera-chauffeur": {
+        "title": "Victoire, une soirée à l'Opéra avec chauffeur privé pour surprendre son mari",
+        "story": "Elle voulait lui offrir une soirée où il n'aurait rien à penser, juste à se laisser conduire. Nous avons orchestré un dîner suivi d'une soirée à l'Opéra Garnier, voiture et chauffeur privés du départ jusqu'au retour."
+      },
+      "caleche-anniversaire": {
+        "title": "Amaury, une balade en calèche dans Paris pour leurs quarante ans de mariage",
+        "story": "Il voulait leur offrir un dimanche suspendu dans le temps, loin des embouteillages et des téléphones. Nous avons affrété une calèche d'époque, cocher en haut-de-forme, pour un tour de Paris au pas des chevaux jusqu'au pied de la tour Eiffel."
       }
     }
   },
