@@ -20,6 +20,7 @@ type MomentSpotlightProps = {
 export function MomentSpotlight({ items, previousLabel, nextLabel }: MomentSpotlightProps) {
   const [index, setIndex] = useState(0)
   const current = items[index]
+  if (!current) return null
 
   const go = (delta: number) => {
     setIndex((i) => (i + delta + items.length) % items.length)
