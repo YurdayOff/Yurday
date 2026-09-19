@@ -32,6 +32,13 @@
 }
 .founders-story p { margin: 0 0 18px; }
 .founders-story p:last-child { margin-bottom: 0; }
+.founders-story p.founders-signature {
+  margin-top: 22px;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: var(--blue-2);
+}
 @media (max-width: 860px) {
   .histoire-wrap { grid-template-columns: 1fr; gap: 32px; }
   .histoire-photo { position: static; }

@@ -35,6 +35,7 @@ export function Story({ messages }: { messages: Messages }) {
                 ))}
               </p>
             ))}
+            <p className="founders-signature">{story.signature}</p>
           </Reveal>
         </div>
       </div>
