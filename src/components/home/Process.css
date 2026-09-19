@@ -14,7 +14,7 @@
   overflow: visible;
 }
 .flight-plane {
-  filter: drop-shadow(0 3px 6px rgba(150, 114, 31,0.35));
+  filter: drop-shadow(0 3px 6px rgba(115, 76, 35,0.35));
   transition: opacity 0.4s ease;
 }
 .process-marker {
@@ -33,7 +33,7 @@
   align-items: center;
   justify-content: center;
   transform: translate(-50%, -50%);
-  box-shadow: 0 8px 18px rgba(150, 114, 31,0.3);
+  box-shadow: 0 8px 18px rgba(115, 76, 35,0.3);
   z-index: 3;
 }
 .process-columns {
