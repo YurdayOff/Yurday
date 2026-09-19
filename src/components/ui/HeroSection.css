@@ -9,8 +9,8 @@
   position: absolute;
   inset: -10%;
   background:
-    radial-gradient(ellipse 700px 420px at 82% -8%, rgba(226, 198, 142,0.28), transparent 60%),
-    radial-gradient(ellipse 600px 500px at 8% 105%, rgba(198, 161, 112,0.14), transparent 60%);
+    radial-gradient(ellipse 700px 420px at 82% -8%, rgba(237, 227, 203,0.28), transparent 60%),
+    radial-gradient(ellipse 600px 500px at 8% 105%, rgba(203, 175, 124,0.14), transparent 60%);
   animation: hero-drift 16s ease-in-out infinite;
   pointer-events: none;
 }

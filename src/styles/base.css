@@ -54,12 +54,17 @@ h1, h2, h3 {
   transition: transform 0.2s ease, box-shadow 0.2s ease, background-position 0.4s ease;
 }
 .btn-primary {
-  background-image: linear-gradient(100deg, var(--gold-3), #6E4E28);
-  background-size: 160% auto;
-  color: #fff;
-  box-shadow: 0 6px 18px rgba(30, 26, 22, 0.2);
+  background: var(--ink);
+  border: 1px solid var(--ink);
+  color: var(--white);
+  box-shadow: 0 6px 18px rgba(22, 20, 15, 0.18);
 }
-.btn-primary:hover { background-position: 100% 0; transform: translateY(-1px); box-shadow: 0 8px 22px rgba(30, 26, 22, 0.26); }
+.btn-primary:hover {
+  border-color: var(--gold-2);
+  color: var(--gold-1);
+  transform: translateY(-1px);
+  box-shadow: 0 8px 22px rgba(22, 20, 15, 0.24);
+}
 .btn-ghost {
   background: transparent;
   border: 1.5px solid var(--line);
@@ -93,8 +98,8 @@ h1, h2, h3 {
 
 /* Alternance des fonds de section. */
 .section-paper-deep { background: var(--paper-deep); }
-/* Corail plein : réservé aux deux temps forts (vraies histoires, prise de contact). */
-.section-coral { background: var(--gold-3); }
+/* Noir plein : réservé aux deux temps forts (vraies histoires, prise de contact). */
+.section-coral { background: var(--ink); }
 
 /* Ligne fine entre deux sections. */
 .seam {

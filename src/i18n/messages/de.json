@@ -42,10 +42,10 @@
     "process": "So funktioniert's",
     "story": "Unsere Geschichte",
     "faq": "FAQ",
-    "cta": "Meinen Tag erstellen"
+    "cta": "Meinen Tag gestalten"
   },
   "promo": {
-    "text": "Wir nehmen jeden Monat nur wenige Projekte an, um 100% maßgeschneidert zu bleiben: schreiben Sie uns schnell.",
+    "text": "Wir nehmen jeden Monat nur wenige Projekte an, um die Exklusivität des Maßgeschneiderten zu bewahren.",
     "cta": "Auf WhatsApp chatten"
   },
   "hero": {
@@ -102,35 +102,35 @@
     "items": {
       "parc-des-princes": {
         "title": "Kylian, ein Champions-League-Spiel im Parc des Princes",
-        "story": "Er hat immer davon geträumt, mit seinem besten Freund ein Champions-League-Spiel im Parc des Princes zu sehen, aber nie Tickets bekommen. Wir haben zwei Plätze für einen großen europäischen Abend gefunden."
+        "story": "Er hatte immer davon geträumt, mit seinem besten Freund ein Champions-League-Spiel im Parc des Princes zu erleben, doch nie Tickets bekommen. Wir fanden zwei Plätze für einen großen europäischen Abend."
       },
       "star-dior": {
         "title": "Jeanelle, ein Tag im Leben eines Stars",
-        "story": "Sie wollte schon immer wissen, wie es sich anfühlt, wie ein Star verfolgt zu werden, wenigstens einmal. Wir haben einen inszenierten Einkaufsbummel vor einer Pariser Boutique organisiert, mit zwei Bodyguards und einem Kameramann, der ihr folgte."
+        "story": "Sie wollte schon immer wissen, wie es sich anfühlt, wenigstens einmal wie ein Star verfolgt zu werden. Wir inszenierten einen Einkaufsbummel vor einer Pariser Boutique, begleitet von zwei Bodyguards und einem Kameramann auf Schritt und Tritt."
       },
       "degustation-vin": {
         "title": "Baptiste, eine Weinprobe zum Vatertag",
-        "story": "Er wollte seinem Vater mit etwas anderem als einer Krawatte danken. Wir haben eine private Weinprobe in einem Pariser Weinkeller organisiert, nur die beiden mit einem Sommelier, und eine Käseplatte bis zur letzten Flasche."
+        "story": "Er wollte seinem Vater mit mehr als nur einer Krawatte danken. Wir schenkten ihnen eine private Weinprobe in einem Pariser Weinkeller, nur die beiden mit einem Sommelier, bis zur letzten Flasche."
       },
       "pique-nique": {
         "title": "Léna, ein Picknick am Fuß des Eiffelturms",
-        "story": "Er wollte etwas Einfaches, aber Unvergessliches für ihren Paar-Jahrestag. Wir haben ein Picknick am Fuß des Eiffelturms bei Sonnenuntergang organisiert, mit Champagner und Snacks bis in die Nacht."
+        "story": "Für ihren Jahrestag wollte er etwas Schlichtes, aber Unvergessliches. Wir richteten ein Picknick am Fuß des Eiffelturms bei Sonnenuntergang aus, Champagner und feine Häppchen bis in die Nacht."
       },
       "gt3rs-circuit": {
         "title": "Roman, ein Tag auf der Rennstrecke im GT3RS",
-        "story": "Er träumte davon, mit einem GT3RS auf der Rennstrecke zu fahren, begleitet von einem Profi-Fahrer. Wir haben ihm einen ganzen Tag auf der Strecke organisiert, inklusive Helm mit Yurday-Logo, um es wie ein echter Fahrer zu erleben."
+        "story": "Er träumte davon, mit einem GT3RS auf der Rennstrecke zu fahren, begleitet von einem Profi-Fahrer. Wir schenkten ihm einen ganzen Tag auf der Strecke, inklusive Helm mit Yurday-Logo, um es wie ein echter Fahrer zu erleben."
       },
       "roses-cartier": {
         "title": "Margaux, hundert Rosen und eine Cartier-Box, überraschend geliefert",
-        "story": "Er wollte sie überraschen, ohne auf einen bestimmten Anlass zu warten. Wir haben hundert rote Rosen zusammen mit einer Cartier-Box und einer Notiz darin liefern lassen, alles in nur wenigen Tagen organisiert."
+        "story": "Er wollte sie überraschen, ohne auf einen bestimmten Anlass zu warten. Wir ließen hundert rote Rosen mit einer Cartier-Schachtel und einer versteckten Notiz liefern, alles binnen weniger Tage organisiert."
       },
       "coaching-boxe": {
         "title": "Sacha, eine private Boxstunde mit einem Coach",
-        "story": "Sie wollte aus ihrer gewohnten Sportroutine ausbrechen. Wir haben eine private Boxstunde mit einem Coach gebucht, in einem Studio nur für sie beide, fernab überfüllter Gruppenkurse."
+        "story": "Sie wollte aus ihrer gewohnten Sportroutine ausbrechen. Wir buchten eine private Boxstunde mit einem Coach, in einem Studio nur für sie, fernab überfüllter Gruppenkurse."
       },
       "croisiere-seine": {
         "title": "Jean-Luc, eine Dinner-Kreuzfahrt auf der Seine zum 30. Hochzeitstag",
-        "story": "Er wollte dreißig gemeinsame Jahre mit mehr als nur einem weiteren klassischen Dinner feiern. Wir haben eine private Dinner-Kreuzfahrt auf der Seine organisiert, mit einem Tisch mit Blick auf den beleuchteten Eiffelturm."
+        "story": "Für ihren dreißigsten Hochzeitstag wollte er den Moment mit mehr als nur einem weiteren klassischen Dinner feiern. Wir buchten eine private Dinner-Kreuzfahrt auf der Seine, mit Tisch gegenüber dem beleuchteten Eiffelturm."
       }
     }
   },
@@ -321,8 +321,8 @@
       "choiceWhatsapp": "💬 Per WhatsApp",
       "choiceEmail": "📧 Per E-Mail",
       "choiceError": "Bitte geben Sie oben im Feld „E-Mail\" eine gültige E-Mail-Adresse ein.",
-      "success": "Danke! Ihre Anfrage per E-Mail wurde erfolgreich gesendet, wir melden uns sehr bald bei Ihnen.",
-      "successWhatsapp": "Danke! Ihre WhatsApp-Nachricht ist bereit zum Senden.",
+      "success": "Vielen Dank, Ihre Anfrage wurde gesendet. Wir melden uns umgehend bei Ihnen.",
+      "successWhatsapp": "Vielen Dank, Ihre WhatsApp-Nachricht ist bereit zum Senden.",
       "sendError": "Das Absenden hat nicht funktioniert. Sie können uns direkt erreichen:"
     }
   },
@@ -338,7 +338,7 @@
   "popup": {
     "eyebrow": "Bereit loszulegen?",
     "title": "Sollen wir Ihnen einen Platz reservieren?",
-    "body": "Wir begrenzen die Anzahl der monatlich angenommenen Projekte, um zu 100% maßgeschneidert zu bleiben. Erzählen Sie uns jetzt Ihre Idee, wir melden uns schnell.",
+    "body": "Wir begrenzen die Anzahl der monatlich angenommenen Projekte, um die Exklusivität des Maßgeschneiderten zu bewahren. Erzählen Sie uns Ihre Idee, wir melden uns umgehend.",
     "dismiss": "Nein danke, ich schaue mich noch um"
   },
   "cookies": {

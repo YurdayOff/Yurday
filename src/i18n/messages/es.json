@@ -45,7 +45,7 @@
     "cta": "Crear mi día"
   },
   "promo": {
-    "text": "Aceptamos pocos proyectos al mes, para seguir siendo 100% a medida: escríbenos ya.",
+    "text": "Aceptamos pocos proyectos al mes, para preservar la exclusividad de lo hecho a medida.",
     "cta": "Hablar por WhatsApp"
   },
   "hero": {
@@ -102,35 +102,35 @@
     "items": {
       "parc-des-princes": {
         "title": "Kylian, un partido de Champions League en el Parque de los Príncipes",
-        "story": "Siempre había soñado con ver un partido de Champions League en el Parque de los Príncipes con su mejor amigo, sin conseguirlo nunca. Le encontramos dos entradas para una gran noche europea."
+        "story": "Siempre soñó con ver un partido de Champions League en el Parque de los Príncipes junto a su mejor amigo, sin conseguirlo nunca. Le conseguimos dos entradas para vivir una gran noche europea."
       },
       "star-dior": {
         "title": "Jeanelle, un día en la piel de una famosa",
-        "story": "Siempre se había preguntado qué se siente al ser perseguida como una celebridad, aunque fuera una vez. Le organizamos una falsa salida de compras frente a una boutique parisina, con dos guardaespaldas y un cámara siguiéndola."
+        "story": "Siempre quiso saber, aunque fuera una vez, qué se siente al ser perseguida como una celebridad. Escenificamos una salida de compras frente a una boutique parisina, escoltada por dos guardaespaldas y un cámara que la seguía de cerca."
       },
       "degustation-vin": {
         "title": "Baptiste, una cata de vino por el Día del Padre",
-        "story": "Quería agradecer a su padre con algo más que una corbata. Le organizamos una cata privada en una bodega parisina, solo ellos dos con un sumiller, y una tabla de quesos hasta la última botella."
+        "story": "Quería agradecer a su padre con algo más que una corbata. Le ofrecimos una cata privada en una bodega parisina, solo ellos dos con un sumiller, saboreando cada botella hasta la última."
       },
       "pique-nique": {
         "title": "Léna, un picnic al pie de la torre Eiffel",
-        "story": "Quería algo sencillo pero memorable para su aniversario de pareja. Le preparamos un picnic al pie de la torre Eiffel al atardecer, con champán y algo de picar hasta que cayó la noche."
+        "story": "Para su aniversario de pareja, quería algo sencillo pero inolvidable. Le preparamos un picnic al pie de la torre Eiffel al atardecer, champán y delicias hasta que cayó la noche."
       },
       "gt3rs-circuit": {
         "title": "Roman, un día en circuito al volante de un GT3RS",
-        "story": "Soñaba con ponerse al volante de un GT3RS en circuito, guiado por un piloto profesional. Le organizamos un día completo en pista, casco con el logo de Yurday incluido, para vivirlo como un piloto de verdad."
+        "story": "Soñaba con ponerse al volante de un GT3RS en circuito, guiado por un piloto profesional. Le ofrecimos un día completo en pista, casco con el logo de Yurday incluido, para vivirlo como un piloto de verdad."
       },
       "roses-cartier": {
         "title": "Margaux, cien rosas y una caja de Cartier entregadas por sorpresa",
-        "story": "Quería sorprenderla sin esperar una ocasión concreta. Le hicimos entregar cien rosas rojas junto con una caja de Cartier y una nota dentro, todo organizado en apenas unos días."
+        "story": "Quería sorprenderla sin esperar una ocasión concreta. Hicimos entregar cien rosas rojas junto con un estuche de Cartier y una nota escondida dentro, todo organizado en apenas unos días."
       },
       "coaching-boxe": {
         "title": "Sacha, una sesión privada de boxeo con un entrenador",
-        "story": "Quería salir de su rutina deportiva habitual. Le reservamos una sesión privada de boxeo con un entrenador, en una sala solo para ellos, lejos de las clases colectivas abarrotadas."
+        "story": "Quería salir de su rutina deportiva habitual. Le reservamos una sesión privada de boxeo con un entrenador, en una sala solo para ella, lejos de las clases colectivas abarrotadas."
       },
       "croisiere-seine": {
         "title": "Jean-Luc, un crucero cena por el Sena por sus 30 años de casados",
-        "story": "Quería celebrar treinta años juntos sin otra cena clásica más. Le reservamos un crucero cena privado por el Sena, con la mesa frente a la torre Eiffel iluminada."
+        "story": "Para sus treinta años de casados, quería marcar el momento más allá de otra cena clásica. Le reservamos un crucero cena privado por el Sena, mesa frente a la torre Eiffel iluminada."
       }
     }
   },
@@ -321,8 +321,8 @@
       "choiceWhatsapp": "💬 Por WhatsApp",
       "choiceEmail": "📧 Por email",
       "choiceError": "Indica una dirección de email válida en el campo «Email» de arriba.",
-      "success": "¡Gracias! Tu solicitud por email se ha enviado correctamente, te responderemos muy pronto.",
-      "successWhatsapp": "¡Gracias! Tu mensaje de WhatsApp está listo para enviarse.",
+      "success": "Gracias, su solicitud ha sido enviada. Nos pondremos en contacto con usted con prontitud.",
+      "successWhatsapp": "Gracias, su mensaje de WhatsApp está listo para enviarse.",
       "sendError": "El envío no se ha completado. Puedes escribirnos directamente:"
     }
   },
@@ -338,7 +338,7 @@
   "popup": {
     "eyebrow": "¿Listo para empezar?",
     "title": "¿Te guardamos un sitio?",
-    "body": "Limitamos el número de proyectos que aceptamos cada mes para seguir siendo 100% a medida. Cuéntanos tu idea ahora, te responderemos rápido.",
+    "body": "Limitamos el número de proyectos que aceptamos cada mes para preservar la exclusividad de lo hecho a medida. Cuéntanos tu idea, te responderemos con prontitud.",
     "dismiss": "No, gracias, sigo mirando"
   },
   "cookies": {

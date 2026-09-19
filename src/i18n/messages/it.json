@@ -42,10 +42,10 @@
     "process": "Come funziona",
     "story": "La nostra storia",
     "faq": "FAQ",
-    "cta": "Crea la mia giornata"
+    "cta": "Creare la mia giornata"
   },
   "promo": {
-    "text": "Accettiamo pochi progetti al mese, per restare 100% su misura: scriveteci subito.",
+    "text": "Accettiamo pochi progetti al mese, per preservare l'esclusività del su misura.",
     "cta": "Scrivici su WhatsApp"
   },
   "hero": {
@@ -102,35 +102,35 @@
     "items": {
       "parc-des-princes": {
         "title": "Kylian, una partita di Champions League al Parco dei Principi",
-        "story": "Ha sempre sognato di vedere una partita di Champions League al Parco dei Principi con il suo migliore amico, senza mai riuscire a procurarsi i biglietti. Gli abbiamo trovato due posti per una grande serata europea."
+        "story": "Ha sempre sognato di vedere una partita di Champions League al Parco dei Principi con il suo migliore amico, senza mai riuscire a trovare i biglietti. Gli abbiamo trovato due posti per vivere una grande serata europea."
       },
       "star-dior": {
         "title": "Jeanelle, un giorno nei panni di una celebrità",
-        "story": "Ha sempre voluto sapere cosa si prova a essere seguiti come una celebrità, anche solo una volta. Le abbiamo organizzato una finta uscita per shopping davanti a una boutique parigina, con due guardie del corpo e un cameraman al seguito."
+        "story": "Ha sempre voluto sapere, anche solo per una volta, cosa si prova a essere seguiti come una celebrità. Abbiamo messo in scena un'uscita per shopping davanti a una boutique parigina, scortata da due guardie del corpo e un cameraman al suo fianco."
       },
       "degustation-vin": {
         "title": "Baptiste, una degustazione di vino per la festa del papà",
-        "story": "Voleva ringraziare suo padre con qualcosa di diverso da una cravatta. Gli abbiamo organizzato una degustazione privata in una cantina parigina, solo loro due con un sommelier, e un tagliere di formaggi fino all'ultima bottiglia."
+        "story": "Voleva ringraziare suo padre con qualcosa in più di una cravatta. Gli abbiamo offerto una degustazione privata in una cantina parigina, solo loro due con un sommelier, gustando ogni bottiglia fino all'ultima."
       },
       "pique-nique": {
         "title": "Léna, un picnic ai piedi della Torre Eiffel",
-        "story": "Voleva qualcosa di semplice ma memorabile per il loro anniversario di coppia. Gli abbiamo organizzato un picnic ai piedi della Torre Eiffel al tramonto, con champagne e stuzzichini fino a sera inoltrata."
+        "story": "Per il loro anniversario, voleva qualcosa di semplice ma indimenticabile. Abbiamo allestito un picnic ai piedi della Torre Eiffel al tramonto, champagne e delizie fino a sera inoltrata."
       },
       "gt3rs-circuit": {
         "title": "Roman, una giornata in pista al volante di una GT3RS",
-        "story": "Sognava di mettersi al volante di una GT3RS in pista, affiancato da un pilota professionista. Gli abbiamo organizzato una giornata intera in circuito, casco con il logo Yurday incluso, per viverla come un vero pilota."
+        "story": "Sognava di mettersi al volante di una GT3RS in pista, affiancato da un pilota professionista. Gli abbiamo regalato una giornata intera in circuito, casco con il logo Yurday incluso, per viverla come un vero pilota."
       },
       "roses-cartier": {
         "title": "Margaux, cento rose e una scatola Cartier consegnate a sorpresa",
-        "story": "Voleva sorprenderla senza aspettare un'occasione particolare. Abbiamo fatto consegnare cento rose rosse insieme a una scatola Cartier con un bigliettino dentro, tutto organizzato in pochi giorni."
+        "story": "Voleva sorprenderla senza aspettare un'occasione particolare. Abbiamo fatto consegnare cento rose rosse con una scatola Cartier e un bigliettino nascosto dentro, tutto organizzato in pochi giorni."
       },
       "coaching-boxe": {
         "title": "Sacha, una sessione privata di boxe con un coach",
-        "story": "Voleva uscire dalla sua solita routine sportiva. Le abbiamo prenotato una sessione privata di boxe con un coach, in una sala tutta per loro, lontano dai corsi collettivi affollati."
+        "story": "Voleva uscire dalla sua solita routine sportiva. Le abbiamo prenotato una sessione privata di boxe con un coach, in una sala tutta per lei, lontano dai corsi collettivi affollati."
       },
       "croisiere-seine": {
         "title": "Jean-Luc, una crociera cena sulla Senna per i suoi 30 anni di matrimonio",
-        "story": "Voleva festeggiare trent'anni insieme senza l'ennesima cena classica. Gli abbiamo prenotato una crociera cena privata sulla Senna, tavolo apparecchiato di fronte alla Tour Eiffel illuminata."
+        "story": "Per i loro trent'anni di matrimonio, voleva celebrare il momento oltre l'ennesima cena classica. Gli abbiamo prenotato una crociera cena privata sulla Senna, tavolo di fronte alla Tour Eiffel illuminata."
       }
     }
   },
@@ -321,8 +321,8 @@
       "choiceWhatsapp": "💬 Su WhatsApp",
       "choiceEmail": "📧 Via email",
       "choiceError": "Inserite un indirizzo email valido nel campo «Email» qui sopra.",
-      "success": "Grazie! La vostra richiesta via email è stata inviata con successo, vi risponderemo molto presto.",
-      "successWhatsapp": "Grazie! Il vostro messaggio WhatsApp è pronto per essere inviato.",
+      "success": "Grazie, la sua richiesta è stata inviata. La ricontatteremo con sollecitudine.",
+      "successWhatsapp": "Grazie, il suo messaggio WhatsApp è pronto per essere inviato.",
       "sendError": "L'invio non è andato a buon fine. Potete contattarci direttamente:"
     }
   },
@@ -338,7 +338,7 @@
   "popup": {
     "eyebrow": "Pronto a iniziare?",
     "title": "Ti riserviamo un posto?",
-    "body": "Limitiamo il numero di progetti accettati ogni mese per restare al 100% su misura. Raccontaci la tua idea ora, ti risponderemo velocemente.",
+    "body": "Limitiamo il numero di progetti accettati ogni mese per preservare l'esclusività del su misura. Raccontaci la tua idea, ti risponderemo con sollecitudine.",
     "dismiss": "No grazie, continuo a guardare"
   },
   "cookies": {

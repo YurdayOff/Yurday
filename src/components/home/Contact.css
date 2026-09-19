@@ -1,6 +1,6 @@
 /* ---------- Contact ---------- */
 .contact-section {
-  background: var(--gold-3);
+  background: var(--ink);
 }
 .contact-wrap {
   display: grid;
@@ -8,7 +8,7 @@
   gap: 60px;
   align-items: start;
 }
-.contact-side .eyebrow { color: var(--white); opacity: 0.9; }
+.contact-side .eyebrow { color: var(--gold-2); opacity: 1; }
 .contact-side h2 { font-size: clamp(28px, 4vw, 38px); margin-bottom: 16px; line-height: 1.15; color: var(--white); }
 .contact-side p { color: rgba(255, 255, 255, 0.82); font-size: 15.5px; margin-bottom: 26px; }
 .contact-note {
@@ -102,7 +102,7 @@ form.contact-form {
 .form-row input:focus, .form-row select:focus, .form-row textarea:focus {
   outline: none;
   border-color: var(--gold-2);
-  box-shadow: 0 0 0 3px rgba(198, 161, 112,0.15);
+  box-shadow: 0 0 0 3px rgba(203, 175, 124,0.15);
 }
 .form-row-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
 form.contact-form .btn { width: 100%; justify-content: center; padding: 15px; font-size: 15.5px; margin-top: 6px; }

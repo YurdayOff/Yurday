@@ -1,6 +1,6 @@
 /* ---------- Bandeau WhatsApp ---------- */
 .promo-banner {
-  background: var(--gold-3);
+  background: var(--ink);
 }
 .promo-banner .promo-banner-inner {
   display: flex;
@@ -20,17 +20,17 @@
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  background: #fff;
-  color: var(--gold-3) !important;
+  background: transparent;
+  border: 1px solid var(--gold-2);
+  color: var(--gold-1) !important;
   font-weight: 700;
   padding: 7px 16px;
   border-radius: 999px;
   text-decoration: none;
   white-space: nowrap;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  transition: transform 0.2s ease, background 0.2s ease;
 }
-.promo-link:hover { color: var(--gold-3); transform: translateY(-1px); box-shadow: 0 6px 16px rgba(0,0,0,0.16); }
+.promo-link:hover { background: rgba(237, 227, 203, 0.1); transform: translateY(-1px); }
 .promo-wa-icon {
   color: #25D366;
   flex-shrink: 0;

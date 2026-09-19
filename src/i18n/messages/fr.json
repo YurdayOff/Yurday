@@ -42,10 +42,10 @@
     "process": "Comment ça marche",
     "story": "Notre histoire",
     "faq": "FAQ",
-    "cta": "Crée ma journée"
+    "cta": "Créer ma journée"
   },
   "promo": {
-    "text": "Peu de projets acceptés chaque mois, pour rester 100% sur-mesure : écrivez-nous vite.",
+    "text": "Peu de projets acceptés chaque mois, pour préserver l'exclusivité du sur-mesure.",
     "cta": "Discuter sur WhatsApp"
   },
   "hero": {
@@ -102,35 +102,35 @@
     "items": {
       "parc-des-princes": {
         "title": "Kylian, un match de Ligue des Champions au Parc des Princes",
-        "story": "Il rêvait de voir un match de Ligue des Champions au Parc des Princes avec son meilleur ami, sans jamais avoir réussi à avoir de billets. On leur a trouvé deux places pour un soir de gala européen."
+        "story": "Il rêvait depuis toujours d'assister à un match de Ligue des Champions au Parc des Princes aux côtés de son meilleur ami, sans jamais avoir réussi à trouver de billets. Nous leur avons déniché deux places pour vivre un soir de gala européen."
       },
       "star-dior": {
         "title": "Jeanelle, une journée dans la peau d'une célébrité",
-        "story": "Elle rêvait de savoir ce que ça fait d'être suivie comme une célébrité, ne serait-ce qu'une fois. On lui a organisé une fausse sortie shopping devant une boutique parisienne, avec deux agents de sécurité et un cameraman à ses trousses."
+        "story": "Elle voulait savoir, ne serait-ce qu'une fois, ce que l'on ressent à être suivie comme une célébrité. Nous avons mis en scène une sortie shopping devant une boutique parisienne, escortée de deux agents de sécurité et d'un cameraman à ses pas."
       },
       "degustation-vin": {
         "title": "Baptiste, une dégustation de vin pour la fête de son père",
-        "story": "Il voulait remercier son père autrement qu'avec une cravate. On leur a organisé une dégustation privée dans une cave parisienne, avec un sommelier rien que pour eux deux et une planche à grignoter jusqu'à la dernière bouteille."
+        "story": "Il voulait remercier son père autrement qu'avec une cravate de plus. Nous leur avons offert une dégustation privée dans une cave parisienne, un sommelier rien que pour eux deux, et le temps de savourer chaque bouteille jusqu'à la dernière."
       },
       "pique-nique": {
         "title": "Léna, un pique-nique au pied de la tour Eiffel",
-        "story": "Il voulait quelque chose de simple mais mémorable pour leur anniversaire de couple. On leur a préparé un pique-nique au pied de la tour Eiffel au coucher du soleil, avec champagne et de quoi grignoter jusqu'à la nuit tombée."
+        "story": "Pour leur anniversaire de couple, il voulait quelque chose de simple mais inoubliable. Nous leur avons préparé un pique-nique au pied de la tour Eiffel, au coucher du soleil, champagne et mets délicats jusqu'à la tombée de la nuit."
       },
       "gt3rs-circuit": {
         "title": "Roman, une journée sur circuit au volant d'une GT3RS",
-        "story": "Il rêvait de prendre le volant d'une GT3RS sur circuit, encadré par un pilote pro. On lui a organisé une journée complète sur piste, casque siglé Yurday compris, pour vivre ça comme un vrai pilote."
+        "story": "Il rêvait de prendre le volant d'une GT3RS sur circuit, encadré par un pilote professionnel. Nous lui avons offert une journée complète sur piste, casque siglé Yurday compris, pour vivre l'expérience comme un véritable pilote."
       },
       "roses-cartier": {
         "title": "Margaux, cent roses et un écrin Cartier livrés par surprise",
-        "story": "Il voulait lui faire une surprise sans attendre une occasion précise. On lui a fait livrer cent roses rouges et un écrin Cartier avec un mot glissé dedans, organisé en quelques jours à peine."
+        "story": "Il voulait la surprendre sans attendre d'occasion particulière. Nous avons fait livrer cent roses rouges accompagnées d'un écrin Cartier et d'un mot glissé à l'intérieur, le tout orchestré en quelques jours à peine."
       },
       "coaching-boxe": {
         "title": "Sacha, une séance de boxe privée avec un coach",
-        "story": "Elle voulait sortir de sa routine sport habituelle. On lui a réservé une séance privée de boxe avec un coach, dans une salle rien que pour eux, loin des cours collectifs bondés."
+        "story": "Elle souhaitait sortir de sa routine sportive habituelle. Nous lui avons réservé une séance de boxe privée avec un coach, dans une salle rien que pour elle, loin de l'agitation des cours collectifs."
       },
       "croisiere-seine": {
         "title": "Jean-Luc, une croisière dînatoire sur la Seine pour ses 30 ans de mariage",
-        "story": "Il voulait marquer leurs trente années ensemble sans un dîner classique de plus. On leur a réservé une croisière dînatoire privée sur la Seine, table dressée face à la tour Eiffel illuminée."
+        "story": "Pour leurs trente années de mariage, il voulait marquer l'instant sans un dîner classique de plus. Nous leur avons réservé une croisière dînatoire privée sur la Seine, table dressée face à la tour Eiffel illuminée."
       }
     }
   },
@@ -321,8 +321,8 @@
       "choiceWhatsapp": "💬 Par WhatsApp",
       "choiceEmail": "📧 Par email",
       "choiceError": "Merci d'indiquer une adresse email valide dans le champ « Email » ci-dessus.",
-      "success": "Merci ! Votre demande par email a bien été envoyée, on revient vers vous très vite.",
-      "successWhatsapp": "Merci ! Votre message WhatsApp est prêt à être envoyé.",
+      "success": "Merci, votre demande a bien été envoyée. Nous revenons vers vous rapidement.",
+      "successWhatsapp": "Merci, votre message WhatsApp est prêt à être envoyé.",
       "sendError": "L'envoi n'a pas abouti. Vous pouvez nous écrire directement :"
     }
   },
@@ -338,7 +338,7 @@
   "popup": {
     "eyebrow": "Envie de vous lancer ?",
     "title": "On vous garde une place ?",
-    "body": "On limite le nombre de projets acceptés chaque mois pour rester 100% sur-mesure. Racontez-nous votre idée maintenant, on vous répond vite.",
+    "body": "Nous limitons le nombre de projets acceptés chaque mois, pour préserver l'exclusivité du sur-mesure. Racontez-nous votre idée, nous vous répondons rapidement.",
     "dismiss": "Non merci, je continue de regarder"
   },
   "cookies": {

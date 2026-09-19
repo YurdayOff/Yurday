@@ -1,7 +1,7 @@
-/* ---------- Fond corail : la section « Vraies histoires » tranche volontairement ---------- */
-.section-coral .eyebrow { color: var(--white); opacity: 0.9; }
+/* ---------- Fond noir : la section « Vraies histoires » tranche volontairement ---------- */
+.section-coral .eyebrow { color: var(--gold-2); opacity: 1; }
 .section-coral .section-head h2 { color: var(--white); }
-.section-coral .section-head p { color: rgba(255, 255, 255, 0.82); }
+.section-coral .section-head p { color: rgba(255, 255, 255, 0.72); }
 
 /* ---------- Bandeau qu'on fait glisser soi-même, aucune animation automatique ---------- */
 .moment-scroll {

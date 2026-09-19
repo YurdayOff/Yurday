@@ -45,7 +45,7 @@
     "cta": "Criar meu dia"
   },
   "promo": {
-    "text": "Aceitamos poucos projetos por mês, para continuar 100% sob medida: fale conosco já.",
+    "text": "Aceitamos poucos projetos por mês, para preservar a exclusividade do sob medida.",
     "cta": "Conversar no WhatsApp"
   },
   "hero": {
@@ -102,35 +102,35 @@
     "items": {
       "parc-des-princes": {
         "title": "Kylian, um jogo da Liga dos Campeões no Parc des Princes",
-        "story": "Ele sempre sonhou em ver um jogo da Liga dos Campeões no Parc des Princes com o melhor amigo, mas nunca conseguia ingressos. Encontramos dois lugares para uma grande noite europeia."
+        "story": "Sempre sonhou em ver um jogo da Liga dos Campeões no Parc des Princes com o melhor amigo, mas nunca conseguia ingressos. Encontramos dois lugares para viver uma grande noite europeia."
       },
       "star-dior": {
         "title": "Jeanelle, um dia na pele de uma celebridade",
-        "story": "Ela sempre quis saber como é ser seguida como uma celebridade, nem que fosse uma vez. Organizamos uma falsa saída de compras em frente a uma boutique parisiense, com dois seguranças e um cinegrafista atrás dela."
+        "story": "Sempre quis saber, nem que fosse uma vez, como é ser seguida como uma celebridade. Encenamos uma saída de compras em frente a uma boutique parisiense, escoltada por dois seguranças e um cinegrafista em seus passos."
       },
       "degustation-vin": {
         "title": "Baptiste, uma degustação de vinho pelo Dia dos Pais",
-        "story": "Ele queria agradecer ao pai com algo além de uma gravata. Organizamos uma degustação privada numa cave parisiense, só os dois com um sommelier, e uma tábua de queijos até a última garrafa."
+        "story": "Queria agradecer ao pai com algo além de uma gravata. Oferecemos uma degustação privada numa cave parisiense, só os dois com um sommelier, saboreando cada garrafa até a última."
       },
       "pique-nique": {
         "title": "Léna, um piquenique aos pés da Torre Eiffel",
-        "story": "Ele queria algo simples mas memorável para o aniversário de namoro deles. Preparamos um piquenique aos pés da Torre Eiffel ao pôr do sol, com champanhe e petiscos até anoitecer."
+        "story": "Para o aniversário de namoro, queria algo simples mas inesquecível. Preparamos um piquenique aos pés da Torre Eiffel ao pôr do sol, champanhe e petiscos delicados até anoitecer."
       },
       "gt3rs-circuit": {
         "title": "Roman, um dia de pista ao volante de uma GT3RS",
-        "story": "Ele sonhava em pegar no volante de uma GT3RS em pista, guiado por um piloto profissional. Organizamos um dia inteiro no circuito, capacete com a marca Yurday incluído, para viver isso como um piloto de verdade."
+        "story": "Sonhava em pegar no volante de uma GT3RS em pista, guiado por um piloto profissional. Oferecemos um dia inteiro no circuito, capacete com a marca Yurday incluído, para viver isso como um verdadeiro piloto."
       },
       "roses-cartier": {
         "title": "Margaux, cem rosas e uma caixa da Cartier entregues de surpresa",
-        "story": "Ele queria surpreendê-la sem esperar uma ocasião específica. Mandamos entregar cem rosas vermelhas com uma caixa da Cartier e um bilhete dentro, tudo organizado em poucos dias."
+        "story": "Queria surpreendê-la sem esperar uma ocasião específica. Mandamos entregar cem rosas vermelhas com um estojo da Cartier e um bilhete escondido dentro, tudo organizado em poucos dias."
       },
       "coaching-boxe": {
         "title": "Sacha, uma sessão particular de boxe com um treinador",
-        "story": "Ela queria sair da rotina de treino habitual. Reservamos uma sessão particular de boxe com um treinador, numa sala só para eles, longe das aulas coletivas lotadas."
+        "story": "Queria sair da rotina de treino habitual. Reservamos uma sessão particular de boxe com um treinador, numa sala só para ela, longe das aulas coletivas lotadas."
       },
       "croisiere-seine": {
         "title": "Jean-Luc, um cruzeiro-jantar no Sena pelos seus 30 anos de casamento",
-        "story": "Ele queria marcar trinta anos juntos sem mais um jantar clássico. Reservamos um cruzeiro-jantar privado no Sena, mesa posta de frente para a Torre Eiffel iluminada."
+        "story": "Para os seus trinta anos de casamento, queria marcar o momento além de mais um jantar clássico. Reservamos um cruzeiro-jantar privado no Sena, mesa de frente para a Torre Eiffel iluminada."
       }
     }
   },
@@ -321,8 +321,8 @@
       "choiceWhatsapp": "💬 Pelo WhatsApp",
       "choiceEmail": "📧 Por email",
       "choiceError": "Indique um endereço de email válido no campo «Email» acima.",
-      "success": "Obrigado! Seu pedido por email foi enviado com sucesso, retornaremos em breve.",
-      "successWhatsapp": "Obrigado! Sua mensagem do WhatsApp está pronta para ser enviada.",
+      "success": "Obrigado, seu pedido foi enviado. Retornaremos prontamente.",
+      "successWhatsapp": "Obrigado, sua mensagem do WhatsApp está pronta para ser enviada.",
       "sendError": "O envio não foi concluído. Você pode falar com a gente diretamente:"
     }
   },
@@ -338,7 +338,7 @@
   "popup": {
     "eyebrow": "Pronto para começar?",
     "title": "Guardamos um lugar para você?",
-    "body": "Limitamos o número de projetos aceitos a cada mês para continuar 100% sob medida. Conte-nos sua ideia agora, responderemos rapidamente.",
+    "body": "Limitamos o número de projetos aceitos a cada mês para preservar a exclusividade do sob medida. Conte-nos sua ideia, retornaremos prontamente.",
     "dismiss": "Não, obrigado, vou continuar olhando"
   },
   "cookies": {

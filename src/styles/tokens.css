@@ -1,12 +1,12 @@
 :root {
-  --ink: #1E1A16;
-  --ink-soft: #6E6359;
-  --paper: #FDFCFA;
-  --paper-deep: #F4F1EA;
-  --gold-1: #E2C68E;
-  --gold-2: #C6A170;
-  --gold-3: #8A6633;
-  --line: #E6DFCF;
+  --ink: #16140F;
+  --ink-soft: #5A5650;
+  --paper: #FEFEFC;
+  --paper-deep: #F3F1EC;
+  --gold-1: #EDE3CB;
+  --gold-2: #CBAF7C;
+  --gold-3: #8F7434;
+  --line: #E7E2D5;
   --sage: #4E8B72;
   --white: #FFFFFF;
 }

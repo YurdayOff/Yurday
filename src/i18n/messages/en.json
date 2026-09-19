@@ -45,7 +45,7 @@
     "cta": "Create my day"
   },
   "promo": {
-    "text": "Only a few projects accepted each month, to stay 100% bespoke: get in touch fast.",
+    "text": "Only a few projects accepted each month, to preserve the exclusivity of bespoke.",
     "cta": "Chat on WhatsApp"
   },
   "hero": {
@@ -102,35 +102,35 @@
     "items": {
       "parc-des-princes": {
         "title": "Kylian, a Champions League match at Parc des Princes",
-        "story": "He'd always dreamed of watching a Champions League match at Parc des Princes with his best friend, but could never get tickets. We found two seats for a big European night."
+        "story": "He had always dreamed of watching a Champions League match at Parc des Princes with his best friend, yet could never get his hands on tickets. We found two seats for an evening of European football at its finest."
       },
       "star-dior": {
         "title": "Jeanelle, a day in the life of a celebrity",
-        "story": "She'd always wondered what it feels like to be followed around like a celebrity, just once. We staged a fake shopping outing outside a Paris boutique, complete with two bodyguards and a cameraman trailing her."
+        "story": "She had always wondered, if only once, what it feels like to be followed like a celebrity. We staged a shopping outing outside a Paris boutique, escorted by two bodyguards and a cameraman trailing her every step."
       },
       "degustation-vin": {
         "title": "Baptiste, a wine tasting for his father's day",
-        "story": "He wanted to thank his dad with something other than a tie. We arranged a private tasting in a Paris wine cellar, just the two of them with a sommelier, and a cheese board that lasted until the last bottle."
+        "story": "He wanted to thank his father with something more than another tie. We arranged a private tasting in a Paris wine cellar, just the two of them with a sommelier, savouring every bottle down to the last."
       },
       "pique-nique": {
         "title": "Léna, a picnic at the foot of the Eiffel Tower",
-        "story": "He wanted something simple but memorable for their couple's anniversary. We set up a picnic at the foot of the Eiffel Tower at sunset, champagne included, with snacks until nightfall."
+        "story": "For their anniversary, he wanted something simple yet unforgettable. We laid out a picnic at the foot of the Eiffel Tower at sunset, champagne and delicate bites lingering until nightfall."
       },
       "gt3rs-circuit": {
         "title": "Roman, a track day behind the wheel of a GT3RS",
-        "story": "He dreamed of taking the wheel of a GT3RS on track, coached by a pro driver. We arranged a full day on the circuit, Yurday-branded helmet included, to live it like a real driver."
+        "story": "He dreamed of taking the wheel of a GT3RS on track, guided by a professional driver. We arranged a full day on the circuit, Yurday-branded helmet included, to live it like a true driver."
       },
       "roses-cartier": {
         "title": "Margaux, a hundred roses and a Cartier box delivered out of the blue",
-        "story": "He wanted to surprise her without waiting for a specific occasion. We had a hundred red roses delivered along with a Cartier box and a note tucked inside, all arranged in just a few days."
+        "story": "He wanted to surprise her without waiting for a particular occasion. We had a hundred red roses delivered alongside a Cartier box with a note tucked inside, all arranged within days."
       },
       "coaching-boxe": {
         "title": "Sacha, a private boxing session with a coach",
-        "story": "She wanted a break from her usual workout routine. We booked a private boxing session with a coach, in a studio just for them, away from crowded group classes."
+        "story": "She wanted a break from her usual workout routine. We booked a private boxing session with a coach, in a studio reserved just for her, far from the crowded group classes."
       },
       "croisiere-seine": {
         "title": "Jean-Luc, a dinner cruise on the Seine for his 30th wedding anniversary",
-        "story": "He wanted to mark thirty years together with something more than another classic dinner. We booked a private dinner cruise on the Seine, table set facing the illuminated Eiffel Tower."
+        "story": "For their thirtieth wedding anniversary, he wanted to mark the occasion beyond another classic dinner. We booked a private dinner cruise on the Seine, table set facing the illuminated Eiffel Tower."
       }
     }
   },
@@ -321,8 +321,8 @@
       "choiceWhatsapp": "💬 On WhatsApp",
       "choiceEmail": "📧 By email",
       "choiceError": "Please enter a valid email address in the \"Email\" field above.",
-      "success": "Thank you! Your request has been sent by email, we'll get back to you very soon.",
-      "successWhatsapp": "Thank you! Your WhatsApp message is ready to send.",
+      "success": "Thank you, your request has been sent. We will get back to you promptly.",
+      "successWhatsapp": "Thank you, your WhatsApp message is ready to send.",
       "sendError": "The message could not be sent. You can reach us directly:"
     }
   },
@@ -338,7 +338,7 @@
   "popup": {
     "eyebrow": "Ready to get started?",
     "title": "Should we save you a spot?",
-    "body": "We limit the number of projects we accept each month to stay 100% bespoke. Tell us your idea now and we'll get back to you quickly.",
+    "body": "We limit the number of projects we accept each month to preserve the exclusivity of bespoke. Tell us your idea, we will get back to you promptly.",
     "dismiss": "No thanks, I'll keep browsing"
   },
   "cookies": {
