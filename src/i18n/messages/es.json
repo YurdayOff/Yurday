@@ -51,10 +51,7 @@
   "hero": {
     "title": {
       "lead": "Regálale un día ",
-      "em": "que se le parezca",
-      "tail": ",",
-      "line2": "no un ",
-      "highlight": "paquete estándar"
+      "em": "que se le parezca"
     }
   },
   "trust": {

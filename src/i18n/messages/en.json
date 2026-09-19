@@ -51,10 +51,7 @@
   "hero": {
     "title": {
       "lead": "Give them a day ",
-      "em": "that feels like them",
-      "tail": ",",
-      "line2": "not a ",
-      "highlight": "one-size-fits-all package"
+      "em": "that feels like them"
     }
   },
   "trust": {

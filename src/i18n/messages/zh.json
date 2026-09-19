@@ -51,10 +51,7 @@
   "hero": {
     "title": {
       "lead": "为TA打造",
-      "em": "专属于TA的",
-      "tail": "一天，",
-      "line2": "而不是",
-      "highlight": "千篇一律的套餐"
+      "em": "专属于TA的"
     }
   },
   "trust": {

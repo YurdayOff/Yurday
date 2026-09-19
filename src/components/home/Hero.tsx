@@ -16,10 +16,6 @@ export function Hero({ messages }: HeroProps) {
       <h1>
         {hero.title.lead}
         <em>{hero.title.em}</em>
-        {hero.title.tail}
-        <br />
-        {hero.title.line2}
-        {hero.title.highlight}
       </h1>
       <TrustBar messages={messages} />
     </HeroSection>

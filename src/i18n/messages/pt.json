@@ -51,10 +51,7 @@
   "hero": {
     "title": {
       "lead": "Ofereça a ela um dia ",
-      "em": "que combine com ela",
-      "tail": ",",
-      "line2": "não um ",
-      "highlight": "pacote pronto"
+      "em": "que combine com ela"
     }
   },
   "trust": {

@@ -51,10 +51,7 @@
   "hero": {
     "title": {
       "lead": "Regalale una giornata ",
-      "em": "che le somigli",
-      "tail": ",",
-      "line2": "non un ",
-      "highlight": "pacchetto standard"
+      "em": "che le somigli"
     }
   },
   "trust": {

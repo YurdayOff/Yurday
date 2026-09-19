@@ -51,10 +51,7 @@
   "hero": {
     "title": {
       "lead": "Schenken Sie einen Tag ",
-      "em": "der wirklich passt",
-      "tail": ",",
-      "line2": "keine ",
-      "highlight": "Standardlösung"
+      "em": "der wirklich passt"
     }
   },
   "trust": {

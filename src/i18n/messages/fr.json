@@ -51,10 +51,7 @@
   "hero": {
     "title": {
       "lead": "Offrez-lui une journée ",
-      "em": "qui lui ressemble",
-      "tail": ",",
-      "line2": "pas une ",
-      "highlight": "formule toute prête"
+      "em": "qui lui ressemble"
     }
   },
   "trust": {
