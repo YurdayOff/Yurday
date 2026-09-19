@@ -49,10 +49,12 @@
     "cta": "Chat on WhatsApp"
   },
   "hero": {
+    "eyebrow": "THE BESPOKE DAY AGENCY",
     "title": {
       "lead": "Give them a day ",
       "em": "that feels like them"
-    }
+    },
+    "lede": "We imagine and organise entirely bespoke days, thought through to the smallest detail for the person who matters to you. From the first idea to the day itself, we take care of everything."
   },
   "trust": {
     "starsLabel": "4.9 from 100+ reviews",

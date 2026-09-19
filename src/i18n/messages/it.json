@@ -49,10 +49,12 @@
     "cta": "Scrivici su WhatsApp"
   },
   "hero": {
+    "eyebrow": "L'AGENZIA DELLE GIORNATE SU MISURA",
     "title": {
       "lead": "Regalale una giornata ",
       "em": "che le somigli"
-    }
+    },
+    "lede": "Immaginiamo e organizziamo giornate interamente su misura, pensate nei minimi dettagli per la persona che conta per voi. Dalla prima idea fino al giorno stesso, ci pensiamo noi a tutto."
   },
   "trust": {
     "starsLabel": "4,9 su 100+ recensioni",

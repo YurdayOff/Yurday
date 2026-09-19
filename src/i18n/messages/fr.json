@@ -49,10 +49,12 @@
     "cta": "Discuter sur WhatsApp"
   },
   "hero": {
+    "eyebrow": "L'AGENCE DES JOURNÉES SUR MESURE",
     "title": {
       "lead": "Offrez-lui une journée ",
       "em": "qui lui ressemble"
-    }
+    },
+    "lede": "Nous imaginons et organisons des journées entièrement sur mesure, pensées dans les moindres détails pour la personne qui compte pour vous. De la première idée jusqu'au jour J, nous nous occupons de tout."
   },
   "trust": {
     "starsLabel": "4,9 sur 100+ avis",

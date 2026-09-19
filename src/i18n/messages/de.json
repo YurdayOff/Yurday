@@ -49,10 +49,12 @@
     "cta": "Auf WhatsApp chatten"
   },
   "hero": {
+    "eyebrow": "DIE AGENTUR FÜR MASSGESCHNEIDERTE TAGE",
     "title": {
       "lead": "Schenken Sie einen Tag ",
       "em": "der wirklich passt"
-    }
+    },
+    "lede": "Wir entwerfen und organisieren vollständig maßgeschneiderte Tage, bis ins kleinste Detail durchdacht für die Person, die Ihnen wichtig ist. Von der ersten Idee bis zum Tag selbst kümmern wir uns um alles."
   },
   "trust": {
     "starsLabel": "4,9 von 100+ Bewertungen",

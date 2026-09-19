@@ -49,10 +49,12 @@
     "cta": "Hablar por WhatsApp"
   },
   "hero": {
+    "eyebrow": "LA AGENCIA DE DÍAS A MEDIDA",
     "title": {
       "lead": "Regálale un día ",
       "em": "que se le parezca"
-    }
+    },
+    "lede": "Imaginamos y organizamos días completamente a medida, pensados hasta el último detalle para la persona que te importa. Desde la primera idea hasta el día en sí, nos encargamos de todo."
   },
   "trust": {
     "starsLabel": "4,9 sobre 100+ reseñas",
