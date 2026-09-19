@@ -1,9 +1,20 @@
-/* ---------- Vraies histoires : chapitres plein cadre, empilés ---------- */
+/* ---------- Vraies histoires : bandeau bleu, puis chapitres plein cadre ---------- */
+.moments-head-band {
+  background: var(--blue-2);
+  padding: 64px 0 48px;
+}
+.moments-head-band .section-head .eyebrow { color: var(--white); opacity: 0.85; }
+.moments-head-band .section-head h2 { color: var(--white); }
+.moments-head-band .section-head p { color: rgba(255, 255, 255, 0.88); }
+@media (max-width: 640px) {
+  .moments-head-band { padding: 44px 0 32px; }
+}
+
 .moment-chapters {
   display: flex;
   flex-direction: column;
   gap: 0;
-  margin: 56px 0 0;
+  margin: 0;
 }
 .moment-chapter {
   position: relative;
@@ -46,7 +57,6 @@
 }
 
 @media (max-width: 640px) {
-  .moment-chapters { margin-top: 36px; gap: 0; }
   .moment-chapter { aspect-ratio: 4 / 3; }
   .moment-chapter-text { left: 20px; right: 20px; bottom: 18px; }
   .moment-chapter-text p { font-size: 12.5px; }

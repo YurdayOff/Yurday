@@ -18,8 +18,10 @@ export function Moments({ messages, home }: MomentsProps) {
 
   return (
     <section id="moments">
-      <div className="container">
-        <SectionHead eyebrow={moments.eyebrow} title={moments.h2} lede={moments.lede} />
+      <div className="moments-head-band">
+        <div className="container">
+          <SectionHead eyebrow={moments.eyebrow} title={moments.h2} lede={moments.lede} />
+        </div>
       </div>
 
       <div className="moment-chapters">
