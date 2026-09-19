@@ -1,6 +1,6 @@
 import type { Metadata, Viewport } from 'next'
 import type { ReactNode } from 'react'
-import { Cairo, Inter, Playfair_Display } from 'next/font/google'
+import { Cairo, Inter, Nunito, Playfair_Display } from 'next/font/google'
 import { notFound } from 'next/navigation'
 import { CookieConsent } from '@/components/layout/CookieConsent'
 import { EngagementPopup } from '@/components/layout/EngagementPopup'
@@ -24,6 +24,14 @@ const displaySerif = Playfair_Display({
   subsets: ['latin'],
   style: ['normal', 'italic'],
   variable: '--font-display',
+  display: 'swap',
+})
+
+/** Police arrondie pour les paragraphes d'intro (chapeaux, lede). */
+const bodyRound = Nunito({
+  subsets: ['latin'],
+  weight: ['400', '500', '600'],
+  variable: '--font-body',
   display: 'swap',
 })
 
@@ -69,7 +77,7 @@ export default async function LocaleLayout({ children, params }: LocaleLayoutPro
     <html
       lang={info.htmlLang}
       dir={info.dir}
-      className={`${inter.variable} ${displaySerif.variable} ${cairo.variable}`}
+      className={`${inter.variable} ${displaySerif.variable} ${bodyRound.variable} ${cairo.variable}`}
     >
       <body>
         {/* Sans JavaScript, les animations d'apparition ne se déclenchent pas :

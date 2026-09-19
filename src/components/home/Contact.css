@@ -10,7 +10,12 @@
 }
 .contact-side .eyebrow { color: var(--blue-2); opacity: 1; }
 .contact-side h2 { font-size: clamp(28px, 4vw, 38px); margin-bottom: 16px; line-height: 1.15; color: var(--white); }
-.contact-side p { color: rgba(255, 255, 255, 0.82); font-size: 15.5px; margin-bottom: 26px; }
+.contact-side p {
+  font-family: var(--font-body), var(--font-inter), sans-serif;
+  color: rgba(255, 255, 255, 0.82);
+  font-size: 15.5px;
+  margin-bottom: 26px;
+}
 .contact-note {
   padding: 16px 18px;
   background: #fff;

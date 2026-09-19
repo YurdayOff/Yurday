@@ -16,7 +16,7 @@
 }
 .occasions-banner-inner p {
   color: rgba(255, 255, 255, 0.88);
-  font-family: var(--font-inter), sans-serif;
+  font-family: var(--font-body), var(--font-inter), sans-serif;
   font-size: 16.5px;
   line-height: 1.65;
   margin: 0;

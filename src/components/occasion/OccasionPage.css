@@ -8,6 +8,7 @@
 section.occasion-content { padding: 64px 28px; }
 .occasion-story { max-width: 720px; margin: 0 auto; text-align: center; padding: 20px 0 0; }
 .occasion-story p {
+  font-family: var(--font-body), var(--font-inter), sans-serif;
   font-size: 17px;
   color: var(--ink-soft);
   line-height: 1.7;
@@ -22,7 +23,12 @@ section.occasion-content { padding: 64px 28px; }
   margin: 0 auto;
 }
 .occasion-cta h2 { color: #fff; font-size: 28px; margin-bottom: 14px; }
-.occasion-cta p { color: rgba(255,255,255,0.9); margin-bottom: 28px; font-size: 16px; }
+.occasion-cta p {
+  font-family: var(--font-body), var(--font-inter), sans-serif;
+  color: rgba(255,255,255,0.9);
+  margin-bottom: 28px;
+  font-size: 16px;
+}
 .occasion-cta .btn-primary {
   background-image: none;
   background: #fff;

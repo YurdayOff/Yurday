@@ -39,6 +39,7 @@
   color: var(--blue-3);
 }
 .hero p.lede {
+  font-family: var(--font-body), var(--font-inter), sans-serif;
   font-size: 16px;
   line-height: 1.6;
   color: var(--ink-soft);
@@ -63,6 +64,7 @@
   margin: 0 auto 22px;
 }
 .hero--compact p.lede {
+  font-family: var(--font-body), var(--font-inter), sans-serif;
   font-size: 18px;
   max-width: 540px;
   margin: 0 auto 32px;

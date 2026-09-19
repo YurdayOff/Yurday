@@ -117,6 +117,7 @@ section { padding: 100px 0; }
   line-height: 1.15;
 }
 .section-head p {
+  font-family: var(--font-body), var(--font-inter), sans-serif;
   color: var(--ink-soft);
   font-size: 16.5px;
   margin-top: 14px;
