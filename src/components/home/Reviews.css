@@ -13,16 +13,16 @@
 .marquee-outer {
   overflow: hidden;
   width: 100%;
-  padding: 12px 0;
+  padding: 8px 0;
   mask-image: linear-gradient(90deg, transparent, #000 5%, #000 95%, transparent);
   -webkit-mask-image: linear-gradient(90deg, transparent, #000 5%, #000 95%, transparent);
 }
 .marquee-track {
   display: flex;
   align-items: flex-start;
-  gap: 22px;
+  gap: 16px;
   width: max-content;
-  padding: 0 22px;
+  padding: 0 16px;
   animation: marquee-scroll 90s linear infinite;
 }
 .marquee-track.marquee-reverse {
@@ -38,18 +38,24 @@
   from { transform: translateX(-50%); }
   to { transform: translateX(0); }
 }
-.marquee-card { --notch-y: 84px; flex: 0 0 320px; width: 320px; }
+.marquee-card {
+  flex: 0 0 260px;
+  width: 260px;
+  height: 172px;
+  display: flex;
+  flex-direction: column;
+}
 .review-top {
-  padding: 22px 24px 18px;
+  padding: 14px 16px 8px;
   display: flex;
   align-items: center;
   gap: 12px;
 }
-.review-name { font-weight: 600; font-size: 14.5px; }
+.review-name { font-weight: 600; font-size: 13px; }
 .flag {
   display: inline-block;
-  width: 16px;
-  height: 11px;
+  width: 15px;
+  height: 10px;
   margin-left: 3px;
   border-radius: 2px;
   overflow: hidden;
@@ -59,13 +65,23 @@
 .flag svg { width: 100%; height: 100%; display: block; }
 .translated-note {
   display: block;
-  font-size: 10.5px;
+  font-size: 10px;
   font-style: italic;
   color: #A69C8F;
-  margin-top: 8px;
+  margin-top: 6px;
 }
-.review-stars { color: var(--blue-2); font-size: 12px; letter-spacing: 1px; }
-.review-body { padding: 18px 24px 24px; font-size: 14.5px; color: var(--ink-soft); }
+.review-stars { color: var(--blue-2); font-size: 11px; letter-spacing: 1px; }
+.review-body {
+  padding: 8px 16px 14px;
+  font-size: 12.5px;
+  line-height: 1.45;
+  color: var(--ink-soft);
+  flex: 1;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+}
 
 .google-badge {
   max-width: 480px;
