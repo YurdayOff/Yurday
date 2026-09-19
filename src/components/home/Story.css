@@ -20,21 +20,17 @@
 }
 .founders-story {
   padding-left: 22px;
-  /* Fraunces italique en 500 : l'italique 400 est nettement plus fin et
-     s'écarte du rendu d'origine du site. */
   font-weight: 500;
   border-left: 3px solid var(--blue-2);
-  font-family: var(--font-display), Georgia, serif;
-  font-style: italic;
-  font-size: 17.5px;
-  line-height: 1.55;
+  font-family: var(--font-body), var(--font-inter), sans-serif;
+  font-size: 17px;
+  line-height: 1.6;
   color: var(--ink);
 }
 .founders-story p { margin: 0 0 18px; }
 .founders-story p:last-child { margin-bottom: 0; }
 .founders-story p.founders-signature {
   margin-top: 22px;
-  font-style: normal;
   font-weight: 600;
   letter-spacing: 0.02em;
   color: var(--blue-2);
