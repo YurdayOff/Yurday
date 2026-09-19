@@ -60,7 +60,7 @@ export default async function HomePage({ params }: HomeProps) {
         ])}
       />
       <Hero messages={messages} home={home} />
-      <TrustPillars messages={messages} />
+      <Seam />
       <Occasions messages={messages} />
       <Seam />
       <Process messages={messages} />
@@ -72,6 +72,8 @@ export default async function HomePage({ params }: HomeProps) {
       <Story messages={messages} />
       <Seam />
       <Faq messages={messages} home={home} />
+      <Seam />
+      <TrustPillars messages={messages} />
       <Seam />
       <Contact messages={messages} />
     </>

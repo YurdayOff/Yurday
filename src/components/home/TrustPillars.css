@@ -1,5 +1,4 @@
-/* ---------- Trois réassurances, juste sous le hero ---------- */
-.trust-pillars { padding: 8px 0 90px; }
+/* ---------- Trois réassurances, juste avant le formulaire ---------- */
 .trust-pillars-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -37,6 +36,5 @@
 }
 
 @media (max-width: 780px) {
-  .trust-pillars { padding-bottom: 56px; }
   .trust-pillars-grid { grid-template-columns: 1fr; gap: 22px; }
 }

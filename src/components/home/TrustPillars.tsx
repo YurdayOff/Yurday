@@ -34,7 +34,7 @@ const icons = {
   ),
 } as const
 
-/** Trois réassurances clés, juste sous le hero. */
+/** Trois réassurances clés, juste avant le formulaire. */
 export function TrustPillars({ messages }: { messages: Messages }) {
   const { trustPillars } = messages
   const items = [
@@ -44,7 +44,7 @@ export function TrustPillars({ messages }: { messages: Messages }) {
   ] as const
 
   return (
-    <div className="trust-pillars">
+    <section className="trust-pillars">
       <div className="container">
         <div className="trust-pillars-grid">
           {items.map((item) => (
@@ -58,6 +58,6 @@ export function TrustPillars({ messages }: { messages: Messages }) {
           ))}
         </div>
       </div>
-    </div>
+    </section>
   )
 }
