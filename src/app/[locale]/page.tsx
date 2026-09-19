@@ -59,7 +59,7 @@ export default async function HomePage({ params }: HomeProps) {
           faqSchema(messages),
         ])}
       />
-      <Hero messages={messages} home={home} />
+      <Hero messages={messages} />
       <Seam />
       <Occasions messages={messages} />
       <Seam />
