@@ -1,3 +1,18 @@
+#occasions .section-head p {
+  max-width: 640px;
+  margin: 18px auto 0;
+  padding: 22px 28px;
+  border-radius: 18px;
+  background: var(--blue-2);
+  color: var(--white);
+  font-size: 15.5px;
+  line-height: 1.65;
+  text-align: left;
+}
+@media (max-width: 640px) {
+  #occasions .section-head p { padding: 18px 20px; font-size: 14.5px; }
+}
+
 /* ---------- Categories (cartes iconographiques) ---------- */
 .cat-grid {
   display: flex;
