@@ -8,6 +8,12 @@
   border-top: 1px solid var(--line);
 }
 .trust-item { text-align: center; }
+.trust-top {
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .trust-num {
   font-family: var(--font-display), Georgia, serif;
   font-size: 44px;
@@ -32,6 +38,7 @@
 @media (max-width: 640px) {
   .trustbar { gap: 16px; padding-top: 28px; flex-wrap: nowrap; }
   .trust-item { max-width: 96px; }
+  .trust-top { height: 24px; }
   .trust-num { font-size: 24px; }
   .stars { font-size: 13px; letter-spacing: 1px; white-space: nowrap; }
   .trust-label { font-size: 9.5px; margin-top: 4px; line-height: 1.3; }
