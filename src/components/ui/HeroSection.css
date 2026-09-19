@@ -24,36 +24,6 @@
   text-align: center;
   position: relative;
 }
-
-/* Variante avec photo : image plein cadre en fond, texte en clair par-dessus. */
-.hero--with-photo { padding: 150px 28px 130px; }
-.hero--with-photo::before { display: none; }
-.hero-photo {
-  position: absolute;
-  inset: 0;
-  z-index: 0;
-}
-.hero-photo img { object-position: center 35%; }
-.hero-scrim {
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(180deg, rgba(7, 20, 44, 0.55) 0%, rgba(7, 20, 44, 0.4) 45%, rgba(7, 20, 44, 0.72) 100%);
-}
-.hero--with-photo .hero-inner { position: relative; z-index: 1; }
-.hero--with-photo .eyebrow { color: var(--white); opacity: 0.9; }
-.hero--with-photo .hero h1 { color: var(--white); }
-.hero--with-photo .hero h1 em { color: var(--blue-1); }
-.hero--with-photo .marker svg path { stroke: var(--white); }
-.hero--with-photo .hero p.lede { color: rgba(255, 255, 255, 0.86); margin: 0 auto 36px; }
-.hero--with-photo .hero-actions .btn-ghost {
-  border-color: rgba(255, 255, 255, 0.6);
-  color: var(--white);
-}
-.hero--with-photo .hero-actions .btn-ghost:hover { border-color: var(--white); color: var(--white); background: rgba(255, 255, 255, 0.1); }
-.hero--with-photo .trustbar { border-top-color: rgba(255, 255, 255, 0.25); }
-.hero--with-photo .trust-num { color: var(--white); }
-.hero--with-photo .trust-label { color: rgba(255, 255, 255, 0.75); }
-.hero--with-photo .stars { color: var(--blue-1); }
 .hero h1 {
   font-size: clamp(38px, 6vw, 68px);
   line-height: 1.08;
@@ -99,5 +69,4 @@
   .hero h1 { margin-bottom: 18px; }
   .hero p.lede { margin-bottom: 24px; }
   .hero-actions { margin-bottom: 32px; }
-  .hero--with-photo { padding: 110px 20px 80px; }
 }
