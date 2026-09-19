@@ -16,7 +16,6 @@ export function Hero({ messages, home }: HeroProps) {
 
   return (
     <HeroSection>
-      <div className="eyebrow">{hero.eyebrow}</div>
       <h1>
         {hero.title.lead}
         <em>{hero.title.em}</em>
