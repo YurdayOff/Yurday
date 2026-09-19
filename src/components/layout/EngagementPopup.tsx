@@ -87,7 +87,7 @@ export function EngagementPopup({ messages, contactHref }: EngagementPopupProps)
         >
           ✕
         </button>
-        <div className="popup-eyebrow">{messages.popup.eyebrow}</div>
+        <div className="eyebrow">{messages.popup.eyebrow}</div>
         <h3 id="popup-title">{messages.popup.title}</h3>
         <p>{messages.popup.body}</p>
         <div className="popup-actions">
