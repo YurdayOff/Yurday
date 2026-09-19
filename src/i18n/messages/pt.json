@@ -93,9 +93,9 @@
     "lede": "Isto é apenas um instante: cada dia é pensado como um todo, da manhã à noite.",
     "cta": "Quer um dia assim? Conte-nos o seu.",
     "items": {
-      "montgolfiere-demande": {
-        "title": "Grégoire, um pedido de casamento em balão de ar quente ao pôr do sol",
-        "story": "Ele queria um cenário que ela jamais esqueceria para fazer o pedido. Entre todas as etapas que imaginamos para o dia dele, este momento foi o ponto alto: um balão de ar quente fretado só para os dois, sobrevoando o campo dourado, com o anel guardado no bolso até o momento perfeito."
+      "montgolfiere-fete-des-meres": {
+        "title": "Grégoire, um voo de balão de ar quente pelo Dia das Mães",
+        "story": "Ele queria oferecer à mãe um momento só deles, longe do dia a dia. Entre todas as etapas que imaginamos para esse dia, este momento foi o ponto alto: um balão de ar quente fretado só para os dois, sobrevoando o campo dourado ao pôr do sol."
       },
       "degustation-vin": {
         "title": "Aymeric, uma degustação de vinhos numa cave secreta pelos 75 anos do pai",
@@ -109,9 +109,9 @@
         "title": "Victoire, uma noite na Ópera com motorista particular para surpreender o marido",
         "story": "Ela queria oferecer a ele um dia em que só precisasse se deixar levar de um momento a outro. Construímos tudo passo a passo, até este ponto alto: um jantar seguido de uma noite na Ópera Garnier, carro e motorista particulares do início ao fim."
       },
-      "caleche-anniversaire": {
-        "title": "Amaury, um passeio de charrete por Paris pelos quarenta anos de casamento",
-        "story": "Ele queria oferecer a eles um dia suspenso no tempo, longe do trânsito e dos telefones. Pensamos tudo etapa por etapa, e ao longo dele, uma charrete de época, cocheiro de cartola, para um passeio por Paris ao passo dos cavalos até o pé da torre Eiffel."
+      "caleche-saint-valentin": {
+        "title": "Amaury, um passeio de charrete por Paris pelo Dia dos Namorados",
+        "story": "Ele queria oferecer a eles um Dia dos Namorados suspenso no tempo, longe do trânsito e dos telefones. Pensamos tudo etapa por etapa, e ao longo dele, uma charrete de época, cocheiro de cartola, para um passeio por Paris ao passo dos cavalos até o pé da torre Eiffel."
       }
     }
   },
@@ -170,23 +170,23 @@
   "process": {
     "eyebrow": "O processo",
     "h2": "Como funciona",
-    "lede": "Quatro etapas, da primeira mensagem ao próprio dia.",
+    "lede": "Quatro etapas, da primeira conversa ao próprio dia.",
     "steps": [
       {
-        "title": "Conte-nos sobre a pessoa",
-        "body": "Para quem é, a data, as paixões da pessoa, o que ela não gosta, lembranças marcantes: tudo o que nos ajuda a construir um dia realmente sob medida."
+        "title": "Fale-nos sobre a pessoa",
+        "body": "Para quem é este dia, a data prevista, o que a emociona, o que ela não suporta, uma lembrança que importa: cada detalhe nos ajuda a compor um dia que realmente lhe pareça."
       },
       {
-        "title": "Montamos o dia",
-        "body": "Voltamos até você com o dia montado: o programa hora a hora e preços claros."
+        "title": "Imaginamos o dia",
+        "body": "Voltamos até você com o dia totalmente imaginado: um roteiro hora a hora e uma apresentação clara dos valores."
       },
       {
         "title": "Você aprova",
-        "body": "Antes da aprovação final, ajustamos ao vivo com você até ficar exatamente como precisa."
+        "body": "Antes da aprovação final, ajustamos cada detalhe com você, ao vivo, até que seja exatamente o que você imaginou."
       },
       {
-        "title": "Cuidamos de tudo",
-        "body": "Chegou o grande dia: cuidamos de tudo, você só precisa aproveitar o momento."
+        "title": "Cuidamos de cada detalhe",
+        "body": "No grande dia, cuidamos de toda a experiência: você só precisa viver o momento."
       }
     ]
   },

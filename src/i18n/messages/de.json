@@ -93,9 +93,9 @@
     "lede": "Das ist nur ein Augenblick: Jeder Tag wird als Ganzes geplant, von morgens bis abends.",
     "cta": "Lust auf so einen Tag? Erzählen Sie uns von Ihrem.",
     "items": {
-      "montgolfiere-demande": {
-        "title": "Grégoire, ein Heiratsantrag im Heißluftballon bei Sonnenuntergang",
-        "story": "Er wollte für seinen Antrag eine Kulisse, die sie nie vergessen würde. Unter allen Etappen, die wir für seinen Tag entworfen hatten, war dieser Moment der Höhepunkt: ein Heißluftballon, nur für die beiden gechartert, über goldene Landschaften hinweg, den Ring bis zum perfekten Moment in seiner Tasche."
+      "montgolfiere-fete-des-meres": {
+        "title": "Grégoire, eine Heißluftballonfahrt zum Muttertag",
+        "story": "Er wollte seiner Mutter einen Moment schenken, der nur ihnen beiden gehörte, fernab des Alltags. Unter allen Etappen, die wir für diesen Tag entworfen hatten, war dieser Moment der Höhepunkt: ein Heißluftballon, nur für die beiden gechartert, bei Sonnenuntergang über goldenen Landschaften."
       },
       "degustation-vin": {
         "title": "Aymeric, eine Weinverkostung in einem geheimen Keller zum 75. Geburtstag seines Vaters",
@@ -109,9 +109,9 @@
         "title": "Victoire, ein Abend in der Oper mit Privatchauffeur, um ihren Mann zu überraschen",
         "story": "Sie wollte ihm einen Tag schenken, an dem er sich nur von einem Moment zum nächsten tragen lassen musste. Wir haben ihn Schritt für Schritt für ihn gestaltet, bis zu diesem Höhepunkt: ein Dinner mit anschließendem Abend in der Opéra Garnier, mit Privatwagen und Chauffeur von der Abfahrt bis zur Rückkehr."
       },
-      "caleche-anniversaire": {
-        "title": "Amaury, eine Kutschfahrt durch Paris zum vierzigsten Hochzeitstag",
-        "story": "Er wollte ihnen einen Tag schenken, der wie außerhalb der Zeit wirkte, fernab von Verkehr und Telefonen. Wir haben ihn Etappe für Etappe geplant, und mittendrin eine historische Kutsche mit Kutscher im Zylinder für eine Fahrt durch Paris im Schritttempo bis zum Fuß des Eiffelturms."
+      "caleche-saint-valentin": {
+        "title": "Amaury, eine Kutschfahrt durch Paris zum Valentinstag",
+        "story": "Er wollte ihnen einen Valentinstag schenken, der wie außerhalb der Zeit wirkte, fernab von Verkehr und Telefonen. Wir haben ihn Etappe für Etappe geplant, und mittendrin eine historische Kutsche mit Kutscher im Zylinder für eine Fahrt durch Paris im Schritttempo bis zum Fuß des Eiffelturms."
       }
     }
   },
@@ -170,23 +170,23 @@
   "process": {
     "eyebrow": "Der Ablauf",
     "h2": "So funktioniert's",
-    "lede": "Vier Schritte, von der ersten Nachricht bis zum Tag selbst.",
+    "lede": "Vier Schritte, vom ersten Gespräch bis zum Tag selbst.",
     "steps": [
       {
-        "title": "Erzählen Sie uns von der Person",
-        "body": "Für wen es ist, das Datum, ihre Leidenschaften, was sie nicht mag, prägende Erinnerungen: alles, was uns hilft, einen wirklich maßgeschneiderten Tag zu gestalten."
+        "title": "Erzählen Sie uns von ihr",
+        "body": "Für wen dieser Tag ist, das geplante Datum, was sie begeistert, was sie nicht mag, eine Erinnerung, die zählt: jedes Detail hilft uns, einen Tag zu gestalten, der wirklich zu ihr passt."
       },
       {
-        "title": "Wir gestalten den Tag",
-        "body": "Wir melden uns mit dem fertigen Tag zurück: der stündliche Ablauf und eine klare Preisübersicht."
+        "title": "Wir entwerfen den Tag",
+        "body": "Wir kommen mit dem vollständig durchdachten Tag zu Ihnen zurück: einem stündlichen Ablauf und einer klaren Preisübersicht."
       },
       {
-        "title": "Sie bestätigen",
-        "body": "Vor der endgültigen Bestätigung passen wir live mit Ihnen an, bis es genau das ist, was Sie brauchen."
+        "title": "Sie geben Ihr Einverständnis",
+        "body": "Vor der endgültigen Bestätigung feilen wir gemeinsam mit Ihnen live an jedem Detail, bis es genau das ist, was Sie sich vorgestellt haben."
       },
       {
-        "title": "Wir kümmern uns um alles",
-        "body": "Es ist der große Tag: wir kümmern uns um alles, Sie müssen nur noch den Moment genießen."
+        "title": "Wir orchestrieren alles",
+        "body": "Am großen Tag selbst übernehmen wir das gesamte Erlebnis: Sie müssen nur noch den Moment genießen."
       }
     ]
   },

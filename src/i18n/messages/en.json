@@ -93,9 +93,9 @@
     "lede": "This is only a glimpse: every day is designed as a whole, from morning to night.",
     "cta": "Want a day like this one? Tell us about yours.",
     "items": {
-      "montgolfiere-demande": {
-        "title": "Grégoire, a marriage proposal by hot air balloon at sunset",
-        "story": "He wanted a setting she would never forget for the question he was about to ask. Among all the steps we designed for his day, this moment was the high point: a hot air balloon chartered just for them, drifting above the golden countryside, the ring tucked in his pocket until the perfect moment."
+      "montgolfiere-fete-des-meres": {
+        "title": "Grégoire, a hot air balloon flight for Mother's Day",
+        "story": "He wanted to give his mother a moment that belonged to just the two of them, away from everyday life. Among all the steps we designed for that day, this one was the high point: a hot air balloon chartered just for them, drifting above the golden countryside at sunset."
       },
       "degustation-vin": {
         "title": "Aymeric, a wine tasting in a secret cellar for his father's 75th birthday",
@@ -109,9 +109,9 @@
         "title": "Victoire, an evening at the Opéra with a private driver to surprise her husband",
         "story": "She wanted to give him a day where all he had to do was be carried from one moment to the next. We built it for him step by step, up to this high point: a dinner followed by an evening at the Opéra Garnier, private car and driver from departure to return."
       },
-      "caleche-anniversaire": {
-        "title": "Amaury, a horse-drawn carriage ride through Paris for their fortieth wedding anniversary",
-        "story": "He wanted to give them a day suspended in time, far from traffic and phones. We planned it step by step, and along the way, a vintage carriage, coachman in a top hat, for a tour of Paris at a horse's pace all the way to the foot of the Eiffel Tower."
+      "caleche-saint-valentin": {
+        "title": "Amaury, a horse-drawn carriage ride through Paris for their Valentine's Day",
+        "story": "He wanted to give them a Valentine's Day suspended in time, far from traffic and phones. We planned it step by step, and along the way, a vintage carriage, coachman in a top hat, for a tour of Paris at a horse's pace all the way to the foot of the Eiffel Tower."
       }
     }
   },
@@ -170,23 +170,23 @@
   "process": {
     "eyebrow": "The process",
     "h2": "How it works",
-    "lede": "Four steps, from the first message to the day itself.",
+    "lede": "Four steps, from the first conversation to the day itself.",
     "steps": [
       {
-        "title": "Tell us about the person",
-        "body": "Who it's for, the date, their passions, what they dislike, meaningful memories: everything that helps us build a true bespoke day."
+        "title": "Tell us about them",
+        "body": "Who the day is for, the date in mind, what moves them, what they can't stand, a memory that matters: every detail helps us compose a day that truly feels like them."
       },
       {
-        "title": "We build the day",
-        "body": "We come back to you with the day built out: the hour-by-hour programme and clear pricing."
+        "title": "We envision the day",
+        "body": "We come back to you with the day fully imagined: an hour-by-hour itinerary and a clear presentation of the pricing."
       },
       {
         "title": "You approve",
-        "body": "Before final approval, we adjust live with you until it's exactly what you need."
+        "body": "Before final approval, we refine every detail with you, live, until it's exactly what you pictured."
       },
       {
-        "title": "We take care of everything",
-        "body": "It's the big day: we handle the whole thing, all you have to do is enjoy the moment."
+        "title": "We orchestrate everything",
+        "body": "On the day itself, we take care of the entire experience: all you have to do is live the moment."
       }
     ]
   },

@@ -93,9 +93,9 @@
     "lede": "Ce n'est qu'un instant : chaque journée est pensée dans son ensemble, du matin jusqu'au soir.",
     "cta": "Envie d'une journée comme celle-ci ? Racontez-nous la vôtre.",
     "items": {
-      "montgolfiere-demande": {
-        "title": "Grégoire, une demande en mariage en montgolfière au coucher du soleil",
-        "story": "Il voulait un décor qu'elle n'oublierait jamais pour lui poser la question. Parmi toutes les étapes que nous avons imaginées pour sa journée, ce moment en était le point d'orgue : une montgolfière affrétée rien que pour eux, au-dessus de la campagne dorée, la bague glissée dans sa poche jusqu'au moment parfait."
+      "montgolfiere-fete-des-meres": {
+        "title": "Grégoire, un vol en montgolfière pour la fête des mères",
+        "story": "Il voulait offrir à sa mère un moment rien qu'à eux, loin du quotidien. Parmi toutes les étapes que nous avons imaginées pour cette journée, celle-ci en était le point d'orgue : une montgolfière affrétée rien que pour eux, au-dessus de la campagne dorée, au coucher du soleil."
       },
       "degustation-vin": {
         "title": "Aymeric, une dégustation de vin dans une cave secrète pour les 75 ans de son père",
@@ -109,9 +109,9 @@
         "title": "Victoire, une soirée à l'Opéra avec chauffeur privé pour surprendre son mari",
         "story": "Elle voulait lui offrir une journée où il n'aurait rien à penser, juste à se laisser porter d'un moment à l'autre. Nous la lui avons construite pas à pas, jusqu'à ce point d'orgue : un dîner suivi d'une soirée à l'Opéra Garnier, voiture et chauffeur privés du départ jusqu'au retour."
       },
-      "caleche-anniversaire": {
-        "title": "Amaury, une balade en calèche dans Paris pour leurs quarante ans de mariage",
-        "story": "Il voulait leur offrir une journée suspendue dans le temps, loin des embouteillages et des téléphones. Nous l'avons pensée étape après étape, et au fil de celle-ci, une calèche d'époque, cocher en haut-de-forme, pour un tour de Paris au pas des chevaux jusqu'au pied de la tour Eiffel."
+      "caleche-saint-valentin": {
+        "title": "Amaury, une balade en calèche dans Paris pour leur Saint-Valentin",
+        "story": "Il voulait leur offrir une Saint-Valentin suspendue dans le temps, loin des embouteillages et des téléphones. Nous l'avons pensée étape après étape, et au fil de celle-ci, une calèche d'époque, cocher en haut-de-forme, pour un tour de Paris au pas des chevaux jusqu'au pied de la tour Eiffel."
       }
     }
   },
@@ -170,23 +170,23 @@
   "process": {
     "eyebrow": "Le processus",
     "h2": "Comment ça marche",
-    "lede": "Quatre étapes, du premier message à la journée elle-même.",
+    "lede": "Quatre étapes, du premier échange à la journée elle-même.",
     "steps": [
       {
         "title": "Racontez-nous la personne",
-        "body": "Pour qui c'est, la date, ses passions, ce qu'elle déteste, des souvenirs marquants : tout ce qui nous aide à construire une journée sur mesure."
+        "body": "Pour qui est cette journée, la date envisagée, ce qui la fait vibrer, ce qu'elle n'aime pas, un souvenir qui compte : chaque détail nous aide à composer une journée qui lui ressemble vraiment."
       },
       {
-        "title": "On construit la journée",
-        "body": "On revient vers vous avec la journée construite : le programme heure par heure et une présentation claire des prix."
+        "title": "Nous imaginons la journée",
+        "body": "Nous revenons vers vous avec la journée pensée dans son intégralité : un déroulé heure par heure et une présentation claire des tarifs."
       },
       {
         "title": "Vous validez",
-        "body": "Avant validation finale, on ajuste en direct avec vous jusqu'à ce que ce soit exactement ce qu'il vous faut."
+        "body": "Avant la validation finale, nous affinons chaque détail avec vous, en direct, jusqu'à ce que tout corresponde exactement à ce que vous imaginiez."
       },
       {
-        "title": "On s'occupe de tout",
-        "body": "C'est le jour J : on assure toute la prestation, vous n'avez plus qu'à profiter du moment."
+        "title": "Nous orchestrons tout",
+        "body": "Le jour J, nous prenons en charge l'ensemble de la prestation : vous n'avez plus qu'à vivre pleinement l'instant."
       }
     ]
   },

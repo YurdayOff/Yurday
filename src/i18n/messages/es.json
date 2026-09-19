@@ -93,9 +93,9 @@
     "lede": "Esto es solo un instante: cada día se piensa en su totalidad, de la mañana a la noche.",
     "cta": "¿Te apetece un día así? Cuéntanos el tuyo.",
     "items": {
-      "montgolfiere-demande": {
-        "title": "Grégoire, una petición de matrimonio en globo aerostático al atardecer",
-        "story": "Quería un escenario que ella nunca olvidara para hacerle la pregunta. Entre todas las etapas que imaginamos para su día, este momento fue el punto culminante: un globo aerostático fletado solo para ellos, sobrevolando el campo dorado, con el anillo guardado en su bolsillo hasta el momento perfecto."
+      "montgolfiere-fete-des-meres": {
+        "title": "Grégoire, un vuelo en globo aerostático por el Día de la Madre",
+        "story": "Quería regalarle a su madre un momento solo para ellos dos, lejos del día a día. Entre todas las etapas que imaginamos para ese día, este momento fue el punto culminante: un globo aerostático fletado solo para ellos, sobrevolando el campo dorado al atardecer."
       },
       "degustation-vin": {
         "title": "Aymeric, una cata de vino en una bodega secreta por los 75 años de su padre",
@@ -109,9 +109,9 @@
         "title": "Victoire, una noche en la Ópera con chófer privado para sorprender a su marido",
         "story": "Quería regalarle un día en el que solo tuviera que dejarse llevar de un momento a otro. Se lo construimos paso a paso, hasta este punto culminante: una cena seguida de una velada en la Ópera Garnier, coche y chófer privados de principio a fin."
       },
-      "caleche-anniversaire": {
-        "title": "Amaury, un paseo en calesa por París por sus cuarenta años de matrimonio",
-        "story": "Quería regalarles un día suspendido en el tiempo, lejos del tráfico y de los teléfonos. Lo pensamos etapa por etapa, y en su recorrido, una calesa de época, cochero con sombrero de copa, para un paseo por París al paso de los caballos hasta el pie de la torre Eiffel."
+      "caleche-saint-valentin": {
+        "title": "Amaury, un paseo en calesa por París por su San Valentín",
+        "story": "Quería regalarles un San Valentín suspendido en el tiempo, lejos del tráfico y de los teléfonos. Lo pensamos etapa por etapa, y en su recorrido, una calesa de época, cochero con sombrero de copa, para un paseo por París al paso de los caballos hasta el pie de la torre Eiffel."
       }
     }
   },
@@ -170,23 +170,23 @@
   "process": {
     "eyebrow": "El proceso",
     "h2": "Cómo funciona",
-    "lede": "Cuatro pasos, desde el primer mensaje hasta el día en sí.",
+    "lede": "Cuatro pasos, desde la primera conversación hasta el día en sí.",
     "steps": [
       {
-        "title": "Cuéntanos sobre la persona",
-        "body": "Para quién es, la fecha, sus pasiones, lo que no le gusta, recuerdos importantes: todo lo que nos ayuda a construir un día realmente a medida."
+        "title": "Háblenos de ella",
+        "body": "Para quién es este día, la fecha prevista, lo que la emociona, lo que no soporta, un recuerdo que importa: cada detalle nos ayuda a componer un día que se le parezca de verdad."
       },
       {
-        "title": "Creamos el día",
-        "body": "Volvemos a ti con el día ya construido: el programa hora por hora y unos precios claros."
+        "title": "Imaginamos el día",
+        "body": "Volvemos a usted con el día imaginado en su totalidad: un itinerario hora por hora y una presentación clara de los precios."
       },
       {
-        "title": "Tú lo apruebas",
-        "body": "Antes de la aprobación final, ajustamos en directo contigo hasta que sea exactamente lo que necesitas."
+        "title": "Usted aprueba",
+        "body": "Antes de la aprobación final, afinamos cada detalle con usted, en directo, hasta que sea exactamente lo que había imaginado."
       },
       {
-        "title": "Nos encargamos de todo",
-        "body": "Llega el gran día: nos encargamos de toda la organización, tú solo tienes que disfrutar del momento."
+        "title": "Orquestamos todo",
+        "body": "El gran día, nos ocupamos de toda la experiencia: usted solo tiene que vivir el momento."
       }
     ]
   },
