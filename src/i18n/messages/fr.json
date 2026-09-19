@@ -101,10 +101,6 @@
     "lede": "Des anecdotes tirées de journées qu'on a vraiment organisées.",
     "cta": "Envie d'une journée comme celle-ci ? Racontez-nous la vôtre.",
     "items": {
-      "parc-des-princes": {
-        "title": "Kylian, un match de Ligue des Champions au Parc des Princes",
-        "story": "Il rêvait depuis toujours d'assister à un match de Ligue des Champions au Parc des Princes aux côtés de son meilleur ami, sans jamais avoir réussi à trouver de billets. Nous leur avons déniché deux places pour vivre un soir de gala européen."
-      },
       "star-dior": {
         "title": "Jeanelle, une journée dans la peau d'une célébrité",
         "story": "Elle voulait savoir, ne serait-ce qu'une fois, ce que l'on ressent à être suivie comme une célébrité. Nous avons mis en scène une sortie shopping devant une boutique parisienne, escortée de deux agents de sécurité et d'un cameraman à ses pas."
@@ -208,12 +204,7 @@
         "title": "On s'occupe de tout",
         "body": "C'est le jour J : on assure toute la prestation, vous n'avez plus qu'à profiter du moment."
       }
-    ],
-    "priceNote": {
-      "lead": "Nos journées commencent généralement autour de ",
-      "amount": "1500€",
-      "tail": "."
-    }
+    ]
   },
   "story": {
     "eyebrow": "Pourquoi Yurday existe",
@@ -309,10 +300,10 @@
       ],
       "budget": "Budget approximatif",
       "budgetOptions": [
-        "Moins de 1500€",
-        "1500€ – 2500€",
-        "2500€ – 5000€",
-        "Plus de 5000€",
+        "Modéré",
+        "Confortable",
+        "Généreux",
+        "Sans limite",
         "Je ne sais pas encore"
       ],
       "message": "Un mot sur votre idée (optionnel)",

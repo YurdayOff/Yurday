@@ -101,10 +101,6 @@
     "lede": "Aneddoti reali tratti da giornate che abbiamo davvero organizzato.",
     "cta": "Vi va una giornata così? Raccontateci la vostra.",
     "items": {
-      "parc-des-princes": {
-        "title": "Kylian, una partita di Champions League al Parco dei Principi",
-        "story": "Ha sempre sognato di vedere una partita di Champions League al Parco dei Principi con il suo migliore amico, senza mai riuscire a trovare i biglietti. Gli abbiamo trovato due posti per vivere una grande serata europea."
-      },
       "star-dior": {
         "title": "Jeanelle, un giorno nei panni di una celebrità",
         "story": "Ha sempre voluto sapere, anche solo per una volta, cosa si prova a essere seguiti come una celebrità. Abbiamo messo in scena un'uscita per shopping davanti a una boutique parigina, scortata da due guardie del corpo e un cameraman al suo fianco."
@@ -208,12 +204,7 @@
         "title": "Ci occupiamo di tutto",
         "body": "È il grande giorno: ci occupiamo di tutto, a voi non resta che godervi il momento."
       }
-    ],
-    "priceNote": {
-      "lead": "Le nostre giornate partono generalmente da circa ",
-      "amount": "1500€",
-      "tail": "."
-    }
+    ]
   },
   "story": {
     "eyebrow": "Perché esiste Yurday",
@@ -309,10 +300,10 @@
       ],
       "budget": "Budget approssimativo",
       "budgetOptions": [
-        "Meno di 1500€",
-        "1500€ – 2500€",
-        "2500€ – 5000€",
-        "Più di 5000€",
+        "Moderato",
+        "Confortevole",
+        "Generoso",
+        "Senza limiti",
         "Non ancora sicuro"
       ],
       "message": "Qualche parola sulla tua idea (opzionale)",

@@ -162,12 +162,6 @@ export function Process({ messages }: { messages: Messages }) {
       <div className="container">
         <SectionHead eyebrow={process.eyebrow} title={process.h2} lede={process.lede} />
 
-        <p className="process-price-note">
-          {process.priceNote.lead}
-          <strong>{process.priceNote.amount}</strong>
-          {process.priceNote.tail}
-        </p>
-
         <div className="process-timeline" ref={attachTimeline}>
           <svg
             className="process-flight"

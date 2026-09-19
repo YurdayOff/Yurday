@@ -101,10 +101,6 @@
     "lede": "Echte Anekdoten aus Tagen, die wir wirklich organisiert haben.",
     "cta": "Lust auf so einen Tag? Erzählen Sie uns von Ihrem.",
     "items": {
-      "parc-des-princes": {
-        "title": "Kylian, ein Champions-League-Spiel im Parc des Princes",
-        "story": "Er hatte immer davon geträumt, mit seinem besten Freund ein Champions-League-Spiel im Parc des Princes zu erleben, doch nie Tickets bekommen. Wir fanden zwei Plätze für einen großen europäischen Abend."
-      },
       "star-dior": {
         "title": "Jeanelle, ein Tag im Leben eines Stars",
         "story": "Sie wollte schon immer wissen, wie es sich anfühlt, wenigstens einmal wie ein Star verfolgt zu werden. Wir inszenierten einen Einkaufsbummel vor einer Pariser Boutique, begleitet von zwei Bodyguards und einem Kameramann auf Schritt und Tritt."
@@ -208,12 +204,7 @@
         "title": "Wir kümmern uns um alles",
         "body": "Es ist der große Tag: wir kümmern uns um alles, Sie müssen nur noch den Moment genießen."
       }
-    ],
-    "priceNote": {
-      "lead": "Unsere Tage beginnen in der Regel bei rund ",
-      "amount": "1500€",
-      "tail": "."
-    }
+    ]
   },
   "story": {
     "eyebrow": "Warum es Yurday gibt",
@@ -309,10 +300,10 @@
       ],
       "budget": "Ungefähres Budget",
       "budgetOptions": [
-        "Unter 1500€",
-        "1500€ – 2500€",
-        "2500€ – 5000€",
-        "Über 5000€",
+        "Maßvoll",
+        "Komfortabel",
+        "Großzügig",
+        "Ohne Limit",
         "Noch nicht sicher"
       ],
       "message": "Ein paar Worte zu Ihrer Idee (optional)",

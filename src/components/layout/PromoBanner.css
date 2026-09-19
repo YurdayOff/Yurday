@@ -14,14 +14,14 @@
 }
 .promo-banner .promo-banner-inner > span {
   font-weight: 700;
-  color: var(--ink);
+  color: var(--white);
 }
 .promo-link {
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  background: var(--ink);
-  color: var(--white) !important;
+  background: var(--white);
+  color: var(--blue-3) !important;
   font-weight: 700;
   padding: 7px 16px;
   border-radius: 999px;

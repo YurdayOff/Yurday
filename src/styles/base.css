@@ -57,13 +57,13 @@ h1, h2, h3 {
   background: var(--blue-2);
   border: 1px solid var(--blue-2);
   color: var(--white);
-  box-shadow: 0 6px 18px rgba(9, 48, 178, 0.28);
+  box-shadow: 0 6px 18px rgba(15, 58, 82, 0.28);
 }
 .btn-primary:hover {
   background: var(--blue-3);
   border-color: var(--blue-3);
   transform: translateY(-1px);
-  box-shadow: 0 8px 22px rgba(9, 48, 178, 0.36);
+  box-shadow: 0 8px 22px rgba(15, 58, 82, 0.36);
 }
 .btn-ghost {
   background: transparent;

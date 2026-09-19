@@ -13,7 +13,6 @@ export type Moment = {
 export const moments: Moment[] = [
   { id: 'star-dior', image: '/images/moment-star-dior.webp' },
   { id: 'pique-nique', image: '/images/moment-pique-nique.webp' },
-  { id: 'parc-des-princes', image: '/images/moment-parc-des-princes.webp' },
   { id: 'croisiere-seine', image: '/images/moment-croisiere-seine.webp' },
   { id: 'gt3rs-circuit', image: '/images/moment-gt3rs-circuit.webp' },
   { id: 'degustation-vin', image: '/images/moment-degustation-vin.webp' },
