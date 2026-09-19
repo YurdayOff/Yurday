@@ -1,0 +1,44 @@
+/* ---------- Trois réassurances, juste sous le hero ---------- */
+.trust-pillars { padding: 0 0 90px; }
+.trust-pillars-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 36px;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding-top: 44px;
+  border-top: 1px solid var(--line);
+}
+.trust-pillar {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+}
+.trust-pillar-icon {
+  flex-shrink: 0;
+  width: 44px;
+  height: 44px;
+  border-radius: 999px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--blue-2);
+  background: var(--paper-deep);
+}
+.trust-pillar h3 {
+  font-size: 15.5px;
+  font-weight: 600;
+  margin: 0 0 4px;
+  color: var(--ink);
+}
+.trust-pillar p {
+  font-size: 13.5px;
+  line-height: 1.55;
+  color: var(--ink-soft);
+  margin: 0;
+}
+
+@media (max-width: 780px) {
+  .trust-pillars { padding-bottom: 56px; }
+  .trust-pillars-grid { grid-template-columns: 1fr; gap: 22px; padding-top: 32px; }
+}

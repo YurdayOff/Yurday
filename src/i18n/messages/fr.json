@@ -406,5 +406,19 @@
   "shared": {
     "ctaWhatsapp": "Discuter sur WhatsApp",
     "ctaEmail": "Raconter mon projet par écrit"
+  },
+  "trustPillars": {
+    "discretion": {
+      "title": "Discrétion absolue",
+      "text": "La personne concernée ne se doute de rien, jusqu'au jour J."
+    },
+    "payment": {
+      "title": "Rien à payer avant validation",
+      "text": "Le règlement n'intervient qu'une fois le programme et le prix validés par vous."
+    },
+    "response": {
+      "title": "Réponse sous 24h",
+      "text": "Nous revenons vers vous rapidement, sans aucun engagement de votre part."
+    }
   }
 }

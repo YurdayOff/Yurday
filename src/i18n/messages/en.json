@@ -406,5 +406,19 @@
   "shared": {
     "ctaWhatsapp": "Chat on WhatsApp",
     "ctaEmail": "Tell us in writing"
+  },
+  "trustPillars": {
+    "discretion": {
+      "title": "Absolute discretion",
+      "text": "The person concerned suspects nothing, until the day itself."
+    },
+    "payment": {
+      "title": "Nothing to pay before validation",
+      "text": "Payment only happens once you've validated the program and the price."
+    },
+    "response": {
+      "title": "Response within 24h",
+      "text": "We get back to you quickly, with no commitment on your part."
+    }
   }
 }

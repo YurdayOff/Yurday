@@ -406,5 +406,19 @@
   "shared": {
     "ctaWhatsapp": "Auf WhatsApp chatten",
     "ctaEmail": "Schriftlich erzählen"
+  },
+  "trustPillars": {
+    "discretion": {
+      "title": "Absolute Diskretion",
+      "text": "Die betreffende Person ahnt bis zum großen Tag nichts."
+    },
+    "payment": {
+      "title": "Keine Zahlung vor Bestätigung",
+      "text": "Die Zahlung erfolgt erst, nachdem Sie das Programm und den Preis bestätigt haben."
+    },
+    "response": {
+      "title": "Antwort innerhalb von 24h",
+      "text": "Wir melden uns schnell bei Ihnen, ganz unverbindlich."
+    }
   }
 }

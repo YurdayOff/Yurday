@@ -406,5 +406,19 @@
   "shared": {
     "ctaWhatsapp": "Scrivici su WhatsApp",
     "ctaEmail": "Raccontacelo per iscritto"
+  },
+  "trustPillars": {
+    "discretion": {
+      "title": "Discrezione assoluta",
+      "text": "La persona interessata non sospetta nulla fino al grande giorno."
+    },
+    "payment": {
+      "title": "Nulla da pagare prima della convalida",
+      "text": "Il pagamento avviene solo dopo che avrai convalidato il programma e il prezzo."
+    },
+    "response": {
+      "title": "Risposta entro 24h",
+      "text": "Ti rispondiamo rapidamente, senza alcun impegno da parte tua."
+    }
   }
 }

@@ -406,5 +406,19 @@
   "shared": {
     "ctaWhatsapp": "通过WhatsApp联系",
     "ctaEmail": "通过文字告诉我们"
+  },
+  "trustPillars": {
+    "discretion": {
+      "title": "绝对保密",
+      "text": "当事人在当天到来之前毫不知情。"
+    },
+    "payment": {
+      "title": "确认前无需支付",
+      "text": "只有在您确认行程安排和价格之后，才需要付款。"
+    },
+    "response": {
+      "title": "24小时内回复",
+      "text": "我们会尽快与您联系，您无需承担任何义务。"
+    }
   }
 }

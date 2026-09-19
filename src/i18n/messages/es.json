@@ -406,5 +406,19 @@
   "shared": {
     "ctaWhatsapp": "Hablar por WhatsApp",
     "ctaEmail": "Contarnos por escrito"
+  },
+  "trustPillars": {
+    "discretion": {
+      "title": "Discreción absoluta",
+      "text": "La persona en cuestión no sospecha nada hasta el gran día."
+    },
+    "payment": {
+      "title": "Nada que pagar antes de validar",
+      "text": "El pago solo se realiza una vez que usted ha validado el programa y el precio."
+    },
+    "response": {
+      "title": "Respuesta en 24h",
+      "text": "Le respondemos rápidamente, sin ningún compromiso por su parte."
+    }
   }
 }

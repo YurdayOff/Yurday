@@ -406,5 +406,19 @@
   "shared": {
     "ctaWhatsapp": "WhatsAppで相談する",
     "ctaEmail": "文章で伝える"
+  },
+  "trustPillars": {
+    "discretion": {
+      "title": "徹底した秘密厳守",
+      "text": "当日まで、ご本人には一切気づかれません。"
+    },
+    "payment": {
+      "title": "確定前のお支払いは不要",
+      "text": "プログラムと料金にご納得いただいた後にのみお支払いが発生します。"
+    },
+    "response": {
+      "title": "24時間以内にご返信",
+      "text": "迅速にご連絡いたします。いかなる義務も発生しません。"
+    }
   }
 }
