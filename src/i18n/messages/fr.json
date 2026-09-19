@@ -378,7 +378,7 @@
     },
     "payment": {
       "title": "Rien à payer avant validation",
-      "text": "Le règlement n'intervient qu'une fois le programme et le prix validés par vous."
+      "text": "Vous validez d'abord le programme et le prix. Le règlement intervient ensuite, avant la journée elle-même."
     },
     "response": {
       "title": "Réponse sous 24h",

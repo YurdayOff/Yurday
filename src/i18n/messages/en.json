@@ -378,7 +378,7 @@
     },
     "payment": {
       "title": "Nothing to pay before validation",
-      "text": "Payment only happens once you've validated the program and the price."
+      "text": "You validate the program and the price first. Payment then follows, before the day itself."
     },
     "response": {
       "title": "Response within 24h",

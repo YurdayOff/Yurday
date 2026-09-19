@@ -378,7 +378,7 @@
     },
     "payment": {
       "title": "Nada que pagar antes de validar",
-      "text": "El pago solo se realiza una vez que usted ha validado el programa y el precio."
+      "text": "Primero valida el programa y el precio. El pago se realiza después, antes de la propia jornada."
     },
     "response": {
       "title": "Respuesta en 24h",

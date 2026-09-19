@@ -378,7 +378,7 @@
     },
     "payment": {
       "title": "Keine Zahlung vor Bestätigung",
-      "text": "Die Zahlung erfolgt erst, nachdem Sie das Programm und den Preis bestätigt haben."
+      "text": "Sie bestätigen zuerst das Programm und den Preis. Die Zahlung erfolgt danach, vor dem eigentlichen Tag."
     },
     "response": {
       "title": "Antwort innerhalb von 24h",

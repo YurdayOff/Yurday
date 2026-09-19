@@ -378,7 +378,7 @@
     },
     "payment": {
       "title": "Nulla da pagare prima della convalida",
-      "text": "Il pagamento avviene solo dopo che avrai convalidato il programma e il prezzo."
+      "text": "Convalidi prima il programma e il prezzo. Il pagamento avviene poi, prima della giornata stessa."
     },
     "response": {
       "title": "Risposta entro 24h",
