@@ -242,6 +242,20 @@ export function ContactForm({ form }: ContactFormProps) {
           <p className="form-choice-question">{form.choiceQuestion}</p>
           <div className="form-choice-btns">
             <button type="button" className="btn btn-primary" onClick={sendByWhatsapp}>
+              <svg viewBox="0 0 24 24" width="17" height="17" fill="none" aria-hidden="true">
+                <path
+                  d="M12 3.5a8.4 8.4 0 0 0-7.2 12.7L3.5 20.5l4.4-1.3A8.4 8.4 0 1 0 12 3.5z"
+                  stroke="currentColor"
+                  strokeWidth="1.4"
+                  strokeLinejoin="round"
+                />
+                <path
+                  d="M9 9.8c.2 2.7 2.5 5 5.2 5.2.7 0 .7-.9.4-1.5l-.7-1.1-1.4.5a4 4 0 0 1-2-2l.5-1.4-1.1-.7c-.6-.3-1.5-.3-1.5.4z"
+                  stroke="currentColor"
+                  strokeWidth="1.2"
+                  strokeLinejoin="round"
+                />
+              </svg>
               {form.choiceWhatsapp}
             </button>
             <button
@@ -250,6 +264,10 @@ export function ContactForm({ form }: ContactFormProps) {
               onClick={sendByEmail}
               disabled={sending}
             >
+              <svg viewBox="0 0 24 24" width="17" height="17" fill="none" aria-hidden="true">
+                <rect x="3" y="5.5" width="18" height="13" rx="2" stroke="currentColor" strokeWidth="1.4" />
+                <path d="M4 7l8 6 8-6" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round" />
+              </svg>
               {form.choiceEmail}
             </button>
           </div>
