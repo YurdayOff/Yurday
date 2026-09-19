@@ -23,7 +23,7 @@ export function Footer({ messages }: { messages: Messages }) {
         alt={site.name}
         width={500}
         height={91}
-        sizes="60px"
+        sizes="132px"
       />
       <div>{messages.footer.tagline}</div>
       <div style={{ marginTop: 8 }}>

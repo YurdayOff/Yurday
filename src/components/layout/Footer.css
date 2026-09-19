@@ -25,7 +25,7 @@ footer {
   font-size: 13px;
   border-top: 1px solid var(--line);
 }
-footer img { height: 24px; width: auto; margin: 0 auto 10px; opacity: 0.85; }
+footer img { height: 24px; width: auto; margin: 0 auto 10px; }
 @media (max-width: 640px) {
   footer { padding-bottom: 100px; }
 }
