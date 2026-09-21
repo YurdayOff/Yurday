@@ -16,4 +16,5 @@ export const moments: Moment[] = [
   { id: 'croisiere-seine', image: '/images/moment-croisiere-seine.webp' },
   { id: 'opera-chauffeur', image: '/images/moment-opera-chauffeur.webp' },
   { id: 'caleche-saint-valentin', image: '/images/moment-caleche-saint-valentin.webp' },
+  { id: 'demande-mariage-coucher-soleil', image: '/images/moment-demande-mariage-coucher-soleil.webp' },
 ]

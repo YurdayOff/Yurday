@@ -83,10 +83,8 @@
 .hero--split .trustbar { justify-content: flex-start; }
 .hero-photo {
   position: relative;
-  border-radius: 28px;
   overflow: hidden;
   aspect-ratio: 4 / 5;
-  box-shadow: 0 30px 60px rgba(7, 20, 44, 0.16);
 }
 .hero-photo img {
   width: 100%;
