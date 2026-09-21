@@ -30,7 +30,6 @@ export const reviews: Review[] = [
   { id: 16, name: "Léa R.", country: 'FR', nativeLocale: 'fr' },
   { id: 17, name: "María G.", country: 'ES', nativeLocale: 'es' },
   { id: 18, name: "Anna M.", country: 'DE', nativeLocale: 'fr' },
-  { id: 19, name: "Nicolas R.", country: 'FR', nativeLocale: 'fr' },
   { id: 20, name: "Pedro A.", country: 'PT', nativeLocale: 'pt' },
   { id: 21, name: "Aitana R.", country: 'ES', nativeLocale: 'es' },
   { id: 22, name: "Benjamin D.", country: 'FR', nativeLocale: 'fr' },
