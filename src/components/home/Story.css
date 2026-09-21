@@ -23,11 +23,11 @@
   font-weight: 500;
   border-left: 3px solid var(--blue-2);
   font-family: var(--font-body), var(--font-inter), sans-serif;
-  font-size: 17px;
-  line-height: 1.6;
+  font-size: var(--fs-17);
+  line-height: 1.1;
   color: var(--ink);
 }
-.founders-story p { margin: 0 0 18px; }
+.founders-story p { margin: 0 0 14px; }
 .founders-story p:last-child { margin-bottom: 0; }
 .founders-story p.founders-signature {
   margin-top: 22px;

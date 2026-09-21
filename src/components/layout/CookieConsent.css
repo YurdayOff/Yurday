@@ -20,7 +20,7 @@
 .cookie-text {
   flex: 1 1 320px;
   margin: 0;
-  font-size: 13.5px;
+  font-size: var(--fs-14);
   line-height: 1.5;
   color: var(--ink-soft);
 }
@@ -36,7 +36,7 @@
 }
 .cookie-btn {
   padding: 11px 20px;
-  font-size: 13.5px;
+  font-size: var(--fs-13);
   white-space: nowrap;
 }
 @media (max-width: 640px) {

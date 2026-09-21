@@ -45,8 +45,8 @@ function ReviewCard({
         </div>
       </div>
       <Perforation />
-      <div className="review-body">
-        «&nbsp;{body}&nbsp;»
+      <div className={review.nativeLocale === locale ? 'review-body' : 'review-body has-note'}>
+        <p className="review-quote">«&nbsp;{body}&nbsp;»</p>
         {review.nativeLocale === locale ? null : (
           <span className="translated-note">{messages.reviews.translatedNote}</span>
         )}

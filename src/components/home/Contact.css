@@ -9,11 +9,11 @@
   align-items: start;
 }
 .contact-side .eyebrow { color: var(--blue-2); opacity: 1; }
-.contact-side h2 { font-size: clamp(28px, 4vw, 38px); margin-bottom: 16px; line-height: 1.15; color: var(--white); }
+.contact-side h2 { font-size: var(--fs-h2); margin-bottom: 16px; line-height: 1.15; color: var(--white); }
 .contact-side p {
   font-family: var(--font-body), var(--font-inter), sans-serif;
   color: rgba(255, 255, 255, 0.82);
-  font-size: 15.5px;
+  font-size: var(--fs-16);
   margin-bottom: 26px;
 }
 .contact-note {
@@ -21,7 +21,7 @@
   background: #fff;
   border-radius: 14px;
   border: 1px solid var(--line);
-  font-size: 13.5px;
+  font-size: var(--fs-14);
   line-height: 1.6;
   color: var(--ink-soft);
 }
@@ -35,12 +35,12 @@ form.contact-form {
 .form-reassurance {
   margin: 12px 0 0;
   text-align: center;
-  font-size: 12.5px;
+  font-size: var(--fs-12);
   color: var(--ink-soft);
 }
 .form-choice-question {
   margin: 0 0 14px;
-  font-size: 14px;
+  font-size: var(--fs-14);
   font-weight: 600;
   color: var(--ink);
   text-align: center;
@@ -52,7 +52,7 @@ form.contact-form {
 .form-choice-btns .btn { flex: 1; }
 .form-choice-error {
   margin: 14px 0 0;
-  font-size: 13px;
+  font-size: var(--fs-13);
   color: var(--blue-3);
   text-align: center;
 }
@@ -62,14 +62,14 @@ form.contact-form {
   background: var(--paper-deep);
   border-radius: 14px;
   text-align: center;
-  font-size: 14.5px;
+  font-size: var(--fs-14);
   font-weight: 600;
   color: var(--sage);
 }
 .form-row { margin-bottom: 18px; }
 .form-row label {
   display: block;
-  font-size: 12.5px;
+  font-size: var(--fs-12);
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.06em;
@@ -84,8 +84,8 @@ form.contact-form {
   border-radius: 10px;
   border: 1.5px solid var(--line);
   background: var(--paper);
-  font-family: var(--font-inter), sans-serif;
-  font-size: 14.5px;
+  font-family: var(--font-inter), -apple-system, sans-serif;
+  font-size: var(--fs-14);
   color: var(--ink);
   transition: border-color 0.2s ease;
 }
@@ -102,18 +102,25 @@ form.contact-form {
 }
 .form-row input[disabled] { opacity: 0.5; cursor: not-allowed; }
 .form-row input[type="date"] {
-  -webkit-min-logical-width: 0;
   min-width: 0;
+  max-width: 100%;
+}
+/* Certains navigateurs mobiles ajoutent leur propre marge autour de l'icône
+   calendrier sans la compter dans la largeur du champ : ça le fait déborder
+   à droite. On la neutralise pour que le champ tienne dans la largeur réelle. */
+.form-row input[type="date"]::-webkit-calendar-picker-indicator {
+  margin-left: 2px;
+  padding: 0;
 }
 @media (max-width: 480px) {
-  .form-row input[type="date"] { padding-right: 6px; font-size: 13.5px; }
+  .form-row input[type="date"] { padding-left: 10px; padding-right: 4px; font-size: var(--fs-13); }
 }
 .form-row .form-checkbox {
   display: flex;
   align-items: center;
   gap: 8px;
   margin-top: 9px;
-  font-size: 13px;
+  font-size: var(--fs-13);
   font-weight: 500;
   text-transform: none;
   letter-spacing: normal;
@@ -132,7 +139,7 @@ form.contact-form {
 }
 .form-row-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
 .form-row-2 .form-row { min-width: 0; }
-form.contact-form .btn { width: 100%; justify-content: center; padding: 15px; font-size: 15.5px; margin-top: 6px; }
+form.contact-form .btn { width: 100%; justify-content: center; padding: 15px; font-size: var(--fs-15); margin-top: 6px; }
 @media (max-width: 860px) {
   .contact-wrap { grid-template-columns: 1fr; }
   .contact-side { text-align: center; }

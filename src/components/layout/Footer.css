@@ -7,11 +7,11 @@
   flex-wrap: wrap;
   justify-content: center;
   gap: 6px 18px;
-  font-size: 12.5px;
+  font-size: var(--fs-12);
   color: var(--ink-soft);
 }
 .footer-legal-link {
-  font-size: 12.5px;
+  font-size: var(--fs-12);
   color: var(--ink-soft);
   text-decoration: underline;
 }
@@ -22,7 +22,7 @@ footer {
   padding: 40px 28px;
   text-align: center;
   color: var(--ink-soft);
-  font-size: 13px;
+  font-size: var(--fs-13);
   border-top: 1px solid var(--line);
 }
 footer img { height: 24px; width: auto; margin: 0 auto 10px; }

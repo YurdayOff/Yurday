@@ -44,8 +44,8 @@ header.is-scrolled .nav { padding: 10px 28px; }
 .nav-links {
   display: flex;
   gap: 24px;
-  font-family: var(--font-inter), sans-serif;
-  font-size: 12px;
+  font-family: var(--font-inter), -apple-system, sans-serif;
+  font-size: var(--fs-12);
   font-weight: 600;
   letter-spacing: 0.07em;
   text-transform: uppercase;
@@ -56,7 +56,7 @@ header.is-scrolled .nav { padding: 10px 28px; }
 }
 .nav-links a:hover { color: var(--blue-2); }
 .nav-cta { display: flex; align-items: center; gap: 12px; flex-shrink: 0; }
-.nav-cta .btn { padding: 11px 22px; font-size: 13.5px; }
+.nav-cta .btn { padding: 11px 22px; font-size: var(--fs-13); }
 
 /* ---------- Burger : uniquement là où le menu horizontal disparaît ---------- */
 .nav-burger {
@@ -93,8 +93,8 @@ header.is-scrolled .nav { padding: 10px 28px; }
   flex-direction: column;
   padding: 6px 28px 18px;
   border-top: 1px solid var(--line);
-  font-family: var(--font-inter), sans-serif;
-  font-size: 15px;
+  font-family: var(--font-inter), -apple-system, sans-serif;
+  font-size: var(--fs-15);
   font-weight: 500;
 }
 .nav-mobile a {
