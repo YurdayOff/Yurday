@@ -24,30 +24,30 @@ export function Moments({ messages, home }: MomentsProps) {
         </div>
       </div>
 
-      <div className="container">
-        <div className="moment-chapters">
-          {momentList.map(({ id, image }) => {
-            const item = moments.items[id as keyof typeof moments.items]
-            return (
-              <Reveal className="moment-chapter" key={id}>
-                <div className="moment-chapter-photo">
-                  <Image
-                    src={image}
-                    alt={item.title}
-                    width={640}
-                    height={480}
-                    sizes="(max-width: 780px) 100vw, 540px"
-                  />
-                </div>
-                <div className="moment-chapter-text">
-                  <h3>{item.title}</h3>
-                  <p>{item.story}</p>
-                </div>
-              </Reveal>
-            )
-          })}
-        </div>
+      <div className="moment-chapters">
+        {momentList.map(({ id, image }) => {
+          const item = moments.items[id as keyof typeof moments.items]
+          return (
+            <Reveal className="moment-chapter" key={id}>
+              <div className="moment-chapter-photo">
+                <Image
+                  src={image}
+                  alt={item.title}
+                  width={720}
+                  height={540}
+                  sizes="(max-width: 780px) 100vw, 50vw"
+                />
+              </div>
+              <div className="moment-chapter-text">
+                <h3>{item.title}</h3>
+                <p>{item.story}</p>
+              </div>
+            </Reveal>
+          )
+        })}
+      </div>
 
+      <div className="container">
         <div className="moment-cta-wrap">
           <Link href={`${home}#contact`} className="btn btn-primary">
             {moments.cta}

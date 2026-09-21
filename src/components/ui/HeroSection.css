@@ -66,25 +66,36 @@
 }
 .hero-examples-link:hover { color: var(--blue-3); }
 
-/* Variante avec photo : page d'accueil uniquement. */
+/* Variante avec photo : page d'accueil uniquement.
+   La photo occupe toute la hauteur de la section (elle touche le bandeau
+   promo au-dessus et la section suivante en dessous) : c'est le texte, pas
+   la section, qui porte le padding vertical. */
+.hero.hero--split {
+  padding: 0 28px;
+}
 .hero.hero--split .hero-inner {
   display: grid;
   grid-template-columns: 1.05fr 0.95fr;
   gap: 56px;
-  align-items: center;
+  align-items: stretch;
   text-align: left;
   max-width: 1160px;
+}
+.hero.hero--split .hero-copy {
+  padding: 90px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .hero.hero--split h1 {
   margin: 0 0 20px;
   white-space: normal;
 }
-.hero--split .lede { margin: 0 auto 22px 0; }
+.hero.hero--split .lede { margin: 0 0 22px; max-width: none; }
 .hero--split .trustbar { justify-content: flex-start; }
 .hero-photo {
   position: relative;
   overflow: hidden;
-  aspect-ratio: 4 / 5;
 }
 .hero-photo img {
   width: 100%;
@@ -95,17 +106,29 @@
 }
 
 @media (max-width: 960px) {
+  .hero.hero--split {
+    padding: 0;
+  }
   .hero.hero--split .hero-inner {
     grid-template-columns: 1fr;
     text-align: center;
   }
-  .hero--split .lede { margin: 0 auto 22px; }
+  .hero.hero--split .hero-copy {
+    padding: 32px 20px 60px;
+  }
+  .hero.hero--split .lede { margin: 0 auto 22px; max-width: 480px; }
   .hero--split .trustbar { justify-content: center; }
   .hero-photo {
     order: -1;
-    aspect-ratio: 16 / 10;
-    max-width: 480px;
-    margin: 0 auto 8px;
+    aspect-ratio: 4 / 3;
+  }
+  /* La photo se fond dans le fond de page plutôt que de s'arrêter net. */
+  .hero-photo::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, transparent 55%, var(--paper) 100%);
+    pointer-events: none;
   }
   .hero-examples-link { margin-top: 0; }
 }
