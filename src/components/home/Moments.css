@@ -1,4 +1,4 @@
-/* ---------- Vraies histoires : bandeau bleu, puis chapitres plein cadre ---------- */
+/* ---------- Vraies histoires : bandeau bleu, puis grille de chapitres ---------- */
 .moments-head-band {
   background: var(--blue-2);
   padding: 45px 0 34px;
@@ -11,54 +11,52 @@
 }
 
 .moment-chapters {
-  display: flex;
-  flex-direction: column;
-  gap: 0;
-  margin: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 28px 22px;
+  margin: 48px 0 0;
 }
 .moment-chapter {
-  position: relative;
+  display: flex;
+  flex-direction: column;
+  border-radius: 18px;
   overflow: hidden;
-  aspect-ratio: 11 / 4;
+  background: var(--white);
+  box-shadow: 0 14px 34px rgba(30, 26, 22, 0.07);
 }
-.moment-chapter img { width: 100%; height: 100%; object-fit: cover; display: block; }
-.moment-chapter::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(180deg, rgba(11, 33, 73, 0) 40%, rgba(11, 33, 73, 0.85) 100%);
+.moment-chapter-photo {
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
 }
+.moment-chapter-photo img { width: 100%; height: 100%; object-fit: cover; display: block; }
 .moment-chapter-text {
-  position: absolute;
-  left: max(28px, calc((100% - 1120px) / 2 + 28px));
-  right: 32px;
-  bottom: 24px;
-  z-index: 1;
-  color: var(--white);
+  padding: 20px 22px 24px;
 }
 .moment-chapter-text h3 {
-  font-size: clamp(17px, 2vw, 22px);
+  font-size: var(--fs-18);
   line-height: 1.3;
-  margin: 0 0 6px;
-  color: var(--white);
+  margin: 0 0 8px;
+  color: var(--ink);
 }
 .moment-chapter-text p {
   font-size: var(--fs-14);
-  line-height: 1.5;
-  color: rgba(255, 255, 255, 0.88);
+  line-height: 1.55;
+  color: var(--ink-soft);
   margin: 0;
-  max-width: 560px;
+  /* Hauteur de carte homogène malgré des récits de longueurs différentes. */
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
 .moment-cta-wrap {
   display: flex;
   justify-content: center;
-  margin-top: 52px;
+  margin-top: 48px;
 }
 
-@media (max-width: 640px) {
-  .moment-chapter { aspect-ratio: 4 / 3; }
-  .moment-chapter-text { left: 20px; right: 20px; bottom: 18px; }
-  .moment-chapter-text p { font-size: var(--fs-13); }
+@media (max-width: 780px) {
+  .moment-chapters { grid-template-columns: 1fr; gap: 20px; margin-top: 36px; }
   .moment-cta-wrap { margin-top: 36px; }
 }
