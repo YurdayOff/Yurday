@@ -14,7 +14,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 0;
-  margin: 48px 0 0;
+  margin: 0;
 }
 .moment-chapter {
   display: flex;
@@ -54,6 +54,6 @@
 }
 
 @media (max-width: 780px) {
-  .moment-chapters { grid-template-columns: 1fr; margin-top: 36px; }
+  .moment-chapters { grid-template-columns: 1fr; }
   .moment-cta-wrap { margin-top: 36px; }
 }
