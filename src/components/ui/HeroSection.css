@@ -67,26 +67,28 @@
 .hero-examples-link:hover { color: var(--blue-3); }
 
 /* Variante avec photo : page d'accueil uniquement.
-   La photo occupe toute la hauteur de la section (elle touche le bandeau
-   promo au-dessus et la section suivante en dessous) : c'est le texte, pas
-   la section, qui porte le padding vertical. */
+   La photo est positionnée en absolu et calée sur les 4 bords de la section
+   (elle touche donc le bandeau promo au-dessus et la section suivante en
+   dessous) : c'est délibéré, pas une grille CSS avec stretch + hauteur en %,
+   dont le comportement diverge selon les navigateurs. Le texte, en flux
+   normal, détermine la hauteur de la section ; la photo se contente de la
+   remplir. */
 .hero.hero--split {
+  position: relative;
   padding: 0;
 }
 .hero.hero--split .hero-inner {
-  display: grid;
-  grid-template-columns: minmax(0, 620px) 1fr;
-  gap: 48px;
-  align-items: stretch;
-  text-align: left;
+  position: static;
   max-width: none;
-  margin: 0 0 0 max(28px, calc((100vw - 1120px) / 2 + 28px));
+  margin: 0;
+  text-align: left;
 }
 .hero.hero--split .hero-copy {
+  position: relative;
+  z-index: 1;
+  max-width: 620px;
+  margin-left: max(28px, calc((100vw - 1120px) / 2 + 28px));
   padding: 90px 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
 }
 .hero.hero--split h1 {
   margin: 0 0 20px;
@@ -95,7 +97,11 @@
 .hero.hero--split .lede { margin: 0 0 22px; max-width: none; }
 .hero--split .trustbar { justify-content: flex-start; }
 .hero-photo {
-  position: relative;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: calc(max(28px, calc((100vw - 1120px) / 2 + 28px)) + 620px + 48px);
   overflow: hidden;
 }
 .hero-photo img {
@@ -107,20 +113,22 @@
 }
 
 @media (max-width: 960px) {
-  .hero.hero--split {
-    padding: 0;
-  }
   .hero.hero--split .hero-inner {
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
     text-align: center;
-    margin: 0;
   }
   .hero.hero--split .hero-copy {
+    position: static;
+    max-width: none;
+    margin-left: 0;
     padding: 32px 20px 60px;
   }
   .hero.hero--split .lede { margin: 0 auto 22px; max-width: 480px; }
   .hero--split .trustbar { justify-content: center; }
   .hero-photo {
+    position: relative;
+    inset: auto;
     order: -1;
     aspect-ratio: 4 / 3;
   }
