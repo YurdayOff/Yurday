@@ -71,7 +71,7 @@
   color: #A69C8F;
   margin-top: 6px;
 }
-.review-stars { color: var(--blue-2); font-size: var(--fs-11); letter-spacing: 1px; }
+.review-stars { color: var(--gold); font-size: var(--fs-11); letter-spacing: 1px; }
 /* Bloc en flux normal (pas flex) : le clamp -webkit-box ne se combine pas
    proprement avec un parent flex, ce qui faisait chevaucher la mention "traduit". */
 .review-body {

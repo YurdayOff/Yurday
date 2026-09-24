@@ -70,6 +70,8 @@
    section en fond, un voile sombre garde le texte blanc lisible dessus. */
 .hero.hero--video {
   background: var(--blue-3);
+  /* Comble l'écart d'arrondi sous-pixel avec la section suivante. */
+  margin-bottom: -1px;
 }
 .hero.hero--video::before { display: none; }
 .hero-bg-video {
@@ -103,7 +105,7 @@
 .hero.hero--video .trustbar { border-top-color: rgba(255, 255, 255, 0.25); }
 .hero.hero--video .trust-num { color: var(--white); }
 .hero.hero--video .trust-label { color: rgba(255, 255, 255, 0.78); }
-.hero.hero--video .stars { color: var(--white); }
+.hero.hero--video .stars { color: var(--gold); }
 
 /* Variante compacte : pages occasion (titre et lede plus courts). */
 .hero--compact { padding: 80px 28px 60px; }
