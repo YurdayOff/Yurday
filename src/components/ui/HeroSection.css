@@ -66,82 +66,44 @@
 }
 .hero-examples-link:hover { color: var(--blue-3); }
 
-/* Variante avec photo : page d'accueil uniquement.
-   La photo est positionnée en absolu et calée sur les 4 bords de la section
-   (elle touche donc le bandeau promo au-dessus et la section suivante en
-   dessous) : c'est délibéré, pas une grille CSS avec stretch + hauteur en %,
-   dont le comportement diverge selon les navigateurs. Le texte, en flux
-   normal, détermine la hauteur de la section ; la photo se contente de la
-   remplir. */
-.hero.hero--split {
-  position: relative;
-  padding: 0;
+/* Variante vidéo : page d'accueil uniquement. La vidéo remplit toute la
+   section en fond, un voile sombre garde le texte blanc lisible dessus. */
+.hero.hero--video {
+  background: var(--blue-3);
 }
-.hero.hero--split .hero-inner {
-  position: static;
-  max-width: none;
-  margin: 0;
-  text-align: left;
-}
-.hero.hero--split .hero-copy {
-  position: relative;
-  z-index: 1;
-  max-width: 620px;
-  margin-left: max(28px, calc((100vw - 1120px) / 2 + 28px));
-  padding: 90px 0;
-}
-.hero.hero--split h1 {
-  margin: 0 0 20px;
-  white-space: normal;
-}
-.hero.hero--split .lede { margin: 0 0 22px; max-width: none; }
-.hero--split .trustbar { justify-content: flex-start; }
-.hero-photo {
+.hero.hero--video::before { display: none; }
+.hero-bg-video {
   position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: calc(max(28px, calc((100vw - 1120px) / 2 + 28px)) + 620px + 48px);
-  overflow: hidden;
-}
-.hero-photo img {
+  inset: 0;
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: 68% 55%;
-  display: block;
+  z-index: 0;
 }
-
-@media (max-width: 960px) {
-  .hero.hero--split .hero-inner {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-  }
-  .hero.hero--split .hero-copy {
-    position: static;
-    max-width: none;
-    margin-left: 0;
-    padding: 32px 20px 60px;
-  }
-  .hero.hero--split .lede { margin: 0 auto 22px; max-width: 480px; }
-  .hero--split .trustbar { justify-content: center; }
-  .hero-photo {
-    position: relative;
-    inset: auto;
-    order: -1;
-    aspect-ratio: 4 / 3;
-  }
-  /* La photo se fond dans le fond de page plutôt que de s'arrêter net. */
-  .hero-photo::after {
-    content: "";
-    position: absolute;
-    inset: 0;
-    background: linear-gradient(180deg, transparent 55%, var(--paper) 100%);
-    pointer-events: none;
-  }
-  .hero-examples-link { margin-top: 0; }
+.hero-video-overlay {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background: linear-gradient(
+    180deg,
+    rgba(7, 20, 44, 0.6) 0%,
+    rgba(7, 20, 44, 0.38) 40%,
+    rgba(7, 20, 44, 0.62) 100%
+  );
 }
+.hero.hero--video .hero-inner { z-index: 2; }
+.hero.hero--video h1,
+.hero.hero--video h1 em,
+.hero.hero--video p.lede,
+.hero.hero--video .hero-examples-link {
+  color: var(--white);
+}
+.hero.hero--video .hero-examples-link { text-decoration-color: rgba(255, 255, 255, 0.55); }
+.hero.hero--video .hero-examples-link:hover { color: rgba(255, 255, 255, 0.8); }
+.hero.hero--video .trustbar { border-top-color: rgba(255, 255, 255, 0.25); }
+.hero.hero--video .trust-num { color: var(--white); }
+.hero.hero--video .trust-label { color: rgba(255, 255, 255, 0.78); }
+.hero.hero--video .stars { color: var(--white); }
 
 /* Variante compacte : pages occasion (titre et lede plus courts). */
 .hero--compact { padding: 80px 28px 60px; }

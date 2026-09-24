@@ -1,4 +1,3 @@
-import Image from 'next/image'
 import type { ReactNode } from 'react'
 import './HeroSection.css'
 
@@ -6,27 +5,26 @@ type HeroSectionProps = {
   children: ReactNode
   /** Variante resserrée utilisée par les pages occasion. */
   compact?: boolean
-  /** Photo affichée à côté du texte (page d'accueil uniquement). */
-  photo?: { src: string; alt: string }
+  /** Vidéo plein cadre en fond, texte en blanc par-dessus (page d'accueil uniquement). */
+  video?: { src: string; poster: string }
 }
 
-export function HeroSection({ children, compact = false, photo }: HeroSectionProps) {
-  if (photo) {
+export function HeroSection({ children, compact = false, video }: HeroSectionProps) {
+  if (video) {
     return (
-      <section className="hero hero--split">
-        <div className="hero-inner">
-          <div className="hero-copy">{children}</div>
-          <div className="hero-photo">
-            <Image
-              src={photo.src}
-              alt={photo.alt}
-              width={720}
-              height={900}
-              sizes="(max-width: 960px) 100vw, 480px"
-              priority
-            />
-          </div>
-        </div>
+      <section className="hero hero--video">
+        <video
+          className="hero-bg-video"
+          src={video.src}
+          poster={video.poster}
+          autoPlay
+          muted
+          loop
+          playsInline
+          preload="auto"
+        />
+        <div className="hero-video-overlay" aria-hidden="true" />
+        <div className="hero-inner">{children}</div>
       </section>
     )
   }

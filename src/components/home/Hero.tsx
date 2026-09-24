@@ -7,21 +7,16 @@ type HeroProps = {
   messages: Messages
 }
 
-/**
- * Photo choisie parmi les moments clients encore inédits ailleurs sur le site
- * (voir le commentaire dans `data/moments.ts` : celles du carrousel « Vraies
- * histoires » ne sont jamais réutilisées).
- */
-const HERO_PHOTO = {
-  src: '/images/moment-pique-nique.webp',
-  alt: 'Un pique-nique au coucher du soleil face à la tour Eiffel, l’une des journées imaginées par Yurday.',
+const HERO_VIDEO = {
+  src: '/video/hero-yurday.mp4',
+  poster: '/images/hero-video-poster.webp',
 }
 
 export function Hero({ messages }: HeroProps) {
   const { hero } = messages
 
   return (
-    <HeroSection photo={HERO_PHOTO}>
+    <HeroSection video={HERO_VIDEO}>
       <h1>
         {hero.title.lead}
         <em>{hero.title.em}</em>
