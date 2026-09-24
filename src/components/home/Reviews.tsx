@@ -68,7 +68,6 @@ export function Reviews({ messages, locale }: ReviewsProps) {
       <SectionHead
         eyebrow={reviews.eyebrow}
         title={reviews.h2}
-        lede={reviews.lede}
         className="container"
       />
 

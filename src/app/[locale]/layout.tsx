@@ -88,8 +88,8 @@ export default async function LocaleLayout({ children, params }: LocaleLayoutPro
         <a href="#contenu" className="skip-link">
           {messages.a11y.skipToContent}
         </a>
-        <Header locale={locale} messages={messages} />
         <PromoBanner messages={messages} />
+        <Header locale={locale} messages={messages} />
         <main id="contenu">{children}</main>
         <Footer messages={messages} />
         <WhatsAppFloat label={messages.a11y.whatsappFloat} />
