@@ -19,6 +19,7 @@ export function Hero({ messages }: HeroProps) {
     <HeroSection video={HERO_VIDEO}>
       <h1>
         {hero.title.lead}
+        <br />
         <em>{hero.title.em}</em>
       </h1>
       <p className="lede">{hero.lede}</p>
