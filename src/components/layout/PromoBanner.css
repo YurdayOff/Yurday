@@ -47,5 +47,6 @@
 }
 @media (max-width: 640px) {
   .promo-banner .promo-banner-inner { font-size: var(--fs-11); padding: 6px 18px; gap: 5px 8px; }
+  .promo-banner .promo-banner-inner > span { display: none; }
   .promo-link { padding: 4px 11px; font-size: var(--fs-11); }
 }
