@@ -1,7 +1,5 @@
-import Image from 'next/image'
 import { Reveal } from '@/components/ui/Reveal'
 import type { Messages } from '@/i18n/messages'
-import { site } from '@/lib/site'
 import { SectionHead } from './SectionHead'
 import './Story.css'
 
@@ -16,12 +14,15 @@ export function Story({ messages }: { messages: Messages }) {
 
         <div className="histoire-wrap">
           <Reveal className="histoire-photo">
-            <Image
-              src={site.images.founders}
-              alt={site.founders.map((founder) => founder.name).join(' & ')}
-              width={640}
-              height={735}
-              sizes="(max-width: 860px) 340px, 340px"
+            <video
+              className="histoire-video"
+              src="/video/notre-histoire.mp4"
+              poster="/images/notre-histoire-poster.webp"
+              controls
+              playsInline
+              preload="none"
+              width={720}
+              height={1280}
             />
           </Reveal>
           <Reveal className="founders-story">

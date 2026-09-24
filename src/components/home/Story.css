@@ -11,10 +11,11 @@
   position: sticky;
   top: 100px;
 }
-.histoire-photo img {
+.histoire-video {
   width: 100%;
   height: auto;
   display: block;
+  background: var(--ink);
 }
 .founders-story {
   font-weight: 400;
