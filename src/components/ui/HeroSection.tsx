@@ -1,4 +1,5 @@
 import type { ReactNode } from 'react'
+import { HeroBgVideo } from './HeroBgVideo'
 import './HeroSection.css'
 
 type HeroSectionProps = {
@@ -13,16 +14,7 @@ export function HeroSection({ children, compact = false, video }: HeroSectionPro
   if (video) {
     return (
       <section className="hero hero--video">
-        <video
-          className="hero-bg-video"
-          src={video.src}
-          poster={video.poster}
-          autoPlay
-          muted
-          loop
-          playsInline
-          preload="auto"
-        />
+        <HeroBgVideo src={video.src} poster={video.poster} />
         <div className="hero-video-overlay" aria-hidden="true" />
         <div className="hero-inner">{children}</div>
       </section>
