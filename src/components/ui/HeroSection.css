@@ -70,6 +70,12 @@
    section en fond, un voile sombre garde le texte blanc lisible dessus. */
 .hero.hero--video {
   background: var(--blue-3);
+  /* Remplit l'écran à l'arrivée : la vidéo domine, la section suivante
+     ne doit pas être visible sans scroller. */
+  min-height: 100vh;
+  min-height: 100svh;
+  display: flex;
+  align-items: center;
   /* Comble l'écart d'arrondi sous-pixel avec la section suivante. */
   margin-bottom: -1px;
 }
