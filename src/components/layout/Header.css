@@ -124,6 +124,13 @@ header .btn-primary:hover {
 }
 .nav-mobile a:last-child { border-bottom: none; }
 .nav-mobile a:hover { color: var(--white); }
+/* Le bouton garde ses propres couleurs (fond blanc, texte marine),
+   malgré la règle de couleur générique des liens ci-dessus. */
+header .nav-mobile a.btn-primary,
+header .nav-mobile a.btn-primary:visited {
+  color: var(--blue-3);
+  border-bottom: none;
+}
 
 @media (max-width: 1180px) {
   .nav-links { display: none; }

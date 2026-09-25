@@ -9,9 +9,12 @@ export function Story({ messages }: { messages: Messages }) {
 
   return (
     <section id="notre-histoire">
+      <div className="histoire-head-band">
+        <div className="container">
+          <SectionHead eyebrow={story.eyebrow} title={story.h2} />
+        </div>
+      </div>
       <div className="container">
-        <SectionHead eyebrow={story.eyebrow} title={story.h2} />
-
         <div className="histoire-wrap">
           <Reveal className="histoire-photo">
             <video
