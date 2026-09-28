@@ -22,6 +22,17 @@ export const site = {
     logo: '/images/yurday-logo.webp',
     founders: '/images/fondateurs-leo-luca.webp',
   },
+  /** Identité légale de la société, telle qu'immatriculée au RCS de Paris. */
+  legal: {
+    form: 'Société à responsabilité limitée (SARL)',
+    capital: '2 000 €',
+    address: '25 Rue de Ponthieu, 75008 Paris',
+    rcs: 'Paris',
+    siren: '130 604 531',
+    siret: '130 604 531 00017',
+    apeCode: '8230Z',
+    director: 'Léo Magnier',
+  },
   /**
    * Formulaire : les champs sont postés vers un formulaire statique détecté par
    * Netlify Forms (cf. public/__forms.html). À remplacer par une route API si

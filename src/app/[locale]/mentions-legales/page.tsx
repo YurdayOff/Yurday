@@ -17,17 +17,20 @@ export default async function MentionsLegalesPage() {
   const messages = await getMessages(defaultLocale)
 
   return (
-    <LegalPage title={TITLE} updated="18 septembre 2026" current="mentions" messages={messages}>
+    <LegalPage title={TITLE} updated="28 septembre 2026" current="mentions" messages={messages}>
       <h2>Éditeur du site</h2>
       <p>
-        {site.name}, société à responsabilité limitée (SARL) au capital social de 2 000 €.
+        {site.name}, {site.legal.form} au capital social de {site.legal.capital}.
         <br />
-        Siège social : 25 Rue de Ponthieu, 75008 Paris.
+        Siège social : {site.legal.address}.
         <br />
-        SIRET : en cours d&rsquo;attribution (société en cours d&rsquo;immatriculation au RCS de
-        Paris).
+        RCS {site.legal.rcs} : {site.legal.siren}.
         <br />
-        Directeur de la publication : Léo Magnier.
+        SIRET : {site.legal.siret}.
+        <br />
+        Code APE/NAF : {site.legal.apeCode}.
+        <br />
+        Directeur de la publication : {site.legal.director}.
         <br />
         Contact : <a href={`mailto:${site.email}`}>{site.email}</a>
       </p>

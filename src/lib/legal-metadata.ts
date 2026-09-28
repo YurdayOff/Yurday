@@ -4,9 +4,9 @@ import { absoluteUrl } from './seo'
 import { site } from './site'
 
 /**
- * Les pages légales n'existent qu'en français et contiennent encore des champs
- * à compléter (raison sociale, SIRET, hébergeur…). Elles sont donc explicitement
- * exclues de l'index : à retirer dès que le contenu est validé.
+ * Les pages légales n'existent qu'en français et les CGV contiennent encore un
+ * champ à compléter (médiateur de la consommation). Elles sont donc
+ * explicitement exclues de l'index : à retirer dès que le contenu est validé.
  */
 export function legalMetadata(title: string, path: string): Metadata {
   return {
