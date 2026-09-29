@@ -150,5 +150,6 @@ form.contact-form .btn { width: 100%; justify-content: center; padding: 15px; fo
 }
 @media (max-width: 480px) {
   form.contact-form { padding: 24px 20px; }
+  .form-choice-btns { flex-direction: column; }
 }
 .contact-note a { color: var(--blue-3); font-weight: 600; text-decoration: underline; }

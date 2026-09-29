@@ -10,6 +10,7 @@ export const site = {
     url: 'https://wa.me/33743703902',
     displayNumber: '+33 7 43 70 39 02',
   },
+  calendly: { url: 'https://calendly.com/contact-yurday/30min' },
   /** Zone d'intervention actuelle (cf. FAQ). */
   areaServed: { city: 'Paris', region: 'Île-de-France', country: 'FR' },
   reviews: { average: 4.9, count: 100, googleUrl: 'https://g.page/r/CYU7fw3MGPI5EBM/review' },

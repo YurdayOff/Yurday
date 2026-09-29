@@ -270,12 +270,14 @@
       "message": "アイデアについて一言（任意）",
       "submit": "プロジェクトを送信",
       "reassurance": "24時間以内にご返信、ご契約の義務はありません。",
-      "choiceQuestion": "どちらの方法でお送りしますか？",
+      "choiceQuestion": "どちらの方法でご連絡しますか？",
       "choiceWhatsapp": "WhatsAppで",
       "choiceEmail": "メールで",
+      "choiceCall": "通話を予約する",
       "choiceError": "上記の「メールアドレス」欄に有効なメールアドレスをご入力ください。",
       "success": "ありがとうございます。ご依頼を送信いたしました。速やかにご連絡いたします。",
       "successWhatsapp": "ありがとうございます。WhatsAppメッセージの送信準備が整いました。",
+      "successCall": "ありがとうございます。ご依頼を送信しました。新しく開いたタブで日時をお選びください。",
       "sendError": "送信できませんでした。直接ご連絡いただけます："
     }
   },

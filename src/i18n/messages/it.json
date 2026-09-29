@@ -270,12 +270,14 @@
       "message": "Qualche parola sulla tua idea (opzionale)",
       "submit": "Invia il mio progetto",
       "reassurance": "Risposta entro 24h, nessun impegno.",
-      "choiceQuestion": "Come preferite inviarcelo?",
+      "choiceQuestion": "Come preferite entrare in contatto con noi?",
       "choiceWhatsapp": "Su WhatsApp",
       "choiceEmail": "Via email",
+      "choiceCall": "Prenota una chiamata",
       "choiceError": "Inserite un indirizzo email valido nel campo «Email» qui sopra.",
       "success": "Grazie, la sua richiesta è stata inviata. La ricontatteremo con sollecitudine.",
       "successWhatsapp": "Grazie, il suo messaggio WhatsApp è pronto per essere inviato.",
+      "successCall": "Grazie, la tua richiesta è stata inviata. Scegli un orario nella scheda appena aperta.",
       "sendError": "L'invio non è andato a buon fine. Potete contattarci direttamente:"
     }
   },

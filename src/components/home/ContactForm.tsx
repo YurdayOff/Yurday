@@ -74,6 +74,17 @@ export function ContactForm({ form }: ContactFormProps) {
     setStep('sent')
   }
 
+  // Netlify attend les champs du formulaire encodés comme un envoi HTML classique,
+  // accompagnés du nom du formulaire.
+  const submitToNetlify = () => {
+    const body = new URLSearchParams({ 'form-name': site.form.name, ...values })
+    return fetch(site.form.endpoint, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+      body: body.toString(),
+    })
+  }
+
   const sendByEmail = async () => {
     if (!EMAIL_PATTERN.test(values.email.trim())) {
       setEmailError(true)
@@ -83,15 +94,8 @@ export function ContactForm({ form }: ContactFormProps) {
     setSendFailed(false)
     setSending(true)
 
-    // Netlify attend les champs du formulaire encodés comme un envoi HTML classique,
-    // accompagnés du nom du formulaire.
-    const body = new URLSearchParams({ 'form-name': site.form.name, ...values })
     try {
-      const response = await fetch(site.form.endpoint, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-        body: body.toString(),
-      })
+      const response = await submitToNetlify()
       if (!response.ok) throw new Error(`Envoi refusé (${response.status})`)
     } catch {
       // Échec réseau ou formulaire non détecté : on le dit, et on laisse
@@ -103,6 +107,21 @@ export function ContactForm({ form }: ContactFormProps) {
 
     setSending(false)
     setSuccessText(form.success)
+    setStep('sent')
+  }
+
+  const sendByCall = async () => {
+    // Best-effort : l'équipe a le contexte du projet avant l'appel, mais un
+    // échec réseau ne doit pas empêcher d'ouvrir la prise de rendez-vous.
+    try {
+      await submitToNetlify()
+    } catch {
+      // Ignoré volontairement : voir commentaire ci-dessus.
+    }
+
+    const params = new URLSearchParams({ name: values.nom, email: values.email })
+    window.open(`${site.calendly.url}?${params}`, '_blank', 'noopener')
+    setSuccessText(form.successCall)
     setStep('sent')
   }
 
@@ -269,6 +288,14 @@ export function ContactForm({ form }: ContactFormProps) {
                 <path d="M4 7l8 6 8-6" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round" />
               </svg>
               {form.choiceEmail}
+            </button>
+            <button type="button" className="btn btn-ghost" onClick={sendByCall}>
+              <svg viewBox="0 0 24 24" width="17" height="17" fill="none" aria-hidden="true">
+                <rect x="3.5" y="4.5" width="17" height="16" rx="2" stroke="currentColor" strokeWidth="1.4" />
+                <path d="M3.5 9h17" stroke="currentColor" strokeWidth="1.4" />
+                <path d="M8 3v3M16 3v3" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" />
+              </svg>
+              {form.choiceCall}
             </button>
           </div>
           {emailError ? <p className="form-choice-error">{form.choiceError}</p> : null}

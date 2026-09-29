@@ -270,12 +270,14 @@
       "message": "Un mot sur votre idée (optionnel)",
       "submit": "Envoyer mon projet",
       "reassurance": "Réponse sous 24h, aucun engagement.",
-      "choiceQuestion": "Comment préférez-vous nous l'envoyer ?",
+      "choiceQuestion": "Comment préférez-vous échanger avec nous ?",
       "choiceWhatsapp": "Par WhatsApp",
       "choiceEmail": "Par email",
+      "choiceCall": "Réserver un appel",
       "choiceError": "Merci d'indiquer une adresse email valide dans le champ « Email » ci-dessus.",
       "success": "Merci, votre demande a bien été envoyée. Nous revenons vers vous rapidement.",
       "successWhatsapp": "Merci, votre message WhatsApp est prêt à être envoyé.",
+      "successCall": "Merci, votre demande a bien été envoyée. Choisissez votre créneau dans l'onglet qui vient de s'ouvrir.",
       "sendError": "L'envoi n'a pas abouti. Vous pouvez nous écrire directement :"
     }
   },

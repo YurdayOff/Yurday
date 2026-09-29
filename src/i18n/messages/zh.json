@@ -273,9 +273,11 @@
       "choiceQuestion": "您希望通过哪种方式联系我们？",
       "choiceWhatsapp": "通过WhatsApp",
       "choiceEmail": "通过邮件",
+      "choiceCall": "预约通话",
       "choiceError": "请在上方“邮箱”栏中填写有效的邮箱地址。",
       "success": "感谢您，您的请求已发送。我们会尽快与您联系。",
       "successWhatsapp": "感谢您，您的WhatsApp消息已准备好发送。",
+      "successCall": "感谢您，您的请求已发送。请在刚打开的新标签页中选择时间。",
       "sendError": "发送未成功。您可以直接联系我们："
     }
   },
