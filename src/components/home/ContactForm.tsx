@@ -183,7 +183,6 @@ export function ContactForm({ form }: ContactFormProps) {
           id="f-email"
           name="email"
           autoComplete="email"
-          required
           value={values.email}
           onChange={update('email')}
         />
@@ -196,7 +195,6 @@ export function ContactForm({ form }: ContactFormProps) {
           id="f-pour-qui"
           name="pourQui"
           placeholder={form.forWhoPlaceholder}
-          required
           value={values.pourQui}
           onChange={update('pourQui')}
         />

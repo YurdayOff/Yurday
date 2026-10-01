@@ -53,7 +53,7 @@
       "lead": "Regálale un día ",
       "em": "que se le parezca"
     },
-    "lede": "Imaginamos y organizamos días completamente a medida, pensados hasta el último detalle para la persona que te importa. Desde la primera idea hasta el día en sí, nos encargamos de todo.",
+    "lede": "Imaginamos y organizamos, en París y la región de Île-de-France, días completamente a medida, pensados hasta el último detalle para la persona que te importa. Desde la primera idea hasta el día en sí, nos encargamos de todo.",
     "examplesLink": "Ver ejemplos de días"
   },
   "trust": {
@@ -251,8 +251,8 @@
     "form": {
       "name": "Tu nombre",
       "phone": "Teléfono",
-      "email": "Email",
-      "forWho": "¿Para quién es este día?",
+      "email": "Email (opcional)",
+      "forWho": "¿Para quién es este día? (opcional)",
       "forWhoPlaceholder": "Ej. mi pareja, mi hermana, todo el equipo…",
       "date": "Fecha prevista",
       "dateUnknown": "Aún no lo sé",
@@ -314,7 +314,7 @@
       "story": "Yurday nació precisamente de un cumpleaños: las ganas de hacer las cosas bien por alguien a quien queremos, sin conformarnos con un regalo que se abre en diez segundos. Desde entonces, aplicamos el mismo método a cada cumpleaños que nos confían: partimos de la persona, nunca de un catálogo.",
       "cta": {
         "title": "¿Listos para escribir su historia?",
-        "text": "Cuéntanos a quién quieres consentir, y te responderemos con las primeras ideas en menos de 48 horas."
+        "text": "Cuéntanos a quién quieres consentir, y te responderemos con las primeras ideas en menos de 24 horas."
       }
     },
     "demande-en-mariage": {
@@ -328,7 +328,7 @@
       "story": "Una petición de mano no se repite dos veces. Por eso nos tomamos el tiempo de construirlo todo contigo, desde el primer mensaje hasta el gran día: el lugar, el horario, la puesta en escena, y todos los pequeños detalles que harán que ese momento sea exactamente como lo imaginaste.",
       "cta": {
         "title": "¿Listos para crear ese momento?",
-        "text": "Cuéntanos tu historia y cómo la imaginas, te responderemos con las primeras ideas en menos de 48 horas."
+        "text": "Cuéntanos tu historia y cómo la imaginas, te responderemos con las primeras ideas en menos de 24 horas."
       }
     },
     "saint-valentin": {
@@ -342,7 +342,7 @@
       "story": "San Valentín suele caer en los mismos rituales: un restaurante, flores, un poco de prisa de última hora. Preferimos partir de a quién quieres y de lo que realmente le importa, para construir un momento que salga de verdad de lo común, en pareja.",
       "cta": {
         "title": "¿Listos para salir de lo convencional?",
-        "text": "Cuéntanos a quién quieres sorprender, te responderemos con las primeras ideas en menos de 48 horas."
+        "text": "Cuéntanos a quién quieres sorprender, te responderemos con las primeras ideas en menos de 24 horas."
       }
     },
     "evg-evjf": {
@@ -356,7 +356,7 @@
       "story": "Una despedida de soltero/a exitosa es un grupo que disfruta de principio a fin, sin que nadie tenga que gestionar reservas ni horarios. Nos encargamos de toda la coordinación con la pandilla, para que lo único que tengas que hacer sea divertirte.",
       "cta": {
         "title": "¿Listos para organizar EL día?",
-        "text": "Cuéntanos a quién quieres celebrar y con quién, te responderemos con las primeras ideas en menos de 48 horas."
+        "text": "Cuéntanos a quién quieres celebrar y con quién, te responderemos con las primeras ideas en menos de 24 horas."
       }
     },
     "fete-des-meres": {
@@ -370,12 +370,13 @@
       "story": "Sabemos lo difícil que puede ser encontrar la idea justa para agradecer a tu mamá, más allá de unas flores compradas la víspera en el supermercado. Cuéntanos quién es, qué le gusta, y construiremos a su alrededor un día que se parezca de verdad a ella.",
       "cta": {
         "title": "¿Listos para agradecerle de otra manera?",
-        "text": "Cuéntanos cómo es tu mamá, te responderemos con las primeras ideas en menos de 48 horas."
+        "text": "Cuéntanos cómo es tu mamá, te responderemos con las primeras ideas en menos de 24 horas."
       }
     }
   },
   "shared": {
     "ctaWhatsapp": "Hablar por WhatsApp",
+    "whatsappMessage": "Hola, me gustaría organizar un día para…",
     "ctaEmail": "Contarnos por escrito"
   },
   "trustPillars": {

@@ -53,7 +53,7 @@
       "lead": "Offrez-lui une journée ",
       "em": "qui lui ressemble"
     },
-    "lede": "Nous imaginons et organisons des journées entièrement sur mesure, pensées dans les moindres détails pour la personne qui compte pour vous. De la première idée jusqu'au jour J, nous nous occupons de tout.",
+    "lede": "Nous imaginons et organisons, à Paris et en Île-de-France, des journées entièrement sur mesure, pensées dans les moindres détails pour la personne qui compte pour vous. De la première idée jusqu'au jour J, nous nous occupons de tout.",
     "examplesLink": "Voir des exemples de journées"
   },
   "trust": {
@@ -251,8 +251,8 @@
     "form": {
       "name": "Votre nom",
       "phone": "Téléphone",
-      "email": "Email",
-      "forWho": "Pour qui est cette journée ?",
+      "email": "Email (optionnel)",
+      "forWho": "Pour qui est cette journée ? (optionnel)",
       "forWhoPlaceholder": "Ex. mon compagnon, ma sœur, toute l'équipe…",
       "date": "Date envisagée",
       "dateUnknown": "Je ne sais pas encore",
@@ -314,7 +314,7 @@
       "story": "Yurday est né d'un anniversaire, justement : une envie de faire les choses bien pour quelqu'un qu'on aime, sans se contenter d'un cadeau ouvert en dix secondes. Depuis, on applique la même méthode à chaque anniversaire qu'on nous confie : on part de la personne, jamais d'un catalogue.",
       "cta": {
         "title": "Prêt à lui écrire son histoire ?",
-        "text": "Racontez-nous qui vous voulez gâter, on revient vers vous avec les premières idées sous 48h."
+        "text": "Racontez-nous qui vous voulez gâter, on revient vers vous avec les premières idées sous 24h."
       }
     },
     "demande-en-mariage": {
@@ -328,7 +328,7 @@
       "story": "Une demande en mariage ne se refait pas deux fois. C'est pour ça qu'on prend le temps de tout construire avec vous, du premier message jusqu'au jour J : le lieu, l'horaire, la mise en scène, et tous les petits détails qui feront que ce moment sera exactement celui que vous aviez imaginé.",
       "cta": {
         "title": "Prêt à créer ce moment ?",
-        "text": "Racontez-nous votre histoire et comment vous l'imaginez, on revient vers vous avec les premières idées sous 48h."
+        "text": "Racontez-nous votre histoire et comment vous l'imaginez, on revient vers vous avec les premières idées sous 24h."
       }
     },
     "saint-valentin": {
@@ -342,7 +342,7 @@
       "story": "La Saint-Valentin tombe souvent dans les mêmes rituels : un restaurant, des fleurs, un peu de précipitation. On préfère partir de qui vous aimez et de ce qui compte vraiment pour elle ou lui, pour construire un moment qui sort vraiment de l'ordinaire, à deux.",
       "cta": {
         "title": "Prêt à sortir des sentiers battus ?",
-        "text": "Racontez-nous qui vous voulez surprendre, on revient vers vous avec les premières idées sous 48h."
+        "text": "Racontez-nous qui vous voulez surprendre, on revient vers vous avec les premières idées sous 24h."
       }
     },
     "evg-evjf": {
@@ -356,7 +356,7 @@
       "story": "Un EVG ou un EVJF réussi, c'est un groupe qui profite du début à la fin, sans que personne n'ait à gérer les réservations ou le planning. On s'occupe de toute la coordination avec la bande, pour que la seule chose que vous ayez à faire, ce soit de vous amuser.",
       "cta": {
         "title": "Prêt à organiser LA journée ?",
-        "text": "Racontez-nous qui vous voulez célébrer et avec qui, on revient vers vous avec les premières idées sous 48h."
+        "text": "Racontez-nous qui vous voulez célébrer et avec qui, on revient vers vous avec les premières idées sous 24h."
       }
     },
     "fete-des-meres": {
@@ -370,12 +370,13 @@
       "story": "On sait à quel point il peut être difficile de trouver l'idée juste pour dire merci à sa maman, autrement qu'avec des fleurs prises la veille au supermarché. Racontez-nous qui elle est, ce qu'elle aime, et on construit autour d'elle une journée qui lui ressemble vraiment.",
       "cta": {
         "title": "Prêt à lui dire merci autrement ?",
-        "text": "Racontez-nous qui est votre maman, on revient vers vous avec les premières idées sous 48h."
+        "text": "Racontez-nous qui est votre maman, on revient vers vous avec les premières idées sous 24h."
       }
     }
   },
   "shared": {
     "ctaWhatsapp": "Discuter sur WhatsApp",
+    "whatsappMessage": "Bonjour, je souhaite organiser une journée pour…",
     "ctaEmail": "Raconter mon projet par écrit"
   },
   "trustPillars": {

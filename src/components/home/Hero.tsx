@@ -23,6 +23,11 @@ export function Hero({ messages }: HeroProps) {
         <em>{hero.title.em}</em>
       </h1>
       <p className="lede">{hero.lede}</p>
+      <div className="hero-actions">
+        <Link href="#contact" className="btn btn-primary">
+          {messages.nav.cta}
+        </Link>
+      </div>
       <Link href="#moments" className="hero-examples-link">
         {hero.examplesLink}
       </Link>

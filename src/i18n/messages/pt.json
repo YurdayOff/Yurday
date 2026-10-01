@@ -53,7 +53,7 @@
       "lead": "Ofereça a ela um dia ",
       "em": "que combine com ela"
     },
-    "lede": "Imaginamos e organizamos dias inteiramente sob medida, pensados até o último detalhe para a pessoa que importa para você. Da primeira ideia até o próprio dia, cuidamos de tudo.",
+    "lede": "Imaginamos e organizamos, em Paris e na região de Île-de-France, dias inteiramente sob medida, pensados até o último detalhe para a pessoa que importa para você. Da primeira ideia até o próprio dia, cuidamos de tudo.",
     "examplesLink": "Ver exemplos de dias"
   },
   "trust": {
@@ -251,8 +251,8 @@
     "form": {
       "name": "Seu nome",
       "phone": "Telefone",
-      "email": "Email",
-      "forWho": "Para quem é esse dia?",
+      "email": "Email (opcional)",
+      "forWho": "Para quem é esse dia? (opcional)",
       "forWhoPlaceholder": "Ex. meu parceiro, minha irmã, toda a equipe…",
       "date": "Data prevista",
       "dateUnknown": "Ainda não sei",
@@ -314,7 +314,7 @@
       "story": "A Yurday nasceu justamente de um aniversário: a vontade de fazer as coisas direito por alguém que amamos, sem se contentar com um presente aberto em dez segundos. Desde então, aplicamos o mesmo método a cada aniversário que nos é confiado: partimos da pessoa, nunca de um catálogo.",
       "cta": {
         "title": "Pronto para escrever a história dele(a)?",
-        "text": "Conte-nos quem você quer mimar, retornaremos com as primeiras ideias em até 48h."
+        "text": "Conte-nos quem você quer mimar, retornaremos com as primeiras ideias em até 24h."
       }
     },
     "demande-en-mariage": {
@@ -328,7 +328,7 @@
       "story": "Um pedido de casamento não se refaz duas vezes. Por isso dedicamos tempo para construir tudo com você, desde a primeira mensagem até o grande dia: o local, o horário, a encenação, e todos os pequenos detalhes que farão desse momento exatamente o que você imaginou.",
       "cta": {
         "title": "Pronto para criar esse momento?",
-        "text": "Conte-nos sua história e como você a imagina, retornaremos com as primeiras ideias em até 48h."
+        "text": "Conte-nos sua história e como você a imagina, retornaremos com as primeiras ideias em até 24h."
       }
     },
     "saint-valentin": {
@@ -342,7 +342,7 @@
       "story": "O Dia dos Namorados costuma cair nos mesmos rituais: um restaurante, flores, um pouco de pressa de última hora. Preferimos partir de quem você ama e do que realmente importa para essa pessoa, para construir um momento que realmente fuja do comum, a dois.",
       "cta": {
         "title": "Prontos para fugir do óbvio?",
-        "text": "Conte-nos quem você quer surpreender, retornaremos com as primeiras ideias em até 48h."
+        "text": "Conte-nos quem você quer surpreender, retornaremos com as primeiras ideias em até 24h."
       }
     },
     "evg-evjf": {
@@ -356,7 +356,7 @@
       "story": "Uma despedida de solteiro(a) bem-sucedida é um grupo que aproveita do início ao fim, sem que ninguém precise gerenciar reservas ou horários. Cuidamos de toda a coordenação com a turma, para que a única coisa que você precise fazer seja se divertir.",
       "cta": {
         "title": "Pronto para organizar O dia?",
-        "text": "Conte-nos quem você quer celebrar e com quem, retornaremos com as primeiras ideias em até 48h."
+        "text": "Conte-nos quem você quer celebrar e com quem, retornaremos com as primeiras ideias em até 24h."
       }
     },
     "fete-des-meres": {
@@ -370,12 +370,13 @@
       "story": "Sabemos como pode ser difícil encontrar a ideia certa para agradecer à sua mãe, além de flores compradas de véspera no supermercado. Conte-nos quem ela é, o que ela ama, e construiremos ao redor dela um dia que combine de verdade com ela.",
       "cta": {
         "title": "Pronto para agradecer de outra forma?",
-        "text": "Conte-nos sobre sua mãe, retornaremos com as primeiras ideias em até 48h."
+        "text": "Conte-nos sobre sua mãe, retornaremos com as primeiras ideias em até 24h."
       }
     }
   },
   "shared": {
     "ctaWhatsapp": "Conversar no WhatsApp",
+    "whatsappMessage": "Olá, gostaria de organizar um dia para…",
     "ctaEmail": "Contar por escrito"
   },
   "trustPillars": {

@@ -53,7 +53,7 @@
       "lead": "Give them a day ",
       "em": "that feels like them"
     },
-    "lede": "We imagine and organise entirely bespoke days, thought through to the smallest detail for the person who matters to you. From the first idea to the day itself, we take care of everything.",
+    "lede": "We imagine and organise entirely bespoke days in Paris and the Île-de-France region, thought through to the smallest detail for the person who matters to you. From the first idea to the day itself, we take care of everything.",
     "examplesLink": "See example days"
   },
   "trust": {
@@ -251,8 +251,8 @@
     "form": {
       "name": "Your name",
       "phone": "Phone number",
-      "email": "Email",
-      "forWho": "Who is this day for?",
+      "email": "Email (optional)",
+      "forWho": "Who is this day for? (optional)",
       "forWhoPlaceholder": "E.g. my partner, my sister, the whole team…",
       "date": "Planned date",
       "dateUnknown": "Not sure yet",
@@ -314,7 +314,7 @@
       "story": "Yurday was actually born from a birthday: a wish to do things properly for someone we love, rather than settling for a gift unwrapped in ten seconds. Since then, we apply the same method to every birthday entrusted to us: we start from the person, never from a catalogue.",
       "cta": {
         "title": "Ready to write their story?",
-        "text": "Tell us who you want to spoil, and we'll get back to you with the first ideas within 48 hours."
+        "text": "Tell us who you want to spoil, and we'll get back to you with the first ideas within 24 hours."
       }
     },
     "demande-en-mariage": {
@@ -328,7 +328,7 @@
       "story": "A marriage proposal only happens once. That's why we take the time to build everything with you, from the first message to the big day: the location, the timing, the staging, and all the little details that will make this moment exactly the one you imagined.",
       "cta": {
         "title": "Ready to create this moment?",
-        "text": "Tell us your story and how you picture it, and we'll get back to you with the first ideas within 48 hours."
+        "text": "Tell us your story and how you picture it, and we'll get back to you with the first ideas within 24 hours."
       }
     },
     "saint-valentin": {
@@ -342,7 +342,7 @@
       "story": "Valentine's Day often falls into the same rituals: a restaurant, flowers, a bit of last-minute rush. We'd rather start from who you love and what truly matters to them, to build a moment that's genuinely out of the ordinary, just for the two of you.",
       "cta": {
         "title": "Ready to go off the beaten path?",
-        "text": "Tell us who you'd like to surprise, and we'll get back to you with the first ideas within 48 hours."
+        "text": "Tell us who you'd like to surprise, and we'll get back to you with the first ideas within 24 hours."
       }
     },
     "evg-evjf": {
@@ -356,7 +356,7 @@
       "story": "A great bachelor or bachelorette party means a group that enjoys itself from start to finish, with no one having to manage bookings or scheduling. We take care of all the coordination with the crew, so the only thing you have to do is have fun.",
       "cta": {
         "title": "Ready to organise THE day?",
-        "text": "Tell us who you want to celebrate and with whom, and we'll get back to you with the first ideas within 48 hours."
+        "text": "Tell us who you want to celebrate and with whom, and we'll get back to you with the first ideas within 24 hours."
       }
     },
     "fete-des-meres": {
@@ -370,12 +370,13 @@
       "story": "We know how hard it can be to find the right way to thank your mum, beyond flowers grabbed at the supermarket the night before. Tell us who she is and what she loves, and we'll build a day around her that truly feels like her.",
       "cta": {
         "title": "Ready to thank her differently?",
-        "text": "Tell us about your mum, and we'll get back to you with the first ideas within 48 hours."
+        "text": "Tell us about your mum, and we'll get back to you with the first ideas within 24 hours."
       }
     }
   },
   "shared": {
     "ctaWhatsapp": "Chat on WhatsApp",
+    "whatsappMessage": "Hello, I'd like to organise a day for…",
     "ctaEmail": "Tell us in writing"
   },
   "trustPillars": {

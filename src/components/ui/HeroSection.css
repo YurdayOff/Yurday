@@ -108,6 +108,15 @@
 }
 .hero.hero--video .hero-examples-link { text-decoration-color: rgba(255, 255, 255, 0.55); }
 .hero.hero--video .hero-examples-link:hover { color: rgba(255, 255, 255, 0.8); }
+.hero.hero--video .btn-primary {
+  background: var(--white);
+  border-color: var(--white);
+  color: var(--blue-3);
+}
+.hero.hero--video .btn-primary:hover {
+  background: rgba(255, 255, 255, 0.85);
+  border-color: rgba(255, 255, 255, 0.85);
+}
 .hero.hero--video .trustbar { border-top-color: rgba(255, 255, 255, 0.25); }
 .hero.hero--video .trust-num { color: var(--white); }
 .hero.hero--video .trust-label { color: rgba(255, 255, 255, 0.78); }

@@ -49,3 +49,8 @@ export const site = {
 export const foundersById = Object.fromEntries(
   site.founders.map((founder) => [founder.id, founder]),
 ) as Record<(typeof site.founders)[number]['id'], (typeof site.founders)[number]>
+
+/** Lien WhatsApp avec un message pré-rempli. */
+export function whatsappLink(message: string): string {
+  return `${site.whatsapp.url}?text=${encodeURIComponent(message)}`
+}

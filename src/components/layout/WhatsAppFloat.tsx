@@ -1,13 +1,13 @@
 import { WhatsAppIcon } from '@/components/ui/WhatsAppIcon'
-import { site } from '@/lib/site'
+import { whatsappLink } from '@/lib/site'
 import './WhatsAppFloat.css'
 
 /** Bouton d'appel permanent, en bas de l'écran. */
-export function WhatsAppFloat({ label }: { label: string }) {
+export function WhatsAppFloat({ label, message }: { label: string; message: string }) {
   return (
     <a
       className="wa-float"
-      href={site.whatsapp.url}
+      href={whatsappLink(message)}
       target="_blank"
       rel="noopener"
       aria-label={label}

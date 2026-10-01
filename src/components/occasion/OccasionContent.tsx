@@ -4,7 +4,7 @@ import { WhatsAppIcon } from '@/components/ui/WhatsAppIcon'
 import { localePath, type Locale } from '@/i18n/config'
 import type { Messages } from '@/i18n/messages'
 import { occasionKeys, occasionPath, type OccasionKey } from '@/lib/occasions'
-import { site } from '@/lib/site'
+import { whatsappLink } from '@/lib/site'
 import './OccasionPage.css'
 
 type OccasionContentProps = {
@@ -16,7 +16,12 @@ type OccasionContentProps = {
 function ContactActions({ messages, locale }: { messages: Messages; locale: Locale }) {
   return (
     <div className="occasion-actions">
-      <a href={site.whatsapp.url} target="_blank" rel="noopener" className="btn btn-primary">
+      <a
+        href={whatsappLink(messages.shared.whatsappMessage)}
+        target="_blank"
+        rel="noopener"
+        className="btn btn-primary"
+      >
         <WhatsAppIcon size={18} />
         {messages.shared.ctaWhatsapp}
       </a>

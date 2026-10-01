@@ -92,7 +92,10 @@ export default async function LocaleLayout({ children, params }: LocaleLayoutPro
         <Header locale={locale} messages={messages} />
         <main id="contenu">{children}</main>
         <Footer messages={messages} />
-        <WhatsAppFloat label={messages.a11y.whatsappFloat} />
+        <WhatsAppFloat
+          label={messages.a11y.whatsappFloat}
+          message={messages.shared.whatsappMessage}
+        />
         <EngagementPopup messages={messages} contactHref={`${home}#contact`} />
         <CookieConsent messages={messages} />
       </body>

@@ -53,7 +53,7 @@
       "lead": "Schenken Sie einen Tag ",
       "em": "der wirklich passt"
     },
-    "lede": "Wir entwerfen und organisieren vollständig maßgeschneiderte Tage, bis ins kleinste Detail durchdacht für die Person, die Ihnen wichtig ist. Von der ersten Idee bis zum Tag selbst kümmern wir uns um alles.",
+    "lede": "Wir entwerfen und organisieren in Paris und der Île-de-France vollständig maßgeschneiderte Tage, bis ins kleinste Detail durchdacht für die Person, die Ihnen wichtig ist. Von der ersten Idee bis zum Tag selbst kümmern wir uns um alles.",
     "examplesLink": "Beispieltage ansehen"
   },
   "trust": {
@@ -251,8 +251,8 @@
     "form": {
       "name": "Ihr Name",
       "phone": "Telefonnummer",
-      "email": "E-Mail",
-      "forWho": "Für wen ist dieser Tag?",
+      "email": "E-Mail (optional)",
+      "forWho": "Für wen ist dieser Tag? (optional)",
       "forWhoPlaceholder": "Z.B. mein Partner, meine Schwester, das ganze Team…",
       "date": "Geplantes Datum",
       "dateUnknown": "Noch nicht sicher",
@@ -314,7 +314,7 @@
       "story": "Yurday ist tatsächlich aus einem Geburtstag entstanden: dem Wunsch, für jemanden, den wir lieben, etwas Besonderes zu tun, statt uns mit einem in zehn Sekunden ausgepackten Geschenk zu begnügen. Seitdem wenden wir dieselbe Methode bei jedem Geburtstag an, der uns anvertraut wird: Wir gehen von der Person aus, nie von einem Katalog.",
       "cta": {
         "title": "Bereit, seine oder ihre Geschichte zu schreiben?",
-        "text": "Erzählen Sie uns, wen Sie verwöhnen möchten, wir melden uns mit ersten Ideen innerhalb von 48 Stunden."
+        "text": "Erzählen Sie uns, wen Sie verwöhnen möchten, wir melden uns mit ersten Ideen innerhalb von 24 Stunden."
       }
     },
     "demande-en-mariage": {
@@ -328,7 +328,7 @@
       "story": "Ein Heiratsantrag findet nur einmal statt. Deshalb nehmen wir uns die Zeit, alles gemeinsam mit Ihnen zu gestalten, von der ersten Nachricht bis zum großen Tag: den Ort, den Zeitpunkt, die Inszenierung und all die kleinen Details, die diesen Moment genau so werden lassen, wie Sie ihn sich vorgestellt haben.",
       "cta": {
         "title": "Bereit, diesen Moment zu erschaffen?",
-        "text": "Erzählen Sie uns Ihre Geschichte und wie Sie sie sich vorstellen, wir melden uns mit ersten Ideen innerhalb von 48 Stunden."
+        "text": "Erzählen Sie uns Ihre Geschichte und wie Sie sie sich vorstellen, wir melden uns mit ersten Ideen innerhalb von 24 Stunden."
       }
     },
     "saint-valentin": {
@@ -342,7 +342,7 @@
       "story": "Der Valentinstag folgt oft denselben Ritualen: ein Restaurant, Blumen, ein wenig Hektik in letzter Minute. Wir gehen lieber von der Person aus, die Sie lieben, und von dem, was ihr wirklich wichtig ist, um einen Moment zu gestalten, der wirklich aus der Reihe tanzt, zu zweit.",
       "cta": {
         "title": "Bereit, ausgetretene Pfade zu verlassen?",
-        "text": "Erzählen Sie uns, wen Sie überraschen möchten, wir melden uns mit ersten Ideen innerhalb von 48 Stunden."
+        "text": "Erzählen Sie uns, wen Sie überraschen möchten, wir melden uns mit ersten Ideen innerhalb von 24 Stunden."
       }
     },
     "evg-evjf": {
@@ -356,7 +356,7 @@
       "story": "Ein gelungener Junggesellenabschied bedeutet eine Gruppe, die von Anfang bis Ende genießt, ohne dass jemand Buchungen oder Zeitpläne verwalten muss. Wir kümmern uns um die gesamte Koordination mit der Truppe, damit das Einzige, was Sie tun müssen, das Feiern ist.",
       "cta": {
         "title": "Bereit, DEN Tag zu organisieren?",
-        "text": "Erzählen Sie uns, wen Sie feiern möchten und mit wem, wir melden uns mit ersten Ideen innerhalb von 48 Stunden."
+        "text": "Erzählen Sie uns, wen Sie feiern möchten und mit wem, wir melden uns mit ersten Ideen innerhalb von 24 Stunden."
       }
     },
     "fete-des-meres": {
@@ -370,12 +370,13 @@
       "story": "Wir wissen, wie schwer es sein kann, die richtige Art zu finden, seiner Mama zu danken, jenseits von Blumen, die am Vorabend im Supermarkt gekauft wurden. Erzählen Sie uns, wer sie ist, was sie liebt, und wir gestalten um sie herum einen Tag, der wirklich zu ihr passt.",
       "cta": {
         "title": "Bereit, ihr auf andere Weise zu danken?",
-        "text": "Erzählen Sie uns von Ihrer Mama, wir melden uns mit ersten Ideen innerhalb von 48 Stunden."
+        "text": "Erzählen Sie uns von Ihrer Mama, wir melden uns mit ersten Ideen innerhalb von 24 Stunden."
       }
     }
   },
   "shared": {
     "ctaWhatsapp": "Auf WhatsApp chatten",
+    "whatsappMessage": "Hallo, ich möchte einen Tag organisieren für…",
     "ctaEmail": "Schriftlich erzählen"
   },
   "trustPillars": {
