@@ -177,62 +177,66 @@ export function ContactForm({ form }: ContactFormProps) {
         </div>
       </div>
 
-      <div className="form-row">
-        <label htmlFor="f-email">{form.email}</label>
-        <input
-          type="email"
-          id="f-email"
-          name="email"
-          autoComplete="email"
-          value={values.email}
-          onChange={update('email')}
-        />
-      </div>
-
-      <div className="form-row">
-        <label htmlFor="f-pour-qui">{form.forWho}</label>
-        <input
-          type="text"
-          id="f-pour-qui"
-          name="pourQui"
-          placeholder={form.forWhoPlaceholder}
-          value={values.pourQui}
-          onChange={update('pourQui')}
-        />
-      </div>
-
-      <div className="form-row">
-        <label htmlFor="f-date">{form.date}</label>
-        <input
-          type="date"
-          id="f-date"
-          name="date"
-          required={!dateUnknown}
-          disabled={dateUnknown}
-          value={dateUnknown ? '' : values.date}
-          onChange={update('date')}
-        />
-        <label className="form-checkbox">
+      <div className="form-row-2">
+        <div className="form-row">
+          <label htmlFor="f-occasion">{form.occasion}</label>
+          <select id="f-occasion" name="occasion" value={values.occasion} onChange={update('occasion')}>
+            {form.occasionOptions.map((option) => (
+              <option key={option}>{option}</option>
+            ))}
+          </select>
+        </div>
+        <div className="form-row">
+          <label htmlFor="f-date">{form.date}</label>
           <input
-            type="checkbox"
-            checked={dateUnknown}
-            onChange={(event) => {
-              const checked = event.target.checked
-              setDateUnknown(checked)
-              setValues((current) => ({ ...current, date: checked ? form.dateUnknown : '' }))
-            }}
+            type="date"
+            id="f-date"
+            name="date"
+            required={!dateUnknown}
+            disabled={dateUnknown}
+            value={dateUnknown ? '' : values.date}
+            onChange={update('date')}
           />
-          {form.dateUnknown}
-        </label>
+          <label className="form-checkbox">
+            <input
+              type="checkbox"
+              checked={dateUnknown}
+              onChange={(event) => {
+                const checked = event.target.checked
+                setDateUnknown(checked)
+                setValues((current) => ({ ...current, date: checked ? form.dateUnknown : '' }))
+              }}
+            />
+            {form.dateUnknown}
+          </label>
+        </div>
       </div>
 
-      <div className="form-row">
-        <label htmlFor="f-occasion">{form.occasion}</label>
-        <select id="f-occasion" name="occasion" value={values.occasion} onChange={update('occasion')}>
-          {form.occasionOptions.map((option) => (
-            <option key={option}>{option}</option>
-          ))}
-        </select>
+      <p className="form-group-label">{form.optionalSectionLabel}</p>
+
+      <div className="form-row-2">
+        <div className="form-row">
+          <label htmlFor="f-pour-qui">{form.forWho}</label>
+          <input
+            type="text"
+            id="f-pour-qui"
+            name="pourQui"
+            placeholder={form.forWhoPlaceholder}
+            value={values.pourQui}
+            onChange={update('pourQui')}
+          />
+        </div>
+        <div className="form-row">
+          <label htmlFor="f-email">{form.email}</label>
+          <input
+            type="email"
+            id="f-email"
+            name="email"
+            autoComplete="email"
+            value={values.email}
+            onChange={update('email')}
+          />
+        </div>
       </div>
 
       <div className="form-row">
