@@ -64,7 +64,7 @@ export function Reviews({ messages, locale }: ReviewsProps) {
   const { reviews } = messages
 
   return (
-    <section id="avis" className="section-paper-deep">
+    <section id="avis" className="section-navy">
       <SectionHead
         eyebrow={reviews.eyebrow}
         title={reviews.h2}

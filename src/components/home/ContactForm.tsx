@@ -21,7 +21,6 @@ const emptyValues = {
   pourQui: '',
   date: '',
   occasion: '',
-  message: '',
 }
 
 type Values = typeof emptyValues
@@ -37,7 +36,6 @@ function whatsappMessage(values: Values, labels: ContactFormProps['form']): stri
     `${labels.phone} : ${values.telephone}`,
     `${labels.email} : ${values.email}`,
   ]
-  if (values.message.trim()) lines.push('', values.message)
   return lines.join('\n')
 }
 
@@ -237,17 +235,6 @@ export function ContactForm({ form }: ContactFormProps) {
             onChange={update('email')}
           />
         </div>
-      </div>
-
-      <div className="form-row">
-        <label htmlFor="f-message">{form.message}</label>
-        <textarea
-          id="f-message"
-          name="message"
-          rows={3}
-          value={values.message}
-          onChange={update('message')}
-        />
       </div>
 
       {step === 'fields' ? (

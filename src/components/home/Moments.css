@@ -39,7 +39,7 @@
 .moment-chapter-text p {
   font-size: var(--fs-14);
   line-height: 1.55;
-  color: var(--ink-soft);
+  color: var(--blue-2);
   margin: 0;
   /* Hauteur de carte homogène malgré des récits de longueurs différentes. */
   display: -webkit-box;

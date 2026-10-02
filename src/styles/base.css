@@ -74,6 +74,7 @@ h1, h2, h3 {
 
 /* Alternance des fonds de section. */
 .section-paper-deep { background: var(--paper-deep); }
+.section-navy { background: var(--blue-2); }
 
 /* Ligne fine entre deux sections. */
 .seam {

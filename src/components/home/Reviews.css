@@ -1,10 +1,23 @@
 /* ---------- Reviews (défilement continu) ---------- */
+#avis .section-head .eyebrow { color: var(--white); opacity: 0.85; }
 #avis .section-head h2 {
   white-space: nowrap;
   font-size: var(--fs-30);
+  color: var(--white);
 }
 #avis .section-head p {
   white-space: nowrap;
+  color: rgba(255, 255, 255, 0.82);
+}
+#avis .google-badge { color: rgba(255, 255, 255, 0.82); }
+#avis .google-review-btn-wrap .btn-ghost {
+  background: transparent;
+  border-color: rgba(255, 255, 255, 0.4);
+  color: var(--white);
+}
+#avis .google-review-btn-wrap .btn-ghost:hover {
+  border-color: var(--white);
+  color: var(--white);
 }
 @media (max-width: 640px) {
   #avis .section-head h2 { font-size: var(--fs-16); }

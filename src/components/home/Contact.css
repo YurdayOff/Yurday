@@ -28,7 +28,7 @@
 form.contact-form {
   background: #fff;
   border-radius: 22px;
-  padding: 36px 36px 32px;
+  padding: 30px 32px 28px;
   box-shadow: 0 24px 54px rgba(30, 26, 22,0.1);
   border: 1px solid var(--line);
 }
@@ -36,7 +36,7 @@ form.contact-form {
   display: flex;
   align-items: center;
   gap: 10px;
-  margin: 22px 0 16px;
+  margin: 16px 0 14px;
   font-size: var(--fs-12);
   font-weight: 700;
   text-transform: uppercase;
@@ -89,7 +89,7 @@ form.contact-form {
   font-weight: 600;
   color: var(--sage);
 }
-.form-row { margin-bottom: 20px; }
+.form-row { margin-bottom: 15px; }
 .form-row .form-hint {
   margin: 6px 0 0;
   font-size: var(--fs-12);
@@ -104,11 +104,11 @@ form.contact-form {
   color: var(--ink-soft);
   margin-bottom: 7px;
 }
-.form-row input, .form-row select, .form-row textarea {
+.form-row input, .form-row select {
   width: 100%;
   min-width: 0;
   max-width: 100%;
-  padding: 13px 15px;
+  padding: 11px 14px;
   border-radius: 11px;
   border: 1.5px solid var(--line);
   background: var(--paper);
@@ -117,8 +117,7 @@ form.contact-form {
   color: var(--ink);
   transition: border-color 0.2s ease, box-shadow 0.2s ease;
 }
-.form-row input:hover, .form-row select:hover, .form-row textarea:hover { border-color: #d8d2c2; }
-.form-row textarea { resize: vertical; min-height: 84px; }
+.form-row input:hover, .form-row select:hover { border-color: #d8d2c2; }
 .form-row select {
   appearance: none;
   -webkit-appearance: none;
@@ -160,7 +159,7 @@ form.contact-form {
   padding: 0;
   accent-color: var(--blue-2);
 }
-.form-row input:focus, .form-row select:focus, .form-row textarea:focus {
+.form-row input:focus, .form-row select:focus {
   outline: none;
   border-color: var(--blue-2);
   box-shadow: 0 0 0 3px rgba(11, 33, 73,0.15);
