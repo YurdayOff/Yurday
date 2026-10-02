@@ -77,11 +77,16 @@ form.contact-form {
   display: block;
   font-size: var(--fs-12);
   font-weight: 700;
+  line-height: 1.4;
   text-transform: uppercase;
   letter-spacing: 0.06em;
   color: var(--ink-soft);
   margin-bottom: 7px;
 }
+/* Les deux labels d'une même ligne doivent réserver la même hauteur, même si
+   l'un passe sur deux lignes (ex. « Pour qui est cette journée ? ») : sinon
+   les champs en dessous ne sont plus alignés. */
+.form-row-2 .form-row > label:first-child { min-height: 2.8em; }
 .form-row input, .form-row select {
   width: 100%;
   min-width: 0;
