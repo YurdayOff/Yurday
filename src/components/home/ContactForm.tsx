@@ -161,6 +161,20 @@ export function ContactForm({ form }: ContactFormProps) {
           />
         </div>
         <div className="form-row">
+          <label htmlFor="f-email">{form.email}</label>
+          <input
+            type="email"
+            id="f-email"
+            name="email"
+            autoComplete="email"
+            value={values.email}
+            onChange={update('email')}
+          />
+        </div>
+      </div>
+
+      <div className="form-row-2">
+        <div className="form-row">
           <label htmlFor="f-telephone">{form.phone}</label>
           <input
             type="tel"
@@ -172,9 +186,6 @@ export function ContactForm({ form }: ContactFormProps) {
             onChange={update('telephone')}
           />
         </div>
-      </div>
-
-      <div className="form-row-2">
         <div className="form-row">
           <label htmlFor="f-occasion">{form.occasion}</label>
           <select id="f-occasion" name="occasion" value={values.occasion} onChange={update('occasion')}>
@@ -182,6 +193,20 @@ export function ContactForm({ form }: ContactFormProps) {
               <option key={option}>{option}</option>
             ))}
           </select>
+        </div>
+      </div>
+
+      <div className="form-row-2">
+        <div className="form-row">
+          <label htmlFor="f-pour-qui">{form.forWho}</label>
+          <input
+            type="text"
+            id="f-pour-qui"
+            name="pourQui"
+            placeholder={form.forWhoPlaceholder}
+            value={values.pourQui}
+            onChange={update('pourQui')}
+          />
         </div>
         <div className="form-row">
           <label htmlFor="f-date">{form.date}</label>
@@ -206,31 +231,6 @@ export function ContactForm({ form }: ContactFormProps) {
             />
             {form.dateUnknown}
           </label>
-        </div>
-      </div>
-
-      <div className="form-row-2">
-        <div className="form-row">
-          <label htmlFor="f-pour-qui">{form.forWho}</label>
-          <input
-            type="text"
-            id="f-pour-qui"
-            name="pourQui"
-            placeholder={form.forWhoPlaceholder}
-            value={values.pourQui}
-            onChange={update('pourQui')}
-          />
-        </div>
-        <div className="form-row">
-          <label htmlFor="f-email">{form.email}</label>
-          <input
-            type="email"
-            id="f-email"
-            name="email"
-            autoComplete="email"
-            value={values.email}
-            onChange={update('email')}
-          />
         </div>
       </div>
 
