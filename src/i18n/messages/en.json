@@ -252,7 +252,6 @@
       "name": "Your name",
       "phone": "Phone number",
       "phoneHint": "Your details will never be shared with third parties.",
-      "optionalSectionLabel": "A few more details (optional)",
       "email": "Email",
       "forWho": "Who is this day for?",
       "forWhoPlaceholder": "E.g. my partner, my sister, the whole team…",
@@ -270,7 +269,7 @@
         "Other"
       ],
       "submit": "Send my project",
-      "reassurance": "Reply within 24h, no commitment.",
+      "reassurance": "Reply within 12h, no commitment.",
       "choiceQuestion": "How would you prefer to get in touch?",
       "choiceWhatsapp": "On WhatsApp",
       "choiceEmail": "By email",
@@ -390,7 +389,7 @@
       "text": "You validate the program and the price first. Payment then follows, before the day itself."
     },
     "response": {
-      "title": "Response within 24h",
+      "title": "Response within 12h",
       "text": "We get back to you quickly, with no commitment on your part."
     }
   }

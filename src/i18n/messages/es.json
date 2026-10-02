@@ -252,7 +252,6 @@
       "name": "Tu nombre",
       "phone": "Teléfono",
       "phoneHint": "Tus datos nunca se compartirán con terceros.",
-      "optionalSectionLabel": "Algunos detalles más (opcional)",
       "email": "Email",
       "forWho": "¿Para quién es este día?",
       "forWhoPlaceholder": "Ej. mi pareja, mi hermana, todo el equipo…",
@@ -270,7 +269,7 @@
         "Otro"
       ],
       "submit": "Enviar mi proyecto",
-      "reassurance": "Respuesta en 24h, sin compromiso.",
+      "reassurance": "Respuesta en 12h, sin compromiso.",
       "choiceQuestion": "¿Cómo prefieres que nos pongamos en contacto?",
       "choiceWhatsapp": "Por WhatsApp",
       "choiceEmail": "Por email",
@@ -315,7 +314,7 @@
       "story": "Yurday nació precisamente de un cumpleaños: las ganas de hacer las cosas bien por alguien a quien queremos, sin conformarnos con un regalo que se abre en diez segundos. Desde entonces, aplicamos el mismo método a cada cumpleaños que nos confían: partimos de la persona, nunca de un catálogo.",
       "cta": {
         "title": "¿Listos para escribir su historia?",
-        "text": "Cuéntanos a quién quieres consentir, y te responderemos con las primeras ideas en menos de 24 horas."
+        "text": "Cuéntanos a quién quieres consentir, y te responderemos con las primeras ideas en menos de 12 horas."
       }
     },
     "demande-en-mariage": {
@@ -329,7 +328,7 @@
       "story": "Una petición de mano no se repite dos veces. Por eso nos tomamos el tiempo de construirlo todo contigo, desde el primer mensaje hasta el gran día: el lugar, el horario, la puesta en escena, y todos los pequeños detalles que harán que ese momento sea exactamente como lo imaginaste.",
       "cta": {
         "title": "¿Listos para crear ese momento?",
-        "text": "Cuéntanos tu historia y cómo la imaginas, te responderemos con las primeras ideas en menos de 24 horas."
+        "text": "Cuéntanos tu historia y cómo la imaginas, te responderemos con las primeras ideas en menos de 12 horas."
       }
     },
     "saint-valentin": {
@@ -343,7 +342,7 @@
       "story": "San Valentín suele caer en los mismos rituales: un restaurante, flores, un poco de prisa de última hora. Preferimos partir de a quién quieres y de lo que realmente le importa, para construir un momento que salga de verdad de lo común, en pareja.",
       "cta": {
         "title": "¿Listos para salir de lo convencional?",
-        "text": "Cuéntanos a quién quieres sorprender, te responderemos con las primeras ideas en menos de 24 horas."
+        "text": "Cuéntanos a quién quieres sorprender, te responderemos con las primeras ideas en menos de 12 horas."
       }
     },
     "evg-evjf": {
@@ -357,7 +356,7 @@
       "story": "Una despedida de soltero/a exitosa es un grupo que disfruta de principio a fin, sin que nadie tenga que gestionar reservas ni horarios. Nos encargamos de toda la coordinación con la pandilla, para que lo único que tengas que hacer sea divertirte.",
       "cta": {
         "title": "¿Listos para organizar EL día?",
-        "text": "Cuéntanos a quién quieres celebrar y con quién, te responderemos con las primeras ideas en menos de 24 horas."
+        "text": "Cuéntanos a quién quieres celebrar y con quién, te responderemos con las primeras ideas en menos de 12 horas."
       }
     },
     "fete-des-meres": {
@@ -371,7 +370,7 @@
       "story": "Sabemos lo difícil que puede ser encontrar la idea justa para agradecer a tu mamá, más allá de unas flores compradas la víspera en el supermercado. Cuéntanos quién es, qué le gusta, y construiremos a su alrededor un día que se parezca de verdad a ella.",
       "cta": {
         "title": "¿Listos para agradecerle de otra manera?",
-        "text": "Cuéntanos cómo es tu mamá, te responderemos con las primeras ideas en menos de 24 horas."
+        "text": "Cuéntanos cómo es tu mamá, te responderemos con las primeras ideas en menos de 12 horas."
       }
     }
   },
@@ -390,7 +389,7 @@
       "text": "Primero valida el programa y el precio. El pago se realiza después, antes de la propia jornada."
     },
     "response": {
-      "title": "Respuesta en 24h",
+      "title": "Respuesta en 12h",
       "text": "Le respondemos rápidamente, sin ningún compromiso por su parte."
     }
   }

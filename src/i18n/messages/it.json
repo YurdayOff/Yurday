@@ -252,7 +252,6 @@
       "name": "Il tuo nome",
       "phone": "Telefono",
       "phoneHint": "I tuoi dati non saranno mai condivisi con terzi.",
-      "optionalSectionLabel": "Qualche dettaglio in più (facoltativo)",
       "email": "Email",
       "forWho": "Per chi è questa giornata?",
       "forWhoPlaceholder": "Es. il mio compagno, mia sorella, tutto il team…",
@@ -270,7 +269,7 @@
         "Altro"
       ],
       "submit": "Invia il mio progetto",
-      "reassurance": "Risposta entro 24h, nessun impegno.",
+      "reassurance": "Risposta entro 12h, nessun impegno.",
       "choiceQuestion": "Come preferite entrare in contatto con noi?",
       "choiceWhatsapp": "Su WhatsApp",
       "choiceEmail": "Via email",
@@ -315,7 +314,7 @@
       "story": "Yurday è nata proprio da un compleanno: il desiderio di fare le cose per bene per qualcuno che amiamo, senza accontentarsi di un regalo aperto in dieci secondi. Da allora applichiamo lo stesso metodo a ogni compleanno che ci viene affidato: partiamo dalla persona, mai da un catalogo.",
       "cta": {
         "title": "Pronti a scrivere la sua storia?",
-        "text": "Raccontateci chi volete coccolare, vi risponderemo con le prime idee entro 24 ore."
+        "text": "Raccontateci chi volete coccolare, vi risponderemo con le prime idee entro 12 ore."
       }
     },
     "demande-en-mariage": {
@@ -329,7 +328,7 @@
       "story": "Una proposta di matrimonio non si rifà due volte. Per questo ci prendiamo il tempo di costruire tutto insieme a voi, dal primo messaggio al grande giorno: il luogo, l'orario, la messa in scena, e tutti i piccoli dettagli che renderanno questo momento esattamente come lo avevate immaginato.",
       "cta": {
         "title": "Pronti a creare questo momento?",
-        "text": "Raccontateci la vostra storia e come la immaginate, vi risponderemo con le prime idee entro 24 ore."
+        "text": "Raccontateci la vostra storia e come la immaginate, vi risponderemo con le prime idee entro 12 ore."
       }
     },
     "saint-valentin": {
@@ -343,7 +342,7 @@
       "story": "San Valentino cade spesso negli stessi rituali: un ristorante, dei fiori, un po' di fretta dell'ultimo minuto. Preferiamo partire da chi amate e da ciò che conta davvero per lei o lui, per costruire un momento che esca davvero dall'ordinario, in due.",
       "cta": {
         "title": "Pronti a uscire dai sentieri battuti?",
-        "text": "Raccontateci chi volete sorprendere, vi risponderemo con le prime idee entro 24 ore."
+        "text": "Raccontateci chi volete sorprendere, vi risponderemo con le prime idee entro 12 ore."
       }
     },
     "evg-evjf": {
@@ -357,7 +356,7 @@
       "story": "Un addio al celibato o nubilato riuscito è un gruppo che si diverte dall'inizio alla fine, senza che nessuno debba gestire prenotazioni o orari. Ci occupiamo di tutto il coordinamento con la compagnia, così l'unica cosa che dovrete fare è divertirvi.",
       "cta": {
         "title": "Pronti a organizzare LA giornata?",
-        "text": "Raccontateci chi volete festeggiare e con chi, vi risponderemo con le prime idee entro 24 ore."
+        "text": "Raccontateci chi volete festeggiare e con chi, vi risponderemo con le prime idee entro 12 ore."
       }
     },
     "fete-des-meres": {
@@ -371,7 +370,7 @@
       "story": "Sappiamo quanto possa essere difficile trovare l'idea giusta per ringraziare la propria mamma, al di là di fiori comprati al supermercato la sera prima. Raccontateci chi è, cosa ama, e costruiremo intorno a lei una giornata che le somigli davvero.",
       "cta": {
         "title": "Pronti a ringraziarla in un altro modo?",
-        "text": "Raccontateci di vostra mamma, vi risponderemo con le prime idee entro 24 ore."
+        "text": "Raccontateci di vostra mamma, vi risponderemo con le prime idee entro 12 ore."
       }
     }
   },
@@ -390,7 +389,7 @@
       "text": "Convalidi prima il programma e il prezzo. Il pagamento avviene poi, prima della giornata stessa."
     },
     "response": {
-      "title": "Risposta entro 24h",
+      "title": "Risposta entro 12h",
       "text": "Ti rispondiamo rapidamente, senza alcun impegno da parte tua."
     }
   }

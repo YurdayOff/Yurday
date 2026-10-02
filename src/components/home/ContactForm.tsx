@@ -171,7 +171,6 @@ export function ContactForm({ form }: ContactFormProps) {
             value={values.telephone}
             onChange={update('telephone')}
           />
-          <p className="form-hint">{form.phoneHint}</p>
         </div>
       </div>
 
@@ -210,8 +209,6 @@ export function ContactForm({ form }: ContactFormProps) {
         </div>
       </div>
 
-      <p className="form-group-label">{form.optionalSectionLabel}</p>
-
       <div className="form-row-2">
         <div className="form-row">
           <label htmlFor="f-pour-qui">{form.forWho}</label>
@@ -242,6 +239,7 @@ export function ContactForm({ form }: ContactFormProps) {
           <button type="submit" className="btn btn-primary">
             {form.submit}
           </button>
+          <p className="form-reassurance">{form.phoneHint}</p>
           <p className="form-reassurance">{form.reassurance}</p>
         </div>
       ) : null}

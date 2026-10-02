@@ -32,23 +32,6 @@ form.contact-form {
   box-shadow: 0 24px 54px rgba(30, 26, 22,0.1);
   border: 1px solid var(--line);
 }
-.form-group-label {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  margin: 16px 0 14px;
-  font-size: var(--fs-12);
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.06em;
-  color: var(--blue-2);
-}
-.form-group-label::after {
-  content: "";
-  flex: 1;
-  height: 1px;
-  background: var(--line);
-}
 .form-actions .btn, .form-choice .btn { width: 100%; justify-content: center; }
 .form-reassurance {
   margin: 12px 0 0;
@@ -90,11 +73,6 @@ form.contact-form {
   color: var(--sage);
 }
 .form-row { margin-bottom: 15px; }
-.form-row .form-hint {
-  margin: 6px 0 0;
-  font-size: var(--fs-12);
-  color: var(--ink-soft);
-}
 .form-row label {
   display: block;
   font-size: var(--fs-12);

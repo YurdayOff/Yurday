@@ -252,7 +252,6 @@
       "name": "Ihr Name",
       "phone": "Telefonnummer",
       "phoneHint": "Ihre Kontaktdaten werden niemals an Dritte weitergegeben.",
-      "optionalSectionLabel": "Noch ein paar Details (optional)",
       "email": "E-Mail",
       "forWho": "Für wen ist dieser Tag?",
       "forWhoPlaceholder": "Z.B. mein Partner, meine Schwester, das ganze Team…",
@@ -390,7 +389,7 @@
       "text": "Sie bestätigen zuerst das Programm und den Preis. Die Zahlung erfolgt danach, vor dem eigentlichen Tag."
     },
     "response": {
-      "title": "Antwort innerhalb von 24h",
+      "title": "Antwort innerhalb von 12h",
       "text": "Wir melden uns schnell bei Ihnen, ganz unverbindlich."
     }
   }
