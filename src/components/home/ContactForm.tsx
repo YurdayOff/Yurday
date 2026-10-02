@@ -173,6 +173,7 @@ export function ContactForm({ form }: ContactFormProps) {
             value={values.telephone}
             onChange={update('telephone')}
           />
+          <p className="form-hint">{form.phoneHint}</p>
         </div>
       </div>
 

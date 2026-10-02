@@ -42,7 +42,7 @@
     "process": "Como funciona",
     "story": "Nossa história",
     "faq": "Perguntas frequentes",
-    "cta": "Conceber meu dia"
+    "cta": "Vamos falar do seu projeto"
   },
   "promo": {
     "text": "Um número reduzido de projetos aceitos por mês, para preservar a exclusividade do sob medida.",
@@ -251,6 +251,7 @@
     "form": {
       "name": "Seu nome",
       "phone": "Telefone",
+      "phoneHint": "Seus dados nunca serão compartilhados com terceiros.",
       "email": "Email (opcional)",
       "forWho": "Para quem é esse dia? (opcional)",
       "forWhoPlaceholder": "Ex. meu parceiro, minha irmã, toda a equipe…",

@@ -42,7 +42,7 @@
     "process": "Cómo funciona",
     "story": "Nuestra historia",
     "faq": "Preguntas frecuentes",
-    "cta": "Diseñar mi día"
+    "cta": "Hablemos de tu proyecto"
   },
   "promo": {
     "text": "Un número reducido de proyectos aceptados cada mes, para preservar la exclusividad de lo hecho a medida.",
@@ -251,6 +251,7 @@
     "form": {
       "name": "Tu nombre",
       "phone": "Teléfono",
+      "phoneHint": "Tus datos nunca se compartirán con terceros.",
       "email": "Email (opcional)",
       "forWho": "¿Para quién es este día? (opcional)",
       "forWhoPlaceholder": "Ej. mi pareja, mi hermana, todo el equipo…",

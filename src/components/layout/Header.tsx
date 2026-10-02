@@ -19,7 +19,6 @@ const sections = [
   { hash: '#occasions', key: 'occasions' },
   { hash: '#avis', key: 'reviews' },
   { hash: '#comment-ca-marche', key: 'process' },
-  { hash: '#notre-histoire', key: 'story' },
   { hash: '#faq', key: 'faq' },
 ] as const
 

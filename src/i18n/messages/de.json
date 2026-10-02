@@ -42,7 +42,7 @@
     "process": "So funktioniert's",
     "story": "Unsere Geschichte",
     "faq": "FAQ",
-    "cta": "Meinen Tag entwerfen"
+    "cta": "Lassen Sie uns über Ihr Projekt sprechen"
   },
   "promo": {
     "text": "Eine bewusst begrenzte Zahl an Projekten pro Monat, um die Exklusivität des Maßgeschneiderten zu bewahren.",
@@ -251,6 +251,7 @@
     "form": {
       "name": "Ihr Name",
       "phone": "Telefonnummer",
+      "phoneHint": "Ihre Kontaktdaten werden niemals an Dritte weitergegeben.",
       "email": "E-Mail (optional)",
       "forWho": "Für wen ist dieser Tag? (optional)",
       "forWhoPlaceholder": "Z.B. mein Partner, meine Schwester, das ganze Team…",

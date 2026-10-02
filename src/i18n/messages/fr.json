@@ -42,7 +42,7 @@
     "process": "Comment ça marche",
     "story": "Notre histoire",
     "faq": "FAQ",
-    "cta": "Concevoir ma journée"
+    "cta": "Discutons de votre projet"
   },
   "promo": {
     "text": "Un nombre restreint de projets acceptés chaque mois, pour préserver l'exclusivité du sur-mesure.",
@@ -251,6 +251,7 @@
     "form": {
       "name": "Votre nom",
       "phone": "Téléphone",
+      "phoneHint": "Vos coordonnées ne seront jamais communiquées à des tiers.",
       "email": "Email (optionnel)",
       "forWho": "Pour qui est cette journée ? (optionnel)",
       "forWhoPlaceholder": "Ex. mon compagnon, ma sœur, toute l'équipe…",

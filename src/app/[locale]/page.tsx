@@ -7,7 +7,6 @@ import { Moments } from '@/components/home/Moments'
 import { Occasions } from '@/components/home/Occasions'
 import { Process } from '@/components/home/Process'
 import { Reviews } from '@/components/home/Reviews'
-import { Story } from '@/components/home/Story'
 import { TrustPillars } from '@/components/home/TrustPillars'
 import { JsonLd } from '@/components/ui/JsonLd'
 import { Seam } from '@/components/ui/Seam'
@@ -65,17 +64,15 @@ export default async function HomePage({ params }: HomeProps) {
       <Seam />
       <Process messages={messages} />
       <Seam />
+      <Contact messages={messages} />
+      <Seam />
       <Moments messages={messages} home={home} />
       <Seam />
       <Reviews messages={messages} locale={locale} />
       <Seam />
-      <Story messages={messages} />
-      <Seam />
       <Faq messages={messages} home={home} />
       <Seam />
       <TrustPillars messages={messages} />
-      <Seam />
-      <Contact messages={messages} />
     </>
   )
 }

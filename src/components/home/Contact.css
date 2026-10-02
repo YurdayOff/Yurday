@@ -67,6 +67,11 @@ form.contact-form {
   color: var(--sage);
 }
 .form-row { margin-bottom: 18px; }
+.form-row .form-hint {
+  margin: 6px 0 0;
+  font-size: var(--fs-12);
+  color: var(--ink-soft);
+}
 .form-row label {
   display: block;
   font-size: var(--fs-12);

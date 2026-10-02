@@ -42,7 +42,7 @@
     "process": "How it works",
     "story": "Our story",
     "faq": "FAQ",
-    "cta": "Design my day"
+    "cta": "Let's discuss your project"
   },
   "promo": {
     "text": "A deliberately limited number of projects accepted each month, to preserve the exclusivity of bespoke.",
@@ -251,6 +251,7 @@
     "form": {
       "name": "Your name",
       "phone": "Phone number",
+      "phoneHint": "Your details will never be shared with third parties.",
       "email": "Email (optional)",
       "forWho": "Who is this day for? (optional)",
       "forWhoPlaceholder": "E.g. my partner, my sister, the whole team…",
