@@ -63,7 +63,7 @@
   },
   "occasions": {
     "h2": "Una giornata per ogni storia",
-    "lede": "Che si tratti di una grande occasione o semplicemente del desiderio di fare piacere a qualcuno, ogni momento merita di essere vissuto diversamente. Da Yurday, non serve alcuna occasione per immaginare una giornata interamente su misura, pensata a immagine della persona a cui desiderate offrirla. Perché ogni persona merita un'esperienza che le somigli.",
+    "lede": "Un compleanno, una proposta, o nessun motivo in particolare. Ogni giornata parte da una persona e diventa un ricordo che non ha visto arrivare.",
     "moreLabel": "E tanti altri momenti da celebrare",
     "cards": {
       "anniversaire": "Compleanno",
@@ -72,21 +72,23 @@
       "evg-evjf": "Addio al celibato/nubilato",
       "fete-des-meres": "Festa della mamma"
     },
-    "scenariosLabel": "Esempi di scenari, pensati per ispirarvi",
+    "scenariosLabel": "Immaginate la sua giornata",
     "scenarios": [
       {
-        "title": "Il rapimento",
-        "text": "Due finti agenti vengono a prenderla alle 7. Berlina, spa privata, poi i suoi amici ad aspettarla la sera."
+        "title": "Per i suoi 38 anni: rapita alle 7, direzione spa.",
+        "text": "Due «agenti» suonano alla sua porta. Una benda sugli occhi, una berlina, una spa privata… e la sera, tutti i suoi amici ad aspettarla."
       },
       {
-        "title": "La missione",
-        "text": "Un maggiordomo, un libraio, un capitano di battello: ognuno un indizio, fino alla proposta di matrimonio."
+        "title": "Per la proposta di matrimonio: una missione segreta fino al «sì».",
+        "text": "Un maggiordomo le consegna una busta, un libraio un indizio, un capitano una bussola. In fondo al cammino, lui l'aspetta."
       },
       {
-        "title": "Il ciak",
-        "text": "Trucco, una scena girata in un'auto d'epoca, ciak di chiusura circondata dai suoi cari, proiezione privata la sera."
+        "title": "Per i suoi 40 anni: la star di un film… il suo.",
+        "text": "Crede di essere una comparsa: camerino, costume, auto d'epoca. Al ciak di chiusura, i suoi cari spuntano fuori. La sera, proiezione privata."
       }
-    ]
+    ],
+    "scenariosFooter": "Tre esempi su mille. La sua sarà scritta per una sola persona.",
+    "scenariosCta": "Immaginare la sua →"
   },
   "moments": {
     "eyebrow": "Storie vere",

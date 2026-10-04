@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import { Reveal } from '@/components/ui/Reveal'
 import '@/components/ui/Ticket.css'
 import type { Messages } from '@/i18n/messages'
@@ -29,6 +30,10 @@ export function Occasions({ messages }: OccasionsProps) {
               </div>
             ))}
           </div>
+          <p className="occasions-scenarios-footer">{occasions.scenariosFooter}</p>
+          <Link href="#contact" className="occasions-scenarios-cta">
+            {occasions.scenariosCta}
+          </Link>
         </Reveal>
       </div>
     </section>

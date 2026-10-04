@@ -63,7 +63,7 @@
   },
   "occasions": {
     "h2": "Ein Tag für jede Geschichte",
-    "lede": "Ob großer Anlass oder einfach der Wunsch, jemandem eine Freude zu machen: Jeder Moment verdient es, anders erlebt zu werden. Bei Yurday braucht es keinen Anlass, um sich einen vollkommen maßgeschneiderten Tag vorzustellen, gestaltet ganz nach dem Bild der Person, der Sie ihn schenken möchten. Denn jeder Mensch verdient ein Erlebnis, das wirklich zu ihm passt.",
+    "lede": "Ein Geburtstag, ein Antrag, oder gar kein Grund. Jeder Tag beginnt mit einer Person und wird zu einer Erinnerung, die sie nicht kommen sah.",
     "moreLabel": "Und so viele weitere Momente zum Feiern",
     "cards": {
       "anniversaire": "Geburtstag",
@@ -72,21 +72,23 @@
       "evg-evjf": "Junggesellenabschied",
       "fete-des-meres": "Muttertag"
     },
-    "scenariosLabel": "Beispielszenarien, zur Inspiration",
+    "scenariosLabel": "Stellen Sie sich ihren Tag vor",
     "scenarios": [
       {
-        "title": "Die Entführung",
-        "text": "Zwei falsche Agenten holen sie um 7 Uhr ab. Limousine, privates Spa, und abends warten schon ihre Freunde."
+        "title": "Zu ihrem 38. Geburtstag: entführt um 7 Uhr, Richtung Spa.",
+        "text": "Zwei „Agenten“ klingeln an ihrer Tür. Augenbinde, Limousine, privates Spa… und abends warten all ihre Freunde."
       },
       {
-        "title": "Die Mission",
-        "text": "Ein Butler, ein Buchhändler, ein Bootskapitän: jeder ein Hinweis, bis zum Heiratsantrag."
+        "title": "Für den Heiratsantrag: eine geheime Mission bis zum „Ja“.",
+        "text": "Ein Butler überreicht ihr einen Umschlag, ein Buchhändler einen Hinweis, ein Kapitän einen Kompass. Am Ende des Weges wartet er."
       },
       {
-        "title": "Der Dreh",
-        "text": "Make-up, eine Szene im Oldtimer, die letzte Klappe im Kreis der Liebsten, abends private Vorführung."
+        "title": "Zu ihrem 40. Geburtstag: der Star eines Films… ihres eigenen.",
+        "text": "Sie glaubt, nur Statistin zu sein: Garderobe, Kostüm, Oldtimer. Bei der letzten Klappe tauchen ihre Liebsten auf. Abends: private Vorführung."
       }
-    ]
+    ],
+    "scenariosFooter": "Drei Beispiele von tausend. Ihrer wird für eine einzige Person geschrieben.",
+    "scenariosCta": "Ihren Tag gestalten →"
   },
   "moments": {
     "eyebrow": "Echte Geschichten",

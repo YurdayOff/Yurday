@@ -59,6 +59,25 @@
   color: var(--ink-soft);
   margin: 0;
 }
+.occasions-scenarios-footer {
+  margin: 28px 0 0;
+  text-align: center;
+  font-style: italic;
+  font-size: var(--fs-14);
+  color: rgba(255, 255, 255, 0.72);
+}
+.occasions-scenarios-cta {
+  display: block;
+  margin: 10px 0 0;
+  text-align: center;
+  font-size: var(--fs-14);
+  font-weight: 600;
+  color: var(--white);
+  text-decoration: underline;
+  text-decoration-color: rgba(255, 255, 255, 0.55);
+  text-underline-offset: 3px;
+}
+.occasions-scenarios-cta:hover { color: rgba(255, 255, 255, 0.8); }
 @media (max-width: 780px) {
   .occasions-scenarios-grid { grid-template-columns: 1fr; }
 }

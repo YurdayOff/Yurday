@@ -63,7 +63,7 @@
   },
   "occasions": {
     "h2": "Un día para cada historia",
-    "lede": "Ya se trate de una gran ocasión o de un simple deseo de dar una alegría, cada momento merece vivirse de otra manera. En Yurday, no hace falta ninguna ocasión para imaginar un día completamente a medida, pensado a la imagen de la persona a quien deseas ofrecérselo. Porque cada persona merece una experiencia que se le parezca.",
+    "lede": "Un cumpleaños, una petición, o ninguna razón en absoluto. Cada día parte de una persona y se convierte en un recuerdo que no vio venir.",
     "moreLabel": "Y tantos otros momentos que celebrar",
     "cards": {
       "anniversaire": "Cumpleaños",
@@ -72,21 +72,23 @@
       "evg-evjf": "Despedida de soltero/a",
       "fete-des-meres": "Día de la madre"
     },
-    "scenariosLabel": "Ejemplos de escenarios, pensados para inspirarte",
+    "scenariosLabel": "Imagina su día",
     "scenarios": [
       {
-        "title": "El secuestro",
-        "text": "Dos falsos agentes vienen a buscarla a las 7h. Berlina, spa privado, y sus amigos esperándola al caer la noche."
+        "title": "Por sus 38 años: secuestrada a las 7h, rumbo al spa.",
+        "text": "Dos «agentes» llaman a su puerta. Una venda en los ojos, una berlina, un spa privado… y por la noche, todos sus amigos la esperan."
       },
       {
-        "title": "La misión",
-        "text": "Un mayordomo, un librero, un capitán de barco: cada uno una pista, hasta la pedida de mano."
+        "title": "Para la pedida de mano: una misión secreta hasta el «sí».",
+        "text": "Un mayordomo le entrega un sobre, un librero una pista, un capitán una brújula. Al final del camino, él la espera."
       },
       {
-        "title": "El rodaje",
-        "text": "Maquillaje, una escena rodada en un coche de época, claqueta final rodeada de los suyos, proyección privada por la noche."
+        "title": "Por sus 40 años: la estrella de una película… la suya.",
+        "text": "Cree que es figurante: camerino, vestuario, coche de época. Al grito de «corten», sus seres queridos aparecen. Por la noche, proyección privada."
       }
-    ]
+    ],
+    "scenariosFooter": "Tres ejemplos entre mil. El suyo se escribirá para una sola persona.",
+    "scenariosCta": "Imaginar el suyo →"
   },
   "moments": {
     "eyebrow": "Historias reales",

@@ -63,7 +63,7 @@
   },
   "occasions": {
     "h2": "Um dia para cada história",
-    "lede": "Seja uma grande ocasião ou simplesmente a vontade de fazer alguém feliz, cada momento merece ser vivido de outra forma. Na Yurday, nenhuma ocasião é necessária para imaginar um dia inteiramente sob medida, pensado à imagem da pessoa a quem deseja oferecê-lo. Porque cada pessoa merece uma experiência que lhe pareça.",
+    "lede": "Um aniversário, um pedido, ou nenhum motivo. Cada dia parte de uma pessoa e se transforma em uma lembrança que ela não viu chegar.",
     "moreLabel": "E tantos outros momentos para celebrar",
     "cards": {
       "anniversaire": "Aniversário",
@@ -72,21 +72,23 @@
       "evg-evjf": "Despedida de solteiro(a)",
       "fete-des-meres": "Dia das Mães"
     },
-    "scenariosLabel": "Exemplos de cenários, pensados para te inspirar",
+    "scenariosLabel": "Imagine o dia dela",
     "scenarios": [
       {
-        "title": "O sequestro",
-        "text": "Dois falsos agentes vêm buscá-la às 7h. Sedã, spa privativo, e os amigos à espera dela ao entardecer."
+        "title": "Para os 38 anos dela: sequestrada às 7h, rumo ao spa.",
+        "text": "Dois «agentes» tocam a campainha. Uma venda nos olhos, um sedã, um spa privativo… e à noite, todos os amigos dela esperam."
       },
       {
-        "title": "A missão",
-        "text": "Um mordomo, um livreiro, um capitão de barco: cada um uma pista, até o pedido de casamento."
+        "title": "Para o pedido de casamento: uma missão secreta até o «sim».",
+        "text": "Um mordomo entrega um envelope, um livreiro uma pista, um capitão uma bússola. No fim do caminho, ele a espera."
       },
       {
-        "title": "As filmagens",
-        "text": "Maquiagem, uma cena filmada em um carro de época, claquete final cercada pelos seus, exibição privada à noite."
+        "title": "Para os 40 anos dela: a estrela de um filme… o dela.",
+        "text": "Ela acha que é figurante: camarim, figurino, carro de época. Na claquete final, seus entes queridos surgem. À noite, exibição privada."
       }
-    ]
+    ],
+    "scenariosFooter": "Três exemplos entre mil. O dela será escrito para uma única pessoa.",
+    "scenariosCta": "Imaginar o dela →"
   },
   "moments": {
     "eyebrow": "Histórias reais",

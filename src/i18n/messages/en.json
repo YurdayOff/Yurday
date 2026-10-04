@@ -63,7 +63,7 @@
   },
   "occasions": {
     "h2": "A day for every story",
-    "lede": "Whether it's a big occasion or simply the wish to make someone happy, every moment deserves to be lived differently. At Yurday, no occasion is needed to imagine an entirely bespoke day, designed in the image of the person you wish to give it to. Because everyone deserves an experience that feels like them.",
+    "lede": "A birthday, a proposal, or no reason at all. Every day starts with one person and becomes a memory they never saw coming.",
     "moreLabel": "And so many other moments to celebrate",
     "cards": {
       "anniversaire": "Birthday",
@@ -72,21 +72,23 @@
       "evg-evjf": "Bachelor / bachelorette party",
       "fete-des-meres": "Mother's Day"
     },
-    "scenariosLabel": "Example scenarios, imagined to inspire you",
+    "scenariosLabel": "Imagine her day",
     "scenarios": [
       {
-        "title": "The abduction",
-        "text": "Two fake agents come to collect her at 7am. A sedan, a private spa, then her friends waiting for her that evening."
+        "title": "For her 38th birthday: abducted at 7am, bound for the spa.",
+        "text": "Two “agents” ring her doorbell. A blindfold, a sedan, a private spa… and that evening, all her friends are waiting."
       },
       {
-        "title": "The mission",
-        "text": "A butler, a bookseller, a boat captain: each one a clue, leading to the marriage proposal."
+        "title": "For the marriage proposal: a secret mission to the “yes”.",
+        "text": "A butler hands her an envelope, a bookseller a clue, a captain a compass. At the end of the path, he's waiting."
       },
       {
-        "title": "The shoot",
-        "text": "Hair and makeup, a scene filmed in a vintage car, a final take surrounded by loved ones, a private screening that evening."
+        "title": "For her 40th birthday: the star of a film… her own.",
+        "text": "She thinks she's an extra: a dressing room, a costume, a vintage car. At the final take, her loved ones appear. That evening, a private screening."
       }
-    ]
+    ],
+    "scenariosFooter": "Three examples out of a thousand. Hers will be written for one person only.",
+    "scenariosCta": "Imagine hers →"
   },
   "moments": {
     "eyebrow": "Real stories",
