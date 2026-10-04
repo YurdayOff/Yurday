@@ -51,9 +51,9 @@
   "hero": {
     "title": {
       "lead": "Regálale un día ",
-      "em": "que se le parezca"
+      "em": "dirigido como una escena."
     },
-    "lede": "Imaginamos y organizamos, en París y la región de Île-de-France, días completamente a medida, pensados hasta el último detalle para la persona que te importa. Desde la primera idea hasta el día en sí, nos encargamos de todo.",
+    "lede": "Actores, decorados, sorpresas: en París y la región de Île-de-France, diseñamos y dirigimos un día pensado para la persona que te importa.",
     "examplesLink": "Ver ejemplos de días"
   },
   "trust": {
@@ -71,7 +71,22 @@
       "saint-valentin": "San Valentín",
       "evg-evjf": "Despedida de soltero/a",
       "fete-des-meres": "Día de la madre"
-    }
+    },
+    "scenariosLabel": "Ejemplos de escenarios, pensados para inspirarte",
+    "scenarios": [
+      {
+        "title": "El secuestro",
+        "text": "Dos falsos agentes vienen a buscarla a las 7h. Berlina, spa privado, y sus amigos esperándola al caer la noche."
+      },
+      {
+        "title": "La misión",
+        "text": "Un mayordomo, un librero, un capitán de barco: cada uno una pista, hasta la pedida de mano."
+      },
+      {
+        "title": "El rodaje",
+        "text": "Maquillaje, una escena rodada en un coche de época, claqueta final rodeada de los suyos, proyección privada por la noche."
+      }
+    ]
   },
   "moments": {
     "eyebrow": "Historias reales",
@@ -162,19 +177,19 @@
     "lede": "Cuatro pasos, desde la primera conversación hasta el día en sí.",
     "steps": [
       {
-        "title": "Háblenos de ella",
+        "title": "El relato",
         "body": "Para quién es este día, la fecha prevista, lo que la emociona, lo que no soporta, un recuerdo que importa: cada detalle nos ayuda a componer un día que se le parezca de verdad."
       },
       {
-        "title": "Imaginamos el día",
+        "title": "El guion",
         "body": "Volvemos a usted con el día imaginado en su totalidad: un itinerario hora por hora y una presentación clara de los precios."
       },
       {
-        "title": "Usted aprueba",
+        "title": "Entre bastidores",
         "body": "Antes de la aprobación final, afinamos cada detalle con usted, en directo, hasta que sea exactamente lo que había imaginado."
       },
       {
-        "title": "Orquestamos todo",
+        "title": "El gran día",
         "body": "El gran día, nos ocupamos de toda la experiencia: usted solo tiene que vivir el momento."
       }
     ]

@@ -25,3 +25,43 @@
   .occasions-banner { padding: 39px 0; }
   .occasions-banner-inner h2 { margin-bottom: 16px; }
 }
+
+/* Exemples de scénarios : clairement distincts des vraies histoires clients (Moments). */
+.occasions-scenarios {
+  max-width: 1040px;
+  margin: 48px auto 0;
+}
+.occasions-scenarios-label {
+  text-align: center;
+  font-size: var(--fs-12);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: rgba(255, 255, 255, 0.65);
+  margin: 0 0 20px;
+}
+.occasions-scenarios-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+}
+.occasions-scenario-card {
+  padding: 22px 20px;
+}
+.occasions-scenario-card h3 {
+  font-size: var(--fs-17);
+  margin: 0 0 8px;
+  color: var(--ink);
+}
+.occasions-scenario-card p {
+  font-size: var(--fs-13);
+  line-height: 1.55;
+  color: var(--ink-soft);
+  margin: 0;
+}
+@media (max-width: 780px) {
+  .occasions-scenarios-grid { grid-template-columns: 1fr; }
+}
+@media (max-width: 640px) {
+  .occasions-scenarios { margin-top: 32px; }
+}

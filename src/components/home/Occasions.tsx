@@ -1,4 +1,5 @@
 import { Reveal } from '@/components/ui/Reveal'
+import '@/components/ui/Ticket.css'
 import type { Messages } from '@/i18n/messages'
 import './Occasions.css'
 
@@ -16,6 +17,18 @@ export function Occasions({ messages }: OccasionsProps) {
         <Reveal className="occasions-banner-inner">
           <h2>{occasions.h2}</h2>
           <p>{occasions.lede}</p>
+        </Reveal>
+
+        <Reveal className="occasions-scenarios">
+          <p className="occasions-scenarios-label">{occasions.scenariosLabel}</p>
+          <div className="occasions-scenarios-grid">
+            {occasions.scenarios.map((scenario) => (
+              <div className="ticket occasions-scenario-card" key={scenario.title}>
+                <h3>{scenario.title}</h3>
+                <p>{scenario.text}</p>
+              </div>
+            ))}
+          </div>
         </Reveal>
       </div>
     </section>

@@ -51,9 +51,9 @@
   "hero": {
     "title": {
       "lead": "Give them a day ",
-      "em": "that feels like them"
+      "em": "directed like a scene."
     },
-    "lede": "We imagine and organise entirely bespoke days in Paris and the Île-de-France region, thought through to the smallest detail for the person who matters to you. From the first idea to the day itself, we take care of everything.",
+    "lede": "Actors, sets, surprises: in Paris and the Île-de-France region, we design and direct a day staged for the person who matters to you.",
     "examplesLink": "See example days"
   },
   "trust": {
@@ -71,7 +71,22 @@
       "saint-valentin": "Valentine's Day",
       "evg-evjf": "Bachelor / bachelorette party",
       "fete-des-meres": "Mother's Day"
-    }
+    },
+    "scenariosLabel": "Example scenarios, imagined to inspire you",
+    "scenarios": [
+      {
+        "title": "The abduction",
+        "text": "Two fake agents come to collect her at 7am. A sedan, a private spa, then her friends waiting for her that evening."
+      },
+      {
+        "title": "The mission",
+        "text": "A butler, a bookseller, a boat captain: each one a clue, leading to the marriage proposal."
+      },
+      {
+        "title": "The shoot",
+        "text": "Hair and makeup, a scene filmed in a vintage car, a final take surrounded by loved ones, a private screening that evening."
+      }
+    ]
   },
   "moments": {
     "eyebrow": "Real stories",
@@ -162,19 +177,19 @@
     "lede": "Four steps, from the first conversation to the day itself.",
     "steps": [
       {
-        "title": "Tell us about them",
+        "title": "The story",
         "body": "Who the day is for, the date in mind, what moves them, what they can't stand, a memory that matters: every detail helps us compose a day that truly feels like them."
       },
       {
-        "title": "We envision the day",
+        "title": "The script",
         "body": "We come back to you with the day fully imagined: an hour-by-hour itinerary and a clear presentation of the pricing."
       },
       {
-        "title": "You approve",
+        "title": "Behind the scenes",
         "body": "Before final approval, we refine every detail with you, live, until it's exactly what you pictured."
       },
       {
-        "title": "We orchestrate everything",
+        "title": "The big day",
         "body": "On the day itself, we take care of the entire experience: all you have to do is live the moment."
       }
     ]

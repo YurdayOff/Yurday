@@ -51,9 +51,9 @@
   "hero": {
     "title": {
       "lead": "Regalale una giornata ",
-      "em": "che le somigli"
+      "em": "messa in scena."
     },
-    "lede": "Immaginiamo e organizziamo, a Parigi e in Île-de-France, giornate interamente su misura, pensate nei minimi dettagli per la persona che conta per voi. Dalla prima idea fino al giorno stesso, ci pensiamo noi a tutto.",
+    "lede": "Attori, scenografie, sorprese: a Parigi e in Île-de-France, ideiamo e dirigiamo una giornata pensata per la persona che conta per voi.",
     "examplesLink": "Vedi esempi di giornate"
   },
   "trust": {
@@ -71,7 +71,22 @@
       "saint-valentin": "San Valentino",
       "evg-evjf": "Addio al celibato/nubilato",
       "fete-des-meres": "Festa della mamma"
-    }
+    },
+    "scenariosLabel": "Esempi di scenari, pensati per ispirarvi",
+    "scenarios": [
+      {
+        "title": "Il rapimento",
+        "text": "Due finti agenti vengono a prenderla alle 7. Berlina, spa privata, poi i suoi amici ad aspettarla la sera."
+      },
+      {
+        "title": "La missione",
+        "text": "Un maggiordomo, un libraio, un capitano di battello: ognuno un indizio, fino alla proposta di matrimonio."
+      },
+      {
+        "title": "Il ciak",
+        "text": "Trucco, una scena girata in un'auto d'epoca, ciak di chiusura circondata dai suoi cari, proiezione privata la sera."
+      }
+    ]
   },
   "moments": {
     "eyebrow": "Storie vere",
@@ -162,19 +177,19 @@
     "lede": "Quattro passaggi, dal primo scambio alla giornata stessa.",
     "steps": [
       {
-        "title": "Raccontateci di lei",
+        "title": "Il racconto",
         "body": "Per chi è questa giornata, la data prevista, ciò che la emoziona, ciò che non sopporta, un ricordo che conta: ogni dettaglio ci aiuta a comporre una giornata che le somigli davvero."
       },
       {
-        "title": "Immaginiamo la giornata",
+        "title": "La sceneggiatura",
         "body": "Torniamo da voi con la giornata pensata nella sua interezza: un programma ora per ora e una presentazione chiara dei prezzi."
       },
       {
-        "title": "Voi approvate",
+        "title": "Dietro le quinte",
         "body": "Prima dell'approvazione finale, perfezioniamo ogni dettaglio con voi, in diretta, finché non è esattamente ciò che avevate immaginato."
       },
       {
-        "title": "Orchestriamo tutto",
+        "title": "Il grande giorno",
         "body": "Il giorno stesso, ci occupiamo dell'intera esperienza: a voi non resta che vivere il momento."
       }
     ]

@@ -51,9 +51,9 @@
   "hero": {
     "title": {
       "lead": "Offrez-lui une journée ",
-      "em": "qui lui ressemble"
+      "em": "mise en scène."
     },
-    "lede": "Nous imaginons et organisons, à Paris et en Île-de-France, des journées entièrement sur mesure, pensées dans les moindres détails pour la personne qui compte pour vous. De la première idée jusqu'au jour J, nous nous occupons de tout.",
+    "lede": "Comédiens, décors, surprises : à Paris et en Île-de-France, nous concevons et orchestrons une journée pensée pour la personne qui compte pour vous.",
     "examplesLink": "Voir des exemples de journées"
   },
   "trust": {
@@ -71,7 +71,22 @@
       "saint-valentin": "Saint-Valentin",
       "evg-evjf": "EVG / EVJF",
       "fete-des-meres": "Fête des mères"
-    }
+    },
+    "scenariosLabel": "Exemples de scénarios imaginés pour vous inspirer",
+    "scenarios": [
+      {
+        "title": "L'enlèvement",
+        "text": "Deux faux agents viennent la chercher à 7h. Berline, spa privé, puis ses amis qui l'attendent, le soir venu."
+      },
+      {
+        "title": "La mission",
+        "text": "Un majordome, un bouquiniste, un capitaine de bateau : chacun un indice, jusqu'à la demande en mariage."
+      },
+      {
+        "title": "Le tournage",
+        "text": "Maquillage, scène tournée en voiture de collection, clap de fin entouré des siens, projection privée le soir."
+      }
+    ]
   },
   "moments": {
     "eyebrow": "Vraies histoires",
@@ -162,19 +177,19 @@
     "lede": "Quatre étapes, du premier échange à la journée elle-même.",
     "steps": [
       {
-        "title": "Racontez-nous la personne",
+        "title": "Le récit",
         "body": "Pour qui est cette journée, la date envisagée, ce qui la fait vibrer, ce qu'elle n'aime pas, un souvenir qui compte : chaque détail nous aide à composer une journée qui lui ressemble vraiment."
       },
       {
-        "title": "Nous imaginons la journée",
+        "title": "Le scénario",
         "body": "Nous revenons vers vous avec la journée pensée dans son intégralité : un déroulé heure par heure et une présentation claire des tarifs."
       },
       {
-        "title": "Vous validez",
+        "title": "Les coulisses",
         "body": "Avant la validation finale, nous affinons chaque détail avec vous, en direct, jusqu'à ce que tout corresponde exactement à ce que vous imaginiez."
       },
       {
-        "title": "Nous orchestrons tout",
+        "title": "Le jour J",
         "body": "Le jour J, nous prenons en charge l'ensemble de la prestation : vous n'avez plus qu'à vivre pleinement l'instant."
       }
     ]

@@ -51,9 +51,9 @@
   "hero": {
     "title": {
       "lead": "Schenken Sie einen Tag ",
-      "em": "der wirklich passt"
+      "em": "wie inszeniert."
     },
-    "lede": "Wir entwerfen und organisieren in Paris und der Île-de-France vollständig maßgeschneiderte Tage, bis ins kleinste Detail durchdacht für die Person, die Ihnen wichtig ist. Von der ersten Idee bis zum Tag selbst kümmern wir uns um alles.",
+    "lede": "Schauspieler, Kulissen, Überraschungen: in Paris und der Île-de-France konzipieren und inszenieren wir einen Tag für die Person, die Ihnen wichtig ist.",
     "examplesLink": "Beispieltage ansehen"
   },
   "trust": {
@@ -71,7 +71,22 @@
       "saint-valentin": "Valentinstag",
       "evg-evjf": "Junggesellenabschied",
       "fete-des-meres": "Muttertag"
-    }
+    },
+    "scenariosLabel": "Beispielszenarien, zur Inspiration",
+    "scenarios": [
+      {
+        "title": "Die Entführung",
+        "text": "Zwei falsche Agenten holen sie um 7 Uhr ab. Limousine, privates Spa, und abends warten schon ihre Freunde."
+      },
+      {
+        "title": "Die Mission",
+        "text": "Ein Butler, ein Buchhändler, ein Bootskapitän: jeder ein Hinweis, bis zum Heiratsantrag."
+      },
+      {
+        "title": "Der Dreh",
+        "text": "Make-up, eine Szene im Oldtimer, die letzte Klappe im Kreis der Liebsten, abends private Vorführung."
+      }
+    ]
   },
   "moments": {
     "eyebrow": "Echte Geschichten",
@@ -162,19 +177,19 @@
     "lede": "Vier Schritte, vom ersten Gespräch bis zum Tag selbst.",
     "steps": [
       {
-        "title": "Erzählen Sie uns von ihr",
+        "title": "Die Geschichte",
         "body": "Für wen dieser Tag ist, das geplante Datum, was sie begeistert, was sie nicht mag, eine Erinnerung, die zählt: jedes Detail hilft uns, einen Tag zu gestalten, der wirklich zu ihr passt."
       },
       {
-        "title": "Wir entwerfen den Tag",
+        "title": "Das Drehbuch",
         "body": "Wir kommen mit dem vollständig durchdachten Tag zu Ihnen zurück: einem stündlichen Ablauf und einer klaren Preisübersicht."
       },
       {
-        "title": "Sie geben Ihr Einverständnis",
+        "title": "Hinter den Kulissen",
         "body": "Vor der endgültigen Bestätigung feilen wir gemeinsam mit Ihnen live an jedem Detail, bis es genau das ist, was Sie sich vorgestellt haben."
       },
       {
-        "title": "Wir orchestrieren alles",
+        "title": "Der große Tag",
         "body": "Am großen Tag selbst übernehmen wir das gesamte Erlebnis: Sie müssen nur noch den Moment genießen."
       }
     ]

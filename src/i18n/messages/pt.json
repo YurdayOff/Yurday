@@ -51,9 +51,9 @@
   "hero": {
     "title": {
       "lead": "Ofereça a ela um dia ",
-      "em": "que combine com ela"
+      "em": "dirigido como uma cena."
     },
-    "lede": "Imaginamos e organizamos, em Paris e na região de Île-de-France, dias inteiramente sob medida, pensados até o último detalhe para a pessoa que importa para você. Da primeira ideia até o próprio dia, cuidamos de tudo.",
+    "lede": "Atores, cenários, surpresas: em Paris e na região de Île-de-France, concebemos e dirigimos um dia pensado para a pessoa que importa para você.",
     "examplesLink": "Ver exemplos de dias"
   },
   "trust": {
@@ -71,7 +71,22 @@
       "saint-valentin": "Dia dos Namorados",
       "evg-evjf": "Despedida de solteiro(a)",
       "fete-des-meres": "Dia das Mães"
-    }
+    },
+    "scenariosLabel": "Exemplos de cenários, pensados para te inspirar",
+    "scenarios": [
+      {
+        "title": "O sequestro",
+        "text": "Dois falsos agentes vêm buscá-la às 7h. Sedã, spa privativo, e os amigos à espera dela ao entardecer."
+      },
+      {
+        "title": "A missão",
+        "text": "Um mordomo, um livreiro, um capitão de barco: cada um uma pista, até o pedido de casamento."
+      },
+      {
+        "title": "As filmagens",
+        "text": "Maquiagem, uma cena filmada em um carro de época, claquete final cercada pelos seus, exibição privada à noite."
+      }
+    ]
   },
   "moments": {
     "eyebrow": "Histórias reais",
@@ -162,19 +177,19 @@
     "lede": "Quatro etapas, da primeira conversa ao próprio dia.",
     "steps": [
       {
-        "title": "Fale-nos sobre a pessoa",
+        "title": "O relato",
         "body": "Para quem é este dia, a data prevista, o que a emociona, o que ela não suporta, uma lembrança que importa: cada detalhe nos ajuda a compor um dia que realmente lhe pareça."
       },
       {
-        "title": "Imaginamos o dia",
+        "title": "O roteiro",
         "body": "Voltamos até você com o dia totalmente imaginado: um roteiro hora a hora e uma apresentação clara dos valores."
       },
       {
-        "title": "Você aprova",
+        "title": "Nos bastidores",
         "body": "Antes da aprovação final, ajustamos cada detalhe com você, ao vivo, até que seja exatamente o que você imaginou."
       },
       {
-        "title": "Cuidamos de cada detalhe",
+        "title": "O grande dia",
         "body": "No grande dia, cuidamos de toda a experiência: você só precisa viver o momento."
       }
     ]
