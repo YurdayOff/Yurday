@@ -75,19 +75,22 @@
     "scenariosLabel": "Immaginate la sua giornata",
     "scenarios": [
       {
-        "title": "Per i suoi 38 anni: rapita alle 7, direzione spa.",
-        "text": "Due «agenti» suonano alla sua porta. Una benda sugli occhi, una berlina, una spa privata… e la sera, tutti i suoi amici ad aspettarla."
+        "title": "Per i suoi 38 anni",
+        "tagline": "Credeva di andare al lavoro. È partita per la sua giornata.",
+        "text": "Due «agenti» suonano a casa sua e le bendano gli occhi. Una berlina la porta in una spa privata, solo per lei. All'uscita, un autista l'aspetta con una nuova busta. Pranzo su una terrazza dove il suo tavolo è prenotato a suo nome. Una stylist la veste per la serata. Un ultimo tragitto, un'ultima porta. Tutti i suoi amici sono lì."
       },
       {
-        "title": "Per la proposta di matrimonio: una missione segreta fino al «sì».",
-        "text": "Un maggiordomo le consegna una busta, un libraio un indizio, un capitano una bussola. In fondo al cammino, lui l'aspetta."
+        "title": "Per la proposta di matrimonio",
+        "tagline": "Una missione segreta attraverso Parigi. Alla fine, lui l'aspetta.",
+        "text": "A colazione, un maggiordomo le consegna una busta sigillata: la sua prima missione. Lungo le banchine, un libraio le porge un libro con un indizio all'interno. In un caffè, il cameriere le porta una carta che non ha ordinato. Sulla Senna, un capitano le affida una bussola. La bussola la conduce in un giardino. Le luci si accendono. Lui è lì, in ginocchio. Lei ha detto sì."
       },
       {
-        "title": "Per i suoi 40 anni: la star di un film… il suo.",
-        "text": "Crede di essere una comparsa: camerino, costume, auto d'epoca. Al ciak di chiusura, i suoi cari spuntano fuori. La sera, proiezione privata."
+        "title": "Per i suoi 40 anni",
+        "tagline": "Una giornata intera nei panni di una star.",
+        "text": "Le annunciano un ciak: crede di essere solo una comparsa. Un camerino a suo nome l'aspetta, con trucco e costume. Un'auto d'epoca la conduce sul set. Prime scene: le affidano il ruolo principale. Le battute ricordano stranamente la sua vita. Al ciak di chiusura, i suoi cari spuntano dalla scenografia. La sera, proiezione privata: lei, protagonista assoluta."
       }
     ],
-    "scenariosFooter": "Tre esempi su mille. La sua sarà scritta per una sola persona.",
+    "scenariosFooter": "Dal mattino alla sera, di luogo in luogo, di sorpresa in sorpresa. Ogni giornata è scritta per una sola persona.",
     "scenariosCta": "Immaginare la sua →"
   },
   "moments": {

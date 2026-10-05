@@ -75,19 +75,22 @@
     "scenariosLabel": "Stellen Sie sich ihren Tag vor",
     "scenarios": [
       {
-        "title": "Zu ihrem 38. Geburtstag: entführt um 7 Uhr, Richtung Spa.",
-        "text": "Zwei „Agenten“ klingeln an ihrer Tür. Augenbinde, Limousine, privates Spa… und abends warten all ihre Freunde."
+        "title": "Zu ihrem 38. Geburtstag",
+        "tagline": "Sie dachte, sie geht zur Arbeit. Sie ging in ihren Tag.",
+        "text": "Zwei „Agenten“ klingeln bei ihr und verbinden ihr die Augen. Eine Limousine bringt sie zu einem privaten Spa, nur für sie. Am Ausgang wartet ein Fahrer mit einem neuen Umschlag. Mittagessen auf einer Terrasse, an der ihr Tisch auf ihren Namen reserviert ist. Eine Stylistin kleidet sie für den Abend ein. Eine letzte Fahrt, eine letzte Tür. All ihre Freunde sind da."
       },
       {
-        "title": "Für den Heiratsantrag: eine geheime Mission bis zum „Ja“.",
-        "text": "Ein Butler überreicht ihr einen Umschlag, ein Buchhändler einen Hinweis, ein Kapitän einen Kompass. Am Ende des Weges wartet er."
+        "title": "Für den Heiratsantrag",
+        "tagline": "Eine geheime Mission durch Paris. Am Ende wartet er.",
+        "text": "Beim Frühstück überreicht ihr ein Butler einen versiegelten Umschlag: ihre erste Mission. An den Ufern der Seine gibt ihr ein Buchhändler ein Buch mit einem Hinweis darin. In einem Café bringt ihr der Kellner eine Karte, die sie nicht bestellt hat. Auf der Seine vertraut ihr ein Kapitän einen Kompass an. Der Kompass führt sie zu einem Garten. Die Lichter gehen an. Er kniet dort. Sie hat Ja gesagt."
       },
       {
-        "title": "Zu ihrem 40. Geburtstag: der Star eines Films… ihres eigenen.",
-        "text": "Sie glaubt, nur Statistin zu sein: Garderobe, Kostüm, Oldtimer. Bei der letzten Klappe tauchen ihre Liebsten auf. Abends: private Vorführung."
+        "title": "Zu ihrem 40. Geburtstag",
+        "tagline": "Ein ganzer Tag im Leben eines Filmstars.",
+        "text": "Man kündigt ihr einen Dreh an: sie glaubt, nur Statistin zu sein. Eine Garderobe mit ihrem Namen erwartet sie, mit Make-up und Kostüm. Ein Oldtimer bringt sie zum Set. Erste Szenen: man gibt ihr die Hauptrolle. Die Dialogzeilen erinnern seltsam an ihr eigenes Leben. Bei der letzten Klappe tauchen ihre Liebsten aus der Kulisse auf. Abends: private Vorführung, sie ganz oben auf dem Plakat."
       }
     ],
-    "scenariosFooter": "Drei Beispiele von tausend. Ihrer wird für eine einzige Person geschrieben.",
+    "scenariosFooter": "Vom Morgen bis zum Abend, von Ort zu Ort, von Überraschung zu Überraschung. Jeder Tag wird für eine einzige Person geschrieben.",
     "scenariosCta": "Ihren Tag gestalten →"
   },
   "moments": {

@@ -75,19 +75,22 @@
     "scenariosLabel": "Imagine her day",
     "scenarios": [
       {
-        "title": "For her 38th birthday: abducted at 7am, bound for the spa.",
-        "text": "Two “agents” ring her doorbell. A blindfold, a sedan, a private spa… and that evening, all her friends are waiting."
+        "title": "For her 38th birthday",
+        "tagline": "She thought she was going to work. She went on an adventure instead.",
+        "text": "Two “agents” ring her doorbell and blindfold her. A sedan takes her to a private spa, just for her. On her way out, a driver is waiting with a new envelope. Lunch on a terrace where her table is reserved in her name. A stylist dresses her for the evening. One last drive, one last door. All her friends are there."
       },
       {
-        "title": "For the marriage proposal: a secret mission to the “yes”.",
-        "text": "A butler hands her an envelope, a bookseller a clue, a captain a compass. At the end of the path, he's waiting."
+        "title": "For the marriage proposal",
+        "tagline": "A secret mission across Paris. At the end, he's waiting.",
+        "text": "At breakfast, a butler hands her a sealed envelope: her first mission. Along the riverbanks, a bookseller hands her a book with a clue inside. In a café, the waiter brings her a card she never ordered. On the Seine, a captain entrusts her with a compass. The compass leads her to a garden. The lights come on. He's there, on one knee. She said yes."
       },
       {
-        "title": "For her 40th birthday: the star of a film… her own.",
-        "text": "She thinks she's an extra: a dressing room, a costume, a vintage car. At the final take, her loved ones appear. That evening, a private screening."
+        "title": "For her 40th birthday",
+        "tagline": "A whole day living the life of a film star.",
+        "text": "She's told there's a film shoot: she thinks she's just an extra. A dressing room bearing her name awaits, with makeup and costume. A vintage car drives her to set. First scenes: she's given the lead role. The lines feel strangely like her own life. At the final take, her loved ones emerge from the set. That evening, a private screening: her, top of the bill."
       }
     ],
-    "scenariosFooter": "Three examples out of a thousand. Hers will be written for one person only.",
+    "scenariosFooter": "From morning to night, place to place, surprise to surprise. Every day is written for one person only.",
     "scenariosCta": "Imagine hers →"
   },
   "moments": {

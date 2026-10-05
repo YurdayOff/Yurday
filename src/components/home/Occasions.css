@@ -28,7 +28,7 @@
 
 /* Exemples de scénarios : clairement distincts des vraies histoires clients (Moments). */
 .occasions-scenarios {
-  max-width: 1040px;
+  max-width: 1120px;
   margin: 48px auto 0;
 }
 .occasions-scenarios-label {
@@ -46,16 +46,23 @@
   gap: 18px;
 }
 .occasions-scenario-card {
-  padding: 22px 20px;
+  padding: 24px 22px;
 }
 .occasions-scenario-card h3 {
   font-size: var(--fs-17);
-  margin: 0 0 8px;
+  margin: 0 0 6px;
   color: var(--ink);
+}
+.occasions-scenario-tagline {
+  font-style: italic;
+  font-weight: 600;
+  font-size: var(--fs-13);
+  color: var(--blue-2);
+  margin: 0 0 12px;
 }
 .occasions-scenario-card p {
   font-size: var(--fs-13);
-  line-height: 1.55;
+  line-height: 1.6;
   color: var(--ink-soft);
   margin: 0;
 }

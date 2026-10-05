@@ -75,19 +75,22 @@
     "scenariosLabel": "Imagina su día",
     "scenarios": [
       {
-        "title": "Por sus 38 años: secuestrada a las 7h, rumbo al spa.",
-        "text": "Dos «agentes» llaman a su puerta. Una venda en los ojos, una berlina, un spa privado… y por la noche, todos sus amigos la esperan."
+        "title": "Por sus 38 años",
+        "tagline": "Creía que iba a trabajar. Se fue a vivir el día.",
+        "text": "Dos «agentes» llaman a su puerta y le vendan los ojos. Una berlina la lleva a un spa privado, solo para ella. A la salida, un chófer la espera con un nuevo sobre. Almuerzo en una terraza donde su mesa está reservada a su nombre. Una estilista la viste para la noche. Un último trayecto, una última puerta. Todos sus amigos están allí."
       },
       {
-        "title": "Para la pedida de mano: una misión secreta hasta el «sí».",
-        "text": "Un mayordomo le entrega un sobre, un librero una pista, un capitán una brújula. Al final del camino, él la espera."
+        "title": "Para la pedida de mano",
+        "tagline": "Una misión secreta por París. Al final, él la espera.",
+        "text": "En el desayuno, un mayordomo le entrega un sobre sellado: su primera misión. En los muelles, un librero le tiende un libro con una pista dentro. En un café, el camarero le trae una carta que ella no pidió. En el Sena, un capitán le confía una brújula. La brújula la lleva a un jardín. Las luces se encienden. Él está allí, de rodillas. Ella dijo que sí."
       },
       {
-        "title": "Por sus 40 años: la estrella de una película… la suya.",
-        "text": "Cree que es figurante: camerino, vestuario, coche de época. Al grito de «corten», sus seres queridos aparecen. Por la noche, proyección privada."
+        "title": "Por sus 40 años",
+        "tagline": "Un día entero en la piel de una estrella.",
+        "text": "Le anuncian un rodaje: ella cree que es figurante. Un camerino con su nombre la espera, con maquillaje y vestuario. Un coche de época la lleva al plató. Primeras escenas: le dan el papel principal. Las frases le recuerdan extrañamente a su propia vida. Al grito de «corten», sus seres queridos surgen del decorado. Por la noche, proyección privada: ella, en el cartel."
       }
     ],
-    "scenariosFooter": "Tres ejemplos entre mil. El suyo se escribirá para una sola persona.",
+    "scenariosFooter": "De la mañana a la noche, de lugar en lugar, de sorpresa en sorpresa. Cada día se escribe para una sola persona.",
     "scenariosCta": "Imaginar el suyo →"
   },
   "moments": {

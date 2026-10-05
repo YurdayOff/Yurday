@@ -75,19 +75,22 @@
     "scenariosLabel": "Imagine o dia dela",
     "scenarios": [
       {
-        "title": "Para os 38 anos dela: sequestrada às 7h, rumo ao spa.",
-        "text": "Dois «agentes» tocam a campainha. Uma venda nos olhos, um sedã, um spa privativo… e à noite, todos os amigos dela esperam."
+        "title": "Para os 38 anos dela",
+        "tagline": "Ela achava que ia trabalhar. Foi viver o dia.",
+        "text": "Dois «agentes» tocam a campainha e vendam seus olhos. Um sedã a leva para um spa privativo, só para ela. Na saída, um motorista a espera com um novo envelope. Almoço em um terraço onde sua mesa está reservada em seu nome. Uma styling a veste para a noite. Um último trajeto, uma última porta. Todos os amigos dela estão lá."
       },
       {
-        "title": "Para o pedido de casamento: uma missão secreta até o «sim».",
-        "text": "Um mordomo entrega um envelope, um livreiro uma pista, um capitão uma bússola. No fim do caminho, ele a espera."
+        "title": "Para o pedido de casamento",
+        "tagline": "Uma missão secreta por Paris. No final, ele a espera.",
+        "text": "No café da manhã, um mordomo entrega a ela um envelope lacrado: sua primeira missão. Nas margens do rio, um livreiro lhe entrega um livro com uma pista dentro. Em um café, o garçom traz a ela um cartão que ela não pediu. No Sena, um capitão lhe confia uma bússola. A bússola a leva a um jardim. As luzes se acendem. Ele está lá, ajoelhado. Ela disse sim."
       },
       {
-        "title": "Para os 40 anos dela: a estrela de um filme… o dela.",
-        "text": "Ela acha que é figurante: camarim, figurino, carro de época. Na claquete final, seus entes queridos surgem. À noite, exibição privada."
+        "title": "Para os 40 anos dela",
+        "tagline": "Um dia inteiro na pele de uma estrela.",
+        "text": "Avisam que há uma filmagem: ela acha que é apenas figurante. Um camarim com seu nome a espera, com maquiagem e figurino. Um carro de época a leva ao set. Primeiras cenas: dão a ela o papel principal. As falas lembram estranhamente a própria vida dela. Na claquete final, seus entes queridos surgem do cenário. À noite, exibição privada: ela, no topo do cartaz."
       }
     ],
-    "scenariosFooter": "Três exemplos entre mil. O dela será escrito para uma única pessoa.",
+    "scenariosFooter": "Da manhã à noite, de lugar em lugar, de surpresa em surpresa. Cada dia é escrito para uma única pessoa.",
     "scenariosCta": "Imaginar o dela →"
   },
   "moments": {

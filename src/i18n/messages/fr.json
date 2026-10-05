@@ -75,19 +75,22 @@
     "scenariosLabel": "Imaginez sa journée",
     "scenarios": [
       {
-        "title": "Pour ses 38 ans : enlevée à 7h, direction le spa.",
-        "text": "Deux « agents » sonnent à sa porte. Un bandeau sur les yeux, une berline, un spa privé… et le soir, tous ses amis l'attendent."
+        "title": "Pour ses 38 ans",
+        "tagline": "Elle croyait partir travailler. Elle est partie pour la journée.",
+        "text": "Deux « agents » sonnent chez elle et lui bandent les yeux. Une berline l'emmène vers un spa privé, rien que pour elle. À la sortie, un chauffeur l'attend avec une nouvelle enveloppe. Déjeuner sur une terrasse où sa table est réservée à son nom. Une styliste l'habille pour la soirée. Un dernier trajet, une dernière porte. Tous ses amis sont là."
       },
       {
-        "title": "Pour la demande en mariage : une mission secrète jusqu'au « oui ».",
-        "text": "Un majordome lui remet une enveloppe, un bouquiniste un indice, un capitaine une boussole. Au bout du chemin, il l'attend."
+        "title": "Pour la demande en mariage",
+        "tagline": "Une mission secrète à travers Paris. Au bout, il l'attend.",
+        "text": "Au petit-déjeuner, un majordome lui remet une enveloppe scellée : sa première mission. Sur les quais, un bouquiniste lui tend un livre avec un indice à l'intérieur. Dans un café, le serveur lui apporte une carte qu'elle n'a pas commandée. Sur la Seine, un capitaine lui confie une boussole. La boussole la mène à un jardin. Les lumières s'allument. Il est là, à genoux. Elle a dit oui."
       },
       {
-        "title": "Pour ses 40 ans : la star d'un film… le sien.",
-        "text": "Il croit faire de la figuration : loge, costume, voiture de collection. Au clap de fin, ses proches surgissent. Le soir, projection privée."
+        "title": "Pour ses 40 ans",
+        "tagline": "Une journée entière dans la peau d'une star.",
+        "text": "On lui annonce un tournage : il croit faire de la figuration. Une loge à son nom l'attend, avec maquillage et costume. Une voiture de collection le conduit sur le plateau. Premières scènes : on lui donne le rôle principal. Les répliques lui rappellent étrangement sa propre vie. Au clap de fin, ses proches surgissent du décor. Le soir, projection privée : lui, en tête d'affiche."
       }
     ],
-    "scenariosFooter": "Trois exemples parmi mille. La vôtre sera écrite pour une seule personne.",
+    "scenariosFooter": "Du matin au soir, de lieu en lieu, de surprise en surprise. Chaque journée est écrite pour une seule personne.",
     "scenariosCta": "Imaginer la sienne →"
   },
   "moments": {
