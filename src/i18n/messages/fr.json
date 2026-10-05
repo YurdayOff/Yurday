@@ -24,6 +24,10 @@
       "fete-des-meres": {
         "title": "Fête des mères sur mesure : un merci qui sort de l'ordinaire",
         "description": "Pour la fête des mères, Yurday imagine une journée entière pensée pour votre maman."
+      },
+      "anniversaire-de-mariage": {
+        "title": "Anniversaire de mariage sur mesure : célébrez vos années ensemble",
+        "description": "Yurday imagine des anniversaires de mariage entièrement sur mesure, pour célébrer votre histoire à deux, à l'image de votre couple."
       }
     }
   },
@@ -70,27 +74,40 @@
       "demande-en-mariage": "Demande en mariage",
       "saint-valentin": "Saint-Valentin",
       "evg-evjf": "EVG / EVJF",
-      "fete-des-meres": "Fête des mères"
+      "fete-des-meres": "Fête des mères",
+      "anniversaire-de-mariage": "Anniversaire de mariage"
     },
     "scenariosLabel": "Imaginez sa journée",
     "scenarios": [
       {
         "title": "Pour ses 38 ans",
-        "tagline": "Elle croyait partir travailler. Elle est partie pour la journée.",
-        "text": "Deux « agents » sonnent chez elle et lui bandent les yeux. Une berline l'emmène vers un spa privé, rien que pour elle. À la sortie, un chauffeur l'attend avec une nouvelle enveloppe. Déjeuner sur une terrasse où sa table est réservée à son nom. Une styliste l'habille pour la soirée. Un dernier trajet, une dernière porte. Tous ses amis sont là."
+        "tagline": "Elle croyait vivre un samedi comme les autres.",
+        "paragraphs": [
+          "À peine réveillée, on sonne. Deux hommes en costume sombre, lunettes noires : « Madame, veuillez nous suivre. Une seule consigne : ne posez aucune question. »",
+          "Petit-déjeuner à bord d'une voiture qui file vers une destination inconnue. Première escale : une montgolfière l'attend, et toute l'Île-de-France défile sous ses pieds. Plus tard, une table est dressée pour elle seule dans l'orangerie d'un château. Puis un spa, rien qu'à elle, où l'après-midi lui appartient.",
+          "Le soir, une dernière porte s'ouvre. Tous ses amis l'attendaient depuis le matin. Les deux agents ? Ils lèvent leur verre avec eux."
+        ]
       },
       {
         "title": "Pour la demande en mariage",
-        "tagline": "Une mission secrète à travers Paris. Au bout, il l'attend.",
-        "text": "Au petit-déjeuner, un majordome lui remet une enveloppe scellée : sa première mission. Sur les quais, un bouquiniste lui tend un livre avec un indice à l'intérieur. Dans un café, le serveur lui apporte une carte qu'elle n'a pas commandée. Sur la Seine, un capitaine lui confie une boussole. La boussole la mène à un jardin. Les lumières s'allument. Il est là, à genoux. Elle a dit oui."
+        "tagline": "Elle a suivi les indices. Il l'attendait au bout.",
+        "paragraphs": [
+          "Le café est servi. Sous la tasse, une énigme : « Rendez-vous là où les livres attendent au soleil. » Sur les quais, un bouquiniste lui tend un vieux livre ; à l'intérieur, une carte de la Seine.",
+          "À bord d'un bateau, le capitaine lui confie une boussole dont l'aiguille ne pointe pas le nord. Elle la suit jusqu'à Versailles, où une calèche l'attend dans les jardins. Au bout d'une allée de pétales, un violon se met à jouer.",
+          "Il est là. Elle a dit oui, et la soirée ne fait que commencer."
+        ]
       },
       {
-        "title": "Pour ses 40 ans",
-        "tagline": "Une journée entière dans la peau d'une star.",
-        "text": "On lui annonce un tournage : il croit faire de la figuration. Une loge à son nom l'attend, avec maquillage et costume. Une voiture de collection le conduit sur le plateau. Premières scènes : on lui donne le rôle principal. Les répliques lui rappellent étrangement sa propre vie. Au clap de fin, ses proches surgissent du décor. Le soir, projection privée : lui, en tête d'affiche."
+        "title": "Pour ses 60 ans",
+        "tagline": "Il pensait qu'on avait oublié son anniversaire.",
+        "paragraphs": [
+          "Sur la table du petit-déjeuner, une lettre signée de ses enfants, accompagnée d'une paire de lunettes d'aviateur. En bas de chez lui, une voiture de collection l'attend ; le chauffeur connaît la destination, lui non.",
+          "Les lunettes prennent tout leur sens sur un aérodrome : un biplan d'époque, et son baptême de l'air. Au bord de la Marne, ses amis d'enfance sont réunis ; certains ne s'étaient pas vus depuis vingt ans. L'après-midi, il prend le volant sur un circuit, toujours aussi pressé.",
+          "Le soir, toute la famille l'attend autour d'une seule table : trois générations réunies pour lui."
+        ]
       }
     ],
-    "scenariosFooter": "Du matin au soir, de lieu en lieu, de surprise en surprise. Chaque journée est écrite pour une seule personne.",
+    "scenariosFooter": "Chaque journée est écrite pour une seule personne, jamais deux fois la même. La vôtre commence par une conversation.",
     "scenariosCta": "Imaginer la sienne →"
   },
   "moments": {
@@ -335,7 +352,8 @@
       "cta": {
         "title": "Prêt à lui écrire son histoire ?",
         "text": "Racontez-nous qui vous voulez gâter, on revient vers vous avec les premières idées sous 12h."
-      }
+      },
+      "scenario": null
     },
     "demande-en-mariage": {
       "eyebrow": "DEMANDE EN MARIAGE",
@@ -349,7 +367,8 @@
       "cta": {
         "title": "Prêt à créer ce moment ?",
         "text": "Racontez-nous votre histoire et comment vous l'imaginez, on revient vers vous avec les premières idées sous 12h."
-      }
+      },
+      "scenario": null
     },
     "saint-valentin": {
       "eyebrow": "SAINT-VALENTIN",
@@ -363,7 +382,8 @@
       "cta": {
         "title": "Prêt à sortir des sentiers battus ?",
         "text": "Racontez-nous qui vous voulez surprendre, on revient vers vous avec les premières idées sous 12h."
-      }
+      },
+      "scenario": null
     },
     "evg-evjf": {
       "eyebrow": "EVG / EVJF",
@@ -377,6 +397,16 @@
       "cta": {
         "title": "Prêt à organiser LA journée ?",
         "text": "Racontez-nous qui vous voulez célébrer et avec qui, on revient vers vous avec les premières idées sous 12h."
+      },
+      "scenario": {
+        "label": "Une journée racontée",
+        "title": "Pour l'enterrement de vie de garçon",
+        "tagline": "Une vraie mission. Pas de tutu, pas de costume gonflable.",
+        "paragraphs": [
+          "Au réveil, un agent livre l'ordre de mission : enveloppe cachetée de cire, consignes strictes, aucune explication. Première épreuve en forêt de Rambouillet, tir à l'arc ; le futur marié vise, ses témoins commentent.",
+          "Au bistrot, le serveur glisse un indice sous l'assiette. Deuxième épreuve : le polo, alors que personne n'était monté à cheval depuis la colonie. Troisième épreuve : une enquête dans un château, où le majordome en sait plus qu'il ne le dit.",
+          "Mission accomplie : médaille, cocktails et bar caché. La nuit leur appartient."
+        ]
       }
     },
     "fete-des-meres": {
@@ -391,6 +421,40 @@
       "cta": {
         "title": "Prêt à lui dire merci autrement ?",
         "text": "Racontez-nous qui est votre maman, on revient vers vous avec les premières idées sous 12h."
+      },
+      "scenario": {
+        "label": "Une journée racontée",
+        "title": "Pour la fête des mères",
+        "tagline": "Elle a toujours pensé aux autres. Ce jour-là, tout le monde pense à elle.",
+        "paragraphs": [
+          "Au brunch, une surprise : sa sœur, qu'elle croyait à Lyon, a traversé la France pour être là. Dans l'atelier d'une parfumeuse, on compose un parfum qui portera son nom. Les deux sœurs déjeunent ensuite sur un bateau privatisé, comme avant.",
+          "Un chef pâtissier lui ouvre sa cuisine : les choux du dessert de ce soir, c'est elle qui les fait. Puis une barque sur le lac du bois de Boulogne, sans rien à faire.",
+          "Au dessert, un comédien lit à voix haute les lettres de ses enfants. Des années de souvenirs tiennent en quelques pages."
+        ]
+      }
+    },
+    "anniversaire-de-mariage": {
+      "eyebrow": "ANNIVERSAIRE DE MARIAGE",
+      "title": {
+        "lead": "Un amour qui",
+        "em": "ne vieillit pas",
+        "tail": ""
+      },
+      "intro": "Racontez-nous l'histoire de votre couple, on s'occupe d'imaginer une journée qui célèbre vos années ensemble, comme au premier jour.",
+      "story": "Un anniversaire de mariage, ce n'est pas qu'une date à cocher. C'est l'occasion de se redire ce qu'on ne se dit plus assez, et de se créer un souvenir de plus après tant d'années. On construit cette journée à partir de votre histoire à vous, jamais d'un programme standard.",
+      "cta": {
+        "title": "Prêt à raviver la flamme ?",
+        "text": "Racontez-nous votre histoire à deux, on revient vers vous avec les premières idées sous 12h."
+      },
+      "scenario": {
+        "label": "Une journée racontée",
+        "title": "Pour leurs 40 ans de mariage",
+        "tagline": "Ils ne s'étaient rien offert depuis des années.",
+        "paragraphs": [
+          "Une voiture comme celle de leur jeunesse se gare devant chez eux, ruban blanc sur le capot. Les fous rires commencent dès la portière. Une barque les attend, comme à leur premier rendez-vous : il rame, elle fait semblant de ne pas le regarder.",
+          "Pique-nique dans le parc d'un château, champagne bien frais. À Montmartre, un peintre fait leur portrait, qui rejoindra le salon. À la guinguette, l'orchestre joue leur chanson, celle de leur premier bal.",
+          "Le soir, entourés de leurs enfants et petits-enfants, ils se redisent oui."
+        ]
       }
     }
   },

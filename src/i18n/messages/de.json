@@ -24,6 +24,10 @@
       "fete-des-meres": {
         "title": "Muttertag nach Maß: ein Dankeschön, das heraussticht",
         "description": "Zum Muttertag gestaltet Yurday einen ganzen Tag, der ganz auf Ihre Mutter zugeschnitten ist."
+      },
+      "anniversaire-de-mariage": {
+        "title": "Maßgeschneiderter Hochzeitstag: feiern Sie Ihre gemeinsamen Jahre",
+        "description": "Yurday gestaltet vollständig maßgeschneiderte Hochzeitstage, um Ihre Geschichte als Paar zu feiern, ganz in Ihrem Stil."
       }
     }
   },
@@ -70,27 +74,40 @@
       "demande-en-mariage": "Heiratsantrag",
       "saint-valentin": "Valentinstag",
       "evg-evjf": "Junggesellenabschied",
-      "fete-des-meres": "Muttertag"
+      "fete-des-meres": "Muttertag",
+      "anniversaire-de-mariage": "Hochzeitstag"
     },
     "scenariosLabel": "Stellen Sie sich ihren Tag vor",
     "scenarios": [
       {
         "title": "Zu ihrem 38. Geburtstag",
-        "tagline": "Sie dachte, sie geht zur Arbeit. Sie ging in ihren Tag.",
-        "text": "Zwei „Agenten“ klingeln bei ihr und verbinden ihr die Augen. Eine Limousine bringt sie zu einem privaten Spa, nur für sie. Am Ausgang wartet ein Fahrer mit einem neuen Umschlag. Mittagessen auf einer Terrasse, an der ihr Tisch auf ihren Namen reserviert ist. Eine Stylistin kleidet sie für den Abend ein. Eine letzte Fahrt, eine letzte Tür. All ihre Freunde sind da."
+        "tagline": "Sie dachte, es würde ein Samstag wie jeder andere.",
+        "paragraphs": [
+          "Kaum wach, klingelt es. Zwei Männer in dunklen Anzügen, Sonnenbrille: „Gnädige Frau, bitte kommen Sie mit. Nur eine Regel: keine Fragen.“",
+          "Frühstück in einem Auto, das einem unbekannten Ziel entgegenfährt. Erster Halt: ein Heißluftballon wartet, und ganz Île-de-France zieht unter ihr vorbei. Später ist ein Tisch nur für sie in der Orangerie eines Schlosses gedeckt. Dann ein Spa, nur für sie, in dem ihr der Nachmittag gehört.",
+          "Abends öffnet sich eine letzte Tür. All ihre Freunde hatten seit dem Morgen gewartet. Und die beiden Agenten? Sie stoßen mit ihnen an."
+        ]
       },
       {
         "title": "Für den Heiratsantrag",
-        "tagline": "Eine geheime Mission durch Paris. Am Ende wartet er.",
-        "text": "Beim Frühstück überreicht ihr ein Butler einen versiegelten Umschlag: ihre erste Mission. An den Ufern der Seine gibt ihr ein Buchhändler ein Buch mit einem Hinweis darin. In einem Café bringt ihr der Kellner eine Karte, die sie nicht bestellt hat. Auf der Seine vertraut ihr ein Kapitän einen Kompass an. Der Kompass führt sie zu einem Garten. Die Lichter gehen an. Er kniet dort. Sie hat Ja gesagt."
+        "tagline": "Sie folgte den Hinweisen. Er wartete am Ende.",
+        "paragraphs": [
+          "Der Kaffee wird serviert. Unter der Tasse ein Rätsel: „Treffpunkt, wo die Bücher in der Sonne warten.“ An den Ufern der Seine reicht ihr ein Buchhändler ein altes Buch; darin eine Karte der Seine.",
+          "An Bord eines Bootes vertraut ihr der Kapitän einen Kompass an, dessen Nadel nicht nach Norden zeigt. Sie folgt ihm bis nach Versailles, wo eine Kutsche in den Gärten wartet. Am Ende einer mit Blütenblättern bestreuten Allee beginnt eine Geige zu spielen.",
+          "Er ist da. Sie hat Ja gesagt, und der Abend fängt gerade erst an."
+        ]
       },
       {
-        "title": "Zu ihrem 40. Geburtstag",
-        "tagline": "Ein ganzer Tag im Leben eines Filmstars.",
-        "text": "Man kündigt ihr einen Dreh an: sie glaubt, nur Statistin zu sein. Eine Garderobe mit ihrem Namen erwartet sie, mit Make-up und Kostüm. Ein Oldtimer bringt sie zum Set. Erste Szenen: man gibt ihr die Hauptrolle. Die Dialogzeilen erinnern seltsam an ihr eigenes Leben. Bei der letzten Klappe tauchen ihre Liebsten aus der Kulisse auf. Abends: private Vorführung, sie ganz oben auf dem Plakat."
+        "title": "Zu seinem 60. Geburtstag",
+        "tagline": "Er dachte, man hätte seinen Geburtstag vergessen.",
+        "paragraphs": [
+          "Auf dem Frühstückstisch ein Brief, unterschrieben von seinen Kindern, zusammen mit einer Pilotenbrille. Unten vor der Tür wartet ein Oldtimer; der Fahrer kennt das Ziel, er nicht.",
+          "Die Brille ergibt auf einem Flugplatz einen Sinn: ein historischer Doppeldecker, und sein erster Flug. An der Marne haben sich seine Jugendfreunde versammelt; manche hatten sich zwanzig Jahre nicht gesehen. Am Nachmittag setzt er sich auf einer Rennstrecke ans Steuer, noch immer genauso ungeduldig wie früher.",
+          "Abends wartet die ganze Familie an einem einzigen Tisch auf ihn: drei Generationen, für ihn vereint."
+        ]
       }
     ],
-    "scenariosFooter": "Vom Morgen bis zum Abend, von Ort zu Ort, von Überraschung zu Überraschung. Jeder Tag wird für eine einzige Person geschrieben.",
+    "scenariosFooter": "Jeder Tag wird für eine einzige Person geschrieben, nie zweimal derselbe. Ihrer beginnt mit einem Gespräch.",
     "scenariosCta": "Ihren Tag gestalten →"
   },
   "moments": {
@@ -335,7 +352,8 @@
       "cta": {
         "title": "Bereit, seine oder ihre Geschichte zu schreiben?",
         "text": "Erzählen Sie uns, wen Sie verwöhnen möchten, wir melden uns mit ersten Ideen innerhalb von 24 Stunden."
-      }
+      },
+      "scenario": null
     },
     "demande-en-mariage": {
       "eyebrow": "HEIRATSANTRAG",
@@ -349,7 +367,8 @@
       "cta": {
         "title": "Bereit, diesen Moment zu erschaffen?",
         "text": "Erzählen Sie uns Ihre Geschichte und wie Sie sie sich vorstellen, wir melden uns mit ersten Ideen innerhalb von 24 Stunden."
-      }
+      },
+      "scenario": null
     },
     "saint-valentin": {
       "eyebrow": "VALENTINSTAG",
@@ -363,7 +382,8 @@
       "cta": {
         "title": "Bereit, ausgetretene Pfade zu verlassen?",
         "text": "Erzählen Sie uns, wen Sie überraschen möchten, wir melden uns mit ersten Ideen innerhalb von 24 Stunden."
-      }
+      },
+      "scenario": null
     },
     "evg-evjf": {
       "eyebrow": "JUNGGESELLENABSCHIED",
@@ -377,6 +397,16 @@
       "cta": {
         "title": "Bereit, DEN Tag zu organisieren?",
         "text": "Erzählen Sie uns, wen Sie feiern möchten und mit wem, wir melden uns mit ersten Ideen innerhalb von 24 Stunden."
+      },
+      "scenario": {
+        "label": "Ein Tag, erzählt wie eine Geschichte",
+        "title": "Zum Junggesellenabschied",
+        "tagline": "Eine echte Mission. Kein Tutu, kein aufblasbares Kostüm.",
+        "paragraphs": [
+          "Beim Aufwachen überbringt ein Agent den Einsatzbefehl: ein mit Wachs versiegelter Umschlag, strenge Anweisungen, keine Erklärung. Erste Prüfung im Wald von Rambouillet, Bogenschießen; der zukünftige Bräutigam zielt, seine Trauzeugen kommentieren.",
+          "Im Bistro schiebt der Kellner einen Hinweis unter den Teller. Zweite Prüfung: Polo, obwohl niemand seit dem Ferienlager auf einem Pferd gesessen hat. Dritte Prüfung: eine Ermittlung in einem Schloss, in dem der Butler mehr weiß, als er zugibt.",
+          "Mission erfüllt: Medaille, Cocktails und eine versteckte Bar. Die Nacht gehört ihnen."
+        ]
       }
     },
     "fete-des-meres": {
@@ -391,6 +421,40 @@
       "cta": {
         "title": "Bereit, ihr auf andere Weise zu danken?",
         "text": "Erzählen Sie uns von Ihrer Mama, wir melden uns mit ersten Ideen innerhalb von 24 Stunden."
+      },
+      "scenario": {
+        "label": "Ein Tag, erzählt wie eine Geschichte",
+        "title": "Zum Muttertag",
+        "tagline": "Sie hat immer an die anderen gedacht. An diesem Tag denken alle an sie.",
+        "paragraphs": [
+          "Beim Brunch eine Überraschung: ihre Schwester, von der sie dachte, sie sei in Lyon, ist quer durch Frankreich gereist, um dabei zu sein. In der Werkstatt einer Parfümeurin wird ein Duft komponiert, der ihren Namen tragen wird. Die beiden Schwestern essen anschließend auf einem privat gecharterten Boot zu Mittag, wie früher.",
+          "Ein Patissier öffnet ihr seine Küche: die Windbeutel für das Dessert des Abends macht sie selbst. Danach ein Ruderboot auf dem See im Bois de Boulogne, ganz ohne etwas tun zu müssen.",
+          "Zum Dessert liest ein Schauspieler die Briefe ihrer Kinder laut vor. Jahre voller Erinnerungen passen in ein paar Seiten."
+        ]
+      }
+    },
+    "anniversaire-de-mariage": {
+      "eyebrow": "MASSGESCHNEIDERTER HOCHZEITSTAG",
+      "title": {
+        "lead": "Eine Liebe, die",
+        "em": "nicht altert",
+        "tail": ""
+      },
+      "intro": "Erzählen Sie uns die Geschichte Ihres Paares, wir kümmern uns darum, einen Tag zu entwerfen, der Ihre gemeinsamen Jahre feiert, wie am ersten Tag.",
+      "story": "Ein Hochzeitstag ist mehr als nur ein Datum zum Abhaken. Er ist die Gelegenheit, sich zu sagen, was man sich nicht mehr oft genug sagt, und nach all den Jahren eine weitere Erinnerung zu schaffen. Wir gestalten diesen Tag aus Ihrer eigenen Geschichte, nie aus einem Standardprogramm.",
+      "cta": {
+        "title": "Bereit, die Flamme neu zu entfachen?",
+        "text": "Erzählen Sie uns Ihre Geschichte als Paar, wir melden uns mit ersten Ideen innerhalb von 12h."
+      },
+      "scenario": {
+        "label": "Ein Tag, erzählt wie eine Geschichte",
+        "title": "Zu ihrem 40. Hochzeitstag",
+        "tagline": "Sie hatten sich seit Jahren nichts mehr geschenkt.",
+        "paragraphs": [
+          "Ein Auto wie das aus ihrer Jugend hält vor ihrem Haus, eine weiße Schleife auf der Motorhaube. Das Lachen beginnt schon an der Tür. Ein Ruderboot wartet, wie bei ihrem ersten Date: er rudert, sie tut so, als würde sie nicht hinsehen.",
+          "Picknick im Park eines Schlosses, gut gekühlter Champagner. Auf dem Montmartre malt ein Maler ihr Porträt, das später im Wohnzimmer hängen wird. In der Guinguette spielt die Kapelle ihr Lied, das von ihrem ersten Tanz.",
+          "Abends, umgeben von ihren Kindern und Enkeln, sagen sie sich erneut Ja."
+        ]
       }
     }
   },

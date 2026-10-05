@@ -7,6 +7,7 @@ export const occasionKeys = [
   'saint-valentin',
   'evg-evjf',
   'fete-des-meres',
+  'anniversaire-de-mariage',
 ] as const
 
 export type OccasionKey = (typeof occasionKeys)[number]
@@ -71,6 +72,17 @@ const slugs: Record<OccasionKey, Record<Locale, string>> = {
     zh: 'mothers-day',
     ja: 'mothers-day',
     ar: 'mothers-day',
+  },
+  'anniversaire-de-mariage': {
+    fr: 'anniversaire-de-mariage',
+    en: 'wedding-anniversary',
+    es: 'aniversario-de-boda',
+    pt: 'aniversario-de-casamento',
+    de: 'hochzeitstag',
+    it: 'anniversario-di-matrimonio',
+    zh: 'wedding-anniversary',
+    ja: 'wedding-anniversary',
+    ar: 'wedding-anniversary',
   },
 }
 

@@ -27,7 +27,9 @@ export function Occasions({ messages }: OccasionsProps) {
               <div className="ticket occasions-scenario-card" key={scenario.title}>
                 <h3>{scenario.title}</h3>
                 <p className="occasions-scenario-tagline">{scenario.tagline}</p>
-                <p>{scenario.text}</p>
+                {scenario.paragraphs.map((paragraph, index) => (
+                  <p key={index}>{paragraph}</p>
+                ))}
               </div>
             ))}
           </div>

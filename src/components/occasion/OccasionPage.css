@@ -13,6 +13,49 @@ section.occasion-content { padding: 64px 28px; }
   color: var(--ink-soft);
   line-height: 1.7;
 }
+section.occasion-scenario {
+  background: var(--blue-2);
+  padding: 56px 28px;
+}
+.occasion-scenario-label {
+  text-align: center;
+  font-size: var(--fs-12);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: rgba(255, 255, 255, 0.65);
+  margin: 0 0 24px;
+}
+.occasion-scenario-card {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 32px 30px;
+}
+.occasion-scenario-card h3 {
+  font-size: var(--fs-22);
+  margin: 0 0 8px;
+  color: var(--ink);
+}
+.occasion-scenario-card .occasion-scenario-tagline {
+  font-style: italic;
+  font-weight: 600;
+  font-size: var(--fs-15);
+  color: var(--blue-2);
+  margin: 0 0 18px;
+}
+.occasion-scenario-card p {
+  font-family: var(--font-body), var(--font-inter), sans-serif;
+  font-size: var(--fs-14);
+  line-height: 1.65;
+  color: var(--ink-soft);
+  margin: 0;
+}
+.occasion-scenario-card p + p { margin-top: 14px; }
+@media (max-width: 640px) {
+  section.occasion-scenario { padding: 40px 20px; }
+  .occasion-scenario-card { padding: 26px 22px; }
+}
+
 .occasion-cta {
   background: var(--blue-2);
   border-radius: 28px;

@@ -24,6 +24,10 @@
       "fete-des-meres": {
         "title": "Dia das Mães sob medida: um obrigado fora do comum",
         "description": "No Dia das Mães, a Yurday imagina um dia inteiro pensado para a sua mãe."
+      },
+      "anniversaire-de-mariage": {
+        "title": "Aniversário de casamento sob medida: celebrem seus anos juntos",
+        "description": "A Yurday imagina aniversários de casamento inteiramente sob medida, para celebrar a história do casal, à imagem de vocês."
       }
     }
   },
@@ -70,27 +74,40 @@
       "demande-en-mariage": "Pedido de casamento",
       "saint-valentin": "Dia dos Namorados",
       "evg-evjf": "Despedida de solteiro(a)",
-      "fete-des-meres": "Dia das Mães"
+      "fete-des-meres": "Dia das Mães",
+      "anniversaire-de-mariage": "Aniversário de casamento"
     },
     "scenariosLabel": "Imagine o dia dela",
     "scenarios": [
       {
         "title": "Para os 38 anos dela",
-        "tagline": "Ela achava que ia trabalhar. Foi viver o dia.",
-        "text": "Dois «agentes» tocam a campainha e vendam seus olhos. Um sedã a leva para um spa privativo, só para ela. Na saída, um motorista a espera com um novo envelope. Almoço em um terraço onde sua mesa está reservada em seu nome. Uma styling a veste para a noite. Um último trajeto, uma última porta. Todos os amigos dela estão lá."
+        "tagline": "Ela achava que seria um sábado como outro qualquer.",
+        "paragraphs": [
+          "Mal acordada, tocam a campainha. Dois homens de terno escuro, óculos escuros: «Senhora, por favor nos acompanhe. Uma única regra: nenhuma pergunta.»",
+          "Café da manhã a bordo de um carro que segue rumo a um destino desconhecido. Primeira parada: um balão de ar quente a espera, e toda a região de Île-de-France se desenha sob seus pés. Mais tarde, uma mesa posta só para ela na laranjeira de um castelo. Depois, um spa, só para ela, onde a tarde lhe pertence.",
+          "À noite, uma última porta se abre. Todos os amigos dela esperavam desde a manhã. E os dois agentes? Brindam com eles."
+        ]
       },
       {
         "title": "Para o pedido de casamento",
-        "tagline": "Uma missão secreta por Paris. No final, ele a espera.",
-        "text": "No café da manhã, um mordomo entrega a ela um envelope lacrado: sua primeira missão. Nas margens do rio, um livreiro lhe entrega um livro com uma pista dentro. Em um café, o garçom traz a ela um cartão que ela não pediu. No Sena, um capitão lhe confia uma bússola. A bússola a leva a um jardim. As luzes se acendem. Ele está lá, ajoelhado. Ela disse sim."
+        "tagline": "Ela seguiu as pistas. Ele a esperava no fim.",
+        "paragraphs": [
+          "O café é servido. Sob a xícara, um enigma: «Encontro onde os livros esperam ao sol.» Nas margens do rio, um livreiro lhe entrega um livro antigo; dentro, um mapa do Sena.",
+          "A bordo de um barco, o capitão lhe confia uma bússola cuja agulha não aponta para o norte. Ela a segue até Versalhes, onde uma charrete a espera nos jardins. No fim de uma alameda de pétalas, um violino começa a tocar.",
+          "Ele está lá. Ela disse sim, e a noite está apenas começando."
+        ]
       },
       {
-        "title": "Para os 40 anos dela",
-        "tagline": "Um dia inteiro na pele de uma estrela.",
-        "text": "Avisam que há uma filmagem: ela acha que é apenas figurante. Um camarim com seu nome a espera, com maquiagem e figurino. Um carro de época a leva ao set. Primeiras cenas: dão a ela o papel principal. As falas lembram estranhamente a própria vida dela. Na claquete final, seus entes queridos surgem do cenário. À noite, exibição privada: ela, no topo do cartaz."
+        "title": "Para os 60 anos dele",
+        "tagline": "Ele achava que tinham esquecido seu aniversário.",
+        "paragraphs": [
+          "Na mesa do café da manhã, uma carta assinada pelos filhos, junto com um óculos de aviador. Lá embaixo, um carro de época o espera; o motorista conhece o destino, ele não.",
+          "Os óculos fazem sentido em um aeródromo: um biplano de época, e seu batismo de voo. À beira do rio Marne, os amigos de infância estão reunidos; alguns não se viam há vinte anos. À tarde, ele assume o volante em um circuito, sempre apressado como sempre foi.",
+          "À noite, toda a família o espera em uma única mesa: três gerações reunidas por ele."
+        ]
       }
     ],
-    "scenariosFooter": "Da manhã à noite, de lugar em lugar, de surpresa em surpresa. Cada dia é escrito para uma única pessoa.",
+    "scenariosFooter": "Cada dia é escrito para uma única pessoa, nunca o mesmo duas vezes. O seu começa com uma conversa.",
     "scenariosCta": "Imaginar o dela →"
   },
   "moments": {
@@ -335,7 +352,8 @@
       "cta": {
         "title": "Pronto para escrever a história dele(a)?",
         "text": "Conte-nos quem você quer mimar, retornaremos com as primeiras ideias em até 12h."
-      }
+      },
+      "scenario": null
     },
     "demande-en-mariage": {
       "eyebrow": "PEDIDO DE CASAMENTO",
@@ -349,7 +367,8 @@
       "cta": {
         "title": "Pronto para criar esse momento?",
         "text": "Conte-nos sua história e como você a imagina, retornaremos com as primeiras ideias em até 12h."
-      }
+      },
+      "scenario": null
     },
     "saint-valentin": {
       "eyebrow": "DIA DOS NAMORADOS",
@@ -363,7 +382,8 @@
       "cta": {
         "title": "Prontos para fugir do óbvio?",
         "text": "Conte-nos quem você quer surpreender, retornaremos com as primeiras ideias em até 12h."
-      }
+      },
+      "scenario": null
     },
     "evg-evjf": {
       "eyebrow": "DESPEDIDA DE SOLTEIRO(A)",
@@ -377,6 +397,16 @@
       "cta": {
         "title": "Pronto para organizar O dia?",
         "text": "Conte-nos quem você quer celebrar e com quem, retornaremos com as primeiras ideias em até 12h."
+      },
+      "scenario": {
+        "label": "Um dia, contado como uma história",
+        "title": "Para a despedida de solteiro",
+        "tagline": "Uma missão de verdade. Sem fantasia, sem traje inflável.",
+        "paragraphs": [
+          "Ao acordar, um agente entrega a ordem de missão: envelope lacrado com cera, instruções rígidas, nenhuma explicação. Primeira prova na floresta de Rambouillet, tiro com arco; o futuro noivo mira, seus padrinhos comentam.",
+          "No bistrô, o garçom desliza uma pista sob o prato. Segunda prova: o polo, quando ninguém andava a cavalo desde o acampamento de infância. Terceira prova: uma investigação em um castelo, onde o mordomo sabe mais do que revela.",
+          "Missão cumprida: medalha, coquetéis e um bar escondido. A noite é deles."
+        ]
       }
     },
     "fete-des-meres": {
@@ -391,6 +421,40 @@
       "cta": {
         "title": "Pronto para agradecer de outra forma?",
         "text": "Conte-nos sobre sua mãe, retornaremos com as primeiras ideias em até 12h."
+      },
+      "scenario": {
+        "label": "Um dia, contado como uma história",
+        "title": "Para o Dia das Mães",
+        "tagline": "Ela sempre pensou nos outros. Nesse dia, todos pensam nela.",
+        "paragraphs": [
+          "No brunch, uma surpresa: sua irmã, que ela achava estar em Lyon, atravessou a França para estar ali. No ateliê de uma perfumista, compõe-se um perfume que levará o nome dela. As duas irmãs almoçam depois em um barco privativo, como antigamente.",
+          "Um chef confeiteiro abre sua cozinha para ela: os choux da sobremesa desta noite, é ela quem faz. Depois, um passeio de barco no lago do Bois de Boulogne, sem nada para fazer.",
+          "Na sobremesa, um ator lê em voz alta as cartas dos filhos dela. Anos de lembranças cabem em poucas páginas."
+        ]
+      }
+    },
+    "anniversaire-de-mariage": {
+      "eyebrow": "ANIVERSÁRIO DE CASAMENTO SOB MEDIDA",
+      "title": {
+        "lead": "Um amor que",
+        "em": "não envelhece",
+        "tail": ""
+      },
+      "intro": "Conte-nos a história do seu casal, cuidamos de imaginar um dia que celebre os anos que vocês passaram juntos, como no primeiro dia.",
+      "story": "Um aniversário de casamento não é só uma data para marcar. É a ocasião de dizer um ao outro o que vocês já não dizem o suficiente, e de criar mais uma lembrança depois de tantos anos. Construímos esse dia a partir da história de vocês, nunca de um programa padrão.",
+      "cta": {
+        "title": "Prontos para reacender a chama?",
+        "text": "Contem-nos a história de vocês como casal, retornaremos com as primeiras ideias em até 12h."
+      },
+      "scenario": {
+        "label": "Um dia, contado como uma história",
+        "title": "Para os 40 anos de casados",
+        "tagline": "Eles não se davam presentes havia anos.",
+        "paragraphs": [
+          "Um carro como o da juventude deles estaciona na frente de casa, com um laço branco no capô. As risadas começam já na porta. Um barco a remo os espera, como no primeiro encontro: ele rema, ela finge não olhar para ele.",
+          "Piquenique no parque de um castelo, champanhe bem gelado. Em Montmartre, um pintor faz o retrato dos dois, que vai para a sala de estar. Na guinguette, a orquestra toca a música deles, a do primeiro baile.",
+          "À noite, cercados pelos filhos e netos, eles dizem sim mais uma vez."
+        ]
       }
     }
   },

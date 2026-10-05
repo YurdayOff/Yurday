@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import { HeroSection } from '@/components/ui/HeroSection'
+import '@/components/ui/Ticket.css'
 import { WhatsAppIcon } from '@/components/ui/WhatsAppIcon'
 import { localePath, type Locale } from '@/i18n/config'
 import type { Messages } from '@/i18n/messages'
@@ -55,6 +56,21 @@ export function OccasionContent({ occasion, locale, messages }: OccasionContentP
           </div>
         </div>
       </section>
+
+      {page.scenario ? (
+        <section className="occasion-scenario">
+          <div className="container">
+            <p className="occasion-scenario-label">{page.scenario.label}</p>
+            <div className="ticket occasion-scenario-card">
+              <h3>{page.scenario.title}</h3>
+              <p className="occasion-scenario-tagline">{page.scenario.tagline}</p>
+              {page.scenario.paragraphs.map((paragraph, index) => (
+                <p key={index}>{paragraph}</p>
+              ))}
+            </div>
+          </div>
+        </section>
+      ) : null}
 
       <section className="occasion-content">
         <div className="container">

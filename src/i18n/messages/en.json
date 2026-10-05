@@ -24,6 +24,10 @@
       "fete-des-meres": {
         "title": "Bespoke Mother's Day: a thank you out of the ordinary",
         "description": "For Mother's Day, Yurday designs a whole day built around your mum."
+      },
+      "anniversaire-de-mariage": {
+        "title": "Bespoke wedding anniversary: celebrate your years together",
+        "description": "Yurday designs entirely bespoke wedding anniversary days, to celebrate your story as a couple, in your own image."
       }
     }
   },
@@ -70,27 +74,40 @@
       "demande-en-mariage": "Marriage proposal",
       "saint-valentin": "Valentine's Day",
       "evg-evjf": "Bachelor / bachelorette party",
-      "fete-des-meres": "Mother's Day"
+      "fete-des-meres": "Mother's Day",
+      "anniversaire-de-mariage": "Wedding anniversary"
     },
     "scenariosLabel": "Imagine her day",
     "scenarios": [
       {
         "title": "For her 38th birthday",
-        "tagline": "She thought she was going to work. She went on an adventure instead.",
-        "text": "Two “agents” ring her doorbell and blindfold her. A sedan takes her to a private spa, just for her. On her way out, a driver is waiting with a new envelope. Lunch on a terrace where her table is reserved in her name. A stylist dresses her for the evening. One last drive, one last door. All her friends are there."
+        "tagline": "She thought it was just another Saturday.",
+        "paragraphs": [
+          "Barely awake, the doorbell rings. Two men in dark suits, sunglasses on: “Madam, please come with us. One rule only: no questions.”",
+          "Breakfast in a car speeding toward an unknown destination. First stop: a hot air balloon is waiting, and all of the Île-de-France unfolds beneath her feet. Later, a table is set for her alone in the orangery of a château. Then a spa, just for her, where the afternoon belongs to her.",
+          "That evening, one last door opens. All her friends had been waiting since morning. The two agents? They raise a glass with them."
+        ]
       },
       {
         "title": "For the marriage proposal",
-        "tagline": "A secret mission across Paris. At the end, he's waiting.",
-        "text": "At breakfast, a butler hands her a sealed envelope: her first mission. Along the riverbanks, a bookseller hands her a book with a clue inside. In a café, the waiter brings her a card she never ordered. On the Seine, a captain entrusts her with a compass. The compass leads her to a garden. The lights come on. He's there, on one knee. She said yes."
+        "tagline": "She followed the clues. He was waiting at the end.",
+        "paragraphs": [
+          "Coffee is served. Under the cup, a riddle: “Meet where the books wait in the sun.” Along the riverbanks, a bookseller hands her an old book; inside, a map of the Seine.",
+          "Aboard a boat, the captain entrusts her with a compass whose needle doesn't point north. She follows it to Versailles, where a horse-drawn carriage waits in the gardens. At the end of a petal-strewn path, a violin begins to play.",
+          "He's there. She said yes, and the evening has only just begun."
+        ]
       },
       {
-        "title": "For her 40th birthday",
-        "tagline": "A whole day living the life of a film star.",
-        "text": "She's told there's a film shoot: she thinks she's just an extra. A dressing room bearing her name awaits, with makeup and costume. A vintage car drives her to set. First scenes: she's given the lead role. The lines feel strangely like her own life. At the final take, her loved ones emerge from the set. That evening, a private screening: her, top of the bill."
+        "title": "For his 60th birthday",
+        "tagline": "He thought everyone had forgotten his birthday.",
+        "paragraphs": [
+          "On the breakfast table, a letter signed by his children, along with a pair of aviator sunglasses. Downstairs, a vintage car is waiting; the driver knows the destination, he doesn't.",
+          "The sunglasses make sense at an airfield: a vintage biplane, and his first flight. By the Marne river, his childhood friends are gathered; some hadn't seen each other in twenty years. In the afternoon, he takes the wheel on a racetrack, still in a hurry as ever.",
+          "That evening, the whole family is waiting around a single table: three generations gathered for him."
+        ]
       }
     ],
-    "scenariosFooter": "From morning to night, place to place, surprise to surprise. Every day is written for one person only.",
+    "scenariosFooter": "Every day is written for one person only, never the same twice. Yours starts with a conversation.",
     "scenariosCta": "Imagine hers →"
   },
   "moments": {
@@ -335,7 +352,8 @@
       "cta": {
         "title": "Ready to write their story?",
         "text": "Tell us who you want to spoil, and we'll get back to you with the first ideas within 24 hours."
-      }
+      },
+      "scenario": null
     },
     "demande-en-mariage": {
       "eyebrow": "MARRIAGE PROPOSAL",
@@ -349,7 +367,8 @@
       "cta": {
         "title": "Ready to create this moment?",
         "text": "Tell us your story and how you picture it, and we'll get back to you with the first ideas within 24 hours."
-      }
+      },
+      "scenario": null
     },
     "saint-valentin": {
       "eyebrow": "VALENTINE'S DAY",
@@ -363,7 +382,8 @@
       "cta": {
         "title": "Ready to go off the beaten path?",
         "text": "Tell us who you'd like to surprise, and we'll get back to you with the first ideas within 24 hours."
-      }
+      },
+      "scenario": null
     },
     "evg-evjf": {
       "eyebrow": "BACHELOR / BACHELORETTE PARTY",
@@ -377,6 +397,16 @@
       "cta": {
         "title": "Ready to organise THE day?",
         "text": "Tell us who you want to celebrate and with whom, and we'll get back to you with the first ideas within 24 hours."
+      },
+      "scenario": {
+        "label": "A day, told as a story",
+        "title": "For the bachelor party",
+        "tagline": "A real mission. No tutu, no inflatable costume.",
+        "paragraphs": [
+          "On waking, an agent delivers the mission orders: an envelope sealed in wax, strict instructions, no explanation. First challenge in the Rambouillet forest, archery; the groom-to-be takes aim, his best men commentate.",
+          "At the bistro, the waiter slips a clue under the plate. Second challenge: polo, though no one has ridden a horse since summer camp. Third challenge: an investigation in a château, where the butler knows more than he lets on.",
+          "Mission accomplished: a medal, cocktails and a hidden bar. The night is theirs."
+        ]
       }
     },
     "fete-des-meres": {
@@ -391,6 +421,40 @@
       "cta": {
         "title": "Ready to thank her differently?",
         "text": "Tell us about your mum, and we'll get back to you with the first ideas within 24 hours."
+      },
+      "scenario": {
+        "label": "A day, told as a story",
+        "title": "For Mother's Day",
+        "tagline": "She always thought of everyone else. This day, everyone thinks of her.",
+        "paragraphs": [
+          "At brunch, a surprise: her sister, who she thought was in Lyon, crossed France to be there. In a perfumer's workshop, a scent is composed that will carry her name. The two sisters then have lunch on a privately chartered boat, just like before.",
+          "A pastry chef opens up his kitchen to her: tonight's dessert, the choux pastries, are hers to make. Then a rowing boat on the lake in the Bois de Boulogne, with nothing else to do.",
+          "At dessert, an actor reads her children's letters aloud. Years of memories fit into a few pages."
+        ]
+      }
+    },
+    "anniversaire-de-mariage": {
+      "eyebrow": "BESPOKE WEDDING ANNIVERSARY",
+      "title": {
+        "lead": "A love that",
+        "em": "never gets old",
+        "tail": ""
+      },
+      "intro": "Tell us your story as a couple, and we'll imagine a day that celebrates your years together, just like the first day.",
+      "story": "A wedding anniversary isn't just a date to tick off. It's a chance to say what you don't say enough anymore, and to create one more memory after all these years. We build this day from your own story, never from a standard programme.",
+      "cta": {
+        "title": "Ready to rekindle the flame?",
+        "text": "Tell us your story as a couple, and we'll get back to you with the first ideas within 12h."
+      },
+      "scenario": {
+        "label": "A day, told as a story",
+        "title": "For their 40th wedding anniversary",
+        "tagline": "They hadn't given each other anything in years.",
+        "paragraphs": [
+          "A car like the one from their youth pulls up outside their home, a white ribbon on the hood. The laughter starts at the door. A rowing boat is waiting, just like their first date: he rows, she pretends not to watch him.",
+          "A picnic in the grounds of a château, champagne well chilled. In Montmartre, a painter paints their portrait, destined for the living room. At the guinguette, the band plays their song, the one from their first dance.",
+          "That evening, surrounded by their children and grandchildren, they say “I do” again."
+        ]
       }
     }
   },
