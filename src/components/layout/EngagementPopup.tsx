@@ -1,7 +1,7 @@
 'use client'
 
-import Link from 'next/link'
 import { useCallback, useEffect, useState } from 'react'
+import { HashLink } from '@/components/ui/HashLink'
 import type { Messages } from '@/i18n/messages'
 import './EngagementPopup.css'
 
@@ -91,9 +91,9 @@ export function EngagementPopup({ messages, contactHref }: EngagementPopupProps)
         <h3 id="popup-title">{messages.popup.title}</h3>
         <p>{messages.popup.body}</p>
         <div className="popup-actions">
-          <Link href={contactHref} className="btn btn-primary" onClick={close}>
+          <HashLink href={contactHref} className="btn btn-primary" onNavigate={close}>
             {messages.nav.cta}
-          </Link>
+          </HashLink>
           <button type="button" className="popup-dismiss" onClick={close}>
             {messages.popup.dismiss}
           </button>

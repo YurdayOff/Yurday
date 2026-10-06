@@ -1,7 +1,7 @@
 'use client'
 
-import Link from 'next/link'
 import { useState } from 'react'
+import { HashLink } from '@/components/ui/HashLink'
 import { Reveal } from '@/components/ui/Reveal'
 import type { Messages } from '@/i18n/messages'
 import { SectionHead } from './SectionHead'
@@ -52,9 +52,9 @@ export function Faq({ messages, home }: FaqProps) {
 
         <Reveal className="faq-closing">
           <p>{faq.closing}</p>
-          <Link href={`${home}#contact`} className="btn btn-primary">
+          <HashLink href={`${home}#contact`} className="btn btn-primary">
             {messages.nav.cta}
-          </Link>
+          </HashLink>
         </Reveal>
       </div>
     </section>

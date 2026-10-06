@@ -1,6 +1,6 @@
 import Image from 'next/image'
-import Link from 'next/link'
 import { moments as momentList } from '@/data/moments'
+import { HashLink } from '@/components/ui/HashLink'
 import { Reveal } from '@/components/ui/Reveal'
 import type { Messages } from '@/i18n/messages'
 import { SectionHead } from './SectionHead'
@@ -49,9 +49,9 @@ export function Moments({ messages, home }: MomentsProps) {
 
       <div className="container">
         <div className="moment-cta-wrap">
-          <Link href={`${home}#contact`} className="btn btn-primary">
+          <HashLink href={`${home}#contact`} className="btn btn-primary">
             {moments.cta}
-          </Link>
+          </HashLink>
         </div>
       </div>
     </section>

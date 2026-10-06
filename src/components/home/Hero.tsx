@@ -1,4 +1,4 @@
-import Link from 'next/link'
+import { HashLink } from '@/components/ui/HashLink'
 import { HeroSection } from '@/components/ui/HeroSection'
 import type { Messages } from '@/i18n/messages'
 import { TrustBar } from './TrustBar'
@@ -24,13 +24,13 @@ export function Hero({ messages }: HeroProps) {
       </h1>
       <p className="lede">{hero.lede}</p>
       <div className="hero-actions">
-        <Link href="#contact" className="btn btn-primary">
+        <HashLink href="#contact" className="btn btn-primary">
           {messages.nav.cta}
-        </Link>
+        </HashLink>
       </div>
-      <Link href="#moments" className="hero-examples-link">
+      <HashLink href="#moments" className="hero-examples-link">
         {hero.examplesLink}
-      </Link>
+      </HashLink>
       <TrustBar messages={messages} />
     </HeroSection>
   )

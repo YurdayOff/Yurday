@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import { HashLink } from '@/components/ui/HashLink'
 import { HeroSection } from '@/components/ui/HeroSection'
 import '@/components/ui/Ticket.css'
 import { WhatsAppIcon } from '@/components/ui/WhatsAppIcon'
@@ -26,9 +27,9 @@ function ContactActions({ messages, locale }: { messages: Messages; locale: Loca
         <WhatsAppIcon size={18} />
         {messages.shared.ctaWhatsapp}
       </a>
-      <Link href={`${localePath(locale)}#contact`} className="btn btn-ghost">
+      <HashLink href={`${localePath(locale)}#contact`} className="btn btn-ghost">
         {messages.shared.ctaEmail}
-      </Link>
+      </HashLink>
     </div>
   )
 }

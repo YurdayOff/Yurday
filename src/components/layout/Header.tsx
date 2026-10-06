@@ -3,6 +3,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import { useEffect, useState } from 'react'
+import { HashLink } from '@/components/ui/HashLink'
 import { localePath, type Locale } from '@/i18n/config'
 import type { Messages } from '@/i18n/messages'
 import { site } from '@/lib/site'
@@ -60,16 +61,16 @@ export function Header({ locale, messages }: HeaderProps) {
         </div>
         <nav className="nav-links" aria-label={messages.a11y.mainNav}>
           {sections.map((section) => (
-            <Link key={section.hash} href={`${home}${section.hash}`}>
+            <HashLink key={section.hash} href={`${home}${section.hash}`}>
               {messages.nav[section.key]}
-            </Link>
+            </HashLink>
           ))}
         </nav>
         <div className="nav-cta">
           <LanguageSwitcher locale={locale} label={messages.a11y.languageSwitcher} />
-          <Link href={`${home}#contact`} className="btn btn-primary">
+          <HashLink href={`${home}#contact`} className="btn btn-primary">
             {messages.nav.cta}
-          </Link>
+          </HashLink>
           <button
             type="button"
             className={menuOpen ? 'nav-burger is-open' : 'nav-burger'}
@@ -86,21 +87,21 @@ export function Header({ locale, messages }: HeaderProps) {
       {menuOpen ? (
         <nav className="nav-mobile" aria-label={messages.a11y.mainNav}>
           {sections.map((section) => (
-            <Link
+            <HashLink
               key={section.hash}
               href={`${home}${section.hash}`}
-              onClick={() => setMenuOpen(false)}
+              onNavigate={() => setMenuOpen(false)}
             >
               {messages.nav[section.key]}
-            </Link>
+            </HashLink>
           ))}
-          <Link
+          <HashLink
             href={`${home}#contact`}
             className="btn btn-primary nav-mobile-cta"
-            onClick={() => setMenuOpen(false)}
+            onNavigate={() => setMenuOpen(false)}
           >
             {messages.nav.cta}
-          </Link>
+          </HashLink>
         </nav>
       ) : null}
     </header>
