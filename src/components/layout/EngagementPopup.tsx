@@ -6,7 +6,7 @@ import type { Messages } from '@/i18n/messages'
 import './EngagementPopup.css'
 
 const STORAGE_KEY = 'yurday-popup-shown'
-const DELAY_MS = 30_000
+const DELAY_MS = 60_000
 
 type EngagementPopupProps = {
   messages: Messages
@@ -30,7 +30,7 @@ function remember(): void {
   }
 }
 
-/** Invitation à écrire, proposée une fois par session après 30 secondes. */
+/** Invitation à écrire, proposée une fois par session après 1 minute. */
 export function EngagementPopup({ messages, contactHref }: EngagementPopupProps) {
   const [open, setOpen] = useState(false)
 
@@ -87,8 +87,17 @@ export function EngagementPopup({ messages, contactHref }: EngagementPopupProps)
         >
           ✕
         </button>
+        <div className="popup-badge" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M12 2.5c.7 2.8 1.6 4.8 3.1 6.4 1.5 1.5 3.6 2.4 6.4 3.1-2.8.7-4.9 1.6-6.4 3.1-1.5 1.6-2.4 3.6-3.1 6.4-.7-2.8-1.6-4.8-3.1-6.4-1.5-1.5-3.6-2.4-6.4-3.1 2.8-.7 4.9-1.6 6.4-3.1 1.5-1.6 2.4-3.6 3.1-6.4Z"
+              fill="currentColor"
+            />
+          </svg>
+        </div>
         <div className="eyebrow">{messages.popup.eyebrow}</div>
         <h3 id="popup-title">{messages.popup.title}</h3>
+        <div className="popup-divider" aria-hidden="true" />
         <p>{messages.popup.body}</p>
         <div className="popup-actions">
           <HashLink href={contactHref} className="btn btn-primary" onNavigate={close}>
