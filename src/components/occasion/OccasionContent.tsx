@@ -1,4 +1,8 @@
 import Link from 'next/link'
+import { Contact } from '@/components/home/Contact'
+import { Process } from '@/components/home/Process'
+import { Reviews } from '@/components/home/Reviews'
+import { OccasionFaq } from '@/components/occasion/OccasionFaq'
 import { HashLink } from '@/components/ui/HashLink'
 import { HeroSection } from '@/components/ui/HeroSection'
 import '@/components/ui/Ticket.css'
@@ -15,7 +19,13 @@ type OccasionContentProps = {
   messages: Messages
 }
 
-function ContactActions({ messages, locale }: { messages: Messages; locale: Locale }) {
+function ContactActions({
+  messages,
+  contactHref,
+}: {
+  messages: Messages
+  contactHref: string
+}) {
   return (
     <div className="occasion-actions">
       <a
@@ -27,7 +37,7 @@ function ContactActions({ messages, locale }: { messages: Messages; locale: Loca
         <WhatsAppIcon size={18} />
         {messages.shared.ctaWhatsapp}
       </a>
-      <HashLink href={`${localePath(locale)}#contact`} className="btn btn-ghost">
+      <HashLink href={contactHref} className="btn btn-ghost">
         {messages.shared.ctaEmail}
       </HashLink>
     </div>
@@ -38,6 +48,8 @@ function ContactActions({ messages, locale }: { messages: Messages; locale: Loca
 export function OccasionContent({ occasion, locale, messages }: OccasionContentProps) {
   const page = messages.occasionPages[occasion]
   const others = occasionKeys.filter((key) => key !== occasion)
+  // Noël et Séminaire embarquent leur propre formulaire ; les autres pages renvoient vers celui de l'accueil.
+  const contactHref = page.contactForm ? '#contact' : `${localePath(locale)}#contact`
 
   return (
     <>
@@ -47,7 +59,7 @@ export function OccasionContent({ occasion, locale, messages }: OccasionContentP
           {page.title.lead} <em>{page.title.em}</em> {page.title.tail}
         </h1>
         <p className="lede">{page.intro}</p>
-        <ContactActions messages={messages} locale={locale} />
+        <ContactActions messages={messages} contactHref={contactHref} />
       </HeroSection>
 
       <section className="occasion-content section-paper-deep">
@@ -73,15 +85,52 @@ export function OccasionContent({ occasion, locale, messages }: OccasionContentP
         </section>
       ) : null}
 
+      {page.ideas ? (
+        <section className="occasion-content">
+          <div className="container">
+            <h2 className="occasion-ideas-h2">{page.ideas.h2}</h2>
+            <div className="occasion-ideas-grid">
+              {page.ideas.items.map((idea) => (
+                <div className="ticket occasion-idea-card" key={idea.title}>
+                  <h3>{idea.title}</h3>
+                  <p>{idea.text}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+      ) : null}
+
+      {page.process ? <Process messages={messages} /> : null}
+
+      {page.deadline ? (
+        <section className="occasion-content">
+          <div className="container">
+            <div className="occasion-deadline">
+              <h2>{page.deadline.h2}</h2>
+              <p>{page.deadline.text}</p>
+            </div>
+          </div>
+        </section>
+      ) : null}
+
       <section className="occasion-content">
         <div className="container">
           <div className="occasion-cta">
             <h2>{page.cta.title}</h2>
             <p>{page.cta.text}</p>
-            <ContactActions messages={messages} locale={locale} />
+            <ContactActions messages={messages} contactHref={contactHref} />
           </div>
         </div>
       </section>
+
+      {page.reviews ? <Reviews messages={messages} locale={locale} /> : null}
+
+      {page.faq ? (
+        <OccasionFaq faq={page.faq} contactHref={contactHref} ctaLabel={messages.nav.cta} />
+      ) : null}
+
+      {page.contactForm ? <Contact messages={messages} /> : null}
 
       <section className="other-occasions">
         <h2>{messages.occasions.moreLabel}</h2>

@@ -28,6 +28,14 @@
       "anniversaire-de-mariage": {
         "title": "Aniversario de boda a medida: celebrad vuestros años juntos",
         "description": "Yurday imagina aniversarios de boda completamente a medida, para celebrar vuestra historia en pareja, a vuestra imagen."
+      },
+      "noel": {
+        "title": "Regalo de Navidad original en París: un día a medida para regalar",
+        "description": "Este año, regala un día entero escrito para la persona que quieres. Un sobre lacrado bajo el árbol, un día inolvidable en París."
+      },
+      "seminaire-entreprise": {
+        "title": "Seminario de empresa a medida en París: una jornada que deja huella",
+        "description": "No es una agencia de seminarios al uso: una jornada guionizada para tu equipo, con actores y sorpresas, de la que se hablará dentro de 10 años."
       }
     }
   },
@@ -75,7 +83,9 @@
       "saint-valentin": "San Valentín",
       "evg-evjf": "Despedida de soltero/a",
       "fete-des-meres": "Día de la madre",
-      "anniversaire-de-mariage": "Aniversario de boda"
+      "anniversaire-de-mariage": "Aniversario de boda",
+      "noel": "Regalo de Navidad",
+      "seminaire-entreprise": "Seminario de empresa"
     },
     "scenariosLabel": "Imagina su día",
     "scenarios": [
@@ -347,7 +357,13 @@
         "title": "¿Listos para escribir su historia?",
         "text": "Cuéntanos a quién quieres consentir, y te responderemos con las primeras ideas en menos de 12 horas."
       },
-      "scenario": null
+      "scenario": null,
+      "ideas": null,
+      "process": false,
+      "deadline": null,
+      "faq": null,
+      "reviews": false,
+      "contactForm": false
     },
     "demande-en-mariage": {
       "eyebrow": "PETICIÓN DE MANO",
@@ -362,7 +378,13 @@
         "title": "¿Listos para crear ese momento?",
         "text": "Cuéntanos tu historia y cómo la imaginas, te responderemos con las primeras ideas en menos de 12 horas."
       },
-      "scenario": null
+      "scenario": null,
+      "ideas": null,
+      "process": false,
+      "deadline": null,
+      "faq": null,
+      "reviews": false,
+      "contactForm": false
     },
     "saint-valentin": {
       "eyebrow": "SAN VALENTÍN",
@@ -377,7 +399,13 @@
         "title": "¿Listos para salir de lo convencional?",
         "text": "Cuéntanos a quién quieres sorprender, te responderemos con las primeras ideas en menos de 12 horas."
       },
-      "scenario": null
+      "scenario": null,
+      "ideas": null,
+      "process": false,
+      "deadline": null,
+      "faq": null,
+      "reviews": false,
+      "contactForm": false
     },
     "evg-evjf": {
       "eyebrow": "DESPEDIDA DE SOLTERO/A",
@@ -401,7 +429,13 @@
           "En el bistró, el camarero desliza una pista bajo el plato. Segunda prueba: el polo, cuando nadie había montado a caballo desde el campamento de verano. Tercera prueba: una investigación en un château, donde el mayordomo sabe más de lo que dice.",
           "Misión cumplida: medalla, cócteles y un bar escondido. La noche les pertenece."
         ]
-      }
+      },
+      "ideas": null,
+      "process": false,
+      "deadline": null,
+      "faq": null,
+      "reviews": false,
+      "contactForm": false
     },
     "fete-des-meres": {
       "eyebrow": "DÍA DE LA MADRE",
@@ -425,7 +459,13 @@
           "Un chef pastelero le abre su cocina: los choux del postre de esta noche los hace ella misma. Después, una barca en el lago del Bois de Boulogne, sin nada que hacer.",
           "En el postre, un actor lee en voz alta las cartas de sus hijos. Años de recuerdos caben en unas pocas páginas."
         ]
-      }
+      },
+      "ideas": null,
+      "process": false,
+      "deadline": null,
+      "faq": null,
+      "reviews": false,
+      "contactForm": false
     },
     "anniversaire-de-mariage": {
       "eyebrow": "ANIVERSARIO DE BODA A MEDIDA",
@@ -449,7 +489,154 @@
           "Picnic en el parque de un château, champán bien frío. En Montmartre, un pintor hace su retrato, que colgará en el salón. En la guinguette, la orquesta toca su canción, la de su primer baile.",
           "Por la noche, rodeados de sus hijos y nietos, vuelven a decirse que sí."
         ]
-      }
+      },
+      "ideas": null,
+      "process": false,
+      "deadline": null,
+      "faq": null,
+      "reviews": false,
+      "contactForm": false
+    },
+    "noel": {
+      "eyebrow": "REGALO DE NAVIDAD A MEDIDA",
+      "title": {
+        "lead": "Bajo el árbol, un sobre.",
+        "em": "Dentro, todo un día.",
+        "tail": ""
+      },
+      "intro": "Este año, regala un día entero escrito para la persona que quieres. Un sobre lacrado para dejar bajo el árbol, y detrás, todo un día pensado solo para ella.",
+      "story": "Una Navidad más, una vela perfumada más, un jersey más: todos hemos vivido ya ese regalo que se abre en diez segundos y se olvida en diez días. Yurday hace lo contrario. Bajo el papel, un simple sobre, y dentro, la promesa de un día entero, escrito especialmente para la persona que importa, para vivirlo cuando ella quiera.",
+      "cta": {
+        "title": "¿Listos para deslizar el sobre bajo el árbol?",
+        "text": "Cuéntanos para quién imaginas este día, y te responderemos con las primeras ideas en menos de 12 horas."
+      },
+      "scenario": null,
+      "ideas": {
+        "h2": "Cuatro ideas para empezar",
+        "items": [
+          {
+            "title": "Para ella",
+            "text": "Un día pensado para una mujer a la que quieres: spa privado, almuerzo en un lugar secreto, una sorpresa orquestada de la mañana a la noche."
+          },
+          {
+            "title": "Para él",
+            "text": "Un día a medida para hacerle vivir algo que nunca se atrevería a regalarse solo, de la gran emoción a la mesa de excepción."
+          },
+          {
+            "title": "Para sus padres",
+            "text": "Un gracias que sale de lo común: un día para recordarles, una vez más, cuánto importan."
+          },
+          {
+            "title": "Para una pareja",
+            "text": "Un día en pareja pensado hasta el último detalle, para quienes lo tienen todo menos tiempo para volver a sorprenderse."
+          }
+        ]
+      },
+      "process": true,
+      "deadline": {
+        "h2": "Plazos para Navidad",
+        "text": "Reserva antes del 15 de diciembre para recibir tu sobre a tiempo para el árbol. El día en sí puede celebrarse cuando quieras: la fecha se decide después, junto a la persona en cuestión."
+      },
+      "faq": {
+        "eyebrow": "ANTES DE REGALAR EL SOBRE",
+        "h2": "Tus preguntas sobre el regalo de Navidad",
+        "items": [
+          {
+            "question": "¿A quién puedo regalarle este sobre?",
+            "answer": "A quien tú quieras: tu pareja, un familiar, un amigo, un compañero. Cuéntanos cómo es, y nosotros imaginamos el día que le corresponde."
+          },
+          {
+            "question": "¿Cuándo se celebra el día?",
+            "answer": "Nunca el día de Navidad en sí: el sobre es el regalo, el día se vive más adelante, en una fecha que convenga a todos."
+          },
+          {
+            "question": "¿Podemos elegir la fecha más adelante?",
+            "answer": "Sí, de hecho es la norma: fijamos la fecha una vez abierto el sobre, según la disponibilidad de la persona en cuestión."
+          },
+          {
+            "question": "¿Cómo se entrega el sobre?",
+            "answer": "Te lo enviamos a la dirección que elijas, listo para dejar bajo el árbol, antes del 24 de diciembre si reservas a tiempo."
+          },
+          {
+            "question": "¿Está disponible en todas partes?",
+            "answer": "Las jornadas se organizan en París y en toda la Isla de Francia. Dinos dónde vive la persona en cuestión y te lo confirmamos enseguida."
+          }
+        ],
+        "closing": "¿Más preguntas? Cuéntanos tu proyecto, te responderemos con respuestas realmente a medida."
+      },
+      "reviews": true,
+      "contactForm": true
+    },
+    "seminaire-entreprise": {
+      "eyebrow": "SEMINARIO DE EMPRESA A MEDIDA",
+      "title": {
+        "lead": "El seminario del que tu equipo",
+        "em": "seguirá hablando dentro de 10 años",
+        "tail": ""
+      },
+      "intro": "No es una sala de reuniones disfrazada de seminario: un día guionizado para tu equipo, con actores de verdad y sorpresas de verdad, de principio a fin.",
+      "story": "La mayoría de los seminarios se parecen: una sala, un proveedor, un escape room como el de al lado. Yurday hace las cosas de otra manera. Cada seminario se escribe para un equipo concreto, con su propia historia, sus propias bromas internas, para un día del que se seguirá hablando mucho después de volver a la oficina.",
+      "cta": {
+        "title": "¿Listos para escribir el día de vuestro equipo?",
+        "text": "Cuéntanos quiénes sois y qué queréis celebrar, y os responderemos con las primeras ideas en menos de 12 horas."
+      },
+      "scenario": {
+        "label": "UNA JORNADA TIPO",
+        "title": "De 9h a medianoche, nada dejado al azar",
+        "tagline": "Así es un seminario Yurday",
+        "paragraphs": [
+          "La jornada arranca con un enigma colectivo que resolver nada más llegar, para unir al grupo antes incluso de la bienvenida. La tarde se abre con una actividad sorpresa, elegida para vuestro equipo concreto, nunca al azar.",
+          "Por la noche, una cena en un lugar que sale de lo común, y una última sorpresa que nadie esperaba, para cerrar la jornada con la historia que se seguirá contando el año que viene."
+        ]
+      },
+      "ideas": {
+        "h2": "Para quién es",
+        "items": [
+          {
+            "title": "Pymes",
+            "text": "Un equipo reducido donde todos ya se conocen: la jornada está pensada para reforzar lo que ya existe, no para forzar un espíritu de equipo que no lo necesita."
+          },
+          {
+            "title": "Comités de dirección",
+            "text": "Una jornada para un grupo reducido que necesita salir del marco habitual, lejos de las salas de reuniones y los órdenes del día."
+          },
+          {
+            "title": "Equipos de 5 a 40 personas",
+            "text": "El formato se adapta al tamaño del grupo, sin perder nunca la atención individual que marca la diferencia entre un buen seminario y uno memorable."
+          }
+        ]
+      },
+      "process": false,
+      "deadline": null,
+      "faq": {
+        "eyebrow": "ANTES DE EMPEZAR",
+        "h2": "Tus preguntas sobre el seminario a medida",
+        "items": [
+          {
+            "question": "¿Cómo funciona el presupuesto?",
+            "answer": "Nos dais vuestro presupuesto y el número de participantes, y construimos la jornada a partir de ahí, nunca al revés."
+          },
+          {
+            "question": "¿Cuántos participantes aceptáis?",
+            "answer": "De 5 a 40 personas. Más allá, hablemos: algunos formatos siguen siendo posibles, contadnos vuestro proyecto."
+          },
+          {
+            "question": "¿En qué lugares organizáis los seminarios?",
+            "answer": "En París y en toda la Isla de Francia, en lugares elegidos específicamente para la historia de vuestra jornada."
+          },
+          {
+            "question": "¿Cómo se factura a una empresa?",
+            "answer": "Factura estándar a la empresa, con todo lo necesario para vuestra contabilidad. Contadnos vuestras limitaciones, nos adaptamos."
+          },
+          {
+            "question": "¿Con cuánta antelación hay que contactaros?",
+            "answer": "Contad con un mes aproximadamente para una jornada pensada al detalle. Para un plazo más corto, contadnos vuestra limitación, os diremos honestamente qué es posible."
+          }
+        ],
+        "closing": "¿Más preguntas? Cuéntanos tu proyecto, te responderemos con respuestas realmente a medida."
+      },
+      "reviews": true,
+      "contactForm": true
     }
   },
   "shared": {

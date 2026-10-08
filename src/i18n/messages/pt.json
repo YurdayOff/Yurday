@@ -28,6 +28,14 @@
       "anniversaire-de-mariage": {
         "title": "Aniversário de casamento sob medida: celebrem seus anos juntos",
         "description": "A Yurday imagina aniversários de casamento inteiramente sob medida, para celebrar a história do casal, à imagem de vocês."
+      },
+      "noel": {
+        "title": "Presente de Natal original em Paris: um dia sob medida para presentear",
+        "description": "Este ano, ofereça um dia inteiro escrito para a pessoa que você ama. Um envelope lacrado debaixo da árvore, um dia inesquecível em Paris."
+      },
+      "seminaire-entreprise": {
+        "title": "Seminário corporativo sob medida em Paris: um dia que marca",
+        "description": "Não é uma agência de seminários comum: um dia roteirizado para sua equipe, com atores e surpresas, do qual falarão daqui a 10 anos."
       }
     }
   },
@@ -75,7 +83,9 @@
       "saint-valentin": "Dia dos Namorados",
       "evg-evjf": "Despedida de solteiro(a)",
       "fete-des-meres": "Dia das Mães",
-      "anniversaire-de-mariage": "Aniversário de casamento"
+      "anniversaire-de-mariage": "Aniversário de casamento",
+      "noel": "Presente de Natal",
+      "seminaire-entreprise": "Seminário corporativo"
     },
     "scenariosLabel": "Imagine o dia dela",
     "scenarios": [
@@ -347,7 +357,13 @@
         "title": "Pronto para escrever a história dele(a)?",
         "text": "Conte-nos quem você quer mimar, retornaremos com as primeiras ideias em até 12h."
       },
-      "scenario": null
+      "scenario": null,
+      "ideas": null,
+      "process": false,
+      "deadline": null,
+      "faq": null,
+      "reviews": false,
+      "contactForm": false
     },
     "demande-en-mariage": {
       "eyebrow": "PEDIDO DE CASAMENTO",
@@ -362,7 +378,13 @@
         "title": "Pronto para criar esse momento?",
         "text": "Conte-nos sua história e como você a imagina, retornaremos com as primeiras ideias em até 12h."
       },
-      "scenario": null
+      "scenario": null,
+      "ideas": null,
+      "process": false,
+      "deadline": null,
+      "faq": null,
+      "reviews": false,
+      "contactForm": false
     },
     "saint-valentin": {
       "eyebrow": "DIA DOS NAMORADOS",
@@ -377,7 +399,13 @@
         "title": "Prontos para fugir do óbvio?",
         "text": "Conte-nos quem você quer surpreender, retornaremos com as primeiras ideias em até 12h."
       },
-      "scenario": null
+      "scenario": null,
+      "ideas": null,
+      "process": false,
+      "deadline": null,
+      "faq": null,
+      "reviews": false,
+      "contactForm": false
     },
     "evg-evjf": {
       "eyebrow": "DESPEDIDA DE SOLTEIRO(A)",
@@ -401,7 +429,13 @@
           "No bistrô, o garçom desliza uma pista sob o prato. Segunda prova: o polo, quando ninguém andava a cavalo desde o acampamento de infância. Terceira prova: uma investigação em um castelo, onde o mordomo sabe mais do que revela.",
           "Missão cumprida: medalha, coquetéis e um bar escondido. A noite é deles."
         ]
-      }
+      },
+      "ideas": null,
+      "process": false,
+      "deadline": null,
+      "faq": null,
+      "reviews": false,
+      "contactForm": false
     },
     "fete-des-meres": {
       "eyebrow": "DIA DAS MÃES",
@@ -425,7 +459,13 @@
           "Um chef confeiteiro abre sua cozinha para ela: os choux da sobremesa desta noite, é ela quem faz. Depois, um passeio de barco no lago do Bois de Boulogne, sem nada para fazer.",
           "Na sobremesa, um ator lê em voz alta as cartas dos filhos dela. Anos de lembranças cabem em poucas páginas."
         ]
-      }
+      },
+      "ideas": null,
+      "process": false,
+      "deadline": null,
+      "faq": null,
+      "reviews": false,
+      "contactForm": false
     },
     "anniversaire-de-mariage": {
       "eyebrow": "ANIVERSÁRIO DE CASAMENTO SOB MEDIDA",
@@ -449,7 +489,154 @@
           "Piquenique no parque de um castelo, champanhe bem gelado. Em Montmartre, um pintor faz o retrato dos dois, que vai para a sala de estar. Na guinguette, a orquestra toca a música deles, a do primeiro baile.",
           "À noite, cercados pelos filhos e netos, eles dizem sim mais uma vez."
         ]
-      }
+      },
+      "ideas": null,
+      "process": false,
+      "deadline": null,
+      "faq": null,
+      "reviews": false,
+      "contactForm": false
+    },
+    "noel": {
+      "eyebrow": "PRESENTE DE NATAL SOB MEDIDA",
+      "title": {
+        "lead": "Debaixo da árvore, um envelope.",
+        "em": "Dentro, um dia inteiro.",
+        "tail": ""
+      },
+      "intro": "Este ano, ofereça um dia inteiro escrito para a pessoa que você ama. Um envelope lacrado para colocar debaixo da árvore, e por trás dele, um dia inteiro pensado só para ela.",
+      "story": "Mais um Natal, mais uma vela perfumada, mais um suéter: todos nós já vivemos aquele presente que se abre em dez segundos e se esquece em dez dias. A Yurday faz o contrário. Debaixo do papel, um simples envelope, e dentro dele, a promessa de um dia inteiro, escrito especialmente para a pessoa que importa, para viver quando ela quiser.",
+      "cta": {
+        "title": "Pronto para colocar o envelope debaixo da árvore?",
+        "text": "Conte-nos para quem você imagina esse dia, retornaremos com as primeiras ideias em até 12h."
+      },
+      "scenario": null,
+      "ideas": {
+        "h2": "Quatro ideias para começar",
+        "items": [
+          {
+            "title": "Para ela",
+            "text": "Um dia pensado para uma mulher que você ama: spa privativo, almoço em um lugar secreto, uma surpresa orquestrada do início ao fim do dia."
+          },
+          {
+            "title": "Para ele",
+            "text": "Um dia sob medida para fazê-lo viver algo que ele nunca ousaria se presentear sozinho, da grande emoção à mesa de exceção."
+          },
+          {
+            "title": "Para os pais",
+            "text": "Um obrigado fora do comum: um dia para lembrá-los, mais uma vez, o quanto eles importam."
+          },
+          {
+            "title": "Para um casal",
+            "text": "Um dia a dois pensado até o último detalhe, para quem tem tudo, menos tempo para se surpreender de novo."
+          }
+        ]
+      },
+      "process": true,
+      "deadline": {
+        "h2": "Prazos para o Natal",
+        "text": "Reserve até 15 de dezembro para receber seu envelope a tempo para a árvore. Já o dia em si pode acontecer quando você quiser: a data é decidida depois, com a pessoa em questão."
+      },
+      "faq": {
+        "eyebrow": "ANTES DE OFERECER O ENVELOPE",
+        "h2": "Suas perguntas sobre o presente de Natal",
+        "items": [
+          {
+            "question": "Para quem posso oferecer esse envelope?",
+            "answer": "Para quem você quiser: seu parceiro(a), um familiar, um amigo, um colega. Conte-nos sobre a pessoa, e imaginamos o dia ideal para ela."
+          },
+          {
+            "question": "Quando acontece o dia?",
+            "answer": "Nunca no próprio dia de Natal: o envelope é o presente, o dia é vivido depois, em uma data que convenha a todos."
+          },
+          {
+            "question": "Podemos escolher a data depois?",
+            "answer": "Sim, essa é inclusive a regra: definimos a data assim que o envelope é aberto, de acordo com a disponibilidade da pessoa em questão."
+          },
+          {
+            "question": "Como funciona a entrega do envelope?",
+            "answer": "Enviamos para o endereço que você escolher, pronto para colocar debaixo da árvore, antes de 24 de dezembro se reservar a tempo."
+          },
+          {
+            "question": "Isso vale em qualquer lugar?",
+            "answer": "Os dias são organizados em Paris e em toda a Île-de-France. Diga-nos onde mora a pessoa em questão, confirmamos rapidamente."
+          }
+        ],
+        "closing": "Outras perguntas? Conte-nos seu projeto, responderemos com respostas realmente sob medida."
+      },
+      "reviews": true,
+      "contactForm": true
+    },
+    "seminaire-entreprise": {
+      "eyebrow": "SEMINÁRIO CORPORATIVO SOB MEDIDA",
+      "title": {
+        "lead": "O seminário do qual sua equipe",
+        "em": "ainda falará daqui a 10 anos",
+        "tail": ""
+      },
+      "intro": "Não é uma sala de reunião disfarçada de seminário: um dia roteirizado para sua equipe, com atores de verdade e surpresas de verdade, do início ao fim.",
+      "story": "A maioria dos seminários se parecem: uma sala, um fornecedor, um escape room como o da empresa ao lado. A Yurday faz diferente. Cada seminário é escrito para uma equipe específica, com sua própria história, suas próprias piadas internas, para um dia do qual continuarão falando muito depois de voltar ao escritório.",
+      "cta": {
+        "title": "Pronto para escrever o dia da sua equipe?",
+        "text": "Conte-nos quem vocês são e o que querem celebrar, retornaremos com as primeiras ideias em até 12h."
+      },
+      "scenario": {
+        "label": "UM DIA TÍPICO",
+        "title": "Das 9h à meia-noite, nada deixado ao acaso",
+        "tagline": "Como é um seminário Yurday",
+        "paragraphs": [
+          "O dia começa com um enigma coletivo para resolver logo na chegada, unindo o grupo antes mesmo das boas-vindas. A tarde abre com uma atividade surpresa, escolhida especificamente para sua equipe, nunca ao acaso.",
+          "À noite, um jantar em um lugar fora do comum, e uma última surpresa que ninguém esperava, encerrando o dia com a história que ainda será contada no ano seguinte."
+        ]
+      },
+      "ideas": {
+        "h2": "Para quem é",
+        "items": [
+          {
+            "title": "Pequenas e médias empresas",
+            "text": "Uma equipe enxuta onde todos já se conhecem: o dia é pensado para reforçar o que já existe, não para forçar um espírito de equipe que não precisa disso."
+          },
+          {
+            "title": "Comitês de diretoria",
+            "text": "Um dia para um grupo pequeno que precisa sair do cenário habitual, longe das salas de reunião e das pautas."
+          },
+          {
+            "title": "Equipes de 5 a 40 pessoas",
+            "text": "O formato se adapta ao tamanho do grupo, sem jamais perder a atenção individual que faz a diferença entre um bom seminário e um inesquecível."
+          }
+        ]
+      },
+      "process": false,
+      "deadline": null,
+      "faq": {
+        "eyebrow": "ANTES DE COMEÇAR",
+        "h2": "Suas perguntas sobre o seminário sob medida",
+        "items": [
+          {
+            "question": "Como funciona o orçamento?",
+            "answer": "Vocês nos passam o orçamento e o número de participantes, e construímos o dia a partir disso, nunca o contrário."
+          },
+          {
+            "question": "Quantos participantes vocês aceitam?",
+            "answer": "De 5 a 40 pessoas. Além disso, vamos conversar: alguns formatos ainda são possíveis, contem-nos sobre o projeto."
+          },
+          {
+            "question": "Em quais locais vocês organizam os seminários?",
+            "answer": "Em Paris e em toda a Île-de-France, em locais escolhidos especificamente para a história do seu dia."
+          },
+          {
+            "question": "Como funciona o faturamento para uma empresa?",
+            "answer": "Nota fiscal padrão para a empresa, com tudo que sua contabilidade precisa. Contem-nos suas restrições, nós nos adaptamos."
+          },
+          {
+            "question": "Com quanta antecedência devemos entrar em contato?",
+            "answer": "Considerem cerca de um mês para um dia planejado em detalhes. Para um prazo mais curto, contem-nos sua restrição, diremos honestamente o que é possível."
+          }
+        ],
+        "closing": "Outras perguntas? Conte-nos seu projeto, responderemos com respostas realmente sob medida."
+      },
+      "reviews": true,
+      "contactForm": true
     }
   },
   "shared": {

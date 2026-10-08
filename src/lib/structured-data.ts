@@ -100,6 +100,21 @@ export function occasionServiceSchema(
   }
 }
 
+/** FAQPage pour une page occasion dotée de sa propre FAQ (Noël, Séminaire...). */
+export function occasionFaqSchema(key: OccasionKey, messages: Messages): JsonLdObject | null {
+  const faq = messages.occasionPages[key].faq
+  if (!faq) return null
+
+  return {
+    '@type': 'FAQPage',
+    mainEntity: faq.items.map((item) => ({
+      '@type': 'Question',
+      name: item.question,
+      acceptedAnswer: { '@type': 'Answer', text: item.answer },
+    })),
+  }
+}
+
 export function breadcrumbSchema(
   items: { name: string; path: string }[],
 ): JsonLdObject {

@@ -14,6 +14,7 @@ import { buildPageMetadata } from '@/lib/seo'
 import {
   breadcrumbSchema,
   jsonLdGraph,
+  occasionFaqSchema,
   occasionServiceSchema,
   organizationSchema,
 } from '@/lib/structured-data'
@@ -55,6 +56,7 @@ export async function generateMetadata({ params }: OccasionPageProps): Promise<M
 export default async function OccasionPage({ params }: OccasionPageProps) {
   const { locale, occasion } = await resolve(params)
   const messages = await getMessages(locale)
+  const faqSchema = occasionFaqSchema(occasion, messages)
 
   return (
     <>
@@ -66,6 +68,7 @@ export default async function OccasionPage({ params }: OccasionPageProps) {
             { name: messages.nav.home, path: localePath(locale) },
             { name: messages.occasions.cards[occasion], path: occasionPath(occasion, locale) },
           ]),
+          ...(faqSchema ? [faqSchema] : []),
         ])}
       />
       <OccasionContent occasion={occasion} locale={locale} messages={messages} />

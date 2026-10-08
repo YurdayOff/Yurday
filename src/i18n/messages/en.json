@@ -28,6 +28,14 @@
       "anniversaire-de-mariage": {
         "title": "Bespoke wedding anniversary: celebrate your years together",
         "description": "Yurday designs entirely bespoke wedding anniversary days, to celebrate your story as a couple, in your own image."
+      },
+      "noel": {
+        "title": "Original Christmas gift in Paris: a bespoke day to give",
+        "description": "This year, give an entire day written for the person you love. A sealed envelope under the tree, an unforgettable day in Paris."
+      },
+      "seminaire-entreprise": {
+        "title": "Bespoke corporate seminar in Paris: a day that leaves a mark",
+        "description": "Not your typical seminar agency: a day scripted for your team, with actors and surprises, that people will still be talking about in 10 years."
       }
     }
   },
@@ -75,7 +83,9 @@
       "saint-valentin": "Valentine's Day",
       "evg-evjf": "Bachelor / bachelorette party",
       "fete-des-meres": "Mother's Day",
-      "anniversaire-de-mariage": "Wedding anniversary"
+      "anniversaire-de-mariage": "Wedding anniversary",
+      "noel": "Christmas gift",
+      "seminaire-entreprise": "Corporate seminar"
     },
     "scenariosLabel": "Imagine her day",
     "scenarios": [
@@ -347,7 +357,13 @@
         "title": "Ready to write their story?",
         "text": "Tell us who you want to spoil, and we'll get back to you with the first ideas within 24 hours."
       },
-      "scenario": null
+      "scenario": null,
+      "ideas": null,
+      "process": false,
+      "deadline": null,
+      "faq": null,
+      "reviews": false,
+      "contactForm": false
     },
     "demande-en-mariage": {
       "eyebrow": "MARRIAGE PROPOSAL",
@@ -362,7 +378,13 @@
         "title": "Ready to create this moment?",
         "text": "Tell us your story and how you picture it, and we'll get back to you with the first ideas within 24 hours."
       },
-      "scenario": null
+      "scenario": null,
+      "ideas": null,
+      "process": false,
+      "deadline": null,
+      "faq": null,
+      "reviews": false,
+      "contactForm": false
     },
     "saint-valentin": {
       "eyebrow": "VALENTINE'S DAY",
@@ -377,7 +399,13 @@
         "title": "Ready to go off the beaten path?",
         "text": "Tell us who you'd like to surprise, and we'll get back to you with the first ideas within 24 hours."
       },
-      "scenario": null
+      "scenario": null,
+      "ideas": null,
+      "process": false,
+      "deadline": null,
+      "faq": null,
+      "reviews": false,
+      "contactForm": false
     },
     "evg-evjf": {
       "eyebrow": "BACHELOR / BACHELORETTE PARTY",
@@ -401,7 +429,13 @@
           "At the bistro, the waiter slips a clue under the plate. Second challenge: polo, though no one has ridden a horse since summer camp. Third challenge: an investigation in a château, where the butler knows more than he lets on.",
           "Mission accomplished: a medal, cocktails and a hidden bar. The night is theirs."
         ]
-      }
+      },
+      "ideas": null,
+      "process": false,
+      "deadline": null,
+      "faq": null,
+      "reviews": false,
+      "contactForm": false
     },
     "fete-des-meres": {
       "eyebrow": "MOTHER'S DAY",
@@ -425,7 +459,13 @@
           "A pastry chef opens up his kitchen to her: tonight's dessert, the choux pastries, are hers to make. Then a rowing boat on the lake in the Bois de Boulogne, with nothing else to do.",
           "At dessert, an actor reads her children's letters aloud. Years of memories fit into a few pages."
         ]
-      }
+      },
+      "ideas": null,
+      "process": false,
+      "deadline": null,
+      "faq": null,
+      "reviews": false,
+      "contactForm": false
     },
     "anniversaire-de-mariage": {
       "eyebrow": "BESPOKE WEDDING ANNIVERSARY",
@@ -449,7 +489,154 @@
           "A picnic in the grounds of a château, champagne well chilled. In Montmartre, a painter paints their portrait, destined for the living room. At the guinguette, the band plays their song, the one from their first dance.",
           "That evening, surrounded by their children and grandchildren, they say “I do” again."
         ]
-      }
+      },
+      "ideas": null,
+      "process": false,
+      "deadline": null,
+      "faq": null,
+      "reviews": false,
+      "contactForm": false
+    },
+    "noel": {
+      "eyebrow": "BESPOKE CHRISTMAS GIFT",
+      "title": {
+        "lead": "Under the tree, an envelope.",
+        "em": "Inside, an entire day.",
+        "tail": ""
+      },
+      "intro": "This year, give an entire day written for the person you love. A sealed envelope to slip under the tree, and behind it, a whole day imagined just for them.",
+      "story": "One more Christmas, one more scented candle, one more jumper: we've all unwrapped that gift that takes ten seconds to open and ten days to forget. Yurday does the opposite. Under the paper, a simple envelope, and inside it, the promise of an entire day, written specifically for the person who matters, to be lived whenever they choose.",
+      "cta": {
+        "title": "Ready to slip the envelope under the tree?",
+        "text": "Tell us who you're imagining this day for, and we'll get back to you with the first ideas within 12 hours."
+      },
+      "scenario": null,
+      "ideas": {
+        "h2": "Four ideas to start with",
+        "items": [
+          {
+            "title": "For her",
+            "text": "A day designed for a woman you love: a private spa, lunch in a secret location, a surprise orchestrated from morning to night."
+          },
+          {
+            "title": "For him",
+            "text": "A bespoke day to give him something he'd never dare treat himself to alone, from the big thrill to the exceptional table."
+          },
+          {
+            "title": "For your parents",
+            "text": "A thank-you that breaks the mould: a day to remind them, once again, just how much they matter."
+          },
+          {
+            "title": "For a couple",
+            "text": "A day for two, thought through down to the smallest detail, for a couple who has everything except the time to be surprised again."
+          }
+        ]
+      },
+      "process": true,
+      "deadline": {
+        "h2": "Christmas deadlines",
+        "text": "Book before December 15th to receive your envelope in time for the tree. The day itself can happen whenever you like: the date is decided afterwards, with the person concerned."
+      },
+      "faq": {
+        "eyebrow": "BEFORE YOU GIVE THE ENVELOPE",
+        "h2": "Your questions about the Christmas gift",
+        "items": [
+          {
+            "question": "Who can I give this envelope to?",
+            "answer": "Anyone you like: your partner, a parent, a friend, a colleague. Tell us about them, and we'll imagine the day that fits."
+          },
+          {
+            "question": "When does the day take place?",
+            "answer": "Never on Christmas Day itself: the envelope is the gift, the day is lived later, on a date that suits everyone."
+          },
+          {
+            "question": "Can we choose the date later?",
+            "answer": "Yes, that's actually the rule: we set the date once the envelope is opened, based on the availability of the person concerned."
+          },
+          {
+            "question": "How is the envelope delivered?",
+            "answer": "We send it to the address of your choice, ready to slip under the tree, before December 24th if you book in time."
+          },
+          {
+            "question": "Is this available everywhere?",
+            "answer": "Days are organised in Paris and across the whole Île-de-France region. Tell us where the person concerned lives, and we'll confirm quickly."
+          }
+        ],
+        "closing": "Other questions? Tell us about your project, and we'll answer with answers that are genuinely tailored to you."
+      },
+      "reviews": true,
+      "contactForm": true
+    },
+    "seminaire-entreprise": {
+      "eyebrow": "BESPOKE CORPORATE SEMINAR",
+      "title": {
+        "lead": "The seminar your team",
+        "em": "will still be talking about in 10 years",
+        "tail": ""
+      },
+      "intro": "Not a meeting room dressed up as a seminar: a day scripted for your team, with real actors and real surprises, from start to finish.",
+      "story": "Most seminars look alike: a room, a provider, an escape game like the one next door. Yurday does things differently. Every seminar is written for one specific team, with its own story, its own in-jokes, for a day people are still talking about long after they're back at their desks.",
+      "cta": {
+        "title": "Ready to write your team's day?",
+        "text": "Tell us who you are and what you're looking to celebrate, and we'll get back to you with the first ideas within 12 hours."
+      },
+      "scenario": {
+        "label": "A TYPICAL DAY",
+        "title": "From 9am to midnight, nothing left to chance",
+        "tagline": "The shape of a Yurday seminar",
+        "paragraphs": [
+          "The day opens with a collective puzzle to solve the moment people arrive, bringing the group together before a single word of welcome is said. The afternoon opens with a surprise activity, chosen for your specific team, never at random.",
+          "In the evening, dinner in a venue that breaks the mould, and one last surprise nobody saw coming, closing the day on the story everyone will still be telling next year."
+        ]
+      },
+      "ideas": {
+        "h2": "Who it's for",
+        "items": [
+          {
+            "title": "Small and mid-sized businesses",
+            "text": "A tight-knit team where everyone already knows each other: the day is designed to strengthen what's already there, not to force a team spirit that doesn't need forcing."
+          },
+          {
+            "title": "Leadership teams",
+            "text": "A day for a small group that needs to step outside the usual framework, far from meeting rooms and agendas."
+          },
+          {
+            "title": "Teams of 5 to 40 people",
+            "text": "The format adapts to the size of the group, without ever losing the individual attention that makes the difference between a good seminar and a great one."
+          }
+        ]
+      },
+      "process": false,
+      "deadline": null,
+      "faq": {
+        "eyebrow": "BEFORE YOU GET STARTED",
+        "h2": "Your questions about the bespoke seminar",
+        "items": [
+          {
+            "question": "How does the quote work?",
+            "answer": "You give us your budget and number of participants, and we build the day from there, never the other way round."
+          },
+          {
+            "question": "How many participants can you take?",
+            "answer": "From 5 to 40 people. Beyond that, let's talk: some formats are still possible, tell us about your project."
+          },
+          {
+            "question": "Which venues do you use for seminars?",
+            "answer": "In Paris and across the whole Île-de-France region, in venues chosen specifically for the story of your day."
+          },
+          {
+            "question": "How does invoicing work for a company?",
+            "answer": "A standard invoice to the company, with everything your accounting team needs. Tell us your constraints, and we'll adapt."
+          },
+          {
+            "question": "How much notice do you need before the seminar date?",
+            "answer": "Allow about a month for a day planned down to the detail. For a shorter timeframe, tell us your constraint and we'll tell you honestly what's possible."
+          }
+        ],
+        "closing": "Other questions? Tell us about your project, and we'll answer with answers that are genuinely tailored to you."
+      },
+      "reviews": true,
+      "contactForm": true
     }
   },
   "shared": {

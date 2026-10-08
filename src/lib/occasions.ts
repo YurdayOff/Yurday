@@ -1,6 +1,6 @@
 import { defaultLocale, locales, type Locale } from '@/i18n/config'
 
-/** Les cinq occasions qui ont leur propre page. */
+/** Les occasions qui ont leur propre page. */
 export const occasionKeys = [
   'anniversaire',
   'demande-en-mariage',
@@ -8,6 +8,8 @@ export const occasionKeys = [
   'evg-evjf',
   'fete-des-meres',
   'anniversaire-de-mariage',
+  'noel',
+  'seminaire-entreprise',
 ] as const
 
 export type OccasionKey = (typeof occasionKeys)[number]
@@ -83,6 +85,28 @@ const slugs: Record<OccasionKey, Record<Locale, string>> = {
     zh: 'wedding-anniversary',
     ja: 'wedding-anniversary',
     ar: 'wedding-anniversary',
+  },
+  noel: {
+    fr: 'noel',
+    en: 'christmas',
+    es: 'regalo-de-navidad',
+    pt: 'presente-de-natal',
+    de: 'weihnachtsgeschenk',
+    it: 'regalo-di-natale',
+    zh: 'christmas',
+    ja: 'christmas',
+    ar: 'christmas',
+  },
+  'seminaire-entreprise': {
+    fr: 'seminaire-entreprise',
+    en: 'corporate-team-day',
+    es: 'seminario-de-empresa',
+    pt: 'seminario-corporativo',
+    de: 'firmenseminar',
+    it: 'seminario-aziendale',
+    zh: 'corporate-team-day',
+    ja: 'corporate-team-day',
+    ar: 'corporate-team-day',
   },
 }
 

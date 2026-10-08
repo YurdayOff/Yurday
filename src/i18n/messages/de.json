@@ -28,6 +28,14 @@
       "anniversaire-de-mariage": {
         "title": "Maßgeschneiderter Hochzeitstag: feiern Sie Ihre gemeinsamen Jahre",
         "description": "Yurday gestaltet vollständig maßgeschneiderte Hochzeitstage, um Ihre Geschichte als Paar zu feiern, ganz in Ihrem Stil."
+      },
+      "noel": {
+        "title": "Originelles Weihnachtsgeschenk in Paris: ein maßgeschneiderter Tag zum Verschenken",
+        "description": "Schenken Sie dieses Jahr einen ganzen Tag, geschrieben für den Menschen, den Sie lieben. Ein versiegelter Umschlag unter dem Baum, ein unvergesslicher Tag in Paris."
+      },
+      "seminaire-entreprise": {
+        "title": "Maßgeschneidertes Firmenseminar in Paris: ein Tag, der bleibt",
+        "description": "Keine klassische Seminaragentur: ein Tag, geschrieben für Ihr Team, mit Schauspielern und Überraschungen, über den noch in 10 Jahren gesprochen wird."
       }
     }
   },
@@ -75,7 +83,9 @@
       "saint-valentin": "Valentinstag",
       "evg-evjf": "Junggesellenabschied",
       "fete-des-meres": "Muttertag",
-      "anniversaire-de-mariage": "Hochzeitstag"
+      "anniversaire-de-mariage": "Hochzeitstag",
+      "noel": "Weihnachtsgeschenk",
+      "seminaire-entreprise": "Firmenseminar"
     },
     "scenariosLabel": "Stellen Sie sich ihren Tag vor",
     "scenarios": [
@@ -347,7 +357,13 @@
         "title": "Bereit, seine oder ihre Geschichte zu schreiben?",
         "text": "Erzählen Sie uns, wen Sie verwöhnen möchten, wir melden uns mit ersten Ideen innerhalb von 24 Stunden."
       },
-      "scenario": null
+      "scenario": null,
+      "ideas": null,
+      "process": false,
+      "deadline": null,
+      "faq": null,
+      "reviews": false,
+      "contactForm": false
     },
     "demande-en-mariage": {
       "eyebrow": "HEIRATSANTRAG",
@@ -362,7 +378,13 @@
         "title": "Bereit, diesen Moment zu erschaffen?",
         "text": "Erzählen Sie uns Ihre Geschichte und wie Sie sie sich vorstellen, wir melden uns mit ersten Ideen innerhalb von 24 Stunden."
       },
-      "scenario": null
+      "scenario": null,
+      "ideas": null,
+      "process": false,
+      "deadline": null,
+      "faq": null,
+      "reviews": false,
+      "contactForm": false
     },
     "saint-valentin": {
       "eyebrow": "VALENTINSTAG",
@@ -377,7 +399,13 @@
         "title": "Bereit, ausgetretene Pfade zu verlassen?",
         "text": "Erzählen Sie uns, wen Sie überraschen möchten, wir melden uns mit ersten Ideen innerhalb von 24 Stunden."
       },
-      "scenario": null
+      "scenario": null,
+      "ideas": null,
+      "process": false,
+      "deadline": null,
+      "faq": null,
+      "reviews": false,
+      "contactForm": false
     },
     "evg-evjf": {
       "eyebrow": "JUNGGESELLENABSCHIED",
@@ -401,7 +429,13 @@
           "Im Bistro schiebt der Kellner einen Hinweis unter den Teller. Zweite Prüfung: Polo, obwohl niemand seit dem Ferienlager auf einem Pferd gesessen hat. Dritte Prüfung: eine Ermittlung in einem Schloss, in dem der Butler mehr weiß, als er zugibt.",
           "Mission erfüllt: Medaille, Cocktails und eine versteckte Bar. Die Nacht gehört ihnen."
         ]
-      }
+      },
+      "ideas": null,
+      "process": false,
+      "deadline": null,
+      "faq": null,
+      "reviews": false,
+      "contactForm": false
     },
     "fete-des-meres": {
       "eyebrow": "MUTTERTAG",
@@ -425,7 +459,13 @@
           "Ein Patissier öffnet ihr seine Küche: die Windbeutel für das Dessert des Abends macht sie selbst. Danach ein Ruderboot auf dem See im Bois de Boulogne, ganz ohne etwas tun zu müssen.",
           "Zum Dessert liest ein Schauspieler die Briefe ihrer Kinder laut vor. Jahre voller Erinnerungen passen in ein paar Seiten."
         ]
-      }
+      },
+      "ideas": null,
+      "process": false,
+      "deadline": null,
+      "faq": null,
+      "reviews": false,
+      "contactForm": false
     },
     "anniversaire-de-mariage": {
       "eyebrow": "MASSGESCHNEIDERTER HOCHZEITSTAG",
@@ -449,7 +489,154 @@
           "Picknick im Park eines Schlosses, gut gekühlter Champagner. Auf dem Montmartre malt ein Maler ihr Porträt, das später im Wohnzimmer hängen wird. In der Guinguette spielt die Kapelle ihr Lied, das von ihrem ersten Tanz.",
           "Abends, umgeben von ihren Kindern und Enkeln, sagen sie sich erneut Ja."
         ]
-      }
+      },
+      "ideas": null,
+      "process": false,
+      "deadline": null,
+      "faq": null,
+      "reviews": false,
+      "contactForm": false
+    },
+    "noel": {
+      "eyebrow": "MASSGESCHNEIDERTES WEIHNACHTSGESCHENK",
+      "title": {
+        "lead": "Unter dem Baum, ein Umschlag.",
+        "em": "Darin, ein ganzer Tag.",
+        "tail": ""
+      },
+      "intro": "Schenken Sie dieses Jahr einen ganzen Tag, geschrieben für den Menschen, den Sie lieben. Ein versiegelter Umschlag unter dem Weihnachtsbaum, und dahinter ein ganzer Tag, nur für ihn oder sie erdacht.",
+      "story": "Noch ein Weihnachten, noch eine Duftkerze, noch ein Pullover: wir alle kennen dieses Geschenk, das in zehn Sekunden ausgepackt und in zehn Tagen vergessen ist. Yurday macht das Gegenteil. Unter dem Papier ein einfacher Umschlag, und darin das Versprechen eines ganzen Tages, eigens geschrieben für den Menschen, der zählt, zu erleben, wann immer er oder sie möchte.",
+      "cta": {
+        "title": "Bereit, den Umschlag unter den Baum zu legen?",
+        "text": "Erzählen Sie uns, für wen Sie sich diesen Tag vorstellen, wir melden uns mit ersten Ideen innerhalb von 12 Stunden."
+      },
+      "scenario": null,
+      "ideas": {
+        "h2": "Vier Ideen zum Einstieg",
+        "items": [
+          {
+            "title": "Für sie",
+            "text": "Ein Tag für eine Frau, die Sie lieben: privates Spa, Mittagessen an einem geheimen Ort, eine Überraschung, die den ganzen Tag über inszeniert wird."
+          },
+          {
+            "title": "Für ihn",
+            "text": "Ein maßgeschneiderter Tag, an dem er etwas erlebt, das er sich allein nie gönnen würde, vom großen Nervenkitzel bis zum außergewöhnlichen Tisch."
+          },
+          {
+            "title": "Für die Eltern",
+            "text": "Ein Dankeschön, das aus dem Rahmen fällt: ein Tag, um ihnen einmal mehr zu zeigen, wie wichtig sie sind."
+          },
+          {
+            "title": "Für ein Paar",
+            "text": "Ein Tag zu zweit, bis ins kleinste Detail durchdacht, für ein Paar, das alles hat außer Zeit, sich noch einmal überraschen zu lassen."
+          }
+        ]
+      },
+      "process": true,
+      "deadline": {
+        "h2": "Fristen für Weihnachten",
+        "text": "Buchen Sie vor dem 15. Dezember, um Ihren Umschlag rechtzeitig für den Baum zu erhalten. Der Tag selbst kann stattfinden, wann immer Sie möchten: Das Datum wird danach gemeinsam mit der betreffenden Person festgelegt."
+      },
+      "faq": {
+        "eyebrow": "BEVOR SIE DEN UMSCHLAG VERSCHENKEN",
+        "h2": "Ihre Fragen zum Weihnachtsgeschenk",
+        "items": [
+          {
+            "question": "Wem kann ich diesen Umschlag schenken?",
+            "answer": "Wem Sie möchten: Ihrem Partner, einem Elternteil, einem Freund, einem Kollegen. Erzählen Sie uns von dieser Person, wir erdenken den passenden Tag."
+          },
+          {
+            "question": "Wann findet der Tag statt?",
+            "answer": "Nie an Weihnachten selbst: Der Umschlag ist das Geschenk, der Tag wird später erlebt, an einem Datum, das allen passt."
+          },
+          {
+            "question": "Können wir das Datum später wählen?",
+            "answer": "Ja, das ist sogar die Regel: Wir legen das Datum fest, sobald der Umschlag geöffnet ist, je nach Verfügbarkeit der betreffenden Person."
+          },
+          {
+            "question": "Wie läuft die Zustellung des Umschlags ab?",
+            "answer": "Wir senden ihn an die Adresse Ihrer Wahl, bereit zum Unterlegen des Baums, vor dem 24. Dezember, wenn Sie rechtzeitig buchen."
+          },
+          {
+            "question": "Gilt das überall?",
+            "answer": "Die Tage werden in Paris und der gesamten Île-de-France organisiert. Sagen Sie uns, wo die betreffende Person wohnt, wir bestätigen schnell."
+          }
+        ],
+        "closing": "Weitere Fragen? Erzählen Sie uns von Ihrem Projekt, wir antworten mit wirklich maßgeschneiderten Antworten."
+      },
+      "reviews": true,
+      "contactForm": true
+    },
+    "seminaire-entreprise": {
+      "eyebrow": "MASSGESCHNEIDERTES FIRMENSEMINAR",
+      "title": {
+        "lead": "Das Seminar, über das Ihr Team",
+        "em": "noch in 10 Jahren sprechen wird",
+        "tail": ""
+      },
+      "intro": "Kein Besprechungsraum, der sich als Seminar verkleidet: ein Tag, geschrieben für Ihr Team, mit echten Schauspielern und echten Überraschungen, von Anfang bis Ende.",
+      "story": "Die meisten Seminare ähneln sich: ein Raum, ein Anbieter, ein Escape Game wie das von nebenan. Yurday macht es anders. Jedes Seminar wird für ein bestimmtes Team geschrieben, mit seiner eigenen Geschichte, seinen eigenen Insiderwitzen, für einen Tag, über den noch lange nach der Rückkehr ins Büro gesprochen wird.",
+      "cta": {
+        "title": "Bereit, den Tag Ihres Teams zu schreiben?",
+        "text": "Erzählen Sie uns, wer Sie sind und was Sie feiern möchten, wir melden uns mit ersten Ideen innerhalb von 12 Stunden."
+      },
+      "scenario": {
+        "label": "EIN TYPISCHER TAG",
+        "title": "Von 9 Uhr bis Mitternacht, nichts dem Zufall überlassen",
+        "tagline": "So läuft ein Yurday-Seminar ab",
+        "paragraphs": [
+          "Der Tag beginnt mit einem gemeinsamen Rätsel, das gleich bei der Ankunft gelöst werden muss, um die Gruppe zusammenzuschweißen, noch bevor ein Begrüßungswort fällt. Der Nachmittag beginnt mit einer Überraschungsaktivität, die speziell für Ihr Team ausgewählt wurde, nie nach Zufallsprinzip.",
+          "Am Abend ein Essen an einem außergewöhnlichen Ort, und eine letzte Überraschung, mit der niemand gerechnet hat, die den Tag mit der Geschichte abschließt, die auch im nächsten Jahr noch erzählt wird."
+        ]
+      },
+      "ideas": {
+        "h2": "Für wen es gedacht ist",
+        "items": [
+          {
+            "title": "KMU",
+            "text": "Ein kleines Team, in dem sich bereits alle kennen: Der Tag ist darauf ausgelegt, das Bestehende zu stärken, statt einen Teamgeist zu erzwingen, den es gar nicht braucht."
+          },
+          {
+            "title": "Führungsgremien",
+            "text": "Ein Tag für eine kleine Gruppe, die den gewohnten Rahmen verlassen muss, fernab von Besprechungsräumen und Tagesordnungen."
+          },
+          {
+            "title": "Teams von 5 bis 40 Personen",
+            "text": "Das Format passt sich der Gruppengröße an, ohne je die individuelle Aufmerksamkeit zu verlieren, die den Unterschied zwischen einem guten und einem großartigen Seminar ausmacht."
+          }
+        ]
+      },
+      "process": false,
+      "deadline": null,
+      "faq": {
+        "eyebrow": "BEVOR SIE STARTEN",
+        "h2": "Ihre Fragen zum maßgeschneiderten Seminar",
+        "items": [
+          {
+            "question": "Wie läuft das Angebot ab?",
+            "answer": "Sie nennen uns Ihr Budget und die Teilnehmerzahl, wir bauen den Tag darauf auf, nie umgekehrt."
+          },
+          {
+            "question": "Wie viele Teilnehmer nehmen Sie an?",
+            "answer": "5 bis 40 Personen. Darüber hinaus lassen Sie uns reden: Manche Formate sind weiterhin möglich, erzählen Sie uns von Ihrem Projekt."
+          },
+          {
+            "question": "An welchen Orten organisieren Sie die Seminare?",
+            "answer": "In Paris und der gesamten Île-de-France, an Orten, die eigens für die Geschichte Ihres Tages ausgewählt werden."
+          },
+          {
+            "question": "Wie läuft die Rechnungsstellung für ein Unternehmen ab?",
+            "answer": "Eine klassische Rechnung an das Unternehmen, mit allen Angaben, die Ihre Buchhaltung braucht. Sagen Sie uns Ihre Vorgaben, wir passen uns an."
+          },
+          {
+            "question": "Wie viel Vorlauf brauchen Sie vor dem Seminartermin?",
+            "answer": "Planen Sie etwa einen Monat für einen bis ins Detail durchdachten Tag ein. Für eine kürzere Frist erzählen Sie uns Ihre Vorgabe, wir sagen Ihnen ehrlich, was möglich ist."
+          }
+        ],
+        "closing": "Weitere Fragen? Erzählen Sie uns von Ihrem Projekt, wir antworten mit wirklich maßgeschneiderten Antworten."
+      },
+      "reviews": true,
+      "contactForm": true
     }
   },
   "shared": {

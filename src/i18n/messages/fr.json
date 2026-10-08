@@ -28,6 +28,14 @@
       "anniversaire-de-mariage": {
         "title": "Anniversaire de mariage sur mesure : célébrez vos années ensemble",
         "description": "Yurday imagine des anniversaires de mariage entièrement sur mesure, pour célébrer votre histoire à deux, à l'image de votre couple."
+      },
+      "noel": {
+        "title": "Cadeau de Noël original à Paris : une journée sur mesure à offrir",
+        "description": "Cette année, offrez une journée entière écrite pour la personne que vous aimez. Une enveloppe scellée sous le sapin, une journée inoubliable à Paris."
+      },
+      "seminaire-entreprise": {
+        "title": "Séminaire d'entreprise sur mesure à Paris : une journée qui marque",
+        "description": "Pas une agence de séminaire classique : une journée scénarisée pour votre équipe, avec comédiens et surprises, dont on parlera encore dans 10 ans."
       }
     }
   },
@@ -75,7 +83,9 @@
       "saint-valentin": "Saint-Valentin",
       "evg-evjf": "EVG / EVJF",
       "fete-des-meres": "Fête des mères",
-      "anniversaire-de-mariage": "Anniversaire de mariage"
+      "anniversaire-de-mariage": "Anniversaire de mariage",
+      "noel": "Cadeau de Noël",
+      "seminaire-entreprise": "Séminaire d'entreprise"
     },
     "scenariosLabel": "Imaginez sa journée",
     "scenarios": [
@@ -347,7 +357,13 @@
         "title": "Prêt à lui écrire son histoire ?",
         "text": "Racontez-nous qui vous voulez gâter, on revient vers vous avec les premières idées sous 12h."
       },
-      "scenario": null
+      "scenario": null,
+      "ideas": null,
+      "process": false,
+      "deadline": null,
+      "faq": null,
+      "reviews": false,
+      "contactForm": false
     },
     "demande-en-mariage": {
       "eyebrow": "DEMANDE EN MARIAGE",
@@ -362,7 +378,13 @@
         "title": "Prêt à créer ce moment ?",
         "text": "Racontez-nous votre histoire et comment vous l'imaginez, on revient vers vous avec les premières idées sous 12h."
       },
-      "scenario": null
+      "scenario": null,
+      "ideas": null,
+      "process": false,
+      "deadline": null,
+      "faq": null,
+      "reviews": false,
+      "contactForm": false
     },
     "saint-valentin": {
       "eyebrow": "SAINT-VALENTIN",
@@ -377,7 +399,13 @@
         "title": "Prêt à sortir des sentiers battus ?",
         "text": "Racontez-nous qui vous voulez surprendre, on revient vers vous avec les premières idées sous 12h."
       },
-      "scenario": null
+      "scenario": null,
+      "ideas": null,
+      "process": false,
+      "deadline": null,
+      "faq": null,
+      "reviews": false,
+      "contactForm": false
     },
     "evg-evjf": {
       "eyebrow": "EVG / EVJF",
@@ -401,7 +429,13 @@
           "Au bistrot, le serveur glisse un indice sous l'assiette. Deuxième épreuve : le polo, alors que personne n'était monté à cheval depuis la colonie. Troisième épreuve : une enquête dans un château, où le majordome en sait plus qu'il ne le dit.",
           "Mission accomplie : médaille, cocktails et bar caché. La nuit leur appartient."
         ]
-      }
+      },
+      "ideas": null,
+      "process": false,
+      "deadline": null,
+      "faq": null,
+      "reviews": false,
+      "contactForm": false
     },
     "fete-des-meres": {
       "eyebrow": "FÊTE DES MÈRES",
@@ -425,7 +459,13 @@
           "Un chef pâtissier lui ouvre sa cuisine : les choux du dessert de ce soir, c'est elle qui les fait. Puis une barque sur le lac du bois de Boulogne, sans rien à faire.",
           "Au dessert, un comédien lit à voix haute les lettres de ses enfants. Des années de souvenirs tiennent en quelques pages."
         ]
-      }
+      },
+      "ideas": null,
+      "process": false,
+      "deadline": null,
+      "faq": null,
+      "reviews": false,
+      "contactForm": false
     },
     "anniversaire-de-mariage": {
       "eyebrow": "ANNIVERSAIRE DE MARIAGE",
@@ -449,7 +489,154 @@
           "Pique-nique dans le parc d'un château, champagne bien frais. À Montmartre, un peintre fait leur portrait, qui rejoindra le salon. À la guinguette, l'orchestre joue leur chanson, celle de leur premier bal.",
           "Le soir, entourés de leurs enfants et petits-enfants, ils se redisent oui."
         ]
-      }
+      },
+      "ideas": null,
+      "process": false,
+      "deadline": null,
+      "faq": null,
+      "reviews": false,
+      "contactForm": false
+    },
+    "noel": {
+      "eyebrow": "CADEAU DE NOËL SUR MESURE",
+      "title": {
+        "lead": "Sous le sapin, une enveloppe.",
+        "em": "Dedans, toute une journée.",
+        "tail": ""
+      },
+      "intro": "Cette année, offrez une journée entière écrite pour la personne que vous aimez. Une enveloppe scellée à poser sous le sapin, et derrière, tout un jour pensé rien que pour elle.",
+      "story": "Un Noël de plus, un parfum de plus, un pull de plus : on a tous déjà vécu ce cadeau qu'on referme en dix secondes et qu'on oublie en dix jours. Yurday fait l'inverse. Sous le papier, une simple enveloppe, et dans l'enveloppe, la promesse d'une journée entière, écrite spécialement pour la personne qui compte, à vivre quand elle le voudra.",
+      "cta": {
+        "title": "Prêt à glisser l'enveloppe sous le sapin ?",
+        "text": "Racontez-nous pour qui vous imaginez cette journée, on revient vers vous avec les premières idées sous 12h."
+      },
+      "scenario": null,
+      "ideas": {
+        "h2": "Quatre idées pour commencer",
+        "items": [
+          {
+            "title": "Pour elle",
+            "text": "Une journée pensée pour une femme que vous aimez : spa privé, déjeuner dans un lieu secret, une surprise orchestrée du matin au soir."
+          },
+          {
+            "title": "Pour lui",
+            "text": "Une journée sur mesure pour lui faire vivre quelque chose qu'il n'oserait jamais s'offrir seul, du grand frisson à la table d'exception."
+          },
+          {
+            "title": "Pour ses parents",
+            "text": "Un merci qui sort de l'ordinaire : une journée pour leur rappeler, une fois de plus, à quel point ils comptent."
+          },
+          {
+            "title": "Pour un couple",
+            "text": "Une journée à deux pensée dans les moindres détails, pour un couple qui a tout, sauf le temps de s'étonner encore."
+          }
+        ]
+      },
+      "process": true,
+      "deadline": {
+        "h2": "Les délais pour Noël",
+        "text": "Réservez avant le 15 décembre pour recevoir votre enveloppe à temps sous le sapin. La journée, elle, peut avoir lieu quand vous voulez : la date se décide ensuite, avec la personne concernée."
+      },
+      "faq": {
+        "eyebrow": "AVANT D'OFFRIR L'ENVELOPPE",
+        "h2": "Vos questions sur le cadeau de Noël",
+        "items": [
+          {
+            "question": "À qui puis-je offrir cette enveloppe ?",
+            "answer": "À qui vous voulez : votre partenaire, un parent, un ami, un collègue. Vous nous racontez la personne, on imagine la journée qui lui correspond."
+          },
+          {
+            "question": "Quand a lieu la journée ?",
+            "answer": "Jamais le jour de Noël lui-même : l'enveloppe est le cadeau, la journée se vit plus tard, à la date qui arrange tout le monde."
+          },
+          {
+            "question": "Peut-on choisir la date plus tard ?",
+            "answer": "Oui, c'est même la règle : on fixe la date une fois l'enveloppe ouverte, en fonction des disponibilités de la personne concernée."
+          },
+          {
+            "question": "Comment se passe la livraison de l'enveloppe ?",
+            "answer": "Nous vous l'envoyons à l'adresse de votre choix, prête à glisser sous le sapin, avant le 24 décembre si vous réservez à temps."
+          },
+          {
+            "question": "Est-ce valable partout ?",
+            "answer": "Les journées sont organisées à Paris et dans toute l'Île-de-France. Dites-nous où habite la personne concernée, on vous confirme rapidement."
+          }
+        ],
+        "closing": "D'autres questions ? Racontez-nous votre projet, on vous répond avec des réponses vraiment sur mesure."
+      },
+      "reviews": true,
+      "contactForm": true
+    },
+    "seminaire-entreprise": {
+      "eyebrow": "SÉMINAIRE D'ENTREPRISE SUR MESURE",
+      "title": {
+        "lead": "Le séminaire dont votre équipe",
+        "em": "parlera encore dans 10 ans",
+        "tail": ""
+      },
+      "intro": "Pas une salle de réunion déguisée en séminaire : une journée scénarisée pour votre équipe, avec de vrais comédiens et de vraies surprises, du début à la fin.",
+      "story": "La plupart des séminaires se ressemblent : une salle, un prestataire, un jeu d'évasion comme celui d'à côté. Yurday fait les choses autrement. Chaque séminaire est écrit pour une équipe précise, avec son histoire, ses codes, ses private jokes, pour une journée dont on continue de parler bien après la rentrée.",
+      "cta": {
+        "title": "Prêt à écrire la journée de votre équipe ?",
+        "text": "Racontez-nous qui vous êtes et ce que vous cherchez à célébrer, on revient vers vous avec les premières idées sous 12h."
+      },
+      "scenario": {
+        "label": "UNE JOURNÉE TYPE",
+        "title": "De 9h à minuit, rien laissé au hasard",
+        "tagline": "Le déroulé d'un séminaire Yurday",
+        "paragraphs": [
+          "La journée démarre par une énigme collective à résoudre dès l'arrivée, pour souder le groupe avant même le mot de bienvenue. L'après-midi s'ouvre sur une activité surprise, choisie pour l'équipe précise que vous êtes, jamais au hasard.",
+          "Le soir, un dîner dans un lieu qui sort de l'ordinaire, et une dernière surprise que personne n'a vu venir, pour clore la journée sur l'histoire qu'on racontera encore l'année prochaine."
+        ]
+      },
+      "ideas": {
+        "h2": "Pour qui",
+        "items": [
+          {
+            "title": "TPE et PME",
+            "text": "Une équipe resserrée où tout le monde se connaît : la journée est pensée pour renforcer ce qui existe déjà, pas pour forcer un esprit d'équipe qui n'a pas besoin de l'être."
+          },
+          {
+            "title": "Comités de direction",
+            "text": "Une journée pour un groupe restreint qui a besoin de sortir du cadre habituel, loin des salles de réunion et des ordres du jour."
+          },
+          {
+            "title": "Équipes de 5 à 40 personnes",
+            "text": "Le format s'adapte à la taille du groupe, sans jamais perdre l'attention individuelle qui fait la différence entre un bon et un grand séminaire."
+          }
+        ]
+      },
+      "process": false,
+      "deadline": null,
+      "faq": {
+        "eyebrow": "AVANT DE VOUS LANCER",
+        "h2": "Vos questions sur le séminaire sur mesure",
+        "items": [
+          {
+            "question": "Comment se passe le devis ?",
+            "answer": "Vous nous donnez votre budget et le nombre de participants, nous construisons la journée à partir de ça, jamais l'inverse."
+          },
+          {
+            "question": "Quel nombre de participants acceptez-vous ?",
+            "answer": "De 5 à 40 personnes. Au-delà, parlons-en : certains formats restent possibles, discutons de votre projet."
+          },
+          {
+            "question": "Dans quels lieux organisez-vous les séminaires ?",
+            "answer": "À Paris et partout en Île-de-France, dans des lieux choisis spécifiquement pour l'histoire de votre journée."
+          },
+          {
+            "question": "Comment se passe la facturation pour une entreprise ?",
+            "answer": "Facture classique à l'entreprise, avec toutes les mentions nécessaires à votre comptabilité. Dites-nous vos contraintes, on s'adapte."
+          },
+          {
+            "question": "Quel délai prévoir avant la date du séminaire ?",
+            "answer": "Comptez environ un mois pour une journée pensée dans le détail. Pour un délai plus court, racontez-nous votre contrainte, on vous dira honnêtement ce qui est possible."
+          }
+        ],
+        "closing": "D'autres questions ? Racontez-nous votre projet, on vous répond avec des réponses vraiment sur mesure."
+      },
+      "reviews": true,
+      "contactForm": true
     }
   },
   "shared": {
