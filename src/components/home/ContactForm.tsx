@@ -7,6 +7,14 @@ import { site } from '@/lib/site'
 
 type ContactFormProps = {
   form: Messages['contact']['form']
+  /**
+   * Formulaire exceptionnellement adapté à une demande de séminaire d'entreprise :
+   * remplace « Type d'occasion » / « Pour qui ? » par l'entreprise et le nombre de
+   * participants, plus pertinents pour ce type de projet.
+   */
+  seminar?: boolean
+  /** Valeur fixe du champ occasion quand il n'est pas affiché (mode séminaire). */
+  fixedOccasion?: string
 }
 
 /** Étape du formulaire : saisie, choix du canal, confirmation. */
@@ -21,17 +29,27 @@ const emptyValues = {
   pourQui: '',
   date: '',
   occasion: '',
+  entreprise: '',
+  participants: '',
 }
 
 type Values = typeof emptyValues
 
-function whatsappMessage(values: Values, labels: ContactFormProps['form']): string {
+function whatsappMessage(
+  values: Values,
+  labels: ContactFormProps['form'],
+  seminar: boolean,
+): string {
   const lines = [
     'Bonjour Yurday !',
     '',
     `${labels.name} : ${values.nom}`,
-    `${labels.occasion} : ${values.occasion}`,
-    `${labels.forWho} : ${values.pourQui}`,
+    ...(seminar
+      ? [
+          `${labels.company} : ${values.entreprise}`,
+          `${labels.participants} : ${values.participants}`,
+        ]
+      : [`${labels.occasion} : ${values.occasion}`, `${labels.forWho} : ${values.pourQui}`]),
     `${labels.date} : ${values.date}`,
     `${labels.phone} : ${values.telephone}`,
     `${labels.email} : ${values.email}`,
@@ -49,11 +67,11 @@ function whatsappMessage(values: Values, labels: ContactFormProps['form']): stri
  * n'étant pas déposé sous forme de fichiers `.html` dans le dossier publié.
  * Les réponses arrivent dans l'onglet « Forms » du tableau de bord Netlify.
  */
-export function ContactForm({ form }: ContactFormProps) {
+export function ContactForm({ form, seminar = false, fixedOccasion }: ContactFormProps) {
   const [step, setStep] = useState<Step>('fields')
   const [values, setValues] = useState<Values>({
     ...emptyValues,
-    occasion: form.occasionOptions[0] ?? '',
+    occasion: (seminar ? fixedOccasion : form.occasionOptions[0]) ?? '',
   })
   const [dateUnknown, setDateUnknown] = useState(false)
   const [emailError, setEmailError] = useState(false)
@@ -66,7 +84,7 @@ export function ContactForm({ form }: ContactFormProps) {
     setValues((current) => ({ ...current, [field]: event.target.value }))
 
   const sendByWhatsapp = () => {
-    const text = encodeURIComponent(whatsappMessage(values, form))
+    const text = encodeURIComponent(whatsappMessage(values, form, seminar))
     window.open(`${site.whatsapp.url}?text=${text}`, '_blank', 'noopener')
     setSuccessText(form.successWhatsapp)
     setStep('sent')
@@ -187,26 +205,65 @@ export function ContactForm({ form }: ContactFormProps) {
           />
         </div>
         <div className="form-row">
-          <label htmlFor="f-occasion">{form.occasion}</label>
-          <select id="f-occasion" name="occasion" value={values.occasion} onChange={update('occasion')}>
-            {form.occasionOptions.map((option) => (
-              <option key={option}>{option}</option>
-            ))}
-          </select>
+          {seminar ? (
+            <>
+              <label htmlFor="f-entreprise">{form.company}</label>
+              <input
+                type="text"
+                id="f-entreprise"
+                name="entreprise"
+                autoComplete="organization"
+                placeholder={form.companyPlaceholder}
+                value={values.entreprise}
+                onChange={update('entreprise')}
+              />
+              <input type="hidden" name="occasion" value={values.occasion} />
+            </>
+          ) : (
+            <>
+              <label htmlFor="f-occasion">{form.occasion}</label>
+              <select
+                id="f-occasion"
+                name="occasion"
+                value={values.occasion}
+                onChange={update('occasion')}
+              >
+                {form.occasionOptions.map((option) => (
+                  <option key={option}>{option}</option>
+                ))}
+              </select>
+            </>
+          )}
         </div>
       </div>
 
       <div className="form-row-2">
         <div className="form-row">
-          <label htmlFor="f-pour-qui">{form.forWho}</label>
-          <input
-            type="text"
-            id="f-pour-qui"
-            name="pourQui"
-            placeholder={form.forWhoPlaceholder}
-            value={values.pourQui}
-            onChange={update('pourQui')}
-          />
+          {seminar ? (
+            <>
+              <label htmlFor="f-participants">{form.participants}</label>
+              <input
+                type="text"
+                id="f-participants"
+                name="participants"
+                placeholder={form.participantsPlaceholder}
+                value={values.participants}
+                onChange={update('participants')}
+              />
+            </>
+          ) : (
+            <>
+              <label htmlFor="f-pour-qui">{form.forWho}</label>
+              <input
+                type="text"
+                id="f-pour-qui"
+                name="pourQui"
+                placeholder={form.forWhoPlaceholder}
+                value={values.pourQui}
+                onChange={update('pourQui')}
+              />
+            </>
+          )}
         </div>
         <div className="form-row">
           <label htmlFor="f-date">{form.date}</label>

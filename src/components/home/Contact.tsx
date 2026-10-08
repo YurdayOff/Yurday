@@ -4,8 +4,14 @@ import { site } from '@/lib/site'
 import { ContactForm } from './ContactForm'
 import './Contact.css'
 
+type ContactProps = {
+  messages: Messages
+  /** Formulaire exceptionnellement adapté à une demande de séminaire d'entreprise. */
+  seminar?: boolean
+}
+
 /** Dernière section : le formulaire de projet. */
-export function Contact({ messages }: { messages: Messages }) {
+export function Contact({ messages, seminar = false }: ContactProps) {
   const { contact } = messages
 
   return (
@@ -21,7 +27,11 @@ export function Contact({ messages }: { messages: Messages }) {
               {contact.note.after}
             </div>
           </Reveal>
-          <ContactForm form={contact.form} />
+          <ContactForm
+            form={contact.form}
+            seminar={seminar}
+            fixedOccasion={seminar ? messages.occasions.cards['seminaire-entreprise'] : undefined}
+          />
         </div>
       </div>
     </section>

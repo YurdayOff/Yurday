@@ -130,7 +130,9 @@ export function OccasionContent({ occasion, locale, messages }: OccasionContentP
         <OccasionFaq faq={page.faq} contactHref={contactHref} ctaLabel={messages.nav.cta} />
       ) : null}
 
-      {page.contactForm ? <Contact messages={messages} /> : null}
+      {page.contactForm ? (
+        <Contact messages={messages} seminar={occasion === 'seminaire-entreprise'} />
+      ) : null}
 
       <section className="other-occasions">
         <h2>{messages.occasions.moreLabel}</h2>
