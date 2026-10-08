@@ -31,9 +31,6 @@
   max-width: 1080px;
   margin: 0 auto 26px;
 }
-@media (min-width: 1180px) {
-  .hero h1 { white-space: nowrap; }
-}
 .hero h1 em {
   font-style: italic;
   color: var(--blue-3);
