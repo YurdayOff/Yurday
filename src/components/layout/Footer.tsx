@@ -4,6 +4,7 @@ import { FacebookIcon } from '@/components/ui/FacebookIcon'
 import { InstagramIcon } from '@/components/ui/InstagramIcon'
 import type { Locale } from '@/i18n/config'
 import type { Messages } from '@/i18n/messages'
+import { isJournalLocale, journalIndexPath } from '@/lib/journal'
 import { occasionKeys, occasionPath } from '@/lib/occasions'
 import { legalPaths } from '@/lib/routes'
 import { site } from '@/lib/site'
@@ -40,6 +41,11 @@ export function Footer({ messages, locale }: { messages: Messages; locale: Local
             {messages.occasions.cards[key]}
           </Link>
         ))}
+        {isJournalLocale(locale) ? (
+          <Link href={journalIndexPath(locale)} className="footer-occasions-link">
+            Journal
+          </Link>
+        ) : null}
       </nav>
       {site.social.instagram || site.social.facebook ? (
         <div className="footer-social">

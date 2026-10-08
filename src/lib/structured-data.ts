@@ -115,6 +115,27 @@ export function occasionFaqSchema(key: OccasionKey, messages: Messages): JsonLdO
   }
 }
 
+/** BlogPosting pour un article du journal. */
+export function blogPostingSchema(article: {
+  title: string
+  description: string
+  image: string
+  url: string
+  publishedAt: string
+}): JsonLdObject {
+  return {
+    '@type': 'BlogPosting',
+    headline: article.title,
+    description: article.description,
+    image: article.image,
+    url: article.url,
+    datePublished: article.publishedAt,
+    author: { '@type': 'Organization', name: site.name, '@id': organizationId },
+    publisher: { '@id': organizationId },
+    mainEntityOfPage: article.url,
+  }
+}
+
 export function breadcrumbSchema(
   items: { name: string; path: string }[],
 ): JsonLdObject {
