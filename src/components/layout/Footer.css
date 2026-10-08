@@ -46,3 +46,27 @@ footer img { height: 24px; width: auto; margin: 0 auto 10px; }
   transition: color 0.2s, border-color 0.2s;
 }
 .footer-social-link:hover { color: var(--blue-3); border-color: var(--blue-2); }
+
+/* ---------- Liens vers les pages occasion ---------- */
+.footer-occasions {
+  margin-top: 22px;
+  padding-top: 20px;
+  border-top: 1px solid var(--line);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 6px 16px;
+}
+.footer-occasions-label {
+  font-size: var(--fs-11);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--ink-soft);
+}
+.footer-occasions-link {
+  font-size: var(--fs-13);
+  color: var(--ink-soft);
+}
+.footer-occasions-link:hover { color: var(--blue-3); text-decoration: underline; }

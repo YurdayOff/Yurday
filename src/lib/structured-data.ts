@@ -31,6 +31,13 @@ export function organizationSchema(messages: Messages, locale: Locale): JsonLdOb
     email: site.email,
     telephone: site.whatsapp.displayNumber,
     priceRange: '€€',
+    address: {
+      '@type': 'PostalAddress',
+      streetAddress: site.legal.streetAddress,
+      postalCode: site.legal.postalCode,
+      addressLocality: site.areaServed.city,
+      addressCountry: site.areaServed.country,
+    },
     areaServed: {
       '@type': 'AdministrativeArea',
       name: site.areaServed.region,

@@ -13,7 +13,7 @@ export const site = {
   calendly: { url: 'https://calendly.com/contact-yurday/30min' },
   /** Zone d'intervention actuelle (cf. FAQ). */
   areaServed: { city: 'Paris', region: 'Île-de-France', country: 'FR' },
-  reviews: { average: 4.9, count: 100, googleUrl: 'https://g.page/r/CYU7fw3MGPI5EBM/review' },
+  reviews: { average: 5.0, count: 40, googleUrl: 'https://g.page/r/CYU7fw3MGPI5EBM/review' },
   daysOrganised: 150,
   founders: [
     { id: 'leo', name: 'Léo', email: 'leo@yurday.fr', photo: '/images/fondateur-leo.webp' },
@@ -28,6 +28,8 @@ export const site = {
     form: 'Société à responsabilité limitée (SARL)',
     capital: '2 000 €',
     address: '25 Rue de Ponthieu, 75008 Paris',
+    streetAddress: '25 Rue de Ponthieu',
+    postalCode: '75008',
     rcs: 'Paris',
     siren: '130 604 531',
     siret: '130 604 531 00017',
@@ -42,7 +44,8 @@ export const site = {
   form: { endpoint: '/__forms.html', name: 'contact-yurday' },
   social: {
     instagram: 'https://www.instagram.com/yurday.fr/',
-    facebook: 'https://www.facebook.com/share/1DeL7nEGKa/?mibextid=wwXIfr',
+    facebook: 'https://www.facebook.com/profile.php?id=61594424309702',
+    googleMaps: 'https://www.google.com/maps?cid=4175427069204708229',
   },
 } as const
 

@@ -2,14 +2,16 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { FacebookIcon } from '@/components/ui/FacebookIcon'
 import { InstagramIcon } from '@/components/ui/InstagramIcon'
+import type { Locale } from '@/i18n/config'
 import type { Messages } from '@/i18n/messages'
+import { occasionKeys, occasionPath } from '@/lib/occasions'
 import { legalPaths } from '@/lib/routes'
 import { site } from '@/lib/site'
 import './Footer.css'
 
 const currentYear = new Date().getFullYear()
 
-export function Footer({ messages }: { messages: Messages }) {
+export function Footer({ messages, locale }: { messages: Messages; locale: Locale }) {
   const legalLinks = [
     { href: legalPaths.mentions, label: messages.legal.mentions },
     { href: legalPaths.terms, label: messages.legal.terms },
@@ -31,6 +33,14 @@ export function Footer({ messages }: { messages: Messages }) {
           {site.email}
         </a>
       </div>
+      <nav className="footer-occasions" aria-label={messages.nav.occasions}>
+        <span className="footer-occasions-label">{messages.nav.occasions}</span>
+        {occasionKeys.map((key) => (
+          <Link key={key} href={occasionPath(key, locale)} className="footer-occasions-link">
+            {messages.occasions.cards[key]}
+          </Link>
+        ))}
+      </nav>
       {site.social.instagram || site.social.facebook ? (
         <div className="footer-social">
           {site.social.instagram ? (

@@ -92,7 +92,7 @@ export default async function LocaleLayout({ children, params }: LocaleLayoutPro
         <PromoBanner messages={messages} />
         <Header locale={locale} messages={messages} />
         <main id="contenu">{children}</main>
-        <Footer messages={messages} />
+        <Footer messages={messages} locale={locale} />
         <WhatsAppFloat
           label={messages.a11y.whatsappFloat}
           message={messages.shared.whatsappMessage}

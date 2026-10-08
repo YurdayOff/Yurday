@@ -61,7 +61,7 @@
     "examplesLink": "查看真实案例"
   },
   "trust": {
-    "starsLabel": "4.9 分，100+ 条评价",
+    "starsLabel": "Google 5.0 分，40 条评价",
     "daysLabel": "已策划的日子",
     "bespokeLabel": "100% 定制，从不使用套餐"
   },
@@ -138,12 +138,12 @@
   },
   "reviews": {
     "eyebrow": "他们怎么说",
-    "h2": "100+ 条评价，只有一个评分：4.9 ★★★★★",
+    "h2": "40 条 Google 评价，只有一个评分：5.0 ★★★★★",
     "lede": "已策划150+天体验，评价100%真实认证。",
     "translatedNote": "已翻译成中文",
     "badge": {
       "strong": "已验证评价",
-      "rest": " · 4.9 ★★★★★ · 12+ 国家"
+      "rest": " · 5.0 ★★★★★ · 12+ 国家"
     },
     "leaveReview": "在 Google 上给我们留下评价",
     "items": {
