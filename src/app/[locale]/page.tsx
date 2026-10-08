@@ -40,7 +40,6 @@ export async function generateMetadata({ params }: HomeProps): Promise<Metadata>
     title: `${messages.seo.home.title} | ${site.name}`,
     description: messages.seo.home.description,
     pathFor: (target) => localePath(target),
-    image: '/og/accueil.jpg',
   })
 }
 

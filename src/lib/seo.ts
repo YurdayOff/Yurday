@@ -19,6 +19,10 @@ export function absoluteUrl(path: string): string {
   return `${site.url}${path === '/' ? '/' : path}`
 }
 
+/** Image de partage unique (réseaux sociaux, messageries), commune à toutes les pages. */
+export const OG_IMAGE = '/og-yurday.jpg'
+const OG_IMAGE_ALT = 'Yurday — Journées sur mesure, mises en scène à Paris'
+
 /**
  * Canonique + `hreflang` pour toutes les langues.
  * `pathFor` renvoie le chemin de la page courante dans la langue demandée :
@@ -43,8 +47,8 @@ type PageMetadataInput = {
   description: string
   /** Chemin de la page dans chaque langue. */
   pathFor: (locale: Locale) => string
-  /** Image de partage (chemin absolu depuis la racine du site). */
-  image: string
+  /** Image de partage (chemin absolu depuis la racine du site). OG_IMAGE par défaut. */
+  image?: string
 }
 
 /** Métadonnées communes à toutes les pages : canonique, hreflang, Open Graph, Twitter. */
@@ -53,7 +57,7 @@ export function buildPageMetadata({
   title,
   description,
   pathFor,
-  image,
+  image = OG_IMAGE,
 }: PageMetadataInput): Metadata {
   const url = absoluteUrl(pathFor(locale))
 
@@ -72,7 +76,7 @@ export function buildPageMetadata({
       alternateLocale: locales
         .filter((other) => other !== locale)
         .map((other) => openGraphLocales[other]),
-      images: [{ url: absoluteUrl(image), width: 1200, height: 630, alt: site.name }],
+      images: [{ url: absoluteUrl(image), width: 1200, height: 630, alt: OG_IMAGE_ALT }],
     },
     twitter: {
       card: 'summary_large_image',

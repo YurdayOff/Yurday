@@ -2,7 +2,7 @@ import type { Locale } from '@/i18n/config'
 import { localeInfo, localePath } from '@/i18n/config'
 import type { Messages } from '@/i18n/messages'
 import { occasionPath, type OccasionKey } from './occasions'
-import { absoluteUrl } from './seo'
+import { absoluteUrl, OG_IMAGE } from './seo'
 import { site } from './site'
 
 /**
@@ -27,7 +27,7 @@ export function organizationSchema(messages: Messages, locale: Locale): JsonLdOb
     description: messages.seo.home.description,
     slogan: messages.footer.tagline,
     logo: absoluteUrl(site.images.logo),
-    image: absoluteUrl('/og/accueil.jpg'),
+    image: absoluteUrl(OG_IMAGE),
     email: site.email,
     telephone: site.whatsapp.displayNumber,
     priceRange: '€€',

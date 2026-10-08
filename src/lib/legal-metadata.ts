@@ -1,6 +1,6 @@
 import type { Metadata } from 'next'
 import { defaultLocale } from '@/i18n/config'
-import { absoluteUrl } from './seo'
+import { absoluteUrl, OG_IMAGE } from './seo'
 import { site } from './site'
 
 /**
@@ -14,7 +14,14 @@ export function legalMetadata(title: string, path: string): Metadata {
     description: `${title} du site ${site.name}.`,
     alternates: { canonical: absoluteUrl(path) },
     robots: { index: false, follow: true },
-    openGraph: { title, url: absoluteUrl(path), locale: 'fr_FR', siteName: site.name },
+    openGraph: {
+      title,
+      url: absoluteUrl(path),
+      locale: 'fr_FR',
+      siteName: site.name,
+      images: [{ url: absoluteUrl(OG_IMAGE), width: 1200, height: 630, alt: site.name }],
+    },
+    twitter: { card: 'summary_large_image', title, images: [absoluteUrl(OG_IMAGE)] },
   }
 }
 

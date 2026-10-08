@@ -49,7 +49,6 @@ export async function generateMetadata({ params }: OccasionPageProps): Promise<M
     title: seo.title,
     description: seo.description,
     pathFor: (target) => occasionPath(occasion, target),
-    image: `/og/${occasion}.jpg`,
   })
 }
 
