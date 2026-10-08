@@ -81,6 +81,19 @@ section.occasion-scenario {
 .occasion-cta .btn-ghost { border-color: rgba(255,255,255,0.5); color: #fff; }
 .occasion-cta .btn-ghost:hover { border-color: #fff; color: #fff; }
 
+.occasion-related-article {
+  text-align: center;
+  padding: 0 28px 10px;
+}
+.occasion-related-article a {
+  font-family: var(--font-display), Georgia, serif;
+  font-size: var(--fs-17);
+  color: var(--blue-3);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.occasion-related-article a:hover { color: var(--blue-2); }
+
 .other-occasions { padding: 50px 28px 70px; text-align: center; }
 .other-occasions h2 {
   font-size: var(--fs-15);

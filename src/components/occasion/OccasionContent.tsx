@@ -9,6 +9,8 @@ import '@/components/ui/Ticket.css'
 import { WhatsAppIcon } from '@/components/ui/WhatsAppIcon'
 import { localePath, type Locale } from '@/i18n/config'
 import type { Messages } from '@/i18n/messages'
+import { journalArticles } from '@/data/journal'
+import { isJournalLocale, journalArticlePath } from '@/lib/journal'
 import { occasionKeys, occasionPath, type OccasionKey } from '@/lib/occasions'
 import { whatsappLink } from '@/lib/site'
 import './OccasionPage.css'
@@ -50,6 +52,9 @@ export function OccasionContent({ occasion, locale, messages }: OccasionContentP
   const others = occasionKeys.filter((key) => key !== occasion)
   // Noël et Séminaire embarquent leur propre formulaire ; les autres pages renvoient vers celui de l'accueil.
   const contactHref = page.contactForm ? '#contact' : `${localePath(locale)}#contact`
+  const relatedArticle = isJournalLocale(locale)
+    ? journalArticles.find((article) => article.relatedOccasion === occasion)
+    : undefined
 
   return (
     <>
@@ -132,6 +137,14 @@ export function OccasionContent({ occasion, locale, messages }: OccasionContentP
 
       {page.contactForm ? (
         <Contact messages={messages} seminar={occasion === 'seminaire-entreprise'} />
+      ) : null}
+
+      {relatedArticle && isJournalLocale(locale) ? (
+        <div className="container occasion-related-article">
+          <Link href={journalArticlePath(relatedArticle, locale)}>
+            {relatedArticle.content[locale].title} →
+          </Link>
+        </div>
       ) : null}
 
       <section className="other-occasions">
