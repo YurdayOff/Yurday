@@ -45,7 +45,8 @@
     "mainNav": "Navigation principale",
     "openMenu": "Ouvrir le menu",
     "close": "Fermer",
-    "whatsappFloat": "Contacter Yurday sur WhatsApp"
+    "whatsappFloat": "Contacter Yurday sur WhatsApp",
+    "phoneFloat": "Appeler Yurday"
   },
   "nav": {
     "home": "Accueil",
@@ -66,7 +67,8 @@
       "em": "mise en scène."
     },
     "lede": "Comédiens, décors, surprises : à Paris et en Île-de-France, nous concevons et orchestrons une journée pensée pour la personne qui compte pour vous.",
-    "examplesLink": "Voir des exemples de journées"
+    "examplesLink": "Voir des exemples de journées",
+    "callUs": "ou appelez-nous au"
   },
   "trust": {
     "starsLabel": "5,0 sur Google · 40 avis",
@@ -325,11 +327,17 @@
       "successWhatsapp": "Merci, votre message WhatsApp est prêt à être envoyé.",
       "successCall": "Merci, votre demande a bien été envoyée. Choisissez votre créneau dans l'onglet qui vient de s'ouvrir.",
       "sendError": "L'envoi n'a pas abouti. Vous pouvez nous écrire directement :"
+    },
+    "direct": {
+      "lead": "Pour une réponse immédiate :",
+      "call": "Appeler",
+      "whatsapp": "WhatsApp"
     }
   },
   "footer": {
     "tagline": "Vous nous confiez la personne que vous aimez, nous créons le souvenir qu’elle racontera dans 10 ans.",
-    "rights": "Tous droits réservés."
+    "rights": "Tous droits réservés.",
+    "callUs": "Appelez-nous"
   },
   "legal": {
     "mentions": "Mentions légales",

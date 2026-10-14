@@ -45,7 +45,8 @@
     "mainNav": "Navegación principal",
     "openMenu": "Abrir el menú",
     "close": "Cerrar",
-    "whatsappFloat": "Contactar con Yurday por WhatsApp"
+    "whatsappFloat": "Contactar con Yurday por WhatsApp",
+    "phoneFloat": "Llamar a Yurday"
   },
   "nav": {
     "home": "Inicio",
@@ -66,7 +67,8 @@
       "em": "dirigido como una escena."
     },
     "lede": "Actores, decorados, sorpresas: en París y la región de Île-de-France, diseñamos y dirigimos un día pensado para la persona que te importa.",
-    "examplesLink": "Ver ejemplos de días"
+    "examplesLink": "Ver ejemplos de días",
+    "callUs": "o llámanos al"
   },
   "trust": {
     "starsLabel": "5,0 en Google · 40 reseñas",
@@ -325,11 +327,17 @@
       "successWhatsapp": "Gracias, su mensaje de WhatsApp está listo para enviarse.",
       "successCall": "Gracias, su solicitud ha sido enviada. Elija un horario en la pestaña que acaba de abrirse.",
       "sendError": "El envío no se ha completado. Puedes escribirnos directamente:"
+    },
+    "direct": {
+      "lead": "Para una respuesta inmediata:",
+      "call": "Llamar",
+      "whatsapp": "WhatsApp"
     }
   },
   "footer": {
     "tagline": "Nos confías a la persona que quieres, nosotros creamos el recuerdo que contará dentro de 10 años.",
-    "rights": "Todos los derechos reservados."
+    "rights": "Todos los derechos reservados.",
+    "callUs": "Llámanos"
   },
   "legal": {
     "mentions": "Aviso legal",

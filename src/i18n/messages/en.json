@@ -45,7 +45,8 @@
     "mainNav": "Main navigation",
     "openMenu": "Open menu",
     "close": "Close",
-    "whatsappFloat": "Contact Yurday on WhatsApp"
+    "whatsappFloat": "Contact Yurday on WhatsApp",
+    "phoneFloat": "Call Yurday"
   },
   "nav": {
     "home": "Home",
@@ -66,7 +67,8 @@
       "em": "directed like a scene."
     },
     "lede": "Actors, sets, surprises: in Paris and the Île-de-France region, we design and direct a day staged for the person who matters to you.",
-    "examplesLink": "See example days"
+    "examplesLink": "See example days",
+    "callUs": "or call us on"
   },
   "trust": {
     "starsLabel": "5.0 on Google · 40 reviews",
@@ -325,11 +327,17 @@
       "successWhatsapp": "Thank you, your WhatsApp message is ready to send.",
       "successCall": "Thank you, your request has been sent. Pick a time slot in the tab that just opened.",
       "sendError": "The message could not be sent. You can reach us directly:"
+    },
+    "direct": {
+      "lead": "For an immediate answer:",
+      "call": "Call us",
+      "whatsapp": "WhatsApp"
     }
   },
   "footer": {
     "tagline": "You entrust us with the person you love, we create the memory they will still be telling in ten years.",
-    "rights": "All rights reserved."
+    "rights": "All rights reserved.",
+    "callUs": "Call us"
   },
   "legal": {
     "mentions": "Legal notice",

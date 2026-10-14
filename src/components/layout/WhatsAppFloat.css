@@ -47,3 +47,23 @@
   .wa-float::before { animation: none; display: none; }
   .wa-float svg { animation: none; }
 }
+
+/* Bouton d'appel, uniquement là où un tap déclenche un appel : au-dessus de WhatsApp. */
+.phone-float {
+  display: none;
+  position: fixed;
+  right: 18px;
+  bottom: 90px;
+  z-index: 200;
+  width: 52px;
+  height: 52px;
+  border-radius: 999px;
+  background: var(--blue-3);
+  color: #fff;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 10px 24px rgba(11, 33, 73, 0.35);
+}
+@media (max-width: 640px) {
+  .phone-float { display: flex; }
+}

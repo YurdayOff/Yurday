@@ -45,7 +45,8 @@
     "mainNav": "主导航",
     "openMenu": "打开菜单",
     "close": "关闭",
-    "whatsappFloat": "通过 WhatsApp 联系 Yurday"
+    "whatsappFloat": "通过 WhatsApp 联系 Yurday",
+    "phoneFloat": "致电 Yurday"
   },
   "nav": {
     "home": "首页",
@@ -66,7 +67,8 @@
       "em": "一场精心编排的演出。"
     },
     "lede": "演员、布景、惊喜：在巴黎及法兰西岛地区，我们为您在乎的人构思并执导专属的一天。",
-    "examplesLink": "查看真实案例"
+    "examplesLink": "查看真实案例",
+    "callUs": "或致电"
   },
   "trust": {
     "starsLabel": "Google 5.0 分，40 条评价",
@@ -325,11 +327,17 @@
       "successWhatsapp": "感谢您，您的WhatsApp消息已准备好发送。",
       "successCall": "感谢您，您的请求已发送。请在刚打开的新标签页中选择时间。",
       "sendError": "发送未成功。您可以直接联系我们："
+    },
+    "direct": {
+      "lead": "如需即时回复：",
+      "call": "拨打电话",
+      "whatsapp": "WhatsApp"
     }
   },
   "footer": {
     "tagline": "您把最爱的人交给我们，我们创造TA十年后仍会讲述的回忆。",
-    "rights": "版权所有。"
+    "rights": "版权所有。",
+    "callUs": "致电我们"
   },
   "legal": {
     "mentions": "法律声明",

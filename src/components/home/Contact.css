@@ -162,3 +162,39 @@ form.contact-form .btn { width: 100%; justify-content: center; padding: 15px; fo
   .form-choice-btns { flex-direction: column; }
 }
 .contact-note a { color: var(--blue-3); font-weight: 600; text-decoration: underline; }
+
+/* Appel direct : deux boutons bien visibles sous la note. */
+.contact-direct { margin-top: 18px; }
+.contact-direct-lead {
+  display: block;
+  margin-bottom: 10px;
+  font-size: var(--fs-13);
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: rgba(255, 255, 255, 0.82);
+}
+.contact-direct-btns { display: flex; gap: 10px; flex-wrap: wrap; }
+.contact-direct-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  padding: 12px 18px;
+  border-radius: 999px;
+  background: #fff;
+  color: var(--blue-3);
+  font-size: var(--fs-14);
+  font-weight: 600;
+  border: 1px solid var(--line);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.contact-direct-btn strong { font-weight: 800; white-space: nowrap; }
+.contact-direct-btn:hover { transform: translateY(-2px); box-shadow: 0 12px 26px rgba(0, 0, 0, 0.18); }
+.contact-direct-btn--wa { background: #25D366; border-color: #25D366; color: #fff; }
+@media (max-width: 860px) {
+  .contact-direct-btns { justify-content: center; }
+}
+@media (max-width: 480px) {
+  .contact-direct-btns { flex-direction: column; }
+  .contact-direct-btn { justify-content: center; }
+}

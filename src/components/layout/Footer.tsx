@@ -2,6 +2,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { FacebookIcon } from '@/components/ui/FacebookIcon'
 import { InstagramIcon } from '@/components/ui/InstagramIcon'
+import { PhoneIcon } from '@/components/ui/PhoneIcon'
 import type { Locale } from '@/i18n/config'
 import type { Messages } from '@/i18n/messages'
 import { isJournalLocale, journalIndexPath } from '@/lib/journal'
@@ -30,15 +31,22 @@ export function Footer({ messages, locale }: { messages: Messages; locale: Local
       />
       <div>{messages.footer.tagline}</div>
       <div className="footer-contacts">
-        <a href={`mailto:${site.email}`} className="footer-email">
-          {site.email}
+        <a href={`tel:+${site.whatsapp.number}`} className="footer-phone">
+          <PhoneIcon size={18} />
+          <span className="footer-phone-label">{messages.footer.callUs}</span>
+          <span className="footer-phone-number">{site.whatsapp.displayNumber}</span>
         </a>
-        <span className="footer-contacts-sep" aria-hidden="true">
-          ·
-        </span>
-        <a href={`tel:+${site.whatsapp.number}`} className="footer-email">
-          {site.whatsapp.displayNumber}
-        </a>
+        <div className="footer-contacts-row">
+          <a href={`mailto:${site.email}`} className="footer-email">
+            {site.email}
+          </a>
+          <span className="footer-contacts-sep" aria-hidden="true">
+            ·
+          </span>
+          <a href={site.whatsapp.url} target="_blank" rel="noopener" className="footer-email">
+            WhatsApp
+          </a>
+        </div>
       </div>
       <nav className="footer-occasions" aria-label={messages.nav.occasions}>
         <span className="footer-occasions-label">{messages.nav.occasions}</span>

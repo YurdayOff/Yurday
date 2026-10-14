@@ -45,7 +45,8 @@
     "mainNav": "Hauptnavigation",
     "openMenu": "Menü öffnen",
     "close": "Schließen",
-    "whatsappFloat": "Yurday über WhatsApp kontaktieren"
+    "whatsappFloat": "Yurday über WhatsApp kontaktieren",
+    "phoneFloat": "Yurday anrufen"
   },
   "nav": {
     "home": "Startseite",
@@ -66,7 +67,8 @@
       "em": "wie inszeniert."
     },
     "lede": "Schauspieler, Kulissen, Überraschungen: in Paris und der Île-de-France konzipieren und inszenieren wir einen Tag für die Person, die Ihnen wichtig ist.",
-    "examplesLink": "Beispieltage ansehen"
+    "examplesLink": "Beispieltage ansehen",
+    "callUs": "oder rufen Sie uns an unter"
   },
   "trust": {
     "starsLabel": "5,0 auf Google · 40 Bewertungen",
@@ -325,11 +327,17 @@
       "successWhatsapp": "Vielen Dank, Ihre WhatsApp-Nachricht ist bereit zum Senden.",
       "successCall": "Vielen Dank, Ihre Anfrage wurde gesendet. Wählen Sie einen Termin im gerade geöffneten Tab.",
       "sendError": "Das Absenden hat nicht funktioniert. Sie können uns direkt erreichen:"
+    },
+    "direct": {
+      "lead": "Für eine sofortige Antwort:",
+      "call": "Anrufen",
+      "whatsapp": "WhatsApp"
     }
   },
   "footer": {
     "tagline": "Sie vertrauen uns den Menschen an, den Sie lieben. Wir schaffen die Erinnerung, von der er in zehn Jahren noch erzählt.",
-    "rights": "Alle Rechte vorbehalten."
+    "rights": "Alle Rechte vorbehalten.",
+    "callUs": "Rufen Sie uns an"
   },
   "legal": {
     "mentions": "Impressum",

@@ -51,6 +51,23 @@
   margin-bottom: 54px;
 }
 .hero-actions .btn { padding: 17px 34px; font-size: var(--fs-16); }
+.hero-call {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 17px 22px;
+  font-size: var(--fs-14);
+  font-weight: 600;
+  color: var(--ink-soft);
+  white-space: nowrap;
+}
+.hero-call strong { font-weight: 800; }
+.hero-call:hover { color: var(--blue-3); }
+.hero.hero--video .hero-call { color: rgba(255, 255, 255, 0.85); }
+.hero.hero--video .hero-call:hover { color: var(--white); }
+@media (max-width: 480px) {
+  .hero-call { padding: 6px 12px; white-space: normal; justify-content: center; }
+}
 
 .hero-examples-link {
   display: inline-block;

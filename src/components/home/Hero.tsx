@@ -1,6 +1,8 @@
 import { HashLink } from '@/components/ui/HashLink'
 import { HeroSection } from '@/components/ui/HeroSection'
+import { PhoneIcon } from '@/components/ui/PhoneIcon'
 import type { Messages } from '@/i18n/messages'
+import { site } from '@/lib/site'
 import { TrustBar } from './TrustBar'
 
 type HeroProps = {
@@ -27,6 +29,12 @@ export function Hero({ messages }: HeroProps) {
         <HashLink href="#contact" className="btn btn-primary">
           {messages.nav.cta}
         </HashLink>
+        <a href={`tel:+${site.whatsapp.number}`} className="hero-call">
+          <PhoneIcon size={16} />
+          <span>
+            {hero.callUs} <strong>{site.whatsapp.displayNumber}</strong>
+          </span>
+        </a>
       </div>
       <HashLink href="#moments" className="hero-examples-link">
         {hero.examplesLink}

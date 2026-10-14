@@ -45,7 +45,8 @@
     "mainNav": "メインナビゲーション",
     "openMenu": "メニューを開く",
     "close": "閉じる",
-    "whatsappFloat": "WhatsAppでYurdayに連絡する"
+    "whatsappFloat": "WhatsAppでYurdayに連絡する",
+    "phoneFloat": "Yurdayに電話する"
   },
   "nav": {
     "home": "ホーム",
@@ -66,7 +67,8 @@
       "em": "演出された特別な一日。"
     },
     "lede": "俳優、舞台装置、サプライズ――パリとイル・ド・フランス地域で、大切な方のために考え抜かれた一日を構想し、演出します。",
-    "examplesLink": "実例を見る"
+    "examplesLink": "実例を見る",
+    "callUs": "またはお電話で："
   },
   "trust": {
     "starsLabel": "Googleの口コミ40件で5.0",
@@ -325,11 +327,17 @@
       "successWhatsapp": "ありがとうございます。WhatsAppメッセージの送信準備が整いました。",
       "successCall": "ありがとうございます。ご依頼を送信しました。新しく開いたタブで日時をお選びください。",
       "sendError": "送信できませんでした。直接ご連絡いただけます："
+    },
+    "direct": {
+      "lead": "すぐにご連絡をご希望の方は：",
+      "call": "電話する",
+      "whatsapp": "WhatsApp"
     }
   },
   "footer": {
     "tagline": "大切な人を私たちに託してください。10年後も語り継がれる思い出をつくります。",
-    "rights": "無断転載を禁じます。"
+    "rights": "無断転載を禁じます。",
+    "callUs": "お電話はこちら"
   },
   "legal": {
     "mentions": "法的表記",
