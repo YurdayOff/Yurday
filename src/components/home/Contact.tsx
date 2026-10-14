@@ -24,6 +24,7 @@ export function Contact({ messages, seminar = false }: ContactProps) {
             <p>{contact.lede}</p>
             <div className="contact-note">
               {contact.note.before} <a href={`mailto:${site.email}`}>{site.email}</a>
+              {contact.note.middle} <a href={`tel:+${site.whatsapp.number}`}>{site.whatsapp.displayNumber}</a>
               {contact.note.after}
             </div>
           </Reveal>

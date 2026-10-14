@@ -287,7 +287,8 @@
     "lede": "Two minutes is all it takes. We'll get back to you quickly with some first ideas.",
     "note": {
       "before": "💬 Prefer to talk directly? The WhatsApp button in the bottom right reaches us instantly, or email us at",
-      "after": "."
+      "after": ".",
+      "middle": ", or call us at"
     },
     "form": {
       "name": "Your name",

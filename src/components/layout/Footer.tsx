@@ -29,9 +29,15 @@ export function Footer({ messages, locale }: { messages: Messages; locale: Local
         sizes="132px"
       />
       <div>{messages.footer.tagline}</div>
-      <div style={{ marginTop: 8 }}>
+      <div className="footer-contacts">
         <a href={`mailto:${site.email}`} className="footer-email">
           {site.email}
+        </a>
+        <span className="footer-contacts-sep" aria-hidden="true">
+          ·
+        </span>
+        <a href={`tel:+${site.whatsapp.number}`} className="footer-email">
+          {site.whatsapp.displayNumber}
         </a>
       </div>
       <nav className="footer-occasions" aria-label={messages.nav.occasions}>

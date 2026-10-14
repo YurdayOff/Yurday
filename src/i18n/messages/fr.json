@@ -287,7 +287,8 @@
     "lede": "Deux minutes suffisent. On revient vers vous rapidement avec les premières idées.",
     "note": {
       "before": "💬 Vous préférez discuter directement ? Le bouton WhatsApp en bas à droite nous contacte immédiatement, ou écrivez-nous à",
-      "after": "."
+      "after": ".",
+      "middle": ", ou appelez-nous au"
     },
     "form": {
       "name": "Votre nom",

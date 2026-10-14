@@ -77,6 +77,15 @@ header .btn-primary:hover {
 }
 .nav-cta .lang-current:hover { border-color: var(--white); }
 
+.nav-phone {
+  font-family: var(--font-inter), -apple-system, sans-serif;
+  font-size: var(--fs-13);
+  font-weight: 600;
+  color: var(--white);
+  white-space: nowrap;
+}
+.nav-phone:hover { color: rgba(255, 255, 255, 0.8); }
+
 /* ---------- Burger : uniquement là où le menu horizontal disparaît ---------- */
 .nav-burger {
   display: none;
@@ -124,6 +133,12 @@ header .btn-primary:hover {
 }
 .nav-mobile a:last-child { border-bottom: none; }
 .nav-mobile a:hover { color: var(--white); }
+.nav-mobile a.nav-mobile-phone,
+.nav-mobile a.nav-mobile-phone:visited {
+  color: var(--white);
+  font-weight: 700;
+  border-bottom: none;
+}
 /* Le bouton garde ses propres couleurs (fond blanc, texte marine),
    malgré la règle de couleur générique des liens ci-dessus. */
 header .nav-mobile a.btn-primary,
@@ -135,4 +150,5 @@ header .nav-mobile a.btn-primary:visited {
 @media (max-width: 1180px) {
   .nav-links { display: none; }
   .nav-burger { display: flex; }
+  .nav-phone { display: none; }
 }

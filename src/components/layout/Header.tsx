@@ -67,6 +67,9 @@ export function Header({ locale, messages }: HeaderProps) {
           ))}
         </nav>
         <div className="nav-cta">
+          <a href={`tel:+${site.whatsapp.number}`} className="nav-phone">
+            {site.whatsapp.displayNumber}
+          </a>
           <LanguageSwitcher locale={locale} label={messages.a11y.languageSwitcher} />
           <HashLink href={`${home}#contact`} className="btn btn-primary">
             {messages.nav.cta}
@@ -95,6 +98,9 @@ export function Header({ locale, messages }: HeaderProps) {
               {messages.nav[section.key]}
             </HashLink>
           ))}
+          <a href={`tel:+${site.whatsapp.number}`} className="nav-mobile-phone">
+            {site.whatsapp.displayNumber}
+          </a>
           <HashLink
             href={`${home}#contact`}
             className="btn btn-primary nav-mobile-cta"

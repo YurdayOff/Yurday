@@ -29,10 +29,19 @@ footer img { height: 24px; width: auto; margin: 0 auto 10px; }
 @media (max-width: 640px) {
   footer { padding-bottom: 100px; }
 }
+.footer-contacts {
+  margin-top: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
 .footer-email {
   color: var(--blue-3);
   font-weight: 600;
 }
+.footer-contacts-sep { color: var(--line); }
 .footer-social { margin-top: 14px; display: flex; justify-content: center; gap: 10px; }
 .footer-social-link {
   display: inline-flex;
