@@ -674,5 +674,36 @@
       "title": "Risposta entro 12h",
       "text": "Ti rispondiamo rapidamente, senza alcun impegno da parte tua."
     }
+  },
+  "inclusions": {
+    "eyebrow": "IN OGNI GIORNATA",
+    "h2": "Cosa componiamo per voi",
+    "lede": "Attori, luoghi, sorprese, gastronomia: ogni giornata Yurday combina esattamente ciò che serve, mai a caso, mai da catalogo.",
+    "items": {
+      "comediens": {
+        "title": "Attori e messa in scena",
+        "text": "Veri attori, preparati per interpretare un ruolo scritto solo per la vostra giornata."
+      },
+      "lieux": {
+        "title": "Luoghi eccezionali",
+        "text": "Luoghi scelti per la storia della vostra giornata, mai a caso."
+      },
+      "surprises": {
+        "title": "Sorprese su misura",
+        "text": "Ogni sorpresa è pensata per la persona, mai scelta da un catalogo."
+      },
+      "gastronomie": {
+        "title": "Gastronomia",
+        "text": "Tavoli e chef scelti per l'occasione, dal brunch alla cena."
+      },
+      "souvenir": {
+        "title": "Ricordo foto e video",
+        "text": "Per rivivere la giornata molto tempo dopo che è finita."
+      },
+      "coordination": {
+        "title": "Coordinamento del giorno",
+        "text": "Orchestriamo ogni minuto, a voi non resta che vivere il momento."
+      }
+    }
   }
 }

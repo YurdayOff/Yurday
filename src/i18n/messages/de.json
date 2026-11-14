@@ -674,5 +674,36 @@
       "title": "Antwort innerhalb von 12h",
       "text": "Wir melden uns schnell bei Ihnen, ganz unverbindlich."
     }
+  },
+  "inclusions": {
+    "eyebrow": "IN JEDEM TAG",
+    "h2": "Was wir für Sie zusammenstellen",
+    "lede": "Schauspieler, Orte, Überraschungen, Gastronomie: Jeder Yurday-Tag kombiniert genau das Richtige, nie zufällig, nie von der Stange.",
+    "items": {
+      "comediens": {
+        "title": "Schauspieler & Inszenierung",
+        "text": "Echte Schauspieler, gebrieft für eine Rolle, die nur für Ihren Tag geschrieben wurde."
+      },
+      "lieux": {
+        "title": "Außergewöhnliche Orte",
+        "text": "Orte, ausgewählt für die Geschichte Ihres Tages, nie zufällig."
+      },
+      "surprises": {
+        "title": "Maßgeschneiderte Überraschungen",
+        "text": "Jede Überraschung ist für die Person gestaltet, nie von der Stange gewählt."
+      },
+      "gastronomie": {
+        "title": "Gastronomie",
+        "text": "Tische und Köche, ausgewählt für den Anlass, vom Brunch bis zum Dinner."
+      },
+      "souvenir": {
+        "title": "Foto- & Videoerinnerung",
+        "text": "Um den Tag noch lange danach wiederzuerleben."
+      },
+      "coordination": {
+        "title": "Koordination am Tag selbst",
+        "text": "Wir orchestrieren jede Minute, Sie müssen nur den Moment genießen."
+      }
+    }
   }
 }

@@ -674,5 +674,36 @@
       "title": "Response within 12h",
       "text": "We get back to you quickly, with no commitment on your part."
     }
+  },
+  "inclusions": {
+    "eyebrow": "IN EVERY DAY",
+    "h2": "What we assemble for you",
+    "lede": "Actors, venues, surprises, fine dining: every Yurday day combines exactly what it needs, never at random, never off a catalogue.",
+    "items": {
+      "comediens": {
+        "title": "Actors & staging",
+        "text": "Real actors, briefed to play a role written only for your day."
+      },
+      "lieux": {
+        "title": "Exceptional venues",
+        "text": "Venues chosen for the story of your day, never at random."
+      },
+      "surprises": {
+        "title": "Bespoke surprises",
+        "text": "Every surprise is designed for the person, never picked from a catalogue."
+      },
+      "gastronomie": {
+        "title": "Fine dining",
+        "text": "Tables and chefs chosen for the occasion, from brunch to dinner."
+      },
+      "souvenir": {
+        "title": "Photo & video keepsake",
+        "text": "To relive the day long after it's over."
+      },
+      "coordination": {
+        "title": "Day-of coordination",
+        "text": "We orchestrate every minute, so all you have to do is live the moment."
+      }
+    }
   }
 }

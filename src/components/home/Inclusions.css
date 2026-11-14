@@ -1,0 +1,41 @@
+/* ---------- Ce qui est assemblé dans chaque journée ---------- */
+.inclusions-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.inclusion-card {
+  padding: 28px 24px;
+  text-align: center;
+}
+.inclusion-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 52px;
+  height: 52px;
+  margin: 0 auto 16px;
+  border-radius: 999px;
+  color: var(--blue-2);
+  background: var(--white);
+}
+.inclusion-card h3 {
+  font-size: var(--fs-16);
+  font-weight: 600;
+  margin: 0 0 8px;
+  color: var(--ink);
+}
+.inclusion-card p {
+  font-family: var(--font-body), var(--font-inter), sans-serif;
+  font-size: var(--fs-14);
+  line-height: 1.55;
+  color: var(--ink-soft);
+  margin: 0;
+}
+@media (max-width: 860px) {
+  .inclusions-grid { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 560px) {
+  .inclusions-grid { grid-template-columns: 1fr; gap: 14px; }
+  .inclusion-card { padding: 22px 20px; }
+}

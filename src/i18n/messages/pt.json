@@ -674,5 +674,36 @@
       "title": "Resposta em 12h",
       "text": "Retornamos rapidamente, sem qualquer compromisso da sua parte."
     }
+  },
+  "inclusions": {
+    "eyebrow": "EM CADA DIA",
+    "h2": "O que combinamos para você",
+    "lede": "Atores, locais, surpresas, alta gastronomia: cada dia Yurday combina exatamente o necessário, nunca ao acaso, nunca de catálogo.",
+    "items": {
+      "comediens": {
+        "title": "Atores e encenação",
+        "text": "Atores de verdade, preparados para interpretar um papel escrito só para o seu dia."
+      },
+      "lieux": {
+        "title": "Locais excepcionais",
+        "text": "Locais escolhidos para a história do seu dia, nunca ao acaso."
+      },
+      "surprises": {
+        "title": "Surpresas sob medida",
+        "text": "Cada surpresa é pensada para a pessoa, nunca escolhida de um catálogo."
+      },
+      "gastronomie": {
+        "title": "Alta gastronomia",
+        "text": "Mesas e chefs escolhidos para a ocasião, do brunch ao jantar."
+      },
+      "souvenir": {
+        "title": "Lembrança em foto e vídeo",
+        "text": "Para reviver o dia muito tempo depois de ele terminar."
+      },
+      "coordination": {
+        "title": "Coordenação do dia",
+        "text": "Orquestramos cada minuto, para que você só precise viver o momento."
+      }
+    }
   }
 }
