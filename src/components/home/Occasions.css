@@ -31,7 +31,41 @@
 }
 .occasions-banner-cta:hover { border-color: var(--gold); }
 
+/* Rappel discret : Yurday s'adresse aussi aux entreprises. */
+.occasions-b2b {
+  max-width: 640px;
+  margin: 44px auto 0;
+  padding-top: 32px;
+  border-top: 1px solid rgba(255, 255, 255, 0.16);
+  text-align: center;
+}
+.occasions-b2b-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.occasions-b2b-eyebrow {
+  font-size: var(--fs-11);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--gold);
+}
+.occasions-b2b-title {
+  font-size: var(--fs-15);
+  font-weight: 600;
+  color: var(--white);
+}
+.occasions-b2b-arrow {
+  color: rgba(255, 255, 255, 0.6);
+  transition: transform 0.2s ease;
+}
+.occasions-b2b-link:hover .occasions-b2b-arrow { transform: translateX(3px); }
+
 @media (max-width: 640px) {
   .occasions-banner { padding: 52px 0 58px; }
   .occasions-banner-inner h2 { margin-bottom: 16px; }
+  .occasions-b2b { margin-top: 32px; padding-top: 26px; }
 }

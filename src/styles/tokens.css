@@ -1,16 +1,14 @@
 :root {
   --ink: #16140F;
   --ink-soft: #5A5650;
-  --paper: #FBF8F2;
-  --paper-deep: #EFE8D8;
-  /* Noir de scène plutôt que bleu corporate : la nuit d'un théâtre, pas d'une banque. */
-  --blue-1: #8A8175;
-  --blue-2: #141110;
-  --blue-3: #060504;
-  --line: #E3DBC7;
+  --paper: #FEFEFC;
+  --paper-deep: #F3F1EC;
+  --blue-1: #919BAD;
+  --blue-2: #0B2149;
+  --blue-3: #07142C;
+  --line: #E7E2D5;
   --sage: #4E8B72;
-  /* Bronze chaud (projecteur), plus rare et moins "template luxe" qu'un or franc. */
-  --gold: #AD6A2E;
+  --gold: #C9971E;
   --white: #FFFFFF;
 
   /* Échelle typographique. Toutes les tailles de texte du site piochent ici :

@@ -60,7 +60,7 @@ export default async function HomePage({ params }: HomeProps) {
       <Seam />
       <Moments messages={messages} home={home} />
       <Seam />
-      <Occasions messages={messages} />
+      <Occasions messages={messages} locale={locale} />
       <Contact messages={messages} />
       <Seam />
       <Faq messages={messages} home={home} />
