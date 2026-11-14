@@ -21,6 +21,24 @@ export function HeroBgVideo({ src, poster }: HeroBgVideoProps) {
     const video = ref.current
     if (!video) return
 
+    // Parallax léger : la vidéo défile un peu plus lentement que la page,
+    // pour donner une impression de profondeur au scroll. Désactivé si
+    // l'utilisateur préfère moins de mouvement.
+    const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches
+    let frame = 0
+    const onScroll = () => {
+      if (frame) return
+      frame = requestAnimationFrame(() => {
+        frame = 0
+        const offset = Math.min(window.scrollY * 0.25, 160)
+        video.style.transform = `translate3d(0, ${offset}px, 0) scale(1.12)`
+      })
+    }
+    if (!reduceMotion) {
+      window.addEventListener('scroll', onScroll, { passive: true })
+      onScroll()
+    }
+
     video.muted = true
     video.defaultMuted = true
 
@@ -44,6 +62,8 @@ export function HeroBgVideo({ src, poster }: HeroBgVideoProps) {
       window.removeEventListener('touchstart', onFirstInteraction)
       window.removeEventListener('scroll', onFirstInteraction)
       window.removeEventListener('click', onFirstInteraction)
+      window.removeEventListener('scroll', onScroll)
+      if (frame) cancelAnimationFrame(frame)
     }
   }, [])
 
