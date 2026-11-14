@@ -1,6 +1,5 @@
 import { Flag } from '@/components/ui/Flag'
 import { Stars } from '@/components/ui/Stars'
-import { Perforation, TicketNotches } from '@/components/ui/Ticket'
 import { localeInfo, type Locale } from '@/i18n/config'
 import type { Messages } from '@/i18n/messages'
 import { reviewRows, type Review } from '@/data/reviews'
@@ -34,22 +33,19 @@ function ReviewCard({
   const body = messages.reviews.items[String(review.id) as keyof typeof messages.reviews.items]
 
   return (
-    <article className="ticket marquee-card" aria-hidden={duplicate}>
-      <TicketNotches />
-      <div className="review-top">
-        <div>
-          <div className="review-name">
-            {review.name} <Flag country={review.country} title={countryName(review.country, locale)} />
-          </div>
-          <Stars className="review-stars" label={messages.trust.starsLabel} />
-        </div>
-      </div>
-      <Perforation />
-      <div className={review.nativeLocale === locale ? 'review-body' : 'review-body has-note'}>
-        <p className="review-quote">«&nbsp;{body}&nbsp;»</p>
-        {review.nativeLocale === locale ? null : (
-          <span className="translated-note">{messages.reviews.translatedNote}</span>
-        )}
+    <article className="marquee-card" aria-hidden={duplicate}>
+      <span className="review-mark" aria-hidden="true">
+        &ldquo;
+      </span>
+      <p className="review-quote">{body}</p>
+      {review.nativeLocale === locale ? null : (
+        <span className="translated-note">{messages.reviews.translatedNote}</span>
+      )}
+      <div className="review-meta">
+        <span className="review-name">
+          {review.name} <Flag country={review.country} title={countryName(review.country, locale)} />
+        </span>
+        <Stars className="review-stars" label={messages.trust.starsLabel} />
       </div>
     </article>
   )

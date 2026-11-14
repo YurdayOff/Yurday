@@ -43,27 +43,36 @@
 .occasions-scenarios-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 18px;
+  gap: 0;
+  align-items: start;
 }
 .occasions-scenario-card {
-  padding: 24px 22px;
+  background: none;
+  border: none;
+  border-left: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 0;
+  box-shadow: none;
+  padding: 2px 28px;
 }
+.occasions-scenario-card:first-child { border-left: none; }
 .occasions-scenario-card h3 {
-  font-size: var(--fs-17);
+  font-size: var(--fs-18);
+  font-style: italic;
   margin: 0 0 6px;
-  color: var(--ink);
+  color: var(--white);
 }
 .occasions-scenario-card .occasions-scenario-tagline {
-  font-style: italic;
   font-weight: 600;
-  font-size: var(--fs-13);
-  color: var(--blue-2);
-  margin: 0 0 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  font-size: var(--fs-11);
+  color: var(--gold);
+  margin: 0 0 14px;
 }
 .occasions-scenario-card p {
   font-size: var(--fs-13);
-  line-height: 1.6;
-  color: var(--ink-soft);
+  line-height: 1.65;
+  color: rgba(255, 255, 255, 0.78);
   margin: 0;
 }
 .occasions-scenario-card p + p {
@@ -89,10 +98,15 @@
 }
 .occasions-scenarios-cta:hover { color: rgba(255, 255, 255, 0.8); }
 @media (max-width: 780px) {
-  .occasions-scenarios-grid { grid-template-columns: 1fr; gap: 14px; }
+  .occasions-scenarios-grid { grid-template-columns: 1fr; gap: 0; }
+  .occasions-scenario-card {
+    border-left: none;
+    border-top: 1px solid rgba(255, 255, 255, 0.18);
+    padding: 24px 4px;
+  }
+  .occasions-scenario-card:first-child { border-top: none; padding-top: 0; }
 }
 @media (max-width: 640px) {
   .occasions-scenarios { margin-top: 32px; }
-  .occasions-scenario-card { padding: 20px 18px; }
   .occasions-scenarios-label { margin-bottom: 16px; font-size: var(--fs-11); }
 }

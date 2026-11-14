@@ -3,8 +3,8 @@
   position: relative;
   background: var(--white);
   border: 1px solid var(--line);
-  border-radius: 4px;
-  box-shadow: 0 10px 28px rgba(30, 26, 22, 0.06);
+  border-radius: 2px;
+  box-shadow: none;
   overflow: visible;
 }
 .ticket .notch {
