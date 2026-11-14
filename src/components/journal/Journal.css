@@ -13,7 +13,7 @@
   background: var(--paper);
   transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
-.journal-card:hover { transform: translateY(-3px); box-shadow: 0 16px 36px rgba(11, 33, 73, 0.1); }
+.journal-card:hover { transform: translateY(-3px); box-shadow: 0 16px 36px rgba(6, 5, 4, 0.12); }
 .journal-card-link { display: block; color: inherit; }
 .journal-card-image { aspect-ratio: 3 / 2; overflow: hidden; }
 .journal-card-image img { width: 100%; height: 100%; object-fit: cover; }

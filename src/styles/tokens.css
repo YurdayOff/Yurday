@@ -1,14 +1,16 @@
 :root {
   --ink: #16140F;
   --ink-soft: #5A5650;
-  --paper: #FEFEFC;
-  --paper-deep: #F3F1EC;
-  --blue-1: #919BAD;
-  --blue-2: #0B2149;
-  --blue-3: #07142C;
-  --line: #E7E2D5;
+  --paper: #FBF8F2;
+  --paper-deep: #EFE8D8;
+  /* Noir de scène plutôt que bleu corporate : la nuit d'un théâtre, pas d'une banque. */
+  --blue-1: #8A8175;
+  --blue-2: #141110;
+  --blue-3: #060504;
+  --line: #E3DBC7;
   --sage: #4E8B72;
-  --gold: #C9971E;
+  /* Bronze chaud (projecteur), plus rare et moins "template luxe" qu'un or franc. */
+  --gold: #AD6A2E;
   --white: #FFFFFF;
 
   /* Échelle typographique. Toutes les tailles de texte du site piochent ici :
@@ -26,7 +28,7 @@
   --fs-30: 30px;
   --fs-44: 44px;
   --fs-h2: clamp(28px, 4vw, 40px);
-  --fs-hero: clamp(30px, 4.8vw, 52px);
+  --fs-hero: clamp(38px, 7vw, 86px);
   --fs-hero-lg: clamp(34px, 5.4vw, 56px);
 
   /* Décélération douce et confiante, pour les apparitions au scroll. */
