@@ -3,6 +3,7 @@
 import Link from 'next/link'
 import { useEffect, useState } from 'react'
 import type { Messages } from '@/i18n/messages'
+import { CONSENT_EVENT } from '@/lib/analytics'
 import { legalPaths } from '@/lib/routes'
 import './CookieConsent.css'
 
@@ -40,6 +41,7 @@ export function CookieConsent({ messages }: CookieConsentProps) {
   const choose = (value: 'accepted' | 'declined') => {
     storeChoice(value)
     setVisible(false)
+    if (value === 'accepted') window.dispatchEvent(new Event(CONSENT_EVENT))
   }
 
   if (!visible) return null

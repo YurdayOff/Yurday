@@ -3,6 +3,7 @@
 import { useState } from 'react'
 import { useInView } from '@/hooks/useInView'
 import type { Messages } from '@/i18n/messages'
+import { trackEvent } from '@/lib/analytics'
 import { site } from '@/lib/site'
 
 type ContactFormProps = {
@@ -86,6 +87,7 @@ export function ContactForm({ form, seminar = false, fixedOccasion }: ContactFor
   const sendByWhatsapp = () => {
     const text = encodeURIComponent(whatsappMessage(values, form, seminar))
     window.open(`${site.whatsapp.url}?text=${text}`, '_blank', 'noopener')
+    trackEvent('generate_lead', { method: 'whatsapp' })
     setSuccessText(form.successWhatsapp)
     setStep('sent')
   }
@@ -122,6 +124,7 @@ export function ContactForm({ form, seminar = false, fixedOccasion }: ContactFor
     }
 
     setSending(false)
+    trackEvent('generate_lead', { method: 'email' })
     setSuccessText(form.success)
     setStep('sent')
   }
@@ -137,6 +140,7 @@ export function ContactForm({ form, seminar = false, fixedOccasion }: ContactFor
 
     const params = new URLSearchParams({ name: values.nom, email: values.email })
     window.open(`${site.calendly.url}?${params}`, '_blank', 'noopener')
+    trackEvent('generate_lead', { method: 'call' })
     setSuccessText(form.successCall)
     setStep('sent')
   }

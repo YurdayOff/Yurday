@@ -5,6 +5,7 @@ import { notFound } from 'next/navigation'
 import { CookieConsent } from '@/components/layout/CookieConsent'
 import { EngagementPopup } from '@/components/layout/EngagementPopup'
 import { Footer } from '@/components/layout/Footer'
+import { GoogleTagManager } from '@/components/layout/GoogleTagManager'
 import { HashScroll } from '@/components/layout/HashScroll'
 import { Header } from '@/components/layout/Header'
 import { PromoBanner } from '@/components/layout/PromoBanner'
@@ -101,6 +102,7 @@ export default async function LocaleLayout({ children, params }: LocaleLayoutPro
         <EngagementPopup messages={messages} contactHref={`${home}#contact`} />
         <CookieConsent messages={messages} />
         <HashScroll />
+        <GoogleTagManager />
       </body>
     </html>
   )
