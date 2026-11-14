@@ -1,0 +1,60 @@
+/* ---------- Citations clients, une à la fois ---------- */
+.testimonials { text-align: center; }
+.testimonials .quotes {
+  position: relative;
+  max-width: 860px;
+  margin: 44px auto 0;
+}
+.testimonials .quote {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  transition: opacity 1.4s var(--ease-premium);
+  pointer-events: none;
+}
+.testimonials .quote.on {
+  position: relative;
+  opacity: 1;
+  pointer-events: auto;
+}
+.testimonials .quote p {
+  font-family: var(--font-display), Georgia, serif;
+  font-style: italic;
+  font-size: clamp(24px, 2.6vw, 38px);
+  line-height: 1.35;
+  margin: 0;
+}
+.testimonials .quote .who {
+  margin-top: 30px;
+  font-size: 10.5px;
+  font-weight: 400;
+  letter-spacing: 0.32em;
+  text-transform: uppercase;
+  color: var(--gold-light);
+}
+.testimonials .dots {
+  display: flex;
+  justify-content: center;
+  gap: 2px;
+  margin-top: 46px;
+}
+.testimonials .dots button {
+  width: 34px;
+  height: 24px;
+  display: grid;
+  place-items: center;
+  background: none;
+}
+.testimonials .dots button::after {
+  content: "";
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: rgba(254, 254, 252, 0.3);
+  transition: background 0.4s ease;
+}
+.testimonials .dots button.on::after { background: var(--white); }
+
+@media (max-width: 640px) {
+  .testimonials .quotes { min-height: 200px; }
+}

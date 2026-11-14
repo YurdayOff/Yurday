@@ -1,15 +1,16 @@
 :root {
   --ink: #16140F;
   --ink-soft: #5A5650;
-  --paper: #FEFEFC;
-  --paper-deep: #F3F1EC;
+  --paper: #F6F2EB;
+  --paper-deep: #EEE7DB;
   --blue-1: #919BAD;
-  --blue-2: #0B2149;
-  --blue-3: #07142C;
-  --line: #E7E2D5;
+  --blue-2: #0B214A;
+  --blue-3: #071631;
+  --line: rgba(11, 33, 74, 0.14);
   --sage: #4E8B72;
-  --gold: #C9971E;
-  --white: #FFFFFF;
+  --gold: #A8874F;
+  --gold-light: #C9AB76;
+  --white: #FEFEFC;
 
   /* Échelle typographique. Toutes les tailles de texte du site piochent ici :
      plus de valeurs à virgule ad hoc (12.5px, 13.5px, 14.5px...). */
@@ -31,4 +32,7 @@
 
   /* Décélération douce et confiante, pour les apparitions au scroll. */
   --ease-premium: cubic-bezier(0.16, 1, 0.3, 1);
+
+  /* Marge horizontale généreuse des sections éditoriales (duos, cartes, citations). */
+  --pad: clamp(24px, 6vw, 110px);
 }

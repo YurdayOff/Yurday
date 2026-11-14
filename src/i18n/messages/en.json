@@ -62,13 +62,11 @@
     "cta": "Chat on WhatsApp"
   },
   "hero": {
+    "eyebrow": "Paris and Île-de-France",
     "title": {
-      "lead": "Give them a day ",
-      "em": "directed like a scene."
-    },
-    "lede": "Actors, sets, surprises: in Paris and the Île-de-France region, we design and direct a day staged for the person who matters to you.",
-    "examplesLink": "See example days",
-    "callUs": "or call us on"
+      "lead": "A whole day, ",
+      "em": "written for one person alone."
+    }
   },
   "trust": {
     "starsLabel": "5.0 on Google · 40 reviews",
@@ -117,34 +115,23 @@
     "scenariosCta": "Imagine hers →"
   },
   "moments": {
-    "eyebrow": "Real stories",
-    "h2": "One moment, among every step of their day",
-    "lede": "This is only a glimpse: every day is designed as a whole, from morning to night.",
-    "cta": "Want a day like this one? Tell us about yours.",
+    "eyebrow": "A few moments",
+    "h2": "What they won't forget.",
     "items": {
-      "montgolfiere-fete-des-meres": {
-        "title": "Grégoire, a hot air balloon flight for Mother's Day",
-        "story": "He wanted to give his mother a moment that belonged to just the two of them, away from everyday life. Among all the steps we designed for that day, this one was the high point: a hot air balloon chartered just for them, drifting above the golden countryside at sunset."
+      "demande": {
+        "eyebrow": "Marriage proposal",
+        "subtitle": "On a Paris bridge, at dawn.",
+        "text": "The place, the time, the hidden photographer. All he had to do was ask."
       },
-      "degustation-vin": {
-        "title": "Aymeric, a wine tasting in a secret cellar for his father's 60th birthday",
-        "story": "He wanted to give his father a moment that belonged to just the two of them, away from the usual family dinners. We built an entire day around that idea, and at its heart, a century-old cellar in Paris, a sommelier at their side and the finest vintages to discover together."
+      "noces": {
+        "eyebrow": "Golden wedding",
+        "subtitle": "Fifty years, and a violin.",
+        "text": "Their song, played at their table. The children in on the secret, at the table next door."
       },
-      "croisiere-seine": {
-        "title": "Pascal, a dinner cruise on the Seine for their tenth year together",
-        "story": "He wanted to mark ten years together with a whole day that felt like them. Among the steps we strung together for them, this one stayed the most memorable: a private cruise on the Seine, roses and champagne on the table, the illuminated Eiffel Tower as their only witness."
-      },
-      "opera-chauffeur": {
-        "title": "Daphné, an evening at the Opéra with a private driver to surprise her husband",
-        "story": "She wanted to give him a day where all he had to do was be carried from one moment to the next. We built it for him step by step, up to this high point: a dinner followed by an evening at the Opéra Garnier, private car and driver from departure to return."
-      },
-      "caleche-saint-valentin": {
-        "title": "Olivier, a horse-drawn carriage ride through Paris for their Valentine's Day",
-        "story": "He wanted to give them a Valentine's Day suspended in time, far from traffic and phones. We planned it step by step, and along the way, a vintage carriage, coachman in a top hat, for a tour of Paris at a horse's pace all the way to the foot of the Eiffel Tower."
-      },
-      "demande-mariage-coucher-soleil": {
-        "title": "Fernand, a bespoke day leading up to his marriage proposal",
-        "story": "He wanted to give his wife-to-be a day just for her, building up to the moment he'd ask the question. We planned it step by step: a horse ride, dinner on a barge along the Seine, then an hour's drive into the countryside, where he got down on one knee at sunset."
+      "lettre": {
+        "eyebrow": "The first morning",
+        "subtitle": "A letter on the tray.",
+        "text": "A few lines on waking. The rest of the day is waiting outside."
       }
     }
   },
@@ -659,7 +646,10 @@
   "shared": {
     "ctaWhatsapp": "Chat on WhatsApp",
     "whatsappMessage": "Hello, I'd like to organise a day for…",
-    "ctaEmail": "Tell us in writing"
+    "ctaEmail": "Tell us in writing",
+    "pause": "Pause",
+    "play": "Play",
+    "discover": "Discover"
   },
   "trustPillars": {
     "discretion": {
@@ -674,5 +664,63 @@
       "title": "Response within 12h",
       "text": "We get back to you quickly, with no commitment on your part."
     }
+  },
+  "heroIntro": {
+    "eyebrow": "The house of Yurday",
+    "statement": {
+      "lead": "We create surprise days, ",
+      "em": "from the moment she opens her eyes to the moment she closes them."
+    },
+    "text": "You tell us about someone. We write their day, book every venue, choose every accomplice. When the day comes, she knows nothing, and everything unfolds exactly as planned."
+  },
+  "home": {
+    "particuliers": {
+      "eyebrow": "Individuals",
+      "title": {
+        "lead": "For someone ",
+        "em": "you love."
+      },
+      "text": "A birthday, a proposal, your parents, a retirement. Or simply the wish to tell someone they matter.",
+      "cta": "Give a day"
+    },
+    "entreprises": {
+      "eyebrow": "Businesses",
+      "title": {
+        "lead": "For your teams ",
+        "em": "and your clients."
+      },
+      "text": "Seminars, receptions, team-building days, thank-yous. From fifteen to several hundred people, in Paris and the Île-de-France region.",
+      "cta": "Plan an event"
+    },
+    "closing": {
+      "eyebrow": "To begin",
+      "title": {
+        "lead": "Who are you thinking of, ",
+        "em": "right now?"
+      },
+      "text": "Someone just came to mind. It's usually the right one. Tell us about them, and we'll get back to you within 12 hours.",
+      "cta": "Tell us"
+    }
+  },
+  "testimonials": {
+    "eyebrow": "They lived it",
+    "quotes": [
+      {
+        "text": "From morning until night, it was nothing but surprises, every detail carefully thought through.",
+        "who": "Sihan L."
+      },
+      {
+        "text": "Flawless organisation, wonderful surprises, memories to last a lifetime.",
+        "who": "Sébastien M."
+      },
+      {
+        "text": "I loved that everything was a surprise, while still feeling truly meaningful.",
+        "who": "Emily J."
+      },
+      {
+        "text": "I booked this experience for my girlfriend, she was deeply moved.",
+        "who": "Wei C."
+      }
+    ]
   }
 }

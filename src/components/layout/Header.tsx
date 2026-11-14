@@ -15,16 +15,17 @@ type HeaderProps = {
   messages: Messages
 }
 
-/** Ancres de la page d'accueil, dans l'ordre du menu. */
-const sections = [
-  { hash: '#occasions', key: 'occasions' },
-  { hash: '#faq', key: 'faq' },
-] as const
-
 export function Header({ locale, messages }: HeaderProps) {
   const [scrolled, setScrolled] = useState(false)
   const [menuOpen, setMenuOpen] = useState(false)
   const home = localePath(locale)
+
+  /** Ancres de la page d'accueil, dans l'ordre du menu. */
+  const sections = [
+    { hash: '#particuliers', label: messages.home.particuliers.eyebrow },
+    { hash: '#entreprises', label: messages.home.entreprises.eyebrow },
+    { hash: '#faq', label: messages.nav.faq },
+  ]
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 12)
@@ -60,7 +61,7 @@ export function Header({ locale, messages }: HeaderProps) {
         <nav className="nav-links" aria-label={messages.a11y.mainNav}>
           {sections.map((section) => (
             <HashLink key={section.hash} href={`${home}${section.hash}`}>
-              {messages.nav[section.key]}
+              {section.label}
             </HashLink>
           ))}
         </nav>
@@ -93,7 +94,7 @@ export function Header({ locale, messages }: HeaderProps) {
               href={`${home}${section.hash}`}
               onNavigate={() => setMenuOpen(false)}
             >
-              {messages.nav[section.key]}
+              {section.label}
             </HashLink>
           ))}
           <a href={`tel:+${site.whatsapp.number}`} className="nav-mobile-phone">

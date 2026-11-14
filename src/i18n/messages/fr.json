@@ -62,13 +62,11 @@
     "cta": "Discuter sur WhatsApp"
   },
   "hero": {
+    "eyebrow": "Paris et Île-de-France",
     "title": {
-      "lead": "Offrez-lui une journée ",
-      "em": "mise en scène."
-    },
-    "lede": "Comédiens, décors, surprises : à Paris et en Île-de-France, nous concevons et orchestrons une journée pensée pour la personne qui compte pour vous.",
-    "examplesLink": "Voir des exemples de journées",
-    "callUs": "ou appelez-nous au"
+      "lead": "Une journée entière, ",
+      "em": "écrite pour une seule personne."
+    }
   },
   "trust": {
     "starsLabel": "5,0 sur Google · 40 avis",
@@ -117,34 +115,23 @@
     "scenariosCta": "Imaginer la sienne →"
   },
   "moments": {
-    "eyebrow": "Vraies histoires",
-    "h2": "Un instant, parmi toutes les étapes de leur journée",
-    "lede": "Ce n'est qu'un instant : chaque journée est pensée dans son ensemble, du matin jusqu'au soir.",
-    "cta": "Envie d'une journée comme celle-ci ? Racontez-nous la vôtre.",
+    "eyebrow": "Quelques moments",
+    "h2": "Ce qu’ils n’oublieront pas.",
     "items": {
-      "montgolfiere-fete-des-meres": {
-        "title": "Grégoire, un vol en montgolfière pour la fête des mères",
-        "story": "Il voulait offrir à sa mère un moment rien qu'à eux, loin du quotidien. Parmi toutes les étapes que nous avons imaginées pour cette journée, celle-ci en était le point d'orgue : une montgolfière affrétée rien que pour eux, au-dessus de la campagne dorée, au coucher du soleil."
+      "demande": {
+        "eyebrow": "Demande en mariage",
+        "subtitle": "Sur un pont de Paris, à l’aube.",
+        "text": "Le lieu, l’heure, le photographe caché. Il n’avait plus qu’à poser la question."
       },
-      "degustation-vin": {
-        "title": "Aymeric, une dégustation de vin dans une cave secrète pour les 60 ans de son père",
-        "story": "Il voulait offrir à son père un moment rien qu'à eux, loin des dîners de famille habituels. Nous avons construit toute une journée autour de cette idée, et en son cœur, une cave centenaire à Paris, un sommelier à leur écoute et les plus beaux millésimes à découvrir ensemble."
+      "noces": {
+        "eyebrow": "Noces d’or",
+        "subtitle": "Cinquante ans, et un violon.",
+        "text": "Leur chanson, jouée à leur table. Les enfants dans la confidence, à la table d’à côté."
       },
-      "croisiere-seine": {
-        "title": "Pascal, une croisière dînatoire sur la Seine pour leurs dix ans de couple",
-        "story": "Il voulait marquer leurs dix années ensemble par une journée entière qui leur ressemble. Parmi les étapes que nous avons enchaînées pour eux, celle-ci restera la plus marquante : une croisière privée sur la Seine, roses et champagne sur la table, la tour Eiffel illuminée pour seul témoin."
-      },
-      "opera-chauffeur": {
-        "title": "Daphné, une soirée à l'Opéra avec chauffeur privé pour surprendre son mari",
-        "story": "Elle voulait lui offrir une journée où il n'aurait rien à penser, juste à se laisser porter d'un moment à l'autre. Nous la lui avons construite pas à pas, jusqu'à ce point d'orgue : un dîner suivi d'une soirée à l'Opéra Garnier, voiture et chauffeur privés du départ jusqu'au retour."
-      },
-      "caleche-saint-valentin": {
-        "title": "Olivier, une balade en calèche dans Paris pour leur Saint-Valentin",
-        "story": "Il voulait leur offrir une Saint-Valentin suspendue dans le temps, loin des embouteillages et des téléphones. Nous l'avons pensée étape après étape, et au fil de celle-ci, une calèche d'époque, cocher en haut-de-forme, pour un tour de Paris au pas des chevaux jusqu'au pied de la tour Eiffel."
-      },
-      "demande-mariage-coucher-soleil": {
-        "title": "Fernand, une journée sur mesure jusqu'à sa demande en mariage",
-        "story": "Il voulait organiser à sa future femme une journée rien que pour elle, jusqu'à l'instant où il lui poserait la question. Nous l'avons construite pas à pas : une balade à cheval, un dîner sur une péniche au fil de la Seine, puis une heure de route vers la campagne, où il s'est agenouillé au coucher du soleil."
+      "lettre": {
+        "eyebrow": "Le premier matin",
+        "subtitle": "Une lettre sur le plateau.",
+        "text": "Quelques lignes au réveil. Le reste de la journée l’attend dehors."
       }
     }
   },
@@ -659,7 +646,10 @@
   "shared": {
     "ctaWhatsapp": "Discuter sur WhatsApp",
     "whatsappMessage": "Bonjour, je souhaite organiser une journée pour…",
-    "ctaEmail": "Raconter mon projet par écrit"
+    "ctaEmail": "Raconter mon projet par écrit",
+    "pause": "Pause",
+    "play": "Lecture",
+    "discover": "Découvrir"
   },
   "trustPillars": {
     "discretion": {
@@ -674,5 +664,63 @@
       "title": "Réponse sous 12h",
       "text": "Nous revenons vers vous rapidement, sans aucun engagement de votre part."
     }
+  },
+  "heroIntro": {
+    "eyebrow": "La maison Yurday",
+    "statement": {
+      "lead": "Nous organisons des journées surprises, ",
+      "em": "de l’instant où elle ouvre les yeux à celui où elle les referme."
+    },
+    "text": "Vous nous parlez de quelqu’un. Nous écrivons sa journée, réservons chaque lieu, choisissons chaque complice. Le jour venu, elle ne sait rien, et tout se déroule comme prévu."
+  },
+  "home": {
+    "particuliers": {
+      "eyebrow": "Particuliers",
+      "title": {
+        "lead": "Pour quelqu’un ",
+        "em": "que vous aimez."
+      },
+      "text": "Un anniversaire, une demande en mariage, des parents, une retraite. Ou simplement l’envie de dire à quelqu’un qu’il compte.",
+      "cta": "Offrir une journée"
+    },
+    "entreprises": {
+      "eyebrow": "Entreprises",
+      "title": {
+        "lead": "Pour vos équipes ",
+        "em": "et vos clients."
+      },
+      "text": "Séminaires, réceptions, team buildings, remerciements. De quinze à plusieurs centaines de personnes, à Paris et en Île-de-France.",
+      "cta": "Organiser un événement"
+    },
+    "closing": {
+      "eyebrow": "Pour commencer",
+      "title": {
+        "lead": "À qui pensez-vous ",
+        "em": "en ce moment ?"
+      },
+      "text": "Une personne vous vient en tête. C’est souvent la bonne. Racontez-la-nous, nous revenons vers vous sous 12 h.",
+      "cta": "Racontez-nous"
+    }
+  },
+  "testimonials": {
+    "eyebrow": "Ils l’ont vécu",
+    "quotes": [
+      {
+        "text": "De la matinée jusqu’au soir, ce n’était que surprises, chaque détail était pensé avec soin.",
+        "who": "Sihan L."
+      },
+      {
+        "text": "Une organisation irréprochable, des surprises au top, des souvenirs plein la tête.",
+        "who": "Sébastien M."
+      },
+      {
+        "text": "J’ai adoré que tout soit une surprise, tout en ayant vraiment du sens.",
+        "who": "Emily J."
+      },
+      {
+        "text": "J’ai réservé cette expérience pour ma copine, elle a été très émue.",
+        "who": "Wei C."
+      }
+    ]
   }
 }

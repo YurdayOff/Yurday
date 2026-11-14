@@ -51,49 +51,24 @@
   margin-bottom: 54px;
 }
 .hero-actions .btn { padding: 17px 34px; font-size: var(--fs-16); }
-.hero-call {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  padding: 17px 22px;
-  font-size: var(--fs-14);
-  font-weight: 600;
-  color: var(--ink-soft);
-  white-space: nowrap;
-}
-.hero-call strong { font-weight: 800; }
-.hero-call:hover { color: var(--blue-3); }
-@media (max-width: 480px) {
-  .hero-call { padding: 6px 12px; white-space: normal; justify-content: center; }
-}
-
-.hero-examples-link {
-  display: inline-block;
-  margin: 0 0 28px;
-  font-size: var(--fs-14);
-  font-weight: 600;
-  color: var(--ink-soft);
-  text-decoration: underline;
-  text-underline-offset: 3px;
-}
-.hero-examples-link:hover { color: var(--blue-3); }
 
 /* Variante vidéo : page d'accueil uniquement. La vidéo remplit toute la
-   section en fond, un voile sombre garde le texte blanc lisible dessus. */
+   section en fond, un voile sombre garde le texte blanc lisible dessus.
+   Le texte repose en bas de l'écran, comme sur la référence Yurday. */
 .hero.hero--video {
   background: var(--blue-3);
-  /* Remplit l'écran à l'arrivée : la vidéo domine, la section suivante
-     ne doit pas être visible sans scroller. */
   min-height: 100vh;
   min-height: 100svh;
   display: flex;
-  align-items: center;
+  align-items: flex-end;
+  padding-bottom: clamp(80px, 11vh, 130px);
   /* Comble l'écart d'arrondi sous-pixel avec la section suivante. */
   margin-bottom: -1px;
   /* Garde le parallax de la vidéo (HeroBgVideo) dans les bornes de la section. */
   overflow: hidden;
 }
 .hero.hero--video::before { display: none; }
+.hero.hero--video .hero-inner { padding: 0 28px; }
 .hero-bg-video {
   position: absolute;
   inset: 0;
@@ -109,27 +84,40 @@
   z-index: 1;
   background: linear-gradient(
     180deg,
-    rgba(7, 20, 44, 0.6) 0%,
-    rgba(7, 20, 44, 0.38) 40%,
-    rgba(7, 20, 44, 0.62) 100%
+    rgba(7, 22, 49, 0.5) 0%,
+    rgba(7, 22, 49, 0) 26%,
+    rgba(7, 22, 49, 0.08) 45%,
+    rgba(7, 22, 49, 0.68) 100%
   );
 }
 .hero.hero--video .hero-inner { z-index: 2; }
+.hero.hero--video .eyebrow {
+  display: block;
+  color: rgba(255, 255, 255, 0.85);
+  margin-bottom: 22px;
+}
 .hero.hero--video h1,
 .hero.hero--video h1 em {
   color: var(--white);
+  text-shadow: 0 1px 30px rgba(7, 22, 49, 0.35);
 }
-/* Un seul geste, en filigrane sur l'image : pas un bouton qui crie. */
-.hero.hero--video .btn-primary {
-  background: transparent;
-  border: 1px solid rgba(255, 255, 255, 0.65);
+.hero-scroll,
+.hero-pause {
+  position: absolute;
+  z-index: 2;
+  bottom: 28px;
+  font-size: 10px;
+  font-weight: 400;
+  letter-spacing: 0.32em;
+  text-transform: uppercase;
   color: var(--white);
-  box-shadow: none;
+  opacity: 0.75;
 }
-.hero.hero--video .btn-primary:hover {
-  background: rgba(255, 255, 255, 0.1);
-  border-color: var(--white);
-  box-shadow: none;
+.hero-scroll { left: 50%; transform: translateX(-50%); }
+.hero-pause { right: 28px; transition: opacity 0.3s ease; }
+.hero-pause:hover { opacity: 1; }
+@media (max-width: 640px) {
+  .hero-scroll, .hero-pause { display: none; }
 }
 
 /* Variante compacte : pages occasion (titre et lede plus courts). */

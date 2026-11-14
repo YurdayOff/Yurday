@@ -1,33 +1,26 @@
-import { HashLink } from '@/components/ui/HashLink'
-import { PhoneIcon } from '@/components/ui/PhoneIcon'
+import { Reveal } from '@/components/ui/Reveal'
 import type { Messages } from '@/i18n/messages'
-import { site } from '@/lib/site'
-import { TrustBar } from './TrustBar'
 import './HeroIntro.css'
 
 /**
- * Juste après le premier écran (vidéo + titre + un bouton) : le détail du
- * projet, le contact direct, puis les chiffres. Respire, hors du cadre vidéo.
+ * Manifeste centré juste après le hero : « La maison Yurday ». Reprend la
+ * place de l'ancien bandeau de chiffres, pour laisser l'image du hero
+ * porter seule la première impression et le propos s'installer ensuite.
  */
 export function HeroIntro({ messages }: { messages: Messages }) {
-  const { hero } = messages
+  const { heroIntro } = messages
 
   return (
     <section className="hero-intro">
       <div className="container">
-        <p className="lede">{hero.lede}</p>
-        <div className="hero-intro-links">
-          <a href={`tel:+${site.whatsapp.number}`} className="hero-call">
-            <PhoneIcon size={16} />
-            <span>
-              {hero.callUs} <strong>{site.whatsapp.displayNumber}</strong>
-            </span>
-          </a>
-          <HashLink href="#moments" className="hero-examples-link">
-            {hero.examplesLink}
-          </HashLink>
-        </div>
-        <TrustBar messages={messages} />
+        <Reveal className="hero-intro-inner">
+          <span className="eyebrow">{heroIntro.eyebrow}</span>
+          <h2>
+            {heroIntro.statement.lead}
+            <em>{heroIntro.statement.em}</em>
+          </h2>
+          <p>{heroIntro.text}</p>
+        </Reveal>
       </div>
     </section>
   )

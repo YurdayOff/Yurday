@@ -1,56 +1,39 @@
 import Image from 'next/image'
-import { moments as momentList } from '@/data/moments'
-import { HashLink } from '@/components/ui/HashLink'
 import { Reveal } from '@/components/ui/Reveal'
 import type { Messages } from '@/i18n/messages'
-import { SectionHead } from './SectionHead'
 import './Moments.css'
 
-type MomentsProps = {
-  messages: Messages
-  /** Chemin de la page courante, pour l'ancre vers le formulaire. */
-  home: string
-}
+const CARDS = [
+  { id: 'demande', image: '/images/r-demande.jpg' },
+  { id: 'noces', image: '/images/r-noces.jpg' },
+  { id: 'lettre', image: '/images/r-lettre.jpg' },
+] as const
 
-/** Vraies histoires clients, chacune en grand chapitre plein cadre. */
-export function Moments({ messages, home }: MomentsProps) {
+/** Trois moments vécus, en grille, juste après les deux duos. */
+export function Moments({ messages }: { messages: Messages }) {
   const { moments } = messages
 
   return (
-    <section id="moments">
-      <div className="container">
-        <SectionHead eyebrow={moments.eyebrow} title={moments.h2} lede={moments.lede} />
-
-        <div className="moment-chapters">
-          {momentList.map(({ id, image }, index) => {
+    <section className="sec white">
+      <div className="wrap">
+        <div className="head-c">
+          <span className="eyebrow">{moments.eyebrow}</span>
+          <h2 className="title">{moments.h2}</h2>
+        </div>
+        <div className="cards">
+          {CARDS.map(({ id, image }) => {
             const item = moments.items[id as keyof typeof moments.items]
             return (
-              <Reveal className="moment-chapter" key={id}>
-                <span className="moment-chapter-num" aria-hidden="true">
-                  {String(index + 1).padStart(2, '0')}
-                </span>
-                <div className="moment-chapter-photo">
-                  <Image
-                    src={image}
-                    alt={item.title}
-                    width={960}
-                    height={540}
-                    sizes="(max-width: 780px) 100vw, 860px"
-                  />
+              <Reveal className="card" key={id}>
+                <div className="ph">
+                  <Image src={image} alt={item.subtitle} width={640} height={480} sizes="(max-width: 1000px) 100vw, 33vw" />
                 </div>
-                <div className="moment-chapter-text">
-                  <h3>{item.title}</h3>
-                  <p>{item.story}</p>
-                </div>
+                <span className="eyebrow">{item.eyebrow}</span>
+                <div className="subtitle">{item.subtitle}</div>
+                <p className="text">{item.text}</p>
               </Reveal>
             )
           })}
-        </div>
-
-        <div className="moment-cta-wrap">
-          <HashLink href={`${home}#contact`} className="btn btn-primary">
-            {moments.cta}
-          </HashLink>
         </div>
       </div>
     </section>

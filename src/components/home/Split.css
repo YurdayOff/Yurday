@@ -1,0 +1,20 @@
+/* ---------- Duo éditorial : image + texte, pour un public ---------- */
+.split {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 0;
+  background: var(--paper);
+}
+.split-pic { aspect-ratio: 4 / 3.4; overflow: hidden; }
+.split-pic img { width: 100%; height: 100%; object-fit: cover; }
+.split-txt { padding: clamp(40px, 7vw, 120px); }
+.split-txt .title { margin: 18px 0 22px; }
+.split-txt .text { margin-bottom: 34px; }
+.split.rev .split-pic { order: 2; }
+
+@media (max-width: 900px) {
+  .split { grid-template-columns: 1fr; }
+  .split.rev .split-pic { order: 0; }
+  .split-txt { padding: 44px 28px 70px; }
+}

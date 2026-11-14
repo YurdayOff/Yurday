@@ -62,13 +62,11 @@
     "cta": "Auf WhatsApp chatten"
   },
   "hero": {
+    "eyebrow": "Paris und Île-de-France",
     "title": {
-      "lead": "Schenken Sie einen Tag ",
-      "em": "wie inszeniert."
-    },
-    "lede": "Schauspieler, Kulissen, Überraschungen: in Paris und der Île-de-France konzipieren und inszenieren wir einen Tag für die Person, die Ihnen wichtig ist.",
-    "examplesLink": "Beispieltage ansehen",
-    "callUs": "oder rufen Sie uns an unter"
+      "lead": "Ein ganzer Tag, ",
+      "em": "geschrieben für einen einzigen Menschen."
+    }
   },
   "trust": {
     "starsLabel": "5,0 auf Google · 40 Bewertungen",
@@ -117,34 +115,23 @@
     "scenariosCta": "Ihren Tag gestalten →"
   },
   "moments": {
-    "eyebrow": "Echte Geschichten",
-    "h2": "Ein Moment, unter allen Etappen ihres Tages",
-    "lede": "Das ist nur ein Augenblick: Jeder Tag wird als Ganzes geplant, von morgens bis abends.",
-    "cta": "Lust auf so einen Tag? Erzählen Sie uns von Ihrem.",
+    "eyebrow": "Ein paar Momente",
+    "h2": "Was sie nicht vergessen werden.",
     "items": {
-      "montgolfiere-fete-des-meres": {
-        "title": "Grégoire, eine Heißluftballonfahrt zum Muttertag",
-        "story": "Er wollte seiner Mutter einen Moment schenken, der nur ihnen beiden gehörte, fernab des Alltags. Unter allen Etappen, die wir für diesen Tag entworfen hatten, war dieser Moment der Höhepunkt: ein Heißluftballon, nur für die beiden gechartert, bei Sonnenuntergang über goldenen Landschaften."
+      "demande": {
+        "eyebrow": "Heiratsantrag",
+        "subtitle": "Auf einer Pariser Brücke, bei Sonnenaufgang.",
+        "text": "Der Ort, die Uhrzeit, der versteckte Fotograf. Er musste nur noch die Frage stellen."
       },
-      "degustation-vin": {
-        "title": "Aymeric, eine Weinverkostung in einem geheimen Keller zum 60. Geburtstag seines Vaters",
-        "story": "Er wollte seinem Vater einen Moment schenken, der nur ihnen beiden gehörte, fernab der gewohnten Familienessen. Wir haben einen ganzen Tag um diese Idee herum gestaltet, und in seinem Herzstück ein jahrhundertealter Keller in Paris, mit einem Sommelier an ihrer Seite und den schönsten Jahrgängen zum gemeinsamen Entdecken."
+      "noces": {
+        "eyebrow": "Goldene Hochzeit",
+        "subtitle": "Fünfzig Jahre, und eine Geige.",
+        "text": "Ihr Lied, gespielt an ihrem Tisch. Die Kinder eingeweiht, am Tisch nebenan."
       },
-      "croisiere-seine": {
-        "title": "Pascal, eine Dinner-Kreuzfahrt auf der Seine zu ihrem zehnten Jahrestag",
-        "story": "Er wollte zehn gemeinsame Jahre mit einem ganzen Tag feiern, der ganz zu ihnen passte. Unter den Etappen, die wir für sie aneinanderreihten, blieb diese die einprägsamste: eine private Kreuzfahrt auf der Seine, Rosen und Champagner auf dem Tisch, der beleuchtete Eiffelturm als einziger Zeuge."
-      },
-      "opera-chauffeur": {
-        "title": "Daphné, ein Abend in der Oper mit Privatchauffeur, um ihren Mann zu überraschen",
-        "story": "Sie wollte ihm einen Tag schenken, an dem er sich nur von einem Moment zum nächsten tragen lassen musste. Wir haben ihn Schritt für Schritt für ihn gestaltet, bis zu diesem Höhepunkt: ein Dinner mit anschließendem Abend in der Opéra Garnier, mit Privatwagen und Chauffeur von der Abfahrt bis zur Rückkehr."
-      },
-      "caleche-saint-valentin": {
-        "title": "Olivier, eine Kutschfahrt durch Paris zum Valentinstag",
-        "story": "Er wollte ihnen einen Valentinstag schenken, der wie außerhalb der Zeit wirkte, fernab von Verkehr und Telefonen. Wir haben ihn Etappe für Etappe geplant, und mittendrin eine historische Kutsche mit Kutscher im Zylinder für eine Fahrt durch Paris im Schritttempo bis zum Fuß des Eiffelturms."
-      },
-      "demande-mariage-coucher-soleil": {
-        "title": "Fernand, ein maßgeschneiderter Tag bis zu seinem Heiratsantrag",
-        "story": "Er wollte seiner zukünftigen Frau einen Tag ganz allein für sie schenken, der auf den Moment zusteuerte, in dem er ihr die Frage stellen würde. Wir haben ihn Schritt für Schritt geplant: ein Ausritt, ein Abendessen auf einem Hausboot an der Seine, und dann eine Stunde Fahrt aufs Land, wo er bei Sonnenuntergang niederkniete."
+      "lettre": {
+        "eyebrow": "Der erste Morgen",
+        "subtitle": "Ein Brief auf dem Tablett.",
+        "text": "Ein paar Zeilen beim Aufwachen. Der Rest des Tages wartet draußen."
       }
     }
   },
@@ -659,7 +646,10 @@
   "shared": {
     "ctaWhatsapp": "Auf WhatsApp chatten",
     "whatsappMessage": "Hallo, ich möchte einen Tag organisieren für…",
-    "ctaEmail": "Schriftlich erzählen"
+    "ctaEmail": "Schriftlich erzählen",
+    "pause": "Pause",
+    "play": "Abspielen",
+    "discover": "Entdecken"
   },
   "trustPillars": {
     "discretion": {
@@ -674,5 +664,63 @@
       "title": "Antwort innerhalb von 12h",
       "text": "Wir melden uns schnell bei Ihnen, ganz unverbindlich."
     }
+  },
+  "heroIntro": {
+    "eyebrow": "Das Haus Yurday",
+    "statement": {
+      "lead": "Wir gestalten Überraschungstage, ",
+      "em": "vom Moment, in dem sie die Augen öffnet, bis zu dem, in dem sie sie wieder schließt."
+    },
+    "text": "Sie erzählen uns von jemandem. Wir schreiben dessen Tag, reservieren jeden Ort, wählen jeden Mitwisser. Am Tag selbst weiß sie von nichts, und alles läuft genau wie geplant."
+  },
+  "home": {
+    "particuliers": {
+      "eyebrow": "Privatpersonen",
+      "title": {
+        "lead": "Für jemanden, ",
+        "em": "den Sie lieben."
+      },
+      "text": "Ein Geburtstag, ein Heiratsantrag, die eigenen Eltern, der Ruhestand. Oder einfach der Wunsch, jemandem zu zeigen, dass er zählt.",
+      "cta": "Einen Tag schenken"
+    },
+    "entreprises": {
+      "eyebrow": "Unternehmen",
+      "title": {
+        "lead": "Für Ihre Teams ",
+        "em": "und Ihre Kunden."
+      },
+      "text": "Seminare, Empfänge, Teambuildings, Danksagungen. Von fünfzehn bis zu mehreren hundert Personen, in Paris und der Île-de-France.",
+      "cta": "Ein Event planen"
+    },
+    "closing": {
+      "eyebrow": "Um zu beginnen",
+      "title": {
+        "lead": "An wen denken Sie ",
+        "em": "gerade?"
+      },
+      "text": "Eine Person kommt Ihnen in den Sinn. Meist ist es die richtige. Erzählen Sie uns von ihr, wir melden uns innerhalb von 12 Stunden.",
+      "cta": "Erzählen Sie uns"
+    }
+  },
+  "testimonials": {
+    "eyebrow": "Sie haben es erlebt",
+    "quotes": [
+      {
+        "text": "Vom Morgen bis zum Abend gab es nur Überraschungen, jedes Detail mit Sorgfalt durchdacht.",
+        "who": "Sihan L."
+      },
+      {
+        "text": "Eine tadellose Organisation, großartige Überraschungen, Erinnerungen fürs Leben.",
+        "who": "Sébastien M."
+      },
+      {
+        "text": "Mir hat gefallen, dass alles eine Überraschung war und trotzdem wirklich Sinn ergab.",
+        "who": "Emily J."
+      },
+      {
+        "text": "Ich habe dieses Erlebnis für meine Freundin gebucht, sie war sehr gerührt.",
+        "who": "Wei C."
+      }
+    ]
   }
 }

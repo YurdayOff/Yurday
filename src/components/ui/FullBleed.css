@@ -1,0 +1,14 @@
+/* ---------- Interlude photo plein cadre, sans texte ---------- */
+.full-bleed {
+  position: relative;
+  height: min(88vh, 860px);
+  overflow: hidden;
+}
+.full-bleed img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+@media (max-width: 640px) {
+  .full-bleed { height: 48vh; }
+}

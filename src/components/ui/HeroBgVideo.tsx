@@ -1,10 +1,14 @@
 'use client'
 
-import { useEffect, useRef } from 'react'
+import { useEffect, useRef, useState } from 'react'
 
 type HeroBgVideoProps = {
   src: string
+  /** Variante légère servie sous 900px, pour ne pas charger la HD sur mobile. */
+  srcSd?: string
   poster: string
+  pauseLabel: string
+  playLabel: string
 }
 
 /**
@@ -14,12 +18,15 @@ type HeroBgVideoProps = {
  * essai. On force la lecture au montage, puis on retente à la première
  * interaction si le navigateur l'a refusée.
  */
-export function HeroBgVideo({ src, poster }: HeroBgVideoProps) {
+export function HeroBgVideo({ src, srcSd, poster, pauseLabel, playLabel }: HeroBgVideoProps) {
   const ref = useRef<HTMLVideoElement>(null)
+  const [paused, setPaused] = useState(false)
 
   useEffect(() => {
     const video = ref.current
     if (!video) return
+
+    video.src = srcSd && window.innerWidth < 900 ? srcSd : src
 
     // Parallax léger : la vidéo défile un peu plus lentement que la page,
     // pour donner une impression de profondeur au scroll. Désactivé si
@@ -65,19 +72,36 @@ export function HeroBgVideo({ src, poster }: HeroBgVideoProps) {
       window.removeEventListener('scroll', onScroll)
       if (frame) cancelAnimationFrame(frame)
     }
-  }, [])
+  }, [src, srcSd])
+
+  const toggle = () => {
+    const video = ref.current
+    if (!video) return
+    if (video.paused) {
+      video.play()
+      setPaused(false)
+    } else {
+      video.pause()
+      setPaused(true)
+    }
+  }
 
   return (
-    <video
-      ref={ref}
-      className="hero-bg-video"
-      src={src}
-      poster={poster}
-      autoPlay
-      muted
-      loop
-      playsInline
-      preload="auto"
-    />
+    <>
+      <video
+        ref={ref}
+        className="hero-bg-video"
+        poster={poster}
+        autoPlay
+        muted
+        loop
+        playsInline
+        preload="auto"
+        aria-hidden="true"
+      />
+      <button type="button" className="hero-pause" onClick={toggle}>
+        {paused ? playLabel : pauseLabel}
+      </button>
+    </>
   )
 }

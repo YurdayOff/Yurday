@@ -16,9 +16,11 @@ body {
   overflow-x: hidden;
   background: var(--paper);
   color: var(--ink);
-  font-family: var(--font-inter), -apple-system, sans-serif;
+  font-family: var(--font-jost), var(--font-inter), -apple-system, sans-serif;
+  font-weight: 300;
   font-size: var(--fs-16);
-  line-height: 1.6;
+  line-height: 1.7;
+  letter-spacing: 0.012em;
   -webkit-font-smoothing: antialiased;
 }
 img { max-width: 100%; display: block; }
@@ -31,47 +33,94 @@ h1, h2, h3 {
   letter-spacing: -0.01em;
 }
 .container { max-width: 1120px; margin: 0 auto; padding: 0 28px; }
+
+/* ---------- Échelle éditoriale (duos, cartes, citations) ---------- */
+.display {
+  font-family: var(--font-display), Georgia, serif;
+  font-weight: 400;
+  font-size: clamp(38px, 5vw, 76px);
+  line-height: 1.08;
+  letter-spacing: -0.012em;
+}
+.title {
+  font-family: var(--font-display), Georgia, serif;
+  font-weight: 400;
+  font-size: clamp(30px, 3.4vw, 52px);
+  line-height: 1.12;
+  letter-spacing: -0.01em;
+}
+.subtitle {
+  font-family: var(--font-display), Georgia, serif;
+  font-weight: 400;
+  font-size: clamp(22px, 1.9vw, 29px);
+  line-height: 1.25;
+}
+.text {
+  font-family: var(--font-jost), var(--font-inter), sans-serif;
+  font-weight: 300;
+  color: var(--ink-soft);
+  max-width: 460px;
+}
+
+/* ---------- Sections éditoriales pleine largeur (duos, cartes, citations) ---------- */
+.sec { padding: clamp(90px, 12vw, 180px) var(--pad); }
+.wrap { max-width: 1280px; margin: 0 auto; }
+.dark { background: var(--blue-2); color: var(--white); }
+.dark .eyebrow { color: var(--gold-light); }
+.dark .text { color: rgba(254, 254, 252, 0.8); }
+.white { background: var(--white); }
 .eyebrow {
   display: inline-block;
-  font-size: var(--fs-12);
-  font-weight: 700;
+  font-size: 10.5px;
+  font-weight: 400;
   text-transform: uppercase;
-  letter-spacing: 0.14em;
-  color: var(--blue-3);
+  letter-spacing: 0.32em;
+  color: var(--gold);
   margin-bottom: 14px;
 }
 .btn {
   display: inline-flex;
   align-items: center;
-  gap: 8px;
-  padding: 15px 30px;
-  border-radius: 2px;
-  font-family: var(--font-inter), -apple-system, sans-serif;
-  font-weight: 600;
-  font-size: var(--fs-15);
-  letter-spacing: 0.02em;
+  gap: 10px;
+  padding: 19px 38px;
+  border-radius: 0;
+  font-family: var(--font-jost), var(--font-inter), -apple-system, sans-serif;
+  font-weight: 400;
+  font-size: 11px;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
   cursor: pointer;
   border: none;
-  transition: transform 0.2s ease, box-shadow 0.2s ease, background-position 0.4s ease;
+  transition: background 0.5s var(--ease-premium), transform 0.2s ease, box-shadow 0.2s ease;
 }
 .btn-primary {
   background: var(--blue-2);
   border: 1px solid var(--blue-2);
   color: var(--white);
-  box-shadow: 0 6px 18px rgba(6, 5, 4, 0.28);
 }
 .btn-primary:hover {
-  background: var(--blue-3);
-  border-color: var(--blue-3);
-  transform: translateY(-1px);
-  box-shadow: 0 8px 22px rgba(6, 5, 4, 0.36);
+  background: #163266;
+  border-color: #163266;
 }
 .btn-ghost {
   background: transparent;
-  border: 1.5px solid var(--line);
+  border: 1px solid var(--line);
   color: var(--ink);
 }
-.btn-ghost:hover { border-color: var(--blue-2); color: var(--blue-3); transform: translateY(-1px); }
+.btn-ghost:hover { border-color: var(--blue-2); color: var(--blue-2); }
+
+/* Lien discret souligné (motif "more" de la nouvelle direction). */
+.link-underline {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 400;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+  padding-bottom: 6px;
+  background: linear-gradient(currentColor, currentColor) 0 100% / 100% 1px no-repeat;
+  transition: background-size 0.7s var(--ease-premium);
+}
+.link-underline:hover { background-size: 0 1px; }
 
 /* Alternance des fonds de section. */
 .section-paper-deep { background: var(--paper-deep); }

@@ -1,6 +1,6 @@
 import type { Metadata, Viewport } from 'next'
 import type { ReactNode } from 'react'
-import { Cairo, Inter, Nunito, Playfair_Display } from 'next/font/google'
+import { Cairo, Inter, Jost, Nunito, Playfair_Display } from 'next/font/google'
 import { notFound } from 'next/navigation'
 import { CookieConsent } from '@/components/layout/CookieConsent'
 import { EngagementPopup } from '@/components/layout/EngagementPopup'
@@ -19,6 +19,14 @@ import '@/styles/base.css'
 const inter = Inter({
   subsets: ['latin'],
   variable: '--font-inter',
+  display: 'swap',
+})
+
+/** Sans-serif principale de la nouvelle direction (remplace Inter dans body/base.css). */
+const jost = Jost({
+  subsets: ['latin'],
+  weight: ['300', '400'],
+  variable: '--font-jost',
   display: 'swap',
 })
 
@@ -79,7 +87,7 @@ export default async function LocaleLayout({ children, params }: LocaleLayoutPro
     <html
       lang={info.htmlLang}
       dir={info.dir}
-      className={`${inter.variable} ${displaySerif.variable} ${bodyRound.variable} ${cairo.variable}`}
+      className={`${inter.variable} ${jost.variable} ${displaySerif.variable} ${bodyRound.variable} ${cairo.variable}`}
     >
       <body>
         {/* Sans JavaScript, les animations d'apparition ne se déclenchent pas :
