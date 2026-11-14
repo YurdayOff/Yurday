@@ -1,9 +1,6 @@
 import { HashLink } from '@/components/ui/HashLink'
 import { HeroSection } from '@/components/ui/HeroSection'
-import { PhoneIcon } from '@/components/ui/PhoneIcon'
 import type { Messages } from '@/i18n/messages'
-import { site } from '@/lib/site'
-import { TrustBar } from './TrustBar'
 
 type HeroProps = {
   messages: Messages
@@ -14,6 +11,11 @@ const HERO_VIDEO = {
   poster: '/images/hero-video-poster.webp',
 }
 
+/**
+ * Premier écran volontairement nu : juste le titre et un appel à l'action.
+ * Le reste (détail, contact direct, chiffres) vit dans HeroIntro, juste en
+ * dessous, pour laisser la vidéo porter seule l'impression à l'arrivée.
+ */
 export function Hero({ messages }: HeroProps) {
   const { hero } = messages
 
@@ -24,22 +26,11 @@ export function Hero({ messages }: HeroProps) {
         <br />
         <em>{hero.title.em}</em>
       </h1>
-      <p className="lede">{hero.lede}</p>
       <div className="hero-actions">
         <HashLink href="#contact" className="btn btn-primary">
           {messages.nav.cta}
         </HashLink>
-        <a href={`tel:+${site.whatsapp.number}`} className="hero-call">
-          <PhoneIcon size={16} />
-          <span>
-            {hero.callUs} <strong>{site.whatsapp.displayNumber}</strong>
-          </span>
-        </a>
       </div>
-      <HashLink href="#moments" className="hero-examples-link">
-        {hero.examplesLink}
-      </HashLink>
-      <TrustBar messages={messages} />
     </HeroSection>
   )
 }

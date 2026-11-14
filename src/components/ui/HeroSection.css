@@ -63,8 +63,6 @@
 }
 .hero-call strong { font-weight: 800; }
 .hero-call:hover { color: var(--blue-3); }
-.hero.hero--video .hero-call { color: rgba(255, 255, 255, 0.85); }
-.hero.hero--video .hero-call:hover { color: var(--white); }
 @media (max-width: 480px) {
   .hero-call { padding: 6px 12px; white-space: normal; justify-content: center; }
 }
@@ -92,6 +90,8 @@
   align-items: center;
   /* Comble l'écart d'arrondi sous-pixel avec la section suivante. */
   margin-bottom: -1px;
+  /* Garde le parallax de la vidéo (HeroBgVideo) dans les bornes de la section. */
+  overflow: hidden;
 }
 .hero.hero--video::before { display: none; }
 .hero-bg-video {
@@ -101,6 +101,7 @@
   height: 100%;
   object-fit: cover;
   z-index: 0;
+  will-change: transform;
 }
 .hero-video-overlay {
   position: absolute;
@@ -115,13 +116,9 @@
 }
 .hero.hero--video .hero-inner { z-index: 2; }
 .hero.hero--video h1,
-.hero.hero--video h1 em,
-.hero.hero--video p.lede,
-.hero.hero--video .hero-examples-link {
+.hero.hero--video h1 em {
   color: var(--white);
 }
-.hero.hero--video .hero-examples-link { text-decoration-color: rgba(255, 255, 255, 0.55); }
-.hero.hero--video .hero-examples-link:hover { color: rgba(255, 255, 255, 0.8); }
 .hero.hero--video .btn-primary {
   background: var(--white);
   border-color: var(--white);
@@ -131,10 +128,6 @@
   background: rgba(255, 255, 255, 0.85);
   border-color: rgba(255, 255, 255, 0.85);
 }
-.hero.hero--video .trustbar { border-top-color: rgba(255, 255, 255, 0.25); }
-.hero.hero--video .trust-num { color: var(--white); }
-.hero.hero--video .trust-label { color: rgba(255, 255, 255, 0.78); }
-.hero.hero--video .stars { color: var(--gold); }
 
 /* Variante compacte : pages occasion (titre et lede plus courts). */
 .hero--compact { padding: 80px 28px 60px; }

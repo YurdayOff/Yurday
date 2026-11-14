@@ -3,6 +3,7 @@ import { notFound } from 'next/navigation'
 import { Contact } from '@/components/home/Contact'
 import { Faq } from '@/components/home/Faq'
 import { Hero } from '@/components/home/Hero'
+import { HeroIntro } from '@/components/home/HeroIntro'
 import { Moments } from '@/components/home/Moments'
 import { Occasions } from '@/components/home/Occasions'
 import { Process } from '@/components/home/Process'
@@ -58,6 +59,7 @@ export default async function HomePage({ params }: HomeProps) {
         ])}
       />
       <Hero messages={messages} />
+      <HeroIntro messages={messages} />
       <Seam />
       <TrustPillars messages={messages} />
       <Seam />
