@@ -288,7 +288,7 @@
     "h2": "Cuéntanos tu proyecto",
     "lede": "Bastan dos minutos. Te responderemos rápidamente con las primeras ideas.",
     "note": {
-      "before": "💬 ¿Prefieres hablar directamente? El botón de WhatsApp abajo a la derecha nos contacta al instante, o escríbenos a",
+      "before": "¿Prefieres hablar directamente? El botón de WhatsApp abajo a la derecha nos contacta al instante, o escríbenos a",
       "after": ".",
       "middle": ", o llámanos al"
     },
@@ -673,37 +673,6 @@
     "response": {
       "title": "Respuesta en 12h",
       "text": "Le respondemos rápidamente, sin ningún compromiso por su parte."
-    }
-  },
-  "inclusions": {
-    "eyebrow": "EN CADA JORNADA",
-    "h2": "Lo que combinamos para ti",
-    "lede": "Actores, lugares, sorpresas, alta gastronomía: cada jornada Yurday combina justo lo necesario, nunca al azar, nunca de catálogo.",
-    "items": {
-      "comediens": {
-        "title": "Actores y puesta en escena",
-        "text": "Actores de verdad, preparados para interpretar un papel escrito solo para tu jornada."
-      },
-      "lieux": {
-        "title": "Lugares excepcionales",
-        "text": "Lugares elegidos para la historia de tu jornada, nunca al azar."
-      },
-      "surprises": {
-        "title": "Sorpresas a medida",
-        "text": "Cada sorpresa está pensada para la persona, nunca elegida de un catálogo."
-      },
-      "gastronomie": {
-        "title": "Alta gastronomía",
-        "text": "Mesas y chefs elegidos para la ocasión, del brunch a la cena."
-      },
-      "souvenir": {
-        "title": "Recuerdo en foto y vídeo",
-        "text": "Para revivir la jornada mucho después de que termine."
-      },
-      "coordination": {
-        "title": "Coordinación del día",
-        "text": "Orquestamos cada minuto, para que solo tengas que vivir el momento."
-      }
     }
   }
 }
