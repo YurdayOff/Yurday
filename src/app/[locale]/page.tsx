@@ -6,9 +6,6 @@ import { Hero } from '@/components/home/Hero'
 import { HeroIntro } from '@/components/home/HeroIntro'
 import { Moments } from '@/components/home/Moments'
 import { Occasions } from '@/components/home/Occasions'
-import { Process } from '@/components/home/Process'
-import { Reviews } from '@/components/home/Reviews'
-import { TrustPillars } from '@/components/home/TrustPillars'
 import { JsonLd } from '@/components/ui/JsonLd'
 import { Seam } from '@/components/ui/Seam'
 import { isLocale, localePath, type Locale } from '@/i18n/config'
@@ -61,16 +58,9 @@ export default async function HomePage({ params }: HomeProps) {
       <Hero messages={messages} />
       <HeroIntro messages={messages} />
       <Seam />
-      <TrustPillars messages={messages} />
-      <Seam />
-      <Reviews messages={messages} locale={locale} />
-      <Seam />
       <Moments messages={messages} home={home} />
       <Seam />
       <Occasions messages={messages} />
-      <Seam />
-      <Process messages={messages} />
-      <Seam />
       <Contact messages={messages} />
       <Seam />
       <Faq messages={messages} home={home} />

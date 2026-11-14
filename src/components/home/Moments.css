@@ -1,28 +1,26 @@
-/* ---------- Vraies histoires : bandeau blanc, puis grille de chapitres ---------- */
-.moments-head-band {
-  background: var(--white);
-  padding: 32px 0 24px;
-}
-.moments-head-band .section-head p { white-space: nowrap; }
-@media (max-width: 640px) {
-  .moments-head-band { padding: 22px 0 15px; }
-  .moments-head-band .section-head p { white-space: normal; }
-}
-
+/* ---------- Vraies histoires : grands chapitres, un par un ---------- */
 .moment-chapters {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 0;
-  margin: 0;
+  max-width: 860px;
+  margin: 0 auto;
 }
 .moment-chapter {
-  display: flex;
-  flex-direction: column;
-  background: var(--white);
+  position: relative;
+  padding: 64px 0;
+  border-top: 1px solid var(--line);
+}
+.moment-chapter:first-child { padding-top: 0; border-top: none; }
+.moment-chapter-num {
+  display: block;
+  font-family: var(--font-display), Georgia, serif;
+  font-style: italic;
+  font-size: var(--fs-14);
+  color: var(--gold);
+  margin-bottom: 18px;
 }
 .moment-chapter-photo {
-  aspect-ratio: 4 / 3;
+  aspect-ratio: 16 / 9;
   overflow: hidden;
+  margin-bottom: 30px;
 }
 .moment-chapter-photo img {
   width: 100%;
@@ -35,34 +33,31 @@
   from { transform: scale(1); }
   to { transform: scale(1.08); }
 }
-.moment-chapter-text {
-  padding: 20px 22px 24px;
-}
+.moment-chapter-text { max-width: 620px; }
 .moment-chapter-text h3 {
-  font-size: var(--fs-18);
-  line-height: 1.3;
-  margin: 0 0 8px;
+  font-size: var(--fs-24);
+  font-style: italic;
+  line-height: 1.25;
+  margin: 0 0 12px;
   color: var(--ink);
 }
 .moment-chapter-text p {
-  font-size: var(--fs-14);
-  line-height: 1.55;
-  color: var(--blue-2);
+  font-family: var(--font-body), var(--font-inter), sans-serif;
+  font-size: var(--fs-15);
+  line-height: 1.7;
+  color: var(--ink-soft);
   margin: 0;
-  /* Hauteur de carte homogène malgré des récits de longueurs différentes. */
-  display: -webkit-box;
-  -webkit-line-clamp: 4;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
 }
 
 .moment-cta-wrap {
   display: flex;
   justify-content: center;
-  margin-top: 48px;
+  margin-top: 56px;
 }
 
-@media (max-width: 780px) {
-  .moment-chapters { grid-template-columns: 1fr; }
+@media (max-width: 640px) {
+  .moment-chapter { padding: 44px 0; }
+  .moment-chapter-photo { margin-bottom: 22px; }
+  .moment-chapter-text h3 { font-size: var(--fs-18); }
   .moment-cta-wrap { margin-top: 36px; }
 }

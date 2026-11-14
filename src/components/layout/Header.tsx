@@ -17,9 +17,8 @@ type HeaderProps = {
 
 /** Ancres de la page d'accueil, dans l'ordre du menu. */
 const sections = [
+  { hash: '#moments', key: 'story' },
   { hash: '#occasions', key: 'occasions' },
-  { hash: '#avis', key: 'reviews' },
-  { hash: '#comment-ca-marche', key: 'process' },
   { hash: '#faq', key: 'faq' },
 ] as const
 

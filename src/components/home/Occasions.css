@@ -1,7 +1,7 @@
 /* ---------- Bandeau manifeste : aucune occasion nécessaire ---------- */
 .occasions-banner {
   background: var(--blue-2);
-  padding: 63px 0;
+  padding: 80px 0 86px;
 }
 .occasions-banner-inner {
   max-width: 640px;
@@ -19,94 +19,19 @@
   font-family: var(--font-body), var(--font-inter), sans-serif;
   font-size: var(--fs-16);
   line-height: 1.65;
-  margin: 0;
+  margin: 0 0 28px;
 }
-@media (max-width: 640px) {
-  .occasions-banner { padding: 39px 0; }
-  .occasions-banner-inner h2 { margin-bottom: 16px; }
-}
-
-/* Exemples de scénarios : clairement distincts des vraies histoires clients (Moments). */
-.occasions-scenarios {
-  max-width: 1120px;
-  margin: 48px auto 0;
-}
-.occasions-scenarios-label {
-  text-align: center;
-  font-size: var(--fs-12);
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  color: rgba(255, 255, 255, 0.65);
-  margin: 0 0 20px;
-}
-.occasions-scenarios-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 0;
-  align-items: start;
-}
-.occasions-scenario-card {
-  background: none;
-  border: none;
-  border-left: 1px solid rgba(255, 255, 255, 0.18);
-  border-radius: 0;
-  box-shadow: none;
-  padding: 2px 28px;
-}
-.occasions-scenario-card:first-child { border-left: none; }
-.occasions-scenario-card h3 {
-  font-size: var(--fs-18);
-  font-style: italic;
-  margin: 0 0 6px;
-  color: var(--white);
-}
-.occasions-scenario-card .occasions-scenario-tagline {
+.occasions-banner-cta {
+  display: inline-block;
+  font-size: var(--fs-14);
   font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.06em;
-  font-size: var(--fs-11);
   color: var(--gold);
-  margin: 0 0 14px;
+  border-bottom: 1px solid rgba(201, 151, 30, 0.5);
+  padding-bottom: 2px;
 }
-.occasions-scenario-card p {
-  font-size: var(--fs-13);
-  line-height: 1.65;
-  color: rgba(255, 255, 255, 0.78);
-  margin: 0;
-}
-.occasions-scenario-card p + p {
-  margin-top: 10px;
-}
-.occasions-scenarios-footer {
-  margin: 28px 0 0;
-  text-align: center;
-  font-style: italic;
-  font-size: var(--fs-14);
-  color: rgba(255, 255, 255, 0.72);
-}
-.occasions-scenarios-cta {
-  display: block;
-  margin: 10px 0 0;
-  text-align: center;
-  font-size: var(--fs-14);
-  font-weight: 600;
-  color: var(--white);
-  text-decoration: underline;
-  text-decoration-color: rgba(255, 255, 255, 0.55);
-  text-underline-offset: 3px;
-}
-.occasions-scenarios-cta:hover { color: rgba(255, 255, 255, 0.8); }
-@media (max-width: 780px) {
-  .occasions-scenarios-grid { grid-template-columns: 1fr; gap: 0; }
-  .occasions-scenario-card {
-    border-left: none;
-    border-top: 1px solid rgba(255, 255, 255, 0.18);
-    padding: 24px 4px;
-  }
-  .occasions-scenario-card:first-child { border-top: none; padding-top: 0; }
-}
+.occasions-banner-cta:hover { border-color: var(--gold); }
+
 @media (max-width: 640px) {
-  .occasions-scenarios { margin-top: 32px; }
-  .occasions-scenarios-label { margin-bottom: 16px; font-size: var(--fs-11); }
+  .occasions-banner { padding: 52px 0 58px; }
+  .occasions-banner-inner h2 { margin-bottom: 16px; }
 }

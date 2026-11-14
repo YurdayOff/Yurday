@@ -18,36 +18,35 @@ export function Moments({ messages, home }: MomentsProps) {
 
   return (
     <section id="moments">
-      <div className="moments-head-band">
-        <div className="container">
-          <SectionHead eyebrow={moments.eyebrow} title={moments.h2} lede={moments.lede} />
-        </div>
-      </div>
-
-      <div className="moment-chapters">
-        {momentList.map(({ id, image }) => {
-          const item = moments.items[id as keyof typeof moments.items]
-          return (
-            <Reveal className="moment-chapter" key={id}>
-              <div className="moment-chapter-photo">
-                <Image
-                  src={image}
-                  alt={item.title}
-                  width={720}
-                  height={540}
-                  sizes="(max-width: 780px) 100vw, 50vw"
-                />
-              </div>
-              <div className="moment-chapter-text">
-                <h3>{item.title}</h3>
-                <p>{item.story}</p>
-              </div>
-            </Reveal>
-          )
-        })}
-      </div>
-
       <div className="container">
+        <SectionHead eyebrow={moments.eyebrow} title={moments.h2} lede={moments.lede} />
+
+        <div className="moment-chapters">
+          {momentList.map(({ id, image }, index) => {
+            const item = moments.items[id as keyof typeof moments.items]
+            return (
+              <Reveal className="moment-chapter" key={id}>
+                <span className="moment-chapter-num" aria-hidden="true">
+                  {String(index + 1).padStart(2, '0')}
+                </span>
+                <div className="moment-chapter-photo">
+                  <Image
+                    src={image}
+                    alt={item.title}
+                    width={960}
+                    height={540}
+                    sizes="(max-width: 780px) 100vw, 860px"
+                  />
+                </div>
+                <div className="moment-chapter-text">
+                  <h3>{item.title}</h3>
+                  <p>{item.story}</p>
+                </div>
+              </Reveal>
+            )
+          })}
+        </div>
+
         <div className="moment-cta-wrap">
           <HashLink href={`${home}#contact`} className="btn btn-primary">
             {moments.cta}
