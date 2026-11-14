@@ -53,7 +53,7 @@ export function Contact({ messages, seminar = false }: ContactProps) {
           <ContactForm
             form={contact.form}
             seminar={seminar}
-            fixedOccasion={seminar ? messages.occasions.cards['seminaire-entreprise'] : undefined}
+            fixedOccasion={seminar ? messages.occasions.cards['entreprises'] : undefined}
           />
         </div>
       </div>

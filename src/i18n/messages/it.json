@@ -21,9 +21,9 @@
         "title": "Addio al celibato e al nubilato su misura: una giornata indimenticabile per il gruppo",
         "description": "Yurday organizza addii al celibato e al nubilato su misura, logistica inclusa."
       },
-      "fete-des-meres": {
-        "title": "Festa della mamma su misura: un grazie fuori dall'ordinario",
-        "description": "Per la festa della mamma, Yurday immagina un'intera giornata pensata per lei."
+      "parents": {
+        "title": "Una giornata su misura per i vostri genitori a Parigi",
+        "description": "Per ringraziare vostra mamma, vostro papà, o entrambi, Yurday immagina una giornata intera pensata per loro, a Parigi e in Île-de-France."
       },
       "anniversaire-de-mariage": {
         "title": "Anniversario di matrimonio su misura: celebrate i vostri anni insieme",
@@ -33,9 +33,9 @@
         "title": "Regalo di Natale originale a Parigi: una giornata su misura da regalare",
         "description": "Quest'anno regalate un'intera giornata scritta per la persona che amate. Una busta sigillata sotto l'albero, una giornata indimenticabile a Parigi."
       },
-      "seminaire-entreprise": {
-        "title": "Seminario aziendale su misura a Parigi: una giornata che lascia il segno",
-        "description": "Non un'agenzia di seminari qualunque: una giornata scritta per il vostro team, con attori e sorprese, di cui si parlerà ancora tra 10 anni."
+      "entreprises": {
+        "title": "Eventi aziendali su misura a Parigi: seminari, serate, comitati",
+        "description": "Seminari, serate di squadra, regali per i clienti, eventi del comitato aziendale: Yurday scrive eventi aziendali su misura, con attori e sorprese, a Parigi e in Île-de-France."
       }
     }
   },
@@ -84,10 +84,10 @@
       "demande-en-mariage": "Proposta di matrimonio",
       "saint-valentin": "San Valentino",
       "evg-evjf": "Addio al celibato/nubilato",
-      "fete-des-meres": "Festa della mamma",
+      "parents": "Genitori",
       "anniversaire-de-mariage": "Anniversario di matrimonio",
       "noel": "Regalo di Natale",
-      "seminaire-entreprise": "Seminario aziendale"
+      "entreprises": "Aziende"
     },
     "scenariosLabel": "Immaginate la sua giornata",
     "scenarios": [
@@ -450,21 +450,21 @@
       "reviews": false,
       "contactForm": false
     },
-    "fete-des-meres": {
-      "eyebrow": "FESTA DELLA MAMMA",
+    "parents": {
+      "eyebrow": "PER I VOSTRI GENITORI",
       "title": {
-        "lead": "Un grazie che",
-        "em": "non dimenticherà mai",
+        "lead": "Un grazie che i vostri genitori",
+        "em": "non dimenticheranno mai",
         "tail": ""
       },
-      "intro": "Raccontateci cosa volete regalare a vostra mamma per la festa della mamma, ci pensiamo noi a immaginare la sua giornata ideale, con tutto ciò che ama.",
-      "story": "Sappiamo quanto possa essere difficile trovare l'idea giusta per ringraziare la propria mamma, al di là di fiori comprati al supermercato la sera prima. Raccontateci chi è, cosa ama, e costruiremo intorno a lei una giornata che le somigli davvero.",
+      "intro": "Raccontateci cosa volete regalare a vostra mamma, a vostro papà, o a entrambi, ci pensiamo noi a immaginare la loro giornata ideale, con tutto ciò che amano.",
+      "story": "Sappiamo quanto possa essere difficile trovare l'idea giusta per ringraziare i propri genitori, al di là di fiori comprati al supermercato la sera prima. Raccontateci chi sono, cosa amano, e costruiremo intorno a loro una giornata che gli somigli davvero.",
       "cta": {
-        "title": "Pronti a ringraziarla in un altro modo?",
-        "text": "Raccontateci di vostra mamma, vi risponderemo con le prime idee entro 12 ore."
+        "title": "Pronti a ringraziarli in un altro modo?",
+        "text": "Raccontateci dei vostri genitori, vi risponderemo con le prime idee entro 12 ore."
       },
       "scenario": {
-        "label": "Una giornata raccontata",
+        "label": "UN ESEMPIO VERO",
         "title": "Per la Festa della Mamma",
         "tagline": "Lei ha sempre pensato agli altri. Quel giorno, tutti pensano a lei.",
         "paragraphs": [
@@ -580,21 +580,21 @@
       "reviews": true,
       "contactForm": true
     },
-    "seminaire-entreprise": {
-      "eyebrow": "SEMINARIO AZIENDALE SU MISURA",
+    "entreprises": {
+      "eyebrow": "AZIENDE",
       "title": {
-        "lead": "Il seminario di cui il vostro team",
-        "em": "parlerà ancora tra 10 anni",
+        "lead": "Eventi aziendali",
+        "em": "di cui si parlerà ancora tra 10 anni",
         "tail": ""
       },
-      "intro": "Non una sala riunioni travestita da seminario: una giornata scritta per il vostro team, con veri attori e vere sorprese, dall'inizio alla fine.",
-      "story": "La maggior parte dei seminari si assomiglia: una sala, un fornitore, un escape room come quello della porta accanto. Yurday fa le cose diversamente. Ogni seminario è scritto per un team specifico, con la sua storia, le sue battute interne, per una giornata di cui si continuerà a parlare molto dopo il rientro in ufficio.",
+      "intro": "Seminari, serate di squadra, regali per i clienti, eventi del comitato aziendale: ogni progetto è scritto su misura per il vostro team, con veri attori e vere sorprese, mai una formula da catalogo.",
+      "story": "La maggior parte dei fornitori aziendali si assomiglia: un catalogo, un luogo, una formula. Yurday fa le cose diversamente. Ogni progetto è scritto per un gruppo specifico, con la sua storia e le sue battute interne, per un momento di cui si continua a parlare a lungo dopo.",
       "cta": {
-        "title": "Pronti a scrivere la giornata del vostro team?",
+        "title": "Pronti a scrivere il progetto della vostra azienda?",
         "text": "Raccontateci chi siete e cosa volete festeggiare, vi risponderemo con le prime idee entro 12 ore."
       },
       "scenario": {
-        "label": "UNA GIORNATA TIPO",
+        "label": "UN ESEMPIO TRA TANTI",
         "title": "Dalle 9 a mezzanotte, niente lasciato al caso",
         "tagline": "Come si svolge un seminario Yurday",
         "paragraphs": [
@@ -603,19 +603,23 @@
         ]
       },
       "ideas": {
-        "h2": "Per chi è pensato",
+        "h2": "Cosa scriviamo per voi",
         "items": [
           {
-            "title": "PMI",
-            "text": "Un team ristretto dove tutti si conoscono già: la giornata è pensata per rafforzare ciò che esiste già, non per forzare uno spirito di squadra che non ne ha bisogno."
+            "title": "Seminari",
+            "text": "Una giornata intera pensata per il vostro team, lontano dalle sale riunioni e dall'escape room della porta accanto."
           },
           {
-            "title": "Comitati di direzione",
-            "text": "Una giornata per un gruppo ristretto che ha bisogno di uscire dagli schemi abituali, lontano da sale riunioni e ordini del giorno."
+            "title": "Serate di squadra",
+            "text": "Una serata che esce dal solito ristorante, scritta per il team specifico che siete, battute interne e storia comprese."
           },
           {
-            "title": "Team da 5 a 40 persone",
-            "text": "Il formato si adatta alla dimensione del gruppo, senza mai perdere l'attenzione individuale che fa la differenza tra un buon seminario e uno indimenticabile."
+            "title": "Regali per i clienti",
+            "text": "Un gesto che lascia il segno, pensato per il cliente che volete ringraziare o fidelizzare, mai un regalo da catalogo."
+          },
+          {
+            "title": "Eventi del comitato aziendale",
+            "text": "Giornate ed eventi pensati per i dipendenti che rappresentate, con il budget e i vincoli che rispettiamo."
           }
         ]
       },
@@ -623,7 +627,7 @@
       "deadline": null,
       "faq": {
         "eyebrow": "PRIMA DI INIZIARE",
-        "h2": "Le vostre domande sul seminario su misura",
+        "h2": "Le vostre domande sui nostri eventi aziendali",
         "items": [
           {
             "question": "Come funziona il preventivo?",
@@ -634,12 +638,12 @@
             "answer": "Da 5 a 40 persone. Oltre, parliamone: alcuni formati restano possibili, raccontateci il vostro progetto."
           },
           {
-            "question": "In quali luoghi organizzate i seminari?",
+            "question": "In quali luoghi organizzate i vostri eventi?",
             "answer": "A Parigi e in tutta l'Île-de-France, in luoghi scelti appositamente per la storia della vostra giornata."
           },
           {
-            "question": "Come funziona la fatturazione per un'azienda?",
-            "answer": "Fattura classica intestata all'azienda, con tutto ciò che serve alla vostra contabilità. Raccontateci i vostri vincoli, ci adattiamo."
+            "question": "Come funziona la fatturazione per un'azienda o un comitato?",
+            "answer": "Fattura classica intestata all'azienda o al comitato, con tutto ciò che serve alla vostra contabilità. Raccontateci i vostri vincoli, ci adattiamo."
           },
           {
             "question": "Con quanto anticipo bisogna contattarvi?",

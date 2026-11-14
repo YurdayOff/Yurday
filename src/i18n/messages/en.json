@@ -21,9 +21,9 @@
         "title": "Bespoke bachelor & bachelorette parties: a day the whole group remembers",
         "description": "Yurday organises bespoke bachelor and bachelorette parties, logistics included."
       },
-      "fete-des-meres": {
-        "title": "Bespoke Mother's Day: a thank you out of the ordinary",
-        "description": "For Mother's Day, Yurday designs a whole day built around your mum."
+      "parents": {
+        "title": "A bespoke day for your parents in Paris",
+        "description": "To thank your mum, your dad, or both, Yurday designs an entire day built around them, in Paris and the Île-de-France region."
       },
       "anniversaire-de-mariage": {
         "title": "Bespoke wedding anniversary: celebrate your years together",
@@ -33,9 +33,9 @@
         "title": "Original Christmas gift in Paris: a bespoke day to give",
         "description": "This year, give an entire day written for the person you love. A sealed envelope under the tree, an unforgettable day in Paris."
       },
-      "seminaire-entreprise": {
-        "title": "Bespoke corporate seminar in Paris: a day that leaves a mark",
-        "description": "Not your typical seminar agency: a day scripted for your team, with actors and surprises, that people will still be talking about in 10 years."
+      "entreprises": {
+        "title": "Bespoke corporate events in Paris: seminars, team nights, works councils",
+        "description": "Seminars, team nights out, client gifts, works council events: Yurday writes bespoke corporate events, with actors and surprises, in Paris and the Île-de-France region."
       }
     }
   },
@@ -84,10 +84,10 @@
       "demande-en-mariage": "Marriage proposal",
       "saint-valentin": "Valentine's Day",
       "evg-evjf": "Bachelor / bachelorette party",
-      "fete-des-meres": "Mother's Day",
+      "parents": "Parents",
       "anniversaire-de-mariage": "Wedding anniversary",
       "noel": "Christmas gift",
-      "seminaire-entreprise": "Corporate seminar"
+      "entreprises": "Corporate"
     },
     "scenariosLabel": "Imagine her day",
     "scenarios": [
@@ -450,21 +450,21 @@
       "reviews": false,
       "contactForm": false
     },
-    "fete-des-meres": {
-      "eyebrow": "MOTHER'S DAY",
+    "parents": {
+      "eyebrow": "FOR YOUR PARENTS",
       "title": {
-        "lead": "A thank you she'll",
-        "em": "never forget",
+        "lead": "A thank you your parents",
+        "em": "will never forget",
         "tail": ""
       },
-      "intro": "Tell us what you'd like to give your mum for Mother's Day, and we'll imagine her perfect day, filled with everything she loves.",
-      "story": "We know how hard it can be to find the right way to thank your mum, beyond flowers grabbed at the supermarket the night before. Tell us who she is and what she loves, and we'll build a day around her that truly feels like her.",
+      "intro": "Tell us what you'd like to give your mum, your dad, or both, and we'll imagine their perfect day, filled with everything they love.",
+      "story": "We know how hard it can be to find the right way to thank your parents, beyond flowers grabbed at the supermarket the night before. Tell us who they are and what they love, and we'll build a day around them that truly feels like them.",
       "cta": {
-        "title": "Ready to thank her differently?",
-        "text": "Tell us about your mum, and we'll get back to you with the first ideas within 24 hours."
+        "title": "Ready to thank them differently?",
+        "text": "Tell us about your parents, and we'll get back to you with the first ideas within 12 hours."
       },
       "scenario": {
-        "label": "A day, told as a story",
+        "label": "A REAL EXAMPLE",
         "title": "For Mother's Day",
         "tagline": "She always thought of everyone else. This day, everyone thinks of her.",
         "paragraphs": [
@@ -580,42 +580,46 @@
       "reviews": true,
       "contactForm": true
     },
-    "seminaire-entreprise": {
-      "eyebrow": "BESPOKE CORPORATE SEMINAR",
+    "entreprises": {
+      "eyebrow": "CORPORATE",
       "title": {
-        "lead": "The seminar your team",
-        "em": "will still be talking about in 10 years",
+        "lead": "Corporate events",
+        "em": "people will still be talking about in 10 years",
         "tail": ""
       },
-      "intro": "Not a meeting room dressed up as a seminar: a day scripted for your team, with real actors and real surprises, from start to finish.",
-      "story": "Most seminars look alike: a room, a provider, an escape game like the one next door. Yurday does things differently. Every seminar is written for one specific team, with its own story, its own in-jokes, for a day people are still talking about long after they're back at their desks.",
+      "intro": "Seminars, team nights out, client gifts, works council events: every project is scripted for your team, with real actors and real surprises, never off the shelf.",
+      "story": "Most corporate providers look alike: a catalogue, a venue, a package. Yurday does things differently. Every project is written for one specific group, with its own story and its own in-jokes, for a moment people are still talking about long after.",
       "cta": {
-        "title": "Ready to write your team's day?",
+        "title": "Ready to write your company's project?",
         "text": "Tell us who you are and what you're looking to celebrate, and we'll get back to you with the first ideas within 12 hours."
       },
       "scenario": {
-        "label": "A TYPICAL DAY",
+        "label": "ONE EXAMPLE AMONG OTHERS",
         "title": "From 9am to midnight, nothing left to chance",
-        "tagline": "The shape of a Yurday seminar",
+        "tagline": "What a Yurday seminar looks like",
         "paragraphs": [
           "The day opens with a collective puzzle to solve the moment people arrive, bringing the group together before a single word of welcome is said. The afternoon opens with a surprise activity, chosen for your specific team, never at random.",
           "In the evening, dinner in a venue that breaks the mould, and one last surprise nobody saw coming, closing the day on the story everyone will still be telling next year."
         ]
       },
       "ideas": {
-        "h2": "Who it's for",
+        "h2": "What we write for you",
         "items": [
           {
-            "title": "Small and mid-sized businesses",
-            "text": "A tight-knit team where everyone already knows each other: the day is designed to strengthen what's already there, not to force a team spirit that doesn't need forcing."
+            "title": "Seminars",
+            "text": "A full day designed for your team, far from meeting rooms and the escape game next door."
           },
           {
-            "title": "Leadership teams",
-            "text": "A day for a small group that needs to step outside the usual framework, far from meeting rooms and agendas."
+            "title": "Team nights out",
+            "text": "An evening that breaks from the usual restaurant, written for the specific team you are, in-jokes and history included."
           },
           {
-            "title": "Teams of 5 to 40 people",
-            "text": "The format adapts to the size of the group, without ever losing the individual attention that makes the difference between a good seminar and a great one."
+            "title": "Client gifts",
+            "text": "A gesture that lands, designed for the client you want to thank or keep close, never picked from a catalogue."
+          },
+          {
+            "title": "Works council events (CSE)",
+            "text": "Days and events designed for the employees you represent, with the budget and constraints we respect."
           }
         ]
       },
@@ -623,7 +627,7 @@
       "deadline": null,
       "faq": {
         "eyebrow": "BEFORE YOU GET STARTED",
-        "h2": "Your questions about the bespoke seminar",
+        "h2": "Your questions about our corporate events",
         "items": [
           {
             "question": "How does the quote work?",
@@ -634,15 +638,15 @@
             "answer": "From 5 to 40 people. Beyond that, let's talk: some formats are still possible, tell us about your project."
           },
           {
-            "question": "Which venues do you use for seminars?",
+            "question": "Which venues do you use for your events?",
             "answer": "In Paris and across the whole Île-de-France region, in venues chosen specifically for the story of your day."
           },
           {
-            "question": "How does invoicing work for a company?",
-            "answer": "A standard invoice to the company, with everything your accounting team needs. Tell us your constraints, and we'll adapt."
+            "question": "How does invoicing work for a company or works council?",
+            "answer": "A standard invoice to the company or council, with everything your accounting team needs. Tell us your constraints, and we'll adapt."
           },
           {
-            "question": "How much notice do you need before the seminar date?",
+            "question": "How much notice do you need before the event date?",
             "answer": "Allow about a month for a day planned down to the detail. For a shorter timeframe, tell us your constraint and we'll tell you honestly what's possible."
           }
         ],

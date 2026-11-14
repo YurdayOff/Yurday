@@ -136,7 +136,7 @@ export function OccasionContent({ occasion, locale, messages }: OccasionContentP
       ) : null}
 
       {page.contactForm ? (
-        <Contact messages={messages} seminar={occasion === 'seminaire-entreprise'} />
+        <Contact messages={messages} seminar={occasion === 'entreprises'} />
       ) : null}
 
       {relatedArticle && isJournalLocale(locale) ? (

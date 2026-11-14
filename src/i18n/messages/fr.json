@@ -21,9 +21,9 @@
         "title": "EVG et EVJF sur mesure : une journée inoubliable pour toute la bande",
         "description": "Yurday organise des EVG et EVJF sur mesure, logistique comprise."
       },
-      "fete-des-meres": {
-        "title": "Fête des mères sur mesure : un merci qui sort de l'ordinaire",
-        "description": "Pour la fête des mères, Yurday imagine une journée entière pensée pour votre maman."
+      "parents": {
+        "title": "Une journée sur mesure pour ses parents à Paris",
+        "description": "Pour remercier sa mère, son père, ou les deux, Yurday imagine une journée entière pensée pour eux, à Paris et en Île-de-France."
       },
       "anniversaire-de-mariage": {
         "title": "Anniversaire de mariage sur mesure : célébrez vos années ensemble",
@@ -33,9 +33,9 @@
         "title": "Cadeau de Noël original à Paris : une journée sur mesure à offrir",
         "description": "Cette année, offrez une journée entière écrite pour la personne que vous aimez. Une enveloppe scellée sous le sapin, une journée inoubliable à Paris."
       },
-      "seminaire-entreprise": {
-        "title": "Séminaire d'entreprise sur mesure à Paris : une journée qui marque",
-        "description": "Pas une agence de séminaire classique : une journée scénarisée pour votre équipe, avec comédiens et surprises, dont on parlera encore dans 10 ans."
+      "entreprises": {
+        "title": "Événements d'entreprise sur mesure à Paris : séminaires, soirées, CSE",
+        "description": "Séminaires, soirées d'équipe, cadeaux clients, CSE : Yurday écrit des événements d'entreprise sur mesure, avec comédiens et surprises, à Paris et en Île-de-France."
       }
     }
   },
@@ -84,10 +84,10 @@
       "demande-en-mariage": "Demande en mariage",
       "saint-valentin": "Saint-Valentin",
       "evg-evjf": "EVG / EVJF",
-      "fete-des-meres": "Fête des mères",
+      "parents": "Parents",
       "anniversaire-de-mariage": "Anniversaire de mariage",
       "noel": "Cadeau de Noël",
-      "seminaire-entreprise": "Séminaire d'entreprise"
+      "entreprises": "Entreprises"
     },
     "scenariosLabel": "Imaginez sa journée",
     "scenarios": [
@@ -450,21 +450,21 @@
       "reviews": false,
       "contactForm": false
     },
-    "fete-des-meres": {
-      "eyebrow": "FÊTE DES MÈRES",
+    "parents": {
+      "eyebrow": "POUR VOS PARENTS",
       "title": {
-        "lead": "Un merci qu'elle",
-        "em": "n'oubliera jamais",
+        "lead": "Un merci que vos parents",
+        "em": "n'oublieront jamais",
         "tail": ""
       },
-      "intro": "Racontez-nous ce que vous voulez offrir à votre maman pour la fête des mères, on s'occupe d'imaginer sa journée idéale, avec tout ce qu'elle aime.",
-      "story": "On sait à quel point il peut être difficile de trouver l'idée juste pour dire merci à sa maman, autrement qu'avec des fleurs prises la veille au supermarché. Racontez-nous qui elle est, ce qu'elle aime, et on construit autour d'elle une journée qui lui ressemble vraiment.",
+      "intro": "Racontez-nous ce que vous voulez offrir à votre mère, votre père, ou les deux, on s'occupe d'imaginer la journée idéale, avec tout ce qu'ils aiment.",
+      "story": "On sait à quel point il peut être difficile de trouver l'idée juste pour dire merci à ses parents, autrement qu'avec des fleurs prises la veille au supermarché. Racontez-nous qui ils sont, ce qu'ils aiment, et on construit autour d'eux une journée qui leur ressemble vraiment.",
       "cta": {
-        "title": "Prêt à lui dire merci autrement ?",
-        "text": "Racontez-nous qui est votre maman, on revient vers vous avec les premières idées sous 12h."
+        "title": "Prêt à leur dire merci autrement ?",
+        "text": "Racontez-nous qui sont vos parents, on revient vers vous avec les premières idées sous 12h."
       },
       "scenario": {
-        "label": "Une journée racontée",
+        "label": "UN EXEMPLE VÉCU",
         "title": "Pour la fête des mères",
         "tagline": "Elle a toujours pensé aux autres. Ce jour-là, tout le monde pense à elle.",
         "paragraphs": [
@@ -580,42 +580,46 @@
       "reviews": true,
       "contactForm": true
     },
-    "seminaire-entreprise": {
-      "eyebrow": "SÉMINAIRE D'ENTREPRISE SUR MESURE",
+    "entreprises": {
+      "eyebrow": "ENTREPRISES",
       "title": {
-        "lead": "Le séminaire dont votre équipe",
-        "em": "parlera encore dans 10 ans",
+        "lead": "Des événements d'entreprise",
+        "em": "qu'on racontera encore dans 10 ans",
         "tail": ""
       },
-      "intro": "Pas une salle de réunion déguisée en séminaire : une journée scénarisée pour votre équipe, avec de vrais comédiens et de vraies surprises, du début à la fin.",
-      "story": "La plupart des séminaires se ressemblent : une salle, un prestataire, un jeu d'évasion comme celui d'à côté. Yurday fait les choses autrement. Chaque séminaire est écrit pour une équipe précise, avec son histoire, ses codes, ses private jokes, pour une journée dont on continue de parler bien après la rentrée.",
+      "intro": "Séminaires, soirées d'équipe, cadeaux clients, comités d'entreprise : chaque projet est écrit sur mesure pour votre équipe, avec de vrais comédiens et de vraies surprises, jamais une formule toute faite.",
+      "story": "La plupart des prestataires d'entreprise se ressemblent : un catalogue, un lieu, une formule. Yurday fait les choses autrement. Chaque projet est écrit pour un groupe précis, avec son histoire et ses codes, pour un moment dont on parle encore longtemps après.",
       "cta": {
-        "title": "Prêt à écrire la journée de votre équipe ?",
+        "title": "Prêt à écrire le projet de votre entreprise ?",
         "text": "Racontez-nous qui vous êtes et ce que vous cherchez à célébrer, on revient vers vous avec les premières idées sous 12h."
       },
       "scenario": {
-        "label": "UNE JOURNÉE TYPE",
+        "label": "UN EXEMPLE PARMI D'AUTRES",
         "title": "De 9h à minuit, rien laissé au hasard",
-        "tagline": "Le déroulé d'un séminaire Yurday",
+        "tagline": "L'exemple d'un séminaire Yurday",
         "paragraphs": [
           "La journée démarre par une énigme collective à résoudre dès l'arrivée, pour souder le groupe avant même le mot de bienvenue. L'après-midi s'ouvre sur une activité surprise, choisie pour l'équipe précise que vous êtes, jamais au hasard.",
           "Le soir, un dîner dans un lieu qui sort de l'ordinaire, et une dernière surprise que personne n'a vu venir, pour clore la journée sur l'histoire qu'on racontera encore l'année prochaine."
         ]
       },
       "ideas": {
-        "h2": "Pour qui",
+        "h2": "Ce qu'on écrit pour vous",
         "items": [
           {
-            "title": "TPE et PME",
-            "text": "Une équipe resserrée où tout le monde se connaît : la journée est pensée pour renforcer ce qui existe déjà, pas pour forcer un esprit d'équipe qui n'a pas besoin de l'être."
+            "title": "Séminaires",
+            "text": "Une journée entière pensée pour votre équipe, loin des salles de réunion et des jeux d'évasion comme celui d'à côté."
           },
           {
-            "title": "Comités de direction",
-            "text": "Une journée pour un groupe restreint qui a besoin de sortir du cadre habituel, loin des salles de réunion et des ordres du jour."
+            "title": "Soirées d'équipe",
+            "text": "Une soirée qui sort du restaurant habituel, écrite pour l'équipe précise que vous êtes, avec ses private jokes et son histoire."
           },
           {
-            "title": "Équipes de 5 à 40 personnes",
-            "text": "Le format s'adapte à la taille du groupe, sans jamais perdre l'attention individuelle qui fait la différence entre un bon et un grand séminaire."
+            "title": "Cadeaux clients",
+            "text": "Un geste qui marque, pensé pour le client que vous voulez remercier ou fidéliser, jamais un cadeau pris sur catalogue."
+          },
+          {
+            "title": "Comités d'entreprise (CSE)",
+            "text": "Des journées et événements pensés pour les salariés que vous représentez, avec le budget et les contraintes qu'on respecte."
           }
         ]
       },
@@ -623,7 +627,7 @@
       "deadline": null,
       "faq": {
         "eyebrow": "AVANT DE VOUS LANCER",
-        "h2": "Vos questions sur le séminaire sur mesure",
+        "h2": "Vos questions sur nos événements d'entreprise",
         "items": [
           {
             "question": "Comment se passe le devis ?",
@@ -634,15 +638,15 @@
             "answer": "De 5 à 40 personnes. Au-delà, parlons-en : certains formats restent possibles, discutons de votre projet."
           },
           {
-            "question": "Dans quels lieux organisez-vous les séminaires ?",
+            "question": "Dans quels lieux organisez-vous vos événements ?",
             "answer": "À Paris et partout en Île-de-France, dans des lieux choisis spécifiquement pour l'histoire de votre journée."
           },
           {
-            "question": "Comment se passe la facturation pour une entreprise ?",
-            "answer": "Facture classique à l'entreprise, avec toutes les mentions nécessaires à votre comptabilité. Dites-nous vos contraintes, on s'adapte."
+            "question": "Comment se passe la facturation pour une entreprise ou un CSE ?",
+            "answer": "Facture classique à l'entreprise ou au comité, avec toutes les mentions nécessaires à votre comptabilité. Dites-nous vos contraintes, on s'adapte."
           },
           {
-            "question": "Quel délai prévoir avant la date du séminaire ?",
+            "question": "Quel délai prévoir avant la date de l'événement ?",
             "answer": "Comptez environ un mois pour une journée pensée dans le détail. Pour un délai plus court, racontez-nous votre contrainte, on vous dira honnêtement ce qui est possible."
           }
         ],

@@ -21,9 +21,9 @@
         "title": "Junggesellenabschied nach Maß: ein Tag, den die ganze Gruppe nie vergisst",
         "description": "Yurday organisiert maßgeschneiderte Junggesellenabschiede, Logistik inklusive."
       },
-      "fete-des-meres": {
-        "title": "Muttertag nach Maß: ein Dankeschön, das heraussticht",
-        "description": "Zum Muttertag gestaltet Yurday einen ganzen Tag, der ganz auf Ihre Mutter zugeschnitten ist."
+      "parents": {
+        "title": "Ein maßgeschneiderter Tag für Ihre Eltern in Paris",
+        "description": "Um Ihrer Mutter, Ihrem Vater oder beiden zu danken, gestaltet Yurday einen ganzen Tag rund um sie, in Paris und der Île-de-France."
       },
       "anniversaire-de-mariage": {
         "title": "Maßgeschneiderter Hochzeitstag: feiern Sie Ihre gemeinsamen Jahre",
@@ -33,9 +33,9 @@
         "title": "Originelles Weihnachtsgeschenk in Paris: ein maßgeschneiderter Tag zum Verschenken",
         "description": "Schenken Sie dieses Jahr einen ganzen Tag, geschrieben für den Menschen, den Sie lieben. Ein versiegelter Umschlag unter dem Baum, ein unvergesslicher Tag in Paris."
       },
-      "seminaire-entreprise": {
-        "title": "Maßgeschneidertes Firmenseminar in Paris: ein Tag, der bleibt",
-        "description": "Keine klassische Seminaragentur: ein Tag, geschrieben für Ihr Team, mit Schauspielern und Überraschungen, über den noch in 10 Jahren gesprochen wird."
+      "entreprises": {
+        "title": "Maßgeschneiderte Firmenevents in Paris: Seminare, Abende, Betriebsrat",
+        "description": "Seminare, Teamabende, Kundengeschenke, Betriebsratsveranstaltungen: Yurday gestaltet maßgeschneiderte Firmenevents, mit Schauspielern und Überraschungen, in Paris und der Île-de-France."
       }
     }
   },
@@ -84,10 +84,10 @@
       "demande-en-mariage": "Heiratsantrag",
       "saint-valentin": "Valentinstag",
       "evg-evjf": "Junggesellenabschied",
-      "fete-des-meres": "Muttertag",
+      "parents": "Eltern",
       "anniversaire-de-mariage": "Hochzeitstag",
       "noel": "Weihnachtsgeschenk",
-      "seminaire-entreprise": "Firmenseminar"
+      "entreprises": "Unternehmen"
     },
     "scenariosLabel": "Stellen Sie sich ihren Tag vor",
     "scenarios": [
@@ -450,21 +450,21 @@
       "reviews": false,
       "contactForm": false
     },
-    "fete-des-meres": {
-      "eyebrow": "MUTTERTAG",
+    "parents": {
+      "eyebrow": "FÜR IHRE ELTERN",
       "title": {
-        "lead": "Ein Dankeschön, das sie",
-        "em": "nie vergessen wird",
+        "lead": "Ein Dankeschön, das Ihre Eltern",
+        "em": "nie vergessen werden",
         "tail": ""
       },
-      "intro": "Erzählen Sie uns, was Sie Ihrer Mama zum Muttertag schenken möchten, wir kümmern uns darum, ihren perfekten Tag zu gestalten, mit allem, was sie liebt.",
-      "story": "Wir wissen, wie schwer es sein kann, die richtige Art zu finden, seiner Mama zu danken, jenseits von Blumen, die am Vorabend im Supermarkt gekauft wurden. Erzählen Sie uns, wer sie ist, was sie liebt, und wir gestalten um sie herum einen Tag, der wirklich zu ihr passt.",
+      "intro": "Erzählen Sie uns, was Sie Ihrer Mutter, Ihrem Vater oder beiden schenken möchten, wir kümmern uns darum, ihren perfekten Tag zu gestalten, mit allem, was sie lieben.",
+      "story": "Wir wissen, wie schwer es sein kann, die richtige Art zu finden, seinen Eltern zu danken, jenseits von Blumen, die am Vorabend im Supermarkt gekauft wurden. Erzählen Sie uns, wer sie sind, was sie lieben, und wir gestalten um sie herum einen Tag, der wirklich zu ihnen passt.",
       "cta": {
-        "title": "Bereit, ihr auf andere Weise zu danken?",
-        "text": "Erzählen Sie uns von Ihrer Mama, wir melden uns mit ersten Ideen innerhalb von 24 Stunden."
+        "title": "Bereit, ihnen auf andere Weise zu danken?",
+        "text": "Erzählen Sie uns von Ihren Eltern, wir melden uns mit ersten Ideen innerhalb von 12 Stunden."
       },
       "scenario": {
-        "label": "Ein Tag, erzählt wie eine Geschichte",
+        "label": "EIN ECHTES BEISPIEL",
         "title": "Zum Muttertag",
         "tagline": "Sie hat immer an die anderen gedacht. An diesem Tag denken alle an sie.",
         "paragraphs": [
@@ -580,21 +580,21 @@
       "reviews": true,
       "contactForm": true
     },
-    "seminaire-entreprise": {
-      "eyebrow": "MASSGESCHNEIDERTES FIRMENSEMINAR",
+    "entreprises": {
+      "eyebrow": "UNTERNEHMEN",
       "title": {
-        "lead": "Das Seminar, über das Ihr Team",
-        "em": "noch in 10 Jahren sprechen wird",
+        "lead": "Firmenevents",
+        "em": "über die man noch in 10 Jahren sprechen wird",
         "tail": ""
       },
-      "intro": "Kein Besprechungsraum, der sich als Seminar verkleidet: ein Tag, geschrieben für Ihr Team, mit echten Schauspielern und echten Überraschungen, von Anfang bis Ende.",
-      "story": "Die meisten Seminare ähneln sich: ein Raum, ein Anbieter, ein Escape Game wie das von nebenan. Yurday macht es anders. Jedes Seminar wird für ein bestimmtes Team geschrieben, mit seiner eigenen Geschichte, seinen eigenen Insiderwitzen, für einen Tag, über den noch lange nach der Rückkehr ins Büro gesprochen wird.",
+      "intro": "Seminare, Teamabende, Kundengeschenke, Betriebsratsveranstaltungen: Jedes Projekt wird maßgeschneidert für Ihr Team geschrieben, mit echten Schauspielern und echten Überraschungen, nie von der Stange.",
+      "story": "Die meisten Firmenanbieter ähneln sich: ein Katalog, ein Ort, ein Paket. Yurday macht es anders. Jedes Projekt wird für eine bestimmte Gruppe geschrieben, mit ihrer eigenen Geschichte und ihren eigenen Insiderwitzen, für einen Moment, über den noch lange danach gesprochen wird.",
       "cta": {
-        "title": "Bereit, den Tag Ihres Teams zu schreiben?",
+        "title": "Bereit, das Projekt Ihres Unternehmens zu schreiben?",
         "text": "Erzählen Sie uns, wer Sie sind und was Sie feiern möchten, wir melden uns mit ersten Ideen innerhalb von 12 Stunden."
       },
       "scenario": {
-        "label": "EIN TYPISCHER TAG",
+        "label": "EIN BEISPIEL UNTER VIELEN",
         "title": "Von 9 Uhr bis Mitternacht, nichts dem Zufall überlassen",
         "tagline": "So läuft ein Yurday-Seminar ab",
         "paragraphs": [
@@ -603,19 +603,23 @@
         ]
       },
       "ideas": {
-        "h2": "Für wen es gedacht ist",
+        "h2": "Was wir für Sie schreiben",
         "items": [
           {
-            "title": "KMU",
-            "text": "Ein kleines Team, in dem sich bereits alle kennen: Der Tag ist darauf ausgelegt, das Bestehende zu stärken, statt einen Teamgeist zu erzwingen, den es gar nicht braucht."
+            "title": "Seminare",
+            "text": "Ein ganzer Tag, gestaltet für Ihr Team, fernab von Besprechungsräumen und dem Escape Game von nebenan."
           },
           {
-            "title": "Führungsgremien",
-            "text": "Ein Tag für eine kleine Gruppe, die den gewohnten Rahmen verlassen muss, fernab von Besprechungsräumen und Tagesordnungen."
+            "title": "Teamabende",
+            "text": "Ein Abend, der das übliche Restaurant hinter sich lässt, geschrieben für das Team, das Sie sind, mit seinen Insiderwitzen und seiner Geschichte."
           },
           {
-            "title": "Teams von 5 bis 40 Personen",
-            "text": "Das Format passt sich der Gruppengröße an, ohne je die individuelle Aufmerksamkeit zu verlieren, die den Unterschied zwischen einem guten und einem großartigen Seminar ausmacht."
+            "title": "Kundengeschenke",
+            "text": "Eine Geste, die wirkt, gestaltet für den Kunden, den Sie wertschätzen oder binden möchten, nie ein Geschenk von der Stange."
+          },
+          {
+            "title": "Betriebsratsveranstaltungen (CSE)",
+            "text": "Tage und Veranstaltungen, gestaltet für die Mitarbeitenden, die Sie vertreten, mit dem Budget und den Vorgaben, die wir respektieren."
           }
         ]
       },
@@ -623,7 +627,7 @@
       "deadline": null,
       "faq": {
         "eyebrow": "BEVOR SIE STARTEN",
-        "h2": "Ihre Fragen zum maßgeschneiderten Seminar",
+        "h2": "Ihre Fragen zu unseren Firmenevents",
         "items": [
           {
             "question": "Wie läuft das Angebot ab?",
@@ -634,15 +638,15 @@
             "answer": "5 bis 40 Personen. Darüber hinaus lassen Sie uns reden: Manche Formate sind weiterhin möglich, erzählen Sie uns von Ihrem Projekt."
           },
           {
-            "question": "An welchen Orten organisieren Sie die Seminare?",
+            "question": "An welchen Orten organisieren Sie Ihre Veranstaltungen?",
             "answer": "In Paris und der gesamten Île-de-France, an Orten, die eigens für die Geschichte Ihres Tages ausgewählt werden."
           },
           {
-            "question": "Wie läuft die Rechnungsstellung für ein Unternehmen ab?",
-            "answer": "Eine klassische Rechnung an das Unternehmen, mit allen Angaben, die Ihre Buchhaltung braucht. Sagen Sie uns Ihre Vorgaben, wir passen uns an."
+            "question": "Wie läuft die Rechnungsstellung für ein Unternehmen oder einen Betriebsrat ab?",
+            "answer": "Eine klassische Rechnung an das Unternehmen oder den Betriebsrat, mit allen Angaben, die Ihre Buchhaltung braucht. Sagen Sie uns Ihre Vorgaben, wir passen uns an."
           },
           {
-            "question": "Wie viel Vorlauf brauchen Sie vor dem Seminartermin?",
+            "question": "Wie viel Vorlauf brauchen Sie vor dem Termin?",
             "answer": "Planen Sie etwa einen Monat für einen bis ins Detail durchdachten Tag ein. Für eine kürzere Frist erzählen Sie uns Ihre Vorgabe, wir sagen Ihnen ehrlich, was möglich ist."
           }
         ],

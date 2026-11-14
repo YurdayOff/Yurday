@@ -6,10 +6,10 @@ export const occasionKeys = [
   'demande-en-mariage',
   'saint-valentin',
   'evg-evjf',
-  'fete-des-meres',
+  'parents',
   'anniversaire-de-mariage',
   'noel',
-  'seminaire-entreprise',
+  'entreprises',
 ] as const
 
 export type OccasionKey = (typeof occasionKeys)[number]
@@ -64,16 +64,16 @@ const slugs: Record<OccasionKey, Record<Locale, string>> = {
     ja: 'bachelor-bachelorette-party',
     ar: 'bachelor-bachelorette-party',
   },
-  'fete-des-meres': {
-    fr: 'fete-des-meres',
-    en: 'mothers-day',
-    es: 'dia-de-la-madre',
-    pt: 'dia-das-maes',
-    de: 'muttertag',
-    it: 'festa-della-mamma',
-    zh: 'mothers-day',
-    ja: 'mothers-day',
-    ar: 'mothers-day',
+  parents: {
+    fr: 'parents',
+    en: 'parents',
+    es: 'padres',
+    pt: 'pais',
+    de: 'eltern',
+    it: 'genitori',
+    zh: 'parents',
+    ja: 'parents',
+    ar: 'parents',
   },
   'anniversaire-de-mariage': {
     fr: 'anniversaire-de-mariage',
@@ -97,16 +97,16 @@ const slugs: Record<OccasionKey, Record<Locale, string>> = {
     ja: 'christmas',
     ar: 'christmas',
   },
-  'seminaire-entreprise': {
-    fr: 'seminaire-entreprise',
-    en: 'corporate-team-day',
-    es: 'seminario-de-empresa',
-    pt: 'seminario-corporativo',
-    de: 'firmenseminar',
-    it: 'seminario-aziendale',
-    zh: 'corporate-team-day',
-    ja: 'corporate-team-day',
-    ar: 'corporate-team-day',
+  entreprises: {
+    fr: 'entreprises',
+    en: 'corporate',
+    es: 'empresas',
+    pt: 'empresas',
+    de: 'unternehmen',
+    it: 'aziende',
+    zh: 'corporate',
+    ja: 'corporate',
+    ar: 'corporate',
   },
 }
 

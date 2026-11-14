@@ -21,9 +21,9 @@
         "title": "Despedidas de solteiro e solteira sob medida: um dia inesquecível para o grupo",
         "description": "A Yurday organiza despedidas de solteiro e solteira sob medida, logística incluída."
       },
-      "fete-des-meres": {
-        "title": "Dia das Mães sob medida: um obrigado fora do comum",
-        "description": "No Dia das Mães, a Yurday imagina um dia inteiro pensado para a sua mãe."
+      "parents": {
+        "title": "Um dia sob medida para seus pais em Paris",
+        "description": "Para agradecer à sua mãe, ao seu pai, ou aos dois, a Yurday imagina um dia inteiro pensado para eles, em Paris e na Île-de-France."
       },
       "anniversaire-de-mariage": {
         "title": "Aniversário de casamento sob medida: celebrem seus anos juntos",
@@ -33,9 +33,9 @@
         "title": "Presente de Natal original em Paris: um dia sob medida para presentear",
         "description": "Este ano, ofereça um dia inteiro escrito para a pessoa que você ama. Um envelope lacrado debaixo da árvore, um dia inesquecível em Paris."
       },
-      "seminaire-entreprise": {
-        "title": "Seminário corporativo sob medida em Paris: um dia que marca",
-        "description": "Não é uma agência de seminários comum: um dia roteirizado para sua equipe, com atores e surpresas, do qual falarão daqui a 10 anos."
+      "entreprises": {
+        "title": "Eventos corporativos sob medida em Paris: seminários, noites, CSE",
+        "description": "Seminários, noites de equipe, presentes para clientes, eventos de CSE: a Yurday escreve eventos corporativos sob medida, com atores e surpresas, em Paris e na Île-de-France."
       }
     }
   },
@@ -84,10 +84,10 @@
       "demande-en-mariage": "Pedido de casamento",
       "saint-valentin": "Dia dos Namorados",
       "evg-evjf": "Despedida de solteiro(a)",
-      "fete-des-meres": "Dia das Mães",
+      "parents": "Pais",
       "anniversaire-de-mariage": "Aniversário de casamento",
       "noel": "Presente de Natal",
-      "seminaire-entreprise": "Seminário corporativo"
+      "entreprises": "Empresas"
     },
     "scenariosLabel": "Imagine o dia dela",
     "scenarios": [
@@ -450,21 +450,21 @@
       "reviews": false,
       "contactForm": false
     },
-    "fete-des-meres": {
-      "eyebrow": "DIA DAS MÃES",
+    "parents": {
+      "eyebrow": "PARA SEUS PAIS",
       "title": {
-        "lead": "Um obrigado que ela",
-        "em": "nunca vai esquecer",
+        "lead": "Um obrigado que seus pais",
+        "em": "nunca vão esquecer",
         "tail": ""
       },
-      "intro": "Conte-nos o que você quer oferecer à sua mãe no Dia das Mães, nós cuidamos de imaginar o dia ideal dela, com tudo o que ela ama.",
-      "story": "Sabemos como pode ser difícil encontrar a ideia certa para agradecer à sua mãe, além de flores compradas de véspera no supermercado. Conte-nos quem ela é, o que ela ama, e construiremos ao redor dela um dia que combine de verdade com ela.",
+      "intro": "Conte-nos o que você quer oferecer à sua mãe, ao seu pai, ou aos dois, nós cuidamos de imaginar o dia ideal deles, com tudo o que eles amam.",
+      "story": "Sabemos como pode ser difícil encontrar a ideia certa para agradecer aos seus pais, além de flores compradas de véspera no supermercado. Conte-nos quem eles são, o que eles amam, e construiremos ao redor deles um dia que combine de verdade com eles.",
       "cta": {
         "title": "Pronto para agradecer de outra forma?",
-        "text": "Conte-nos sobre sua mãe, retornaremos com as primeiras ideias em até 12h."
+        "text": "Conte-nos sobre seus pais, retornaremos com as primeiras ideias em até 12h."
       },
       "scenario": {
-        "label": "Um dia, contado como uma história",
+        "label": "UM EXEMPLO REAL",
         "title": "Para o Dia das Mães",
         "tagline": "Ela sempre pensou nos outros. Nesse dia, todos pensam nela.",
         "paragraphs": [
@@ -580,21 +580,21 @@
       "reviews": true,
       "contactForm": true
     },
-    "seminaire-entreprise": {
-      "eyebrow": "SEMINÁRIO CORPORATIVO SOB MEDIDA",
+    "entreprises": {
+      "eyebrow": "EMPRESAS",
       "title": {
-        "lead": "O seminário do qual sua equipe",
-        "em": "ainda falará daqui a 10 anos",
+        "lead": "Eventos corporativos",
+        "em": "dos quais ainda falarão daqui a 10 anos",
         "tail": ""
       },
-      "intro": "Não é uma sala de reunião disfarçada de seminário: um dia roteirizado para sua equipe, com atores de verdade e surpresas de verdade, do início ao fim.",
-      "story": "A maioria dos seminários se parecem: uma sala, um fornecedor, um escape room como o da empresa ao lado. A Yurday faz diferente. Cada seminário é escrito para uma equipe específica, com sua própria história, suas próprias piadas internas, para um dia do qual continuarão falando muito depois de voltar ao escritório.",
+      "intro": "Seminários, noites de equipe, presentes para clientes, eventos de CSE: cada projeto é roteirizado sob medida para sua equipe, com atores de verdade e surpresas de verdade, nunca uma fórmula de catálogo.",
+      "story": "A maioria dos fornecedores corporativos se parece: um catálogo, um local, uma fórmula. A Yurday faz diferente. Cada projeto é escrito para um grupo específico, com sua própria história e suas próprias piadas internas, para um momento do qual continuarão falando muito depois.",
       "cta": {
-        "title": "Pronto para escrever o dia da sua equipe?",
+        "title": "Pronto para escrever o projeto da sua empresa?",
         "text": "Conte-nos quem vocês são e o que querem celebrar, retornaremos com as primeiras ideias em até 12h."
       },
       "scenario": {
-        "label": "UM DIA TÍPICO",
+        "label": "UM EXEMPLO ENTRE OUTROS",
         "title": "Das 9h à meia-noite, nada deixado ao acaso",
         "tagline": "Como é um seminário Yurday",
         "paragraphs": [
@@ -603,19 +603,23 @@
         ]
       },
       "ideas": {
-        "h2": "Para quem é",
+        "h2": "O que escrevemos para vocês",
         "items": [
           {
-            "title": "Pequenas e médias empresas",
-            "text": "Uma equipe enxuta onde todos já se conhecem: o dia é pensado para reforçar o que já existe, não para forçar um espírito de equipe que não precisa disso."
+            "title": "Seminários",
+            "text": "Um dia inteiro pensado para sua equipe, longe das salas de reunião e do escape room da empresa ao lado."
           },
           {
-            "title": "Comitês de diretoria",
-            "text": "Um dia para um grupo pequeno que precisa sair do cenário habitual, longe das salas de reunião e das pautas."
+            "title": "Noites de equipe",
+            "text": "Uma noite que foge do restaurante habitual, escrita para a equipe específica que vocês são, com suas piadas internas e sua história."
           },
           {
-            "title": "Equipes de 5 a 40 pessoas",
-            "text": "O formato se adapta ao tamanho do grupo, sem jamais perder a atenção individual que faz a diferença entre um bom seminário e um inesquecível."
+            "title": "Presentes para clientes",
+            "text": "Um gesto que marca, pensado para o cliente que vocês querem agradecer ou fidelizar, nunca um presente de catálogo."
+          },
+          {
+            "title": "Eventos de CSE",
+            "text": "Dias e eventos pensados para os colaboradores que vocês representam, com o orçamento e as restrições que respeitamos."
           }
         ]
       },
@@ -623,7 +627,7 @@
       "deadline": null,
       "faq": {
         "eyebrow": "ANTES DE COMEÇAR",
-        "h2": "Suas perguntas sobre o seminário sob medida",
+        "h2": "Suas perguntas sobre nossos eventos corporativos",
         "items": [
           {
             "question": "Como funciona o orçamento?",
@@ -634,12 +638,12 @@
             "answer": "De 5 a 40 pessoas. Além disso, vamos conversar: alguns formatos ainda são possíveis, contem-nos sobre o projeto."
           },
           {
-            "question": "Em quais locais vocês organizam os seminários?",
+            "question": "Em quais locais vocês organizam seus eventos?",
             "answer": "Em Paris e em toda a Île-de-France, em locais escolhidos especificamente para a história do seu dia."
           },
           {
-            "question": "Como funciona o faturamento para uma empresa?",
-            "answer": "Nota fiscal padrão para a empresa, com tudo que sua contabilidade precisa. Contem-nos suas restrições, nós nos adaptamos."
+            "question": "Como funciona o faturamento para uma empresa ou CSE?",
+            "answer": "Nota fiscal padrão para a empresa ou o comitê, com tudo que sua contabilidade precisa. Contem-nos suas restrições, nós nos adaptamos."
           },
           {
             "question": "Com quanta antecedência devemos entrar em contato?",
